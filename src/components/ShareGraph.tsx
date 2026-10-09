@@ -1,17 +1,35 @@
 'use client';
 
-// FRED-style share flow for series pages: a Share Graph dropdown with three
-// options (Custom Graph Link, Embed in Website, Graph Image Link). The first
-// two open modals with three range behaviors (full auto-updating, last N
-// auto-updating, static range); the third copies a PNG image URL.
+// FRED-style share flow for series pages: on phones (and any browser with
+// Web Share file support) the Share button opens the native share sheet with
+// the branded chart image attached, so saving to photos or sending to an app
+// is one tap. The chevron keeps the desktop menu: Custom Graph Link, Embed
+// in Website, Graph Image Link (copies a PNG URL).
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { ChartPoint } from './ChartSVG';
 import {
   encodeGraphConfig,
   type GraphConfig,
   type GraphMode,
 } from '@/lib/graphLink';
+
+// True when the browser can open the native share sheet with an image file
+// attached (iOS Safari 15+, Android Chrome, desktop Chrome/Edge/Safari).
+// The sheet is where a phone user finds "Save to Photos", Messages, X, etc.,
+// which is the intuitive way to keep the chart image. Desktop browsers
+// without file-share support keep the link/embed dropdown instead.
+function canNativeShareFiles(): boolean {
+  if (typeof navigator === 'undefined') return false;
+  if (typeof navigator.share !== 'function') return false;
+  if (typeof navigator.canShare !== 'function') return false;
+  try {
+    const probe = new File(['x'], 'probe.png', { type: 'image/png' });
+    return navigator.canShare({ files: [probe] });
+  } catch {
+    return false;
+  }
+}
 
 interface ShareGraphProps {
   seriesId: string;
@@ -51,6 +69,12 @@ export default function ShareGraph({
   const [mode, setMode] = useState<GraphMode>('full');
   const [responsive, setResponsive] = useState(true);
   const [copied, setCopied] = useState(false);
+  const [sharing, setSharing] = useState(false);
+  const nativeShare = canNativeShareFiles();
+  // Cached PNG so share() is called immediately inside the tap gesture;
+  // awaiting a network fetch inside the handler can lose user activation
+  // on iOS and the share silently fails.
+  const imgCache = useRef<{ href: string; blob: Blob } | null>(null);
 
   const origin = typeof window !== 'undefined' ? window.location.origin : '';
   const n = Math.max(data.length, 1);
@@ -76,6 +100,54 @@ export default function ShareGraph({
     `${origin}/api/graph-image?series=${encodeURIComponent(seriesId)}` +
     (from ? `&from=${encodeURIComponent(from)}` : '') +
     (to ? `&to=${encodeURIComponent(to)}` : '');
+
+  // Prefetch the branded PNG on share-capable devices only, so tapping Share
+  // can hand the file to the native sheet without a mid-gesture fetch.
+  useEffect(() => {
+    if (!nativeShare) return;
+    let cancelled = false;
+    fetch(imageHref)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.blob();
+      })
+      .then((blob) => {
+        if (!cancelled) imgCache.current = { href: imageHref, blob };
+      })
+      .catch(() => {
+        if (!cancelled) imgCache.current = null;
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [nativeShare, imageHref]);
+
+  async function shareNative() {
+    setSharing(true);
+    try {
+      let blob = imgCache.current?.href === imageHref ? imgCache.current.blob : null;
+      if (!blob) {
+        const res = await fetch(imageHref);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        blob = await res.blob();
+      }
+      const file = new File([blob], `${seriesId}.png`, { type: 'image/png' });
+      await navigator.share({
+        files: [file],
+        title: `${seriesTitle} | CRED`,
+        text: `${seriesTitle} | CRED`,
+        url: window.location.href,
+      });
+    } catch (err) {
+      // The user dismissing the sheet is not an error; anything else falls
+      // back to the link/embed menu so the tap still does something useful.
+      if (!(err instanceof DOMException && err.name === 'AbortError')) {
+        setOpen(true);
+      }
+    } finally {
+      setSharing(false);
+    }
+  }
 
   function embedSnippet(): string {
     const title = `${seriesTitle} | CRED`;
@@ -135,14 +207,53 @@ export default function ShareGraph({
   return (
     <>
       <div className="relative">
-        <button
-          onClick={() => setOpen((v) => !v)}
-          className="whitespace-nowrap rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
-          aria-haspopup="menu"
-          aria-expanded={open}
-        >
-          Share Graph ▾
-        </button>
+        {nativeShare ? (
+          <div className="flex items-stretch whitespace-nowrap rounded border border-[rgba(10,15,30,0.2)]">
+            <button
+              onClick={shareNative}
+              disabled={sharing}
+              className="flex items-center gap-1.5 px-4 py-1.5 text-sm text-[#0a0f1e] disabled:opacity-60"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                className="h-4 w-4"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 15V4m0 0L8 8m4-4l4 4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M5 12v8a1 1 0 001 1h12a1 1 0 001-1v-8"
+                  strokeLinecap="round"
+                />
+              </svg>
+              {sharing ? 'Sharing…' : 'Share'}
+            </button>
+            <button
+              onClick={() => setOpen((v) => !v)}
+              className="border-l border-[rgba(10,15,30,0.2)] px-2 text-sm text-[#0a0f1e]"
+              aria-haspopup="menu"
+              aria-expanded={open}
+              aria-label="More share options"
+            >
+              ▾
+            </button>
+          </div>
+        ) : (
+          <button
+            onClick={() => setOpen((v) => !v)}
+            className="whitespace-nowrap rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
+            aria-haspopup="menu"
+            aria-expanded={open}
+          >
+            Share Graph ▾
+          </button>
+        )}
         {open && (
           <div
             role="menu"
@@ -269,3 +380,4 @@ export default function ShareGraph({
     </>
   );
 }
+
