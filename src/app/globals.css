@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Archivo Black", sans-serif;
+}
+
+:root {
+  --paper: #ffffff;
+  --ink: #0a0f1e;
+  --red: #d80621;
+  --red-dark: #a80419;
+  --hairline: rgba(10, 15, 30, 0.1);
+  --panel: #f4f6f9;
+  --muted: #f7f7f7;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 12px;
+}
+
+.hairline {
+  border-color: var(--hairline);
+}
