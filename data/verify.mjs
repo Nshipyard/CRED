@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const dir = dirname(fileURLToPath(import.meta.url));
-const src = readFileSync(join(dir, 'registry.ts'), 'utf8');
+const src = readFileSync(join(dir, '..', 'src', 'lib', 'registry.ts'), 'utf8');
 
 // Parse the SERIES array out of registry.ts without a TS toolchain.
 function parseSeries(text) {
@@ -25,7 +25,8 @@ function parseSeries(text) {
     const vectorIds = vm ? vm[1].split(',').map(s => parseInt(s.trim(), 10)).filter(Number.isFinite) : [];
     const valetGroup = (c.match(/valetGroup:\s*'([^']+)'/) || [])[1];
     const valetSeriesKey = (c.match(/valetSeriesKey:\s*'([^']+)'/) || [])[1];
-    out.push({ id, source, title, vectorIds, valetGroup, valetSeriesKey });
+    const frequency = (c.match(/frequency:\s*'([^']+)'/) || [])[1];
+    out.push({ id, source, title, vectorIds, valetGroup, valetSeriesKey, frequency });
   }
   return out;
 }
@@ -34,7 +35,10 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function checkStatCan(series) {
   const today = new Date().toISOString().slice(0, 10);
-  const start = new Date(Date.now() - 400 * 864e5).toISOString().slice(0, 10);
+  // Annual series (e.g. CMHC rental vacancy) have one point per year dated
+  // January 1, which a 400-day window misses; widen the lookback for them.
+  const lookbackDays = series.frequency === 'Annual' ? 1500 : 400;
+  const start = new Date(Date.now() - lookbackDays * 864e5).toISOString().slice(0, 10);
   const ids = series.vectorIds.map(v => `"${v}"`).join(',');
   const url = `https://www150.statcan.gc.ca/t1/wds/rest/getDataFromVectorByReferencePeriodRange` +
     `?vectorIds=${ids}&startRefPeriod=${start}&endReferencePeriod=${today}`;

@@ -8,13 +8,14 @@ export default function About() {
       <section className="mt-6">
         <h2 className="text-xl font-bold text-[#0a0f1e]">What is CRED</h2>
         <p className="mt-2 text-gray-700">
-          CRED is a Canadian version of FRED (Federal Reserve Economic Data):
-          one search box across Statistics Canada and the Bank of Canada, one
-          chart interaction language (zoom, ranges, download, share image), and
-          a public API. Statistics Canada publishes over 5,000 data cubes as
+          CRED stands for Canadian Research Economic Data: one search box
+          across Statistics Canada and the Bank of Canada, one chart
+          interaction language (ranges, download, compare, share), and a
+          public API. Statistics Canada publishes over 5,000 data cubes as
           vectors, not named series, so the missing piece is not the data, it
-          is packaging: curated titles, consistent units, and recession shading
-          from the C.D. Howe Institute on every chart.
+          is packaging: curated titles, consistent units, and recession
+          shading from the C.D. Howe Institute on every chart. The chart
+          layout is inspired by FRED (Federal Reserve Economic Data).
         </p>
       </section>
 
@@ -57,22 +58,22 @@ export default function About() {
           </table>
         </div>
         <p className="mt-3 text-sm text-gray-600">
-          CRED is never sourced from FRED itself: FRED's terms forbid building a
-          competing product on its data.
+          CRED is never sourced from FRED itself: FRED&apos;s terms forbid
+          building a competing product on its data.
         </p>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-8" id="tutorials">
         <h2 className="text-xl font-bold text-[#0a0f1e]">Tutorials</h2>
         <p className="mt-2 text-gray-700">
-          Tutorials ship with Phase 1, alongside the CRED news desk. The first
-          three will cover: reading the yield curve with the 10-year GoC spread,
-          comparing provincial unemployment rates, and downloading vintages
-          from the API.
+          Short walkthroughs of what CRED can do. The first three cover:
+          reading the yield curve with the 10-year GoC spread, comparing
+          provincial unemployment rates, and pulling a series through the
+          public API.
         </p>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-8" id="digital-badges">
         <h2 className="text-xl font-bold text-[#0a0f1e]">Digital Badges</h2>
         <p className="mt-2 text-gray-700">
           Saved graphs and embeddable badges need user accounts. Accounts are
@@ -80,18 +81,8 @@ export default function About() {
         </p>
       </section>
 
-      <section className="mt-8" id="naming">
-        <h2 className="text-xl font-bold text-[#0a0f1e]">Naming</h2>
-        <p className="mt-2 text-gray-700">
-          Working title: CRED (Canadian Research Economic Data). Alternatives
-          under consideration: GORD (Graphing Open Real-time Data), HOWE (after
-          C.D. Howe), MAPLE, REDD. The product concept matters more than the
-          name; one will be picked before launch.
-        </p>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-xl font-bold text-[#0a0f1e]">Contact</h2>
+      <section className="mt-8" id="contact">
+        <h2 className="text-xl font-bold text-[#0a0f1e]">Contact Us</h2>
         <p className="mt-2 text-gray-700">
           Bug reports and series requests go to the GitHub issue tracker:{' '}
           <a

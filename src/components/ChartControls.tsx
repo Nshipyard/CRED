@@ -2,10 +2,12 @@
 
 // Client island on the series page: range pills, date inputs, Edit Graph
 // popover (recession shading toggle + compare series), CSV download,
-// fullscreen, share link. Re-renders the server-safe ChartSVG with new data.
+// fullscreen, share link. The chart itself renders through the shared
+// ChartFigure so thumbnails elsewhere stay pixel-identical in structure.
 
 import { useRef, useState } from 'react';
 import ChartSVG, { type ChartPoint } from './ChartSVG';
+import ChartFigure from './ChartFigure';
 import { RECESSIONS } from '@/lib/recessions';
 
 interface SeriesOption {
@@ -17,6 +19,7 @@ interface ChartControlsProps {
   seriesId: string;
   seriesTitle: string;
   units: string;
+  sourceLabel: string;
   initial: ChartPoint[];
   compareOptions: SeriesOption[];
 }
@@ -35,6 +38,7 @@ export default function ChartControls({
   seriesId,
   seriesTitle,
   units,
+  sourceLabel,
   initial,
   compareOptions,
 }: ChartControlsProps) {
@@ -44,27 +48,36 @@ export default function ChartControls({
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
   const [loading, setLoading] = useState(false);
+  const [sourceError, setSourceError] = useState(false);
   const [showRecessions, setShowRecessions] = useState(true);
   const [compareId, setCompareId] = useState('');
   const [compareData, setCompareData] = useState<ChartPoint[] | null>(null);
   const [editOpen, setEditOpen] = useState(false);
+  const [downloadOpen, setDownloadOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
+  const chartWrapRef = useRef<HTMLDivElement>(null);
 
   async function load(fromDate?: string, toDate?: string) {
     setLoading(true);
+    setSourceError(false);
     try {
       const params = new URLSearchParams({ series: seriesId });
       if (fromDate) params.set('from', fromDate);
       if (toDate) params.set('to', toDate);
       const res = await fetch(`/api/observations?${params.toString()}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
       setData(json.observations ?? []);
     } catch {
-      setData([]);
+      setSourceError(true);
     } finally {
       setLoading(false);
     }
+  }
+
+  function retry() {
+    load(from || undefined, to || undefined);
   }
 
   function pickRange(r: RangeKey) {
@@ -107,6 +120,94 @@ export default function ChartControls({
     a.download = `${seriesId}.csv`;
     a.click();
     URL.revokeObjectURL(url);
+    setDownloadOpen(false);
+  }
+
+  async function downloadExcel() {
+    const XLSX = await import('xlsx');
+    const ws = XLSX.utils.json_to_sheet(
+      data.map((d) => ({ date: d.date, value: d.value }))
+    );
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, seriesId.slice(0, 31));
+    XLSX.writeFile(wb, `${seriesId}.xlsx`);
+    setDownloadOpen(false);
+  }
+
+  // Rasterize the rendered chart SVG to a PNG data URL (2x).
+  async function renderChartPng(): Promise<string> {
+    const svgEl = chartWrapRef.current?.querySelector('svg');
+    if (!svgEl) throw new Error('chart not rendered');
+    const clone = svgEl.cloneNode(true) as SVGSVGElement;
+    clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    clone.setAttribute('width', '1600');
+    clone.setAttribute('height', '640');
+    const style = document.createElementNS('http://www.w3.org/2000/svg', 'style');
+    style.textContent = 'text { font-family: Roboto, Arial, sans-serif; }';
+    clone.insertBefore(style, clone.firstChild);
+    const svgData = new XMLSerializer().serializeToString(clone);
+    const url = URL.createObjectURL(
+      new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' })
+    );
+    try {
+      const img = new Image();
+      await new Promise<void>((resolve, reject) => {
+        img.onload = () => resolve();
+        img.onerror = () => reject(new Error('svg raster failed'));
+        img.src = url;
+      });
+      const canvas = document.createElement('canvas');
+      canvas.width = 1600;
+      canvas.height = 640;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) throw new Error('no 2d context');
+      ctx.fillStyle = '#f4f6f9';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      return canvas.toDataURL('image/png');
+    } finally {
+      URL.revokeObjectURL(url);
+    }
+  }
+
+  async function downloadImage() {
+    try {
+      const dataUrl = await renderChartPng();
+      const a = document.createElement('a');
+      a.href = dataUrl;
+      a.download = `${seriesId}.png`;
+      a.click();
+    } finally {
+      setDownloadOpen(false);
+    }
+  }
+
+  async function downloadPowerPoint() {
+    try {
+      const { default: PptxGenJS } = await import('pptxgenjs');
+      const dataUrl = await renderChartPng();
+      const pptx = new PptxGenJS();
+      const slide = pptx.addSlide();
+      slide.addText(seriesTitle, {
+        x: 0.5,
+        y: 0.3,
+        w: 9,
+        fontSize: 20,
+        bold: true,
+        color: '0A0F1E',
+      });
+      slide.addText(`${seriesId} · ${units} · Source: ${sourceLabel} via CRED`, {
+        x: 0.5,
+        y: 0.9,
+        w: 9,
+        fontSize: 12,
+        color: '666666',
+      });
+      slide.addImage({ data: dataUrl, x: 0.5, y: 1.4, w: 9, h: 3.6 });
+      await pptx.writeFile({ fileName: `${seriesId}.pptx` });
+    } finally {
+      setDownloadOpen(false);
+    }
   }
 
   function toggleFullscreen() {
@@ -138,67 +239,166 @@ export default function ChartControls({
   })();
 
   return (
-    <div ref={panelRef} className="rounded-xl bg-[#f4f6f9] p-4 md:p-6">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center gap-2">
-          <span className="font-display text-sm tracking-wide">CRED</span>
-          <span className="inline-block h-1 w-10 rounded bg-[#d80621]" />
-          <span className="text-sm text-[#0a0f1e]">{seriesTitle}</span>
-          {compareId && compareData && (
+    <div ref={panelRef}>
+      <ChartFigure
+        seriesTitle={seriesTitle}
+        sourceLabel={sourceLabel}
+        compareLegend={
+          compareId && compareData ? (
             <>
               <span className="inline-block h-0 w-10 border-t-2 border-dashed border-gray-500" />
               <span className="text-sm text-gray-600">
                 {compareOptions.find((o) => o.id === compareId)?.title}
               </span>
             </>
-          )}
-        </div>
-        <div className="flex flex-wrap items-center gap-2">
-          {(['1Y', '5Y', '10Y', 'MAX'] as RangeKey[]).map((r) => (
+          ) : undefined
+        }
+        headerRight={
+          <div className="flex flex-wrap items-center gap-2">
+            {(['1Y', '5Y', '10Y', 'MAX'] as RangeKey[]).map((r) => (
+              <button
+                key={r}
+                onClick={() => pickRange(r)}
+                className={`rounded-full px-3 py-1 text-sm ${
+                  range === r
+                    ? 'bg-[#d80621] text-white'
+                    : 'border border-[rgba(10,15,30,0.2)] text-[#0a0f1e] hover:border-[#d80621]'
+                }`}
+              >
+                {r === 'MAX' ? 'Max' : r}
+              </button>
+            ))}
+            <input
+              type="date"
+              value={from}
+              onChange={(e) => setFrom(e.target.value)}
+              onBlur={applyDates}
+              className="rounded border border-[rgba(10,15,30,0.2)] bg-white px-2 py-1 text-sm"
+              aria-label="From date"
+            />
+            <input
+              type="date"
+              value={to}
+              onChange={(e) => setTo(e.target.value)}
+              onBlur={applyDates}
+              className="rounded border border-[rgba(10,15,30,0.2)] bg-white px-2 py-1 text-sm"
+              aria-label="To date"
+            />
+          </div>
+        }
+        footerActions={
+          <div className="flex items-center gap-2">
+            <div className="relative">
+              <button
+                onClick={() => setEditOpen((v) => !v)}
+                className="rounded bg-[#d80621] px-4 py-1.5 text-sm font-medium text-white"
+              >
+                Edit Graph
+              </button>
+              {editOpen && (
+                <div className="absolute bottom-full right-0 z-20 mb-2 w-64 rounded-lg border border-[rgba(10,15,30,0.1)] bg-white p-4 shadow-lg">
+                  <label className="flex items-center gap-2 text-sm">
+                    <input
+                      type="checkbox"
+                      checked={showRecessions}
+                      onChange={(e) => setShowRecessions(e.target.checked)}
+                    />
+                    Shade recessions
+                  </label>
+                  <label className="mt-3 block text-sm font-medium">Compare</label>
+                  <select
+                    value={compareId}
+                    onChange={(e) => onCompare(e.target.value)}
+                    className="mt-1 w-full rounded border border-[rgba(10,15,30,0.2)] px-2 py-1 text-sm"
+                  >
+                    <option value="">None</option>
+                    {compareOptions
+                      .filter((o) => o.id !== seriesId)
+                      .map((o) => (
+                        <option key={o.id} value={o.id}>
+                          {o.title} ({o.id})
+                        </option>
+                      ))}
+                  </select>
+                </div>
+              )}
+            </div>
+            <div className="relative">
+              <button
+                onClick={() => setDownloadOpen((v) => !v)}
+                className="rounded border border-[#0a0f1e] px-4 py-1.5 text-sm font-medium text-[#0a0f1e]"
+                aria-haspopup="menu"
+                aria-expanded={downloadOpen}
+              >
+                Download ▾
+              </button>
+              {downloadOpen && (
+                <div
+                  role="menu"
+                  className="absolute bottom-full right-0 z-20 mb-2 w-48 overflow-hidden rounded-lg border border-[rgba(10,15,30,0.1)] bg-white shadow-lg"
+                >
+                  {[
+                    { label: 'CSV (data)', fn: downloadCSV },
+                    { label: 'Excel (data)', fn: downloadExcel },
+                    { label: 'Image (graph)', fn: downloadImage },
+                    { label: 'PowerPoint (graph)', fn: downloadPowerPoint },
+                  ].map((item) => (
+                    <button
+                      key={item.label}
+                      role="menuitem"
+                      onClick={item.fn}
+                      className="block w-full px-4 py-2 text-left text-sm text-[#0a0f1e] hover:bg-[#f4f6f9]"
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             <button
-              key={r}
-              onClick={() => pickRange(r)}
-              className={`rounded-full px-3 py-1 text-sm ${
-                range === r
-                  ? 'bg-[#d80621] text-white'
-                  : 'border border-[rgba(10,15,30,0.2)] text-[#0a0f1e] hover:border-[#d80621]'
-              }`}
+              onClick={toggleFullscreen}
+              className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
             >
-              {r === 'MAX' ? 'Max' : r}
+              Fullscreen
             </button>
-          ))}
-          <input
-            type="date"
-            value={from}
-            onChange={(e) => setFrom(e.target.value)}
-            onBlur={applyDates}
-            className="rounded border border-[rgba(10,15,30,0.2)] bg-white px-2 py-1 text-sm"
-            aria-label="From date"
-          />
-          <input
-            type="date"
-            value={to}
-            onChange={(e) => setTo(e.target.value)}
-            onBlur={applyDates}
-            className="rounded border border-[rgba(10,15,30,0.2)] bg-white px-2 py-1 text-sm"
-            aria-label="To date"
-          />
-        </div>
-      </div>
-
-      <div className="relative mt-3">
+            <button
+              onClick={share}
+              className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
+            >
+              {copied ? 'Copied' : 'Share Graph'}
+            </button>
+          </div>
+        }
+      >
         {loading && (
           <div className="absolute inset-0 z-10 flex items-center justify-center bg-white/60">
             <span className="text-sm text-gray-500">Loading observations…</span>
           </div>
         )}
-        <ChartSVG
-          data={data}
-          recessions={showRecessions ? RECESSIONS : []}
-          yLabel={units}
-          color="#d80621"
-          id={seriesId}
-        />
+        {sourceError ? (
+          <div className="flex flex-col items-center justify-center gap-3 py-16 text-center">
+            <p className="max-w-md text-sm text-gray-600">
+              Statistics Canada is refreshing this table right now. Data returns
+              automatically.
+            </p>
+            <button
+              onClick={retry}
+              className="rounded bg-[#d80621] px-4 py-1.5 text-sm font-medium text-white"
+            >
+              Retry
+            </button>
+          </div>
+        ) : (
+          <div ref={chartWrapRef}>
+            <ChartSVG
+              data={data}
+              recessions={showRecessions ? RECESSIONS : []}
+              yLabel={units}
+              color="#d80621"
+              id={seriesId}
+            />
+          </div>
+        )}
         {comparePath && (
           <div className="pointer-events-none absolute inset-0">
             <CompareOverlay
@@ -209,70 +409,7 @@ export default function ChartControls({
             />
           </div>
         )}
-      </div>
-
-      <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
-        <div className="text-xs text-gray-600">
-          <span>Source: fetched live via CRED</span>
-          <br />
-          <em>Shaded areas indicate Canadian recessions (C.D. Howe Institute).</em>
-        </div>
-        <div className="flex items-center gap-2">
-          <div className="relative">
-            <button
-              onClick={() => setEditOpen((v) => !v)}
-              className="rounded bg-[#d80621] px-4 py-1.5 text-sm font-medium text-white"
-            >
-              Edit Graph
-            </button>
-            {editOpen && (
-              <div className="absolute bottom-full right-0 z-20 mb-2 w-64 rounded-lg border border-[rgba(10,15,30,0.1)] bg-white p-4 shadow-lg">
-                <label className="flex items-center gap-2 text-sm">
-                  <input
-                    type="checkbox"
-                    checked={showRecessions}
-                    onChange={(e) => setShowRecessions(e.target.checked)}
-                  />
-                  Shade recessions
-                </label>
-                <label className="mt-3 block text-sm font-medium">Compare</label>
-                <select
-                  value={compareId}
-                  onChange={(e) => onCompare(e.target.value)}
-                  className="mt-1 w-full rounded border border-[rgba(10,15,30,0.2)] px-2 py-1 text-sm"
-                >
-                  <option value="">None</option>
-                  {compareOptions
-                    .filter((o) => o.id !== seriesId)
-                    .map((o) => (
-                      <option key={o.id} value={o.id}>
-                        {o.title} ({o.id})
-                      </option>
-                    ))}
-                </select>
-              </div>
-            )}
-          </div>
-          <button
-            onClick={downloadCSV}
-            className="rounded border border-[#0a0f1e] px-4 py-1.5 text-sm font-medium text-[#0a0f1e]"
-          >
-            Download
-          </button>
-          <button
-            onClick={toggleFullscreen}
-            className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
-          >
-            Fullscreen
-          </button>
-          <button
-            onClick={share}
-            className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
-          >
-            {copied ? 'Copied' : 'Share Graph'}
-          </button>
-        </div>
-      </div>
+      </ChartFigure>
     </div>
   );
 }

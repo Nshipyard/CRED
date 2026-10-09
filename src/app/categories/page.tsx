@@ -20,8 +20,9 @@ export default function Categories() {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-3xl font-bold text-[#0a0f1e]">Browse categories</h1>
       <p className="mt-2 max-w-2xl text-gray-600">
-        Eight top-level categories mirror FRED's taxonomy with Canadian sources.
-        Series counts below are live counts from the current registry, not targets.
+        Eight top-level categories cover the whole registry, from money and
+        banking to provincial data. Series counts below are live counts from
+        the current registry, not targets.
       </p>
       <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
         {slugs.map((slug) => {

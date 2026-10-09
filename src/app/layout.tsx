@@ -19,10 +19,10 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "CRED | Canadian Research Economic Data",
   description:
-    "Your trusted source for Canadian economic data. One search across Statistics Canada and the Bank of Canada, FRED-style charts, and a public API.",
+    "Your trusted source for Canadian economic data. One search across Statistics Canada and the Bank of Canada, interactive charts, and a public API.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="en"

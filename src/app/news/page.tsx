@@ -1,134 +1,145 @@
 import Link from 'next/link';
+import { REGISTRY, type SeriesMeta } from '@/lib/registry';
+import { getObservations } from '@/lib/data';
+import ChartSVG from '@/components/ChartSVG';
 
-export const metadata = { title: 'CRED News' };
+export const metadata = { title: 'Latest' };
 
-const ARTICLES = [
-  {
-    title: '40 new rental-market series from CMHC',
-    date: 'Oct 5, 2026',
-    topic: 'New data',
-    excerpt:
-      'CRED ingests the Canada Mortgage and Housing Corporation rental-market survey for the first time: 40 CMA-level series on vacancy, rents, and completions. (Illustrative article; CMHC series land with the verified registry.)',
-  },
-  {
-    title: 'Teaching with CRED: reading the yield curve',
-    date: 'Oct 2, 2026',
-    topic: 'Analysis',
-    excerpt:
-      'The 10-year Government of Canada bond yield minus the policy rate tells you what the market thinks the Bank of Canada does next. Here is how to build that spread as a CRED comparison graph in two clicks.',
-  },
-  {
-    title: 'September labour data: what moved and what didn\'t',
-    date: 'Oct 1, 2026',
-    topic: 'Analysis',
-    excerpt:
-      'The Labour Force Survey reference week lands on the CRED chart the morning of release. This week: participation held, youth unemployment did not. (Illustrative; read the current release at statcan.gc.ca.)',
-  },
-  {
-    title: 'How we date Canadian recessions',
-    date: 'Sep 28, 2026',
-    topic: 'Methodology',
-    excerpt:
-      'CRED shades every chart with peak and trough dates from the C.D. Howe Institute Business Cycle Council, not US NBER dates. Five post-1970 episodes are in v1: 1974, 1981-82, 1990-92, 2008-09, and 2020.',
-  },
-];
+// Rebuilt as an automated desk: no writers, no static articles. Every card
+// is generated at request time from live observations. A card whose series
+// cannot load is omitted rather than shown with placeholders.
 
-const INDICATORS = [
-  { label: 'CPI', value: '+2.1% Aug 2026' },
-  { label: 'Unemployment', value: '7.0% Sep 2026' },
-  { label: 'Policy rate', value: '2.50%' },
-  { label: 'Real GDP', value: '+1.8% Q2 2026' },
-];
+export const dynamic = 'force-dynamic';
 
-function Sparkline({ seed }: { seed: number }) {
-  const pts = Array.from({ length: 20 }, (_, i) => {
-    const v = 30 + ((seed * (i + 3)) % 17) * 1.6 - i * 0.4;
-    return `${i * 5},${Math.max(6, Math.min(44, v))}`;
-  }).join(' ');
-  return (
-    <svg viewBox="0 0 100 50" className="h-12 w-24" aria-hidden>
-      <polyline points={pts} fill="none" stroke="#d80621" strokeWidth="2" />
-    </svg>
-  );
+function formatValue(v: number, units: string): string {
+  if (units.includes('%'))
+    return `${v.toLocaleString('en-CA', { maximumFractionDigits: 2 })}%`;
+  if (Math.abs(v) >= 1000)
+    return v.toLocaleString('en-CA', { maximumFractionDigits: 1 });
+  return v.toLocaleString('en-CA', { maximumFractionDigits: 3 });
 }
 
-export default function News() {
+function formatChange(diff: number, units: string): string {
+  const sign = diff > 0 ? '+' : diff < 0 ? '−' : '';
+  const abs = Math.abs(diff);
+  const body = units.includes('%')
+    ? abs.toLocaleString('en-CA', { maximumFractionDigits: 2 })
+    : abs >= 1000
+      ? abs.toLocaleString('en-CA', { maximumFractionDigits: 1 })
+      : abs.toLocaleString('en-CA', { maximumFractionDigits: 3 });
+  return `${sign}${body}${units.includes('%') ? ' pts' : ''}`;
+}
+
+function formatDate(iso: string, frequency: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  const month = d.toLocaleString('en-CA', { month: 'short', timeZone: 'UTC' });
+  const year = d.getUTCFullYear();
+  if (frequency === 'quarterly') {
+    const q = Math.floor(d.getUTCMonth() / 3) + 1;
+    return `Q${q} ${year}`;
+  }
+  if (frequency === 'annual') return `${year}`;
+  if (frequency === 'daily')
+    return d.toLocaleDateString('en-CA', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      timeZone: 'UTC',
+    });
+  return `${month} ${year}`;
+}
+
+interface CardData {
+  series: SeriesMeta;
+  latest: { date: string; value: number };
+  prev: { date: string; value: number };
+  data: { date: string; value: number }[];
+}
+
+async function loadCard(series: SeriesMeta): Promise<CardData | null> {
+  try {
+    const { observations } = await getObservations(series.id);
+    if (observations.length < 2) return null;
+    return {
+      series,
+      latest: observations[observations.length - 1],
+      prev: observations[observations.length - 2],
+      data: observations.slice(-90),
+    };
+  } catch {
+    return null;
+  }
+}
+
+export default async function News() {
+  const featured = REGISTRY.filter((s) => s.featured);
+  const cards = (
+    await Promise.all(featured.map((s) => loadCard(s)))
+  ).filter((c): c is CardData => c !== null);
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <h1 className="text-3xl font-bold text-[#0a0f1e]">CRED News</h1>
-      <p className="mt-2 text-gray-600">
-        New data, analysis, notices, and methodology. Indicator values marked
-        illustrative are examples of the layout, not live data.
+      <h1 className="text-3xl font-bold text-[#0a0f1e]">Latest</h1>
+      <p className="mt-2 max-w-2xl text-gray-600">
+        The newest reading of every flagship series, generated from live data
+        when this page loads. No writers, no placeholders: a series that
+        cannot be reached is left out until its next refresh.
       </p>
-      <div className="mt-6 grid gap-8 md:grid-cols-[260px_1fr]">
-        {/* Sidebar */}
-        <aside className="space-y-6">
-          <div>
-            <label className="text-sm font-medium">Search</label>
-            <input
-              type="search"
-              placeholder="Search articles..."
-              className="mt-1 w-full rounded border hairline px-3 py-2 text-sm"
-            />
-          </div>
-          <fieldset>
-            <legend className="text-sm font-medium">Filter by</legend>
-            <div className="mt-2 space-y-1 text-sm">
-              {['New data', 'Analysis', 'Notices', 'Methodology'].map((t) => (
-                <label key={t} className="flex items-center gap-2">
-                  <input type="checkbox" defaultChecked /> {t}
-                </label>
-              ))}
-            </div>
-          </fieldset>
-          <div className="flex gap-2 text-sm">
-            <div>
-              <label className="text-sm font-medium">From</label>
-              <input type="date" className="mt-1 w-full rounded border hairline px-2 py-1.5" />
-            </div>
-            <div>
-              <label className="text-sm font-medium">To</label>
-              <input type="date" className="mt-1 w-full rounded border hairline px-2 py-1.5" />
-            </div>
-          </div>
-          <div className="rounded-xl border hairline bg-white p-4">
-            <h2 className="text-sm font-bold text-[#0a0f1e]">Latest indicators</h2>
-            <p className="text-xs text-gray-500">(illustrative)</p>
-            <ul className="mt-2 space-y-1.5 text-sm">
-              {INDICATORS.map((i) => (
-                <li key={i.label} className="flex justify-between">
-                  <span className="text-gray-600">{i.label}</span>
-                  <span className="font-medium text-[#0a0f1e]">{i.value}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </aside>
-        {/* Articles */}
-        <div className="space-y-5">
-          {ARTICLES.map((a, i) => (
-            <article
-              key={a.title}
-              className="flex gap-4 rounded-xl border hairline bg-white p-5"
-            >
-              <Sparkline seed={i * 7 + 3} />
-              <div>
-                <p className="text-xs font-medium uppercase tracking-wide text-[#d80621]">
-                  {a.topic}
-                </p>
-                <h2 className="mt-1 text-lg font-bold text-[#0a0f1e]">{a.title}</h2>
-                <p className="text-xs text-gray-500">{a.date}</p>
-                <p className="mt-2 text-sm text-gray-700">{a.excerpt}</p>
-              </div>
-            </article>
-          ))}
-          <p className="text-sm text-gray-500">
-            Article bodies are illustrative scaffolding; the CRED news desk
-            launches in Phase 1. Release-calendar dates come from Statistics
-            Canada's key-indicator schedule: <Link href="https://www.statcan.gc.ca" className="text-[#d80621] hover:underline">statcan.gc.ca</Link>.
-          </p>
+      {cards.length === 0 ? (
+        <div className="mt-8 rounded-xl bg-[#f4f6f9] p-8 text-center text-sm text-gray-600">
+          Statistics Canada is refreshing its tables right now. The latest
+          readings return automatically.
         </div>
-      </div>
+      ) : (
+        <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {cards.map((c) => {
+            const diff = c.latest.value - c.prev.value;
+            const up = diff > 0;
+            const down = diff < 0;
+            return (
+              <Link
+                key={c.series.id}
+                href={`/series/${c.series.id}`}
+                className="block rounded-xl border hairline bg-white p-5 transition-shadow hover:shadow-md"
+              >
+                <h2 className="text-base font-bold text-[#0a0f1e]">
+                  {c.series.title}
+                </h2>
+                <p className="mt-3 font-display text-4xl text-[#0a0f1e]">
+                  {formatValue(c.latest.value, c.series.units)}
+                </p>
+                <p className="mt-1 text-sm">
+                  <span
+                    className={
+                      up
+                        ? 'font-medium text-green-700'
+                        : down
+                          ? 'font-medium text-red-700'
+                          : 'font-medium text-gray-500'
+                    }
+                  >
+                    {up ? '▲' : down ? '▼' : '■'}{' '}
+                    {formatChange(diff, c.series.units)}
+                  </span>{' '}
+                  <span className="text-gray-500">vs previous period</span>
+                </p>
+                <p className="mt-1 text-xs text-gray-500">
+                  Released {formatDate(c.latest.date, c.series.frequency)} ·{' '}
+                  {c.series.sourceLabel}
+                </p>
+                <div className="mt-3 rounded-lg bg-[#f4f6f9] p-2">
+                  <ChartSVG
+                    data={c.data}
+                    yLabel={c.series.units}
+                    id={`news-${c.series.id}`}
+                    height={140}
+                  />
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

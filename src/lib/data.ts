@@ -63,8 +63,10 @@ async function fetchStatCan(vectorIds: number[]): Promise<Observation[]> {
   if (!res.ok) throw new Error(`StatCan WDS returned HTTP ${res.status}`);
   const payload = (await res.json()) as StatCanVectorResponse[];
   const byDate = new Map<string, number>();
+  let sawSuccess = false;
   for (const block of payload) {
     if (block.status !== 'SUCCESS') continue;
+    sawSuccess = true;
     for (const point of block.object?.vectorDataPoint ?? []) {
       if (point.value === null || point.value === undefined) continue;
       const iso = refPerToISO(point.refPer);
@@ -75,6 +77,11 @@ async function fetchStatCan(vectorIds: number[]): Promise<Observation[]> {
       // Sum across vectors when a series maps to several component vectors.
       byDate.set(iso, prev === undefined ? v : prev + v);
     }
+  }
+  if (!sawSuccess) {
+    throw new Error(
+      'StatCan WDS returned no usable data blocks (table may be refreshing)'
+    );
   }
   return [...byDate.entries()]
     .map(([date, value]) => ({ date, value }))

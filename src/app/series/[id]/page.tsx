@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getSeries, REGISTRY, CATEGORY_LABELS } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
 import ChartControls from '@/components/ChartControls';
+import RetryButton from '@/components/RetryButton';
 
 export const dynamic = 'force-dynamic';
 
@@ -20,12 +21,47 @@ function formatObsDate(iso: string, frequency: string): string {
   return `${months[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
 }
 
+interface SeriesLike {
+  id: string;
+  title: string;
+}
+
+const SOCIAL: {
+  name: string;
+  mark: string;
+  href: (s: SeriesLike) => string;
+}[] = [
+  {
+    name: 'X',
+    mark: 'X',
+    href: (s) =>
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(s.title)}&url=${encodeURIComponent(`https://cred.nshipyard.com/series/${s.id}`)}`,
+  },
+  {
+    name: 'Facebook',
+    mark: 'f',
+    href: (s) =>
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://cred.nshipyard.com/series/${s.id}`)}`,
+  },
+  {
+    name: 'Reddit',
+    mark: 'r',
+    href: (s) =>
+      `https://www.reddit.com/submit?url=${encodeURIComponent(`https://cred.nshipyard.com/series/${s.id}`)}&title=${encodeURIComponent(s.title)}`,
+  },
+  {
+    name: 'LinkedIn',
+    mark: 'in',
+    href: (s) =>
+      `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://cred.nshipyard.com/series/${s.id}`)}`,
+  },
+];
+
 export default async function SeriesPage({
   params,
 }: {
   params: Promise<{ id: string }>;
-}) {
-  const { id } = await params;
+}) {  const { id } = await params;
   const series = getSeries(id);
   if (!series) notFound();
 
@@ -42,6 +78,12 @@ export default async function SeriesPage({
   const latest = observations.length ? observations[observations.length - 1] : null;
 
   const compareOptions = REGISTRY.map((s) => ({ id: s.id, title: s.title }));
+  const retrievalDate = new Date().toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'America/Toronto',
+  });
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6">
@@ -73,7 +115,6 @@ export default async function SeriesPage({
         <h1 className="text-3xl font-bold text-[#0a0f1e]">{series.title}</h1>
         <span className="text-lg text-gray-500">({series.id})</span>
       </div>
-      <p className="mt-2 max-w-3xl text-gray-700">{series.description}</p>
 
       {/* Meta bar: FRED-style 5 cells */}
       <div className="mt-5 grid grid-cols-2 divide-x divide-[rgba(10,15,30,0.1)] rounded-xl border hairline bg-white md:grid-cols-5">
@@ -122,26 +163,26 @@ export default async function SeriesPage({
       {/* Chart panel */}
       <div className="mt-5">
         {fetchError ? (
-          <div className="rounded-xl bg-[#f4f6f9] p-8 text-center text-sm text-gray-600">
-            The live fetch from {series.source === 'statcan' ? 'Statistics Canada' : 'the Bank of Canada'} failed.
-            Reload the page to retry; the 24h cache means this happens at most once a day per series.
+          <div className="flex flex-col items-center justify-center gap-3 rounded-xl bg-[#f4f6f9] p-8 text-center">
+            <p className="max-w-md text-sm text-gray-600">
+              Statistics Canada is refreshing this table right now. Data returns
+              automatically.
+            </p>
+            <RetryButton />
           </div>
         ) : (
           <ChartControls
             seriesId={series.id}
             seriesTitle={series.title}
             units={series.units}
+            sourceLabel={series.sourceLabel}
             initial={observations}
             compareOptions={compareOptions}
           />
         )}
-        <div className="mt-2 flex items-center justify-between text-xs text-gray-600">
-          <span>Source: {series.sourceLabel} via CRED</span>
-          <span>cred.nshipyard.com</span>
-        </div>
       </div>
 
-      {/* Share + account tools */}
+      {/* Share */}
       <div className="mt-4 flex items-center justify-between">
         <div className="flex gap-2">
           <Link
@@ -150,41 +191,91 @@ export default async function SeriesPage({
           >
             Share Graph
           </Link>
-          <button
-            className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-gray-500"
-            title="Accounts ship in a later release"
-          >
-            Account Tools
-          </button>
         </div>
-        <div className="flex gap-2 text-gray-400" aria-label="Social">
-          <span className="flex h-8 w-8 items-center justify-center rounded-full border hairline text-xs">X</span>
-          <span className="flex h-8 w-8 items-center justify-center rounded-full border hairline text-xs">f</span>
-          <span className="flex h-8 w-8 items-center justify-center rounded-full border hairline text-xs">ig</span>
-          <span className="flex h-8 w-8 items-center justify-center rounded-full border hairline text-xs">in</span>
+        <div className="flex gap-2" aria-label="Share on social">
+          {SOCIAL.map((s) => (
+            <a
+              key={s.name}
+              href={s.href(series)}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Share on ${s.name}`}
+              title={`Share on ${s.name}`}
+              className="flex h-8 w-8 items-center justify-center rounded-full border hairline text-xs text-gray-500 hover:border-[#d80621] hover:text-[#d80621]"
+            >
+              {s.mark}
+            </a>
+          ))}
         </div>
       </div>
 
-      {/* Notes */}
+      {/* Notes: FRED-style */}
       <section className="mt-8 max-w-3xl">
         <h2 className="font-display text-xl text-[#0a0f1e]">Notes</h2>
-        <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-gray-700">
-          <li>
-            {series.title} ({series.id}) measures {series.description.charAt(0).toLowerCase() + series.description.slice(1)}
-          </li>
-          {series.unitsDetail && (
-            <li>Published {series.unitsDetail.toLowerCase()} at {series.frequency.toLowerCase()} frequency.</li>
-          )}
-          <li>
-            Statistics Canada overwrites past revisions in place, so CRED snapshots this series
-            daily into an append-only vintage archive. Use /api/vintages?series={series.id} to list snapshots.
-          </li>
-          <li>
-            This registry entry was last verified {series.lastVerified}. CRED never invents observations:
-            every point on this chart came from {series.sourceLabel}.
-          </li>
-        </ul>
+        <div className="mt-3 space-y-2 text-sm text-gray-700">
+          <div className="flex flex-wrap justify-between gap-x-8 gap-y-2">
+            <p>
+              <span className="font-medium text-[#0a0f1e]">Source: </span>
+              <a
+                href={series.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#d80621] hover:underline"
+              >
+                {series.source === 'statcan' ? 'Statistics Canada' : 'Bank of Canada'}
+                <ExternalIcon />
+              </a>
+            </p>
+            <p>
+              <span className="font-medium text-[#0a0f1e]">Release: </span>
+              <a
+                href={series.releaseUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#d80621] hover:underline"
+              >
+                {series.release}
+                <ExternalIcon />
+              </a>
+            </p>
+          </div>
+          <p>
+            <span className="font-medium text-[#0a0f1e]">Units: </span>
+            {series.units}
+            {series.unitsDetail ? `, ${series.unitsDetail}` : ''}
+          </p>
+          <p>
+            <span className="font-medium text-[#0a0f1e]">Frequency: </span>
+            {series.frequency}
+          </p>
+          <p>
+            <span className="font-medium text-[#0a0f1e]">Notes: </span>
+            {series.description}
+          </p>
+          <p>
+            <span className="font-medium text-[#0a0f1e]">Suggested Citation: </span>
+            {series.source === 'statcan' ? 'Statistics Canada' : 'Bank of Canada'},{' '}
+            {series.title} {series.id}, retrieved from CRED, Canadian Research
+            Economic Data; https://cred.nshipyard.com/series/{series.id},{' '}
+            {retrievalDate}.
+          </p>
+        </div>
       </section>
     </div>
+  );
+}
+
+function ExternalIcon() {
+  return (
+    <svg
+      className="ml-0.5 inline h-3 w-3 align-baseline"
+      viewBox="0 0 12 12"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      aria-hidden
+    >
+      <path d="M4 2h6v6M10 2L2 10" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
   );
 }

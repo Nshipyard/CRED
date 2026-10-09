@@ -1,5 +1,7 @@
 export const metadata = { title: 'API docs | CRED' };
 
+import McpSetup from '@/components/McpSetup';
+
 function Endpoint({
   method,
   path,
@@ -39,7 +41,7 @@ export default function ApiDocs() {
     <div className="mx-auto max-w-4xl px-4 py-10">
       <h1 className="text-3xl font-bold text-[#0a0f1e]">CRED API</h1>
       <p className="mt-2 text-gray-700">
-        A FRED-style read API over Canadian economic data. No key required for
+        A read API over Canadian economic data. No key required for
         reads. Responses are JSON. Observations come from the same 24h-cached
         live fetch as the charts, so each series is pulled from its source at
         most once per day.
@@ -130,39 +132,15 @@ export default function ApiDocs() {
       </div>
 
       <section className="mt-10 scroll-mt-20" id="mcp">
-        <h2 className="text-2xl font-bold text-[#0a0f1e]">MCP Connector (Phase 2)</h2>
-        <p className="mt-2 text-gray-700">
-          The MCP server exposes CRED to AI agents with three tools. It is a
-          Phase 2 deliverable; the mapping below is the contract so clients can
-          build against it now.
+        <h2 className="text-2xl font-bold text-[#0a0f1e]">MCP Connector</h2>
+        <p className="mt-2 max-w-2xl text-gray-700">
+          The MCP server exposes CRED to AI agents over streamable HTTP
+          (JSON-RPC 2.0). It is live at <code>/mcp</code> and backed by the
+          same registry and observation proxy as the REST API, so tools never
+          drift from the site. Pick your client below and copy the config.
         </p>
-        <div className="mt-4 space-y-4">
-          <div className="rounded-xl border hairline bg-white p-5">
-            <code className="text-sm font-bold text-[#0a0f1e]">search_series</code>
-            <p className="mt-1 text-sm text-gray-700">
-              Arguments: <code>query: string</code>. Backed by{' '}
-              <code>GET /api/series?q=</code>. Returns registry metadata for
-              matching series.
-            </p>
-          </div>
-          <div className="rounded-xl border hairline bg-white p-5">
-            <code className="text-sm font-bold text-[#0a0f1e]">get_observations</code>
-            <p className="mt-1 text-sm text-gray-700">
-              Arguments: <code>series: string</code>, <code>from?: string</code>,{' '}
-              <code>to?: string</code>. Backed by{' '}
-              <code>GET /api/observations</code>. Returns date/value pairs with
-              source and cache metadata.
-            </p>
-          </div>
-          <div className="rounded-xl border hairline bg-white p-5">
-            <code className="text-sm font-bold text-[#0a0f1e]">get_release_calendar</code>
-            <p className="mt-1 text-sm text-gray-700">
-              Arguments: <code>source?: "statcan" | "boc"</code>. Returns
-              upcoming release dates from Statistics Canada's key-indicator
-              schedule and the Bank of Canada's fixed announcement dates.
-              Endpoint: <code>GET /api/releases</code> (Phase 2).
-            </p>
-          </div>
+        <div className="mt-5">
+          <McpSetup />
         </div>
       </section>
     </div>
