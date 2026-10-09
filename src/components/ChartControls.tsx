@@ -6,9 +6,21 @@
 // ChartFigure so thumbnails elsewhere stay pixel-identical in structure.
 
 import { useRef, useState } from 'react';
-import ChartSVG, { type ChartPoint } from './ChartSVG';
+import dynamic from 'next/dynamic';
+import ChartSVG, { type ChartPoint, chartLeftPad } from './ChartSVG';
 import ChartFigure from './ChartFigure';
+import ShareGraph from './ShareGraph';
 import { RECESSIONS } from '@/lib/recessions';
+import type { GeoFamily } from '@/lib/geo';
+
+// The choropleth (plus its 127KB province paths) loads only when requested.
+const GeoMap = dynamic(() => import('./GeoMap'), {
+  loading: () => (
+    <div className="flex items-center justify-center rounded-xl bg-[#f4f6f9] p-16">
+      <span className="text-sm text-gray-500">Loading map…</span>
+    </div>
+  ),
+});
 
 interface SeriesOption {
   id: string;
@@ -22,6 +34,7 @@ interface ChartControlsProps {
   sourceLabel: string;
   initial: ChartPoint[];
   compareOptions: SeriesOption[];
+  geoFamily?: GeoFamily;
 }
 
 type RangeKey = '1Y' | '5Y' | '10Y' | 'MAX';
@@ -41,6 +54,7 @@ export default function ChartControls({
   sourceLabel,
   initial,
   compareOptions,
+  geoFamily,
 }: ChartControlsProps) {
   const latest = initial.length ? initial[initial.length - 1].date : '';
   const [data, setData] = useState<ChartPoint[]>(initial);
@@ -54,7 +68,7 @@ export default function ChartControls({
   const [compareData, setCompareData] = useState<ChartPoint[] | null>(null);
   const [editOpen, setEditOpen] = useState(false);
   const [downloadOpen, setDownloadOpen] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const [mapView, setMapView] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
   const chartWrapRef = useRef<HTMLDivElement>(null);
 
@@ -217,16 +231,6 @@ export default function ChartControls({
     else el.requestFullscreen();
   }
 
-  async function share() {
-    try {
-      await navigator.clipboard.writeText(window.location.href);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch {
-      setCopied(false);
-    }
-  }
-
   // Merge compare series as a gray dashed line behind the main series.
   const comparePath = (() => {
     if (!compareData || compareData.length === 0) return null;
@@ -238,8 +242,46 @@ export default function ChartControls({
     return { data: compareData, minV: minV - vPad, maxV: maxV + vPad };
   })();
 
+  // Same left margin as the main chart so the overlay aligns exactly.
+  const overlayPadL = data.length
+    ? chartLeftPad(
+        Math.min(...data.map((d) => d.value)),
+        Math.max(...data.map((d) => d.value))
+      )
+    : 52;
+
   return (
     <div ref={panelRef}>
+      {geoFamily && mapView ? (
+        <GeoMap
+          family={geoFamily}
+          seriesId={seriesId}
+          seriesTitle={seriesTitle}
+          toggle={
+            <div
+              className="flex items-center overflow-hidden rounded border border-[rgba(10,15,30,0.2)] text-sm"
+              role="tablist"
+              aria-label="View"
+            >
+              <button
+                role="tab"
+                aria-selected={false}
+                onClick={() => setMapView(false)}
+                className="px-3 py-1 text-[#0a0f1e] hover:bg-white"
+              >
+                View Graph
+              </button>
+              <button
+                role="tab"
+                aria-selected={true}
+                className="bg-[#0a0f1e] px-3 py-1 font-medium text-white"
+              >
+                View Map
+              </button>
+            </div>
+          }
+        />
+      ) : (
       <ChartFigure
         seriesTitle={seriesTitle}
         sourceLabel={sourceLabel}
@@ -255,6 +297,29 @@ export default function ChartControls({
         }
         headerRight={
           <div className="flex flex-wrap items-center gap-2">
+            {geoFamily && (
+              <div
+                className="flex items-center overflow-hidden rounded border border-[rgba(10,15,30,0.2)] text-sm"
+                role="tablist"
+                aria-label="View"
+              >
+                <button
+                  role="tab"
+                  aria-selected={true}
+                  className="bg-[#0a0f1e] px-3 py-1 font-medium text-white"
+                >
+                  View Graph
+                </button>
+                <button
+                  role="tab"
+                  aria-selected={false}
+                  onClick={() => setMapView(true)}
+                  className="px-3 py-1 text-[#0a0f1e] hover:bg-white"
+                >
+                  View Map
+                </button>
+              </div>
+            )}
             {(['1Y', '5Y', '10Y', 'MAX'] as RangeKey[]).map((r) => (
               <button
                 key={r}
@@ -361,12 +426,13 @@ export default function ChartControls({
             >
               Fullscreen
             </button>
-            <button
-              onClick={share}
-              className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
-            >
-              {copied ? 'Copied' : 'Share Graph'}
-            </button>
+            <ShareGraph
+              seriesId={seriesId}
+              seriesTitle={seriesTitle}
+              data={data}
+              from={from}
+              to={to}
+            />
           </div>
         }
       >
@@ -406,30 +472,33 @@ export default function ChartControls({
               domain={data.length ? [data[0].date, data[data.length - 1].date] : ['2020-01-01', '2020-01-02']}
               allMin={comparePath.minV}
               allMax={comparePath.maxV}
+              padL={overlayPadL}
             />
           </div>
         )}
       </ChartFigure>
+      )}
     </div>
   );
 }
 
 // Renders the compare series with the same geometry as the main chart
-// (same viewBox, same value scale) as a gray dashed line.
+// (same viewBox, same value scale, same left margin) as a gray dashed line.
 function CompareOverlay({
   data,
   domain,
   allMin,
   allMax,
+  padL,
 }: {
   data: ChartPoint[];
   domain: [string, string];
   allMin: number;
   allMax: number;
+  padL: number;
 }) {
   const W = 800;
   const H = 320;
-  const padL = 52;
   const padR = 16;
   const padT = 12;
   const padB = 34;

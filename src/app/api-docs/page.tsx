@@ -143,6 +143,39 @@ export default function ApiDocs() {
           <McpSetup />
         </div>
       </section>
+
+      <section className="mt-10 scroll-mt-20" id="embed">
+        <h2 className="text-2xl font-bold text-[#0a0f1e]">Embed a Graph</h2>
+        <p className="mt-2 max-w-2xl text-gray-700">
+          Any series page has a Share Graph button with an Embed in Website
+          option. It generates a link to a standalone chart page
+          (<code>/graph/?g=…</code>) that carries the series, range mode, and
+          range in a base64url config, and an <code>&lt;iframe&gt;</code>{' '}
+          snippet pointing at it. The embedded chart is the same figure as the
+          series page: CRED logo, axes, recession shading, and source line,
+          with no site chrome.
+        </p>
+        <div className="mt-4 rounded-xl border hairline bg-white p-5">
+          <p className="text-sm font-medium text-[#0a0f1e]">Fixed size</p>
+          <pre className="mt-2 overflow-x-auto whitespace-pre rounded bg-[#f4f6f9] p-3 font-mono text-xs text-gray-700">
+{`<iframe src="https://cred.nshipyard.com/graph/?g=CONFIG" width="100%" height="480" frameborder="0" title="Series title | CRED" loading="lazy"></iframe>`}
+          </pre>
+          <p className="mt-4 text-sm font-medium text-[#0a0f1e]">Responsive</p>
+          <pre className="mt-2 overflow-x-auto whitespace-pre rounded bg-[#f4f6f9] p-3 font-mono text-xs text-gray-700">
+{`<div style="position:relative;padding-bottom:62.5%;height:0;overflow:hidden;max-width:100%;">
+  <iframe src="https://cred.nshipyard.com/graph/?g=CONFIG" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" title="Series title | CRED" loading="lazy"></iframe>
+</div>`}
+          </pre>
+          <p className="mt-4 text-sm text-gray-700">
+            Replace <code>CONFIG</code> with the config from the series
+            page&apos;s Share Graph dialog. Range modes: <code>full</code>{' '}
+            (series start to latest, auto-updating), <code>lastN</code> (last N
+            periods, auto-updating), <code>static</code> (fixed from/to).
+            Attribution is built into the embedded chart; keep the source
+            line visible.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

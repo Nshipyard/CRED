@@ -33,6 +33,20 @@ function niceTicks(min: number, max: number, count = 6): number[] {
   return ticks;
 }
 
+// Left-margin geometry for the y axis, shared with overlays that must align
+// with this chart (e.g. the compare series). Layout, left to right:
+// dedicated title lane, gap, tick-label column right-aligned at the plot edge.
+export const Y_TITLE_LANE_W = 18;
+export const Y_TITLE_GAP = 10;
+
+export function chartLeftPad(minV: number, maxV: number): number {
+  const vPad = (maxV - minV || Math.abs(maxV) || 1) * 0.08;
+  const ticks = niceTicks(minV - vPad, maxV + vPad, 6);
+  const maxLen = Math.max(...ticks.map((t) => String(t).length), 1);
+  const tickColW = maxLen * 6.8 + 4; // estimated label width at 11px
+  return Math.ceil(Y_TITLE_LANE_W + Y_TITLE_GAP + tickColW + 8);
+}
+
 export default function ChartSVG({
   data,
   recessions = RECESSIONS,
@@ -43,12 +57,9 @@ export default function ChartSVG({
 }: ChartSVGProps) {
   const W = 800;
   const H = height;
-  const padL = 52;
   const padR = 16;
   const padT = 12;
   const padB = 34;
-  const plotW = W - padL - padR;
-  const plotH = H - padT - padB;
 
   if (data.length === 0) {
     return (
@@ -70,6 +81,12 @@ export default function ChartSVG({
   const lo = minV - vPad;
   const hi = maxV + vPad;
 
+  // padL depends on the tick labels, so ticks are computed before geometry.
+  const ticks = niceTicks(lo, hi, 6);
+  const padL = chartLeftPad(minV, maxV);
+  const plotW = W - padL - padR;
+  const plotH = H - padT - padB;
+
   const tMin = new Date(minD + 'T00:00:00Z').getTime();
   const tMax = new Date(maxD + 'T00:00:00Z').getTime();
   const span = Math.max(tMax - tMin, 1);
@@ -77,8 +94,6 @@ export default function ChartSVG({
   const x = (date: string) =>
     padL + ((new Date(date + 'T00:00:00Z').getTime() - tMin) / span) * plotW;
   const y = (v: number) => padT + (1 - (v - lo) / (hi - lo)) * plotH;
-
-  const ticks = niceTicks(lo, hi, 6);
 
   // Year ticks: one per year, thinned so labels don't collide.
   const years = [...new Set(dates.map((d) => d.slice(0, 4)))];
@@ -147,11 +162,11 @@ export default function ChartSVG({
       ))}
       {yLabel && (
         <text
-          x={12}
+          x={Y_TITLE_LANE_W / 2}
           y={padT + plotH / 2}
           fontSize={11}
           fill="#8a93a6"
-          transform={`rotate(-90 12 ${padT + plotH / 2})`}
+          transform={`rotate(-90 ${Y_TITLE_LANE_W / 2} ${padT + plotH / 2})`}
           textAnchor="middle"
         >
           {yLabel}

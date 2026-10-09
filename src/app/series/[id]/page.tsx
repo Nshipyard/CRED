@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getSeries, REGISTRY, CATEGORY_LABELS } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
 import ChartControls from '@/components/ChartControls';
+import SeriesDiscovery from '@/components/SeriesDiscovery';
 import RetryButton from '@/components/RetryButton';
 
 export const dynamic = 'force-dynamic';
@@ -178,20 +179,13 @@ export default async function SeriesPage({
             sourceLabel={series.sourceLabel}
             initial={observations}
             compareOptions={compareOptions}
+            geoFamily={series.geoFamily}
           />
         )}
       </div>
 
       {/* Share */}
-      <div className="mt-4 flex items-center justify-between">
-        <div className="flex gap-2">
-          <Link
-            href="/api-docs"
-            className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
-          >
-            Share Graph
-          </Link>
-        </div>
+      <div className="mt-4 flex items-center justify-end">
         <div className="flex gap-2" aria-label="Share on social">
           {SOCIAL.map((s) => (
             <a
@@ -261,6 +255,9 @@ export default async function SeriesPage({
           </p>
         </div>
       </section>
+
+      {/* Discovery: release tables + related data and content */}
+      <SeriesDiscovery series={series} />
     </div>
   );
 }

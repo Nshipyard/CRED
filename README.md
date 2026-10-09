@@ -4,6 +4,8 @@
 
 CRED is Canadian Research Economic Data: one search box across Statistics Canada and the Bank of Canada, interactive charts with Canadian recession shading, and a public read API. The v1 registry carries 104 verified series across 8 categories, from the BoC policy rate to CPI to provincial unemployment rates, and every observation shown anywhere in the app comes from Statistics Canada's Web Data Service or the Bank of Canada's Valet API. Nothing in CRED is fabricated or backfilled from a third party.
 
+Series pages carry FRED-style Notes with a suggested citation, Release Tables linking to the source table, and Related Data and Content (chart-thumbnail suggestions, other formats like SA/NSA, categories, releases, tags). The Share Graph menu produces a custom graph link (`/graph?g=...`, a standalone chromeless chart page), a website embed snippet, or a server-rendered PNG image link (`/api/graph-image`). Series in a geographic family (provincial unemployment, provincial CPI) get a View Map toggle: a Canada choropleth with zoom, fullscreen, and a value legend.
+
 ## Screenshots
 
 All screenshots below show live data via StatCan/BoC, rendered by the app on 2026-10-09.
@@ -14,8 +16,8 @@ Home page: centered hero with search, trending terms, and the At a Glance panel 
 ![CRED home page, mobile](docs/screenshots/home-mobile.png)
 Home page at 390px: the centered hero and flagship panel stack into a single column.
 
-![CPI series page](docs/screenshots/series.png)
-Series page for CPI_ALLITEMS_SA (Consumer Price Index, All-items, Seasonally Adjusted): 416 monthly observations, Jan 1992 through Aug 2026, with C.D. Howe recession shading, live data via StatCan/BoC.
+![GDP series page](docs/screenshots/series.png)
+Series page for GDP_REAL (Real Gross Domestic Product): quarterly observations from 1961 through Q2 2026, C.D. Howe recession shading, the FRED-style Notes block with suggested citation, Release Tables, and the Related Data and Content discovery sections (data suggestions, categories, releases, tags).
 
 ![Category browser](docs/screenshots/categories.png)
 Category browser: 8 categories with live series counts from the registry.
@@ -108,7 +110,6 @@ The app fetches live data on first load. No API key is needed for StatCan WDS or
 
 ## What's next
 
-- **Provincial maps**: choropleths over the provincial series already in the registry.
 - **Accounts and saved graphs**: let users save chart configurations and share them.
 - **EN/FR**: a French interface for a Canadian public dataset is not optional, it is just scheduled after the data layer is solid.
 

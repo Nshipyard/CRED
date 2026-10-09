@@ -35,6 +35,8 @@ export interface SeriesMeta {
   description: string;
   featured?: boolean;
   lastVerified: string;
+  // Map view: series in the same geoFamily share a choropleth toggle.
+  geoFamily?: 'unemployment-by-province' | 'cpi-by-province';
 }
 
 export interface CategoryMeta {
@@ -305,6 +307,7 @@ export const SERIES: SeriesMeta[] = [
   // ---------- population, employment and labour ----------
   {
     id: 'UNRATE_CA',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -931,6 +934,7 @@ export const SERIES: SeriesMeta[] = [
   // ---------- prices ----------
   {
     id: 'CPI_ALLITEMS_NSA',
+    geoFamily: 'cpi-by-province',
     title: 'Consumer Price Index, All-items',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
@@ -1505,6 +1509,7 @@ export const SERIES: SeriesMeta[] = [
   // ---------- provinces, territories and cities ----------
   {
     id: 'UNRATE_QC',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: Quebec',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1522,6 +1527,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'UNRATE_ON',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: Ontario',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1539,6 +1545,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'UNRATE_AB',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: Alberta',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1556,6 +1563,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'UNRATE_BC',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: British Columbia',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1573,6 +1581,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'CPI_QC',
+    geoFamily: 'cpi-by-province',
     title: 'CPI: Quebec',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
@@ -1590,6 +1599,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'CPI_ON',
+    geoFamily: 'cpi-by-province',
     title: 'CPI: Ontario',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
@@ -1607,6 +1617,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'CPI_AB',
+    geoFamily: 'cpi-by-province',
     title: 'CPI: Alberta',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
@@ -1624,6 +1635,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'CPI_BC',
+    geoFamily: 'cpi-by-province',
     title: 'CPI: British Columbia',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
@@ -1657,6 +1669,7 @@ export const SERIES: SeriesMeta[] = [
     lastVerified: V,
   },  {
     id: 'UNRATE_MB',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: Manitoba',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1674,6 +1687,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'UNRATE_SK',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: Saskatchewan',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1691,6 +1705,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'UNRATE_NS',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: Nova Scotia',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1708,6 +1723,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'UNRATE_NB',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: New Brunswick',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1725,6 +1741,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'UNRATE_NL',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: Newfoundland and Labrador',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1742,6 +1759,7 @@ export const SERIES: SeriesMeta[] = [
   },
   {
     id: 'UNRATE_PEI',
+    geoFamily: 'unemployment-by-province',
     title: 'Unemployment Rate: Prince Edward Island',
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
@@ -1880,7 +1898,12 @@ export function searchSeries(q: string): SeriesMeta[] {
     (s) =>
       s.id.toLowerCase().includes(needle) ||
       s.title.toLowerCase().includes(needle) ||
-      s.description.toLowerCase().includes(needle)
+      s.description.toLowerCase().includes(needle) ||
+      s.release.toLowerCase().includes(needle) ||
+      s.frequency.toLowerCase().includes(needle) ||
+      s.sourceLabel.toLowerCase().includes(needle) ||
+      s.units.toLowerCase().includes(needle) ||
+      (s.unitsDetail ?? '').toLowerCase().includes(needle)
   );
 }
 
