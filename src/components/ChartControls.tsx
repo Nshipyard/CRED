@@ -394,11 +394,11 @@ export default function ChartControls({
           </div>
         }
         footerActions={
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <div className="relative">
               <button
                 onClick={() => setEditOpen((v) => !v)}
-                className="rounded bg-[#d80621] px-4 py-1.5 text-sm font-medium text-white"
+                className="whitespace-nowrap rounded bg-[#d80621] px-4 py-1.5 text-sm font-medium text-white"
               >
                 Edit Graph
               </button>
@@ -433,7 +433,7 @@ export default function ChartControls({
             <div className="relative">
               <button
                 onClick={() => setDownloadOpen((v) => !v)}
-                className="rounded border border-[#0a0f1e] px-4 py-1.5 text-sm font-medium text-[#0a0f1e]"
+                className="whitespace-nowrap rounded border border-[#0a0f1e] px-4 py-1.5 text-sm font-medium text-[#0a0f1e]"
                 aria-haspopup="menu"
                 aria-expanded={downloadOpen}
               >
@@ -464,7 +464,7 @@ export default function ChartControls({
             </div>
             <button
               onClick={toggleFullscreen}
-              className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
+              className="whitespace-nowrap rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
             >
               Fullscreen
             </button>

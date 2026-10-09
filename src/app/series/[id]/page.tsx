@@ -158,7 +158,7 @@ export default async function SeriesPage({
       </nav>
 
       {/* Title row */}
-      <div className="mt-3 flex items-center gap-2">
+      <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1">
         <button
           className="text-2xl text-gray-400 hover:text-[#d80621]"
           title="Save to account (ships with accounts)"
@@ -166,8 +166,8 @@ export default async function SeriesPage({
         >
           ☆
         </button>
-        <h1 className="text-3xl font-bold text-[#0a0f1e]">{series.title}</h1>
-        <span className="text-lg text-gray-500">({series.id})</span>
+        <h1 className="text-2xl font-bold text-[#0a0f1e] md:text-3xl">{series.title}</h1>
+        <span className="whitespace-nowrap text-base text-gray-500 md:text-lg">({series.id})</span>
       </div>
 
       {/* Meta bar: FRED-style 5 cells */}

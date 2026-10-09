@@ -137,7 +137,7 @@ export default function ShareGraph({
       <div className="relative">
         <button
           onClick={() => setOpen((v) => !v)}
-          className="rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
+          className="whitespace-nowrap rounded border border-[rgba(10,15,30,0.2)] px-4 py-1.5 text-sm text-[#0a0f1e]"
           aria-haspopup="menu"
           aria-expanded={open}
         >
