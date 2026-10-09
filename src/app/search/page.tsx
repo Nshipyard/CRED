@@ -1,7 +1,26 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { searchSeries } from '@/lib/registry';
 
-export const metadata = { title: 'Search | CRED' };
+export const metadata: Metadata = {
+  title: 'Search | CRED',
+  description:
+    'Search 104 verified Canadian economic series from Statistics Canada and the Bank of Canada. One search box, consistent units, recession shading on every chart.',
+  openGraph: {
+    title: 'Search | CRED',
+    description:
+      'Search 104 verified Canadian economic series from Statistics Canada and the Bank of Canada.',
+    url: '/search',
+    images: [{ url: '/og/home.png', width: 1200, height: 630, alt: 'Search CRED data' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Search | CRED',
+    description:
+      'Search 104 verified Canadian economic series from Statistics Canada and the Bank of Canada.',
+    images: ['/og/home.png'],
+  },
+};
 export const dynamic = 'force-dynamic';
 
 export default async function Search({

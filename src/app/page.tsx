@@ -1,10 +1,39 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { REGISTRY } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
 import ChartSVG from '@/components/ChartSVG';
 import ChartFigure from '@/components/ChartFigure';
 
 export const dynamic = 'force-dynamic';
+
+const OG_TITLE = 'CRED | Canadian Research Economic Data';
+const OG_DESCRIPTION =
+  '104 verified Canadian economic series from Statistics Canada and the Bank of Canada. Interactive charts with C.D. Howe recession shading, downloads, and a free public API.';
+
+export const metadata: Metadata = {
+  title: OG_TITLE,
+  description: OG_DESCRIPTION,
+  openGraph: {
+    title: OG_TITLE,
+    description: OG_DESCRIPTION,
+    url: '/',
+    images: [
+      {
+        url: '/og/home.png',
+        width: 1200,
+        height: 630,
+        alt: 'CRED: Canadian Research Economic Data, 104 verified series from Statistics Canada and the Bank of Canada',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: OG_TITLE,
+    description: OG_DESCRIPTION,
+    images: ['/og/home.png'],
+  },
+};
 
 const TRENDING = [
   'gdp',

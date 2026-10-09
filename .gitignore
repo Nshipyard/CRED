@@ -42,3 +42,6 @@ next-env.d.ts
 
 # vintage snapshots: daily cron output, never committed
 /data/vintages/
+
+# OG pipeline intermediates (SVGs); the PNGs in public/og/ are committed
+/public/og-svg/

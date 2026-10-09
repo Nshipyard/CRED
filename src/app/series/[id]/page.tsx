@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getSeries, REGISTRY, CATEGORY_LABELS } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
@@ -7,6 +8,58 @@ import SeriesDiscovery from '@/components/SeriesDiscovery';
 import RetryButton from '@/components/RetryButton';
 
 export const dynamic = 'force-dynamic';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const series = getSeries(id);
+  if (!series) return {};
+  const title = `${series.title} | CRED`;
+  let description =
+    `${series.title}: ${series.units}, ${series.frequency}. ` +
+    `Source: ${series.sourceLabel} via CRED.`;
+  try {
+    const { observations } = await getObservations(id);
+    const latest = observations.length
+      ? observations[observations.length - 1]
+      : null;
+    if (latest) {
+      description =
+        `${series.title}: ${latest.value} ${series.units} ` +
+        `(${formatObsDate(latest.date, series.frequency)}). ` +
+        `Source: ${series.sourceLabel} via CRED.`;
+    }
+  } catch {
+    // Fall through to the static description when the source is refreshing.
+  }
+  const ogImage = `/og/series/${series.id}.png`;
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `/series/${series.id}`,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: `${series.title} chart`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
 
 function formatObsDate(iso: string, frequency: string): string {
   const d = new Date(iso + 'T00:00:00Z');

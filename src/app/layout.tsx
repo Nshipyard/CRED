@@ -17,9 +17,17 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cred.nshipyard.com"),
   title: "CRED | Canadian Research Economic Data",
   description:
     "Your trusted source for Canadian economic data. One search across Statistics Canada and the Bank of Canada, interactive charts, and a public API.",
+  openGraph: {
+    siteName: "CRED",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

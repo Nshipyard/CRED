@@ -1,7 +1,26 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { REGISTRY, CATEGORY_LABELS, type CategorySlug } from '@/lib/registry';
 
-export const metadata = { title: 'Browse categories | CRED' };
+export const metadata: Metadata = {
+  title: 'Browse categories | CRED',
+  description:
+    'Eight top-level categories cover the whole CRED registry, from money and banking to provincial data. 104 verified Canadian economic series from Statistics Canada and the Bank of Canada.',
+  openGraph: {
+    title: 'Browse categories | CRED',
+    description:
+      'Eight top-level categories cover the whole CRED registry, from money and banking to provincial data.',
+    url: '/categories',
+    images: [{ url: '/og/home.png', width: 1200, height: 630, alt: 'CRED categories' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Browse categories | CRED',
+    description:
+      'Eight top-level categories cover the whole CRED registry, from money and banking to provincial data.',
+    images: ['/og/home.png'],
+  },
+};
 
 const SOURCE_TAGS: Record<CategorySlug, string> = {
   'money-banking-finance': 'Bank of Canada',

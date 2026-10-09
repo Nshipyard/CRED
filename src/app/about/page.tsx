@@ -1,4 +1,24 @@
-export const metadata = { title: 'About CRED' };
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About CRED',
+  description:
+    'CRED stands for Canadian Research Economic Data: one search box across Statistics Canada and the Bank of Canada, interactive charts with C.D. Howe recession shading, and a free public API.',
+  openGraph: {
+    title: 'About CRED',
+    description:
+      'CRED stands for Canadian Research Economic Data: one search box across Statistics Canada and the Bank of Canada, interactive charts with C.D. Howe recession shading, and a free public API.',
+    url: '/about',
+    images: [{ url: '/og/home.png', width: 1200, height: 630, alt: 'About CRED' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About CRED',
+    description:
+      'CRED stands for Canadian Research Economic Data: one search box across Statistics Canada and the Bank of Canada, interactive charts with C.D. Howe recession shading, and a free public API.',
+    images: ['/og/home.png'],
+  },
+};
 
 export default function About() {
   return (

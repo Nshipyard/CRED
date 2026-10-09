@@ -1,4 +1,24 @@
-export const metadata = { title: 'API docs | CRED' };
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'API docs | CRED',
+  description:
+    'The CRED public API: series metadata, observations, vintages, and an MCP server over Statistics Canada and Bank of Canada data. No key required.',
+  openGraph: {
+    title: 'API docs | CRED',
+    description:
+      'The CRED public API: series metadata, observations, vintages, and an MCP server over Statistics Canada and Bank of Canada data. No key required.',
+    url: '/api-docs',
+    images: [{ url: '/og/home.png', width: 1200, height: 630, alt: 'CRED API docs' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'API docs | CRED',
+    description:
+      'The CRED public API: series metadata, observations, vintages, and an MCP server over Statistics Canada and Bank of Canada data. No key required.',
+    images: ['/og/home.png'],
+  },
+};
 
 import McpSetup from '@/components/McpSetup';
 

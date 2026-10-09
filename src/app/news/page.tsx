@@ -1,9 +1,28 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { REGISTRY, type SeriesMeta } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
 import ChartSVG from '@/components/ChartSVG';
 
-export const metadata = { title: 'Latest' };
+export const metadata: Metadata = {
+  title: 'Latest | CRED',
+  description:
+    'The latest Canadian economic data releases, tracked automatically: every card is generated from live Statistics Canada and Bank of Canada observations.',
+  openGraph: {
+    title: 'Latest | CRED',
+    description:
+      'The latest Canadian economic data releases, tracked automatically from live Statistics Canada and Bank of Canada observations.',
+    url: '/news',
+    images: [{ url: '/og/home.png', width: 1200, height: 630, alt: 'Latest on CRED' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Latest | CRED',
+    description:
+      'The latest Canadian economic data releases, tracked automatically from live Statistics Canada and Bank of Canada observations.',
+    images: ['/og/home.png'],
+  },
+};
 
 // Rebuilt as an automated desk: no writers, no static articles. Every card
 // is generated at request time from live observations. A card whose series
