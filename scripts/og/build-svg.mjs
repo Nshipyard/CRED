@@ -164,22 +164,22 @@ function seriesCard(series, observations) {
   const chartY = 196 + (titleLines.length - 1) * 48;
   const chartH = 300 - (titleLines.length - 1) * 48;
   const latestLine = latest
-    ? `Latest ${fmtObsDate(latest.date, series.frequency)}: ${fmtVal(latest.value)}`
+    ? `Latest ${fmtObsDate(latest.date, series.frequency)}: ${fmtVal(latest.value)} ${series.units}`.slice(0, 80)
     : 'Data refresh in progress';
-  const unitsLine = latest
-    ? `${series.units}${series.unitsDetail ? ', ' + series.unitsDetail : ''} · ${series.frequency}`
+  const recessionNote = latest
+    ? `<text x="44" y="606" font-size="19" font-style="italic" fill="${GRAY}" font-family="${BODY}">Shaded areas indicate Canadian recessions (C.D. Howe Institute).</text>`
     : '';
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <rect width="1200" height="630" fill="#ffffff"/>
   ${logoMark(44, 28, 54)}
   <text x="112" y="68" font-size="38" fill="${NAVY}" font-family="${DISPLAY}">CRED</text>
-  <text x="1156" y="62" text-anchor="end" font-size="20" fill="${GRAY}" font-family="${BODY}">cred.nshipyard.com</text>
   <line x1="44" x2="1156" y1="104" y2="104" stroke="rgba(10,15,30,0.12)" stroke-width="1"/>
   ${titleSvg}
   ${chartPlot(observations, { x: 44, y: chartY, w: 1112, h: chartH })}
-  <text x="44" y="548" font-size="26" font-weight="700" fill="${NAVY}" font-family="${BODY}">${esc(latestLine)}</text>
-  <text x="44" y="582" font-size="20" fill="${GRAY}" font-family="${BODY}">${esc(unitsLine)}</text>
-  <text x="1156" y="582" text-anchor="end" font-size="20" fill="${GRAY}" font-family="${BODY}">Source: ${esc(sourceName(series))} via CRED</text>
+  <text x="44" y="544" font-size="26" font-weight="700" fill="${NAVY}" font-family="${BODY}">${esc(latestLine)}</text>
+  <text x="44" y="578" font-size="20" fill="${GRAY}" font-family="${BODY}">Source: ${esc(sourceName(series))} via CRED</text>
+  <text x="1156" y="578" text-anchor="end" font-size="20" fill="${GRAY}" font-family="${BODY}">cred.nshipyard.com</text>
+  ${recessionNote}
 </svg>`;
 }
 

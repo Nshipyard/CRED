@@ -30,6 +30,22 @@ export default function Footer() {
           Licence) and the Bank of Canada Valet API. Recession dates from the
           C.D. Howe Institute Business Cycle Council.
         </p>
+        <a
+          href="https://x.com/richardsondx"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex items-center gap-2 text-sm text-gray-600 transition-colors hover:text-[#0a0f1e]"
+        >
+          <span>Built by</span>
+          <img
+            src="/richardson-avatar.jpg"
+            alt="Richardson Dackam"
+            width={24}
+            height={24}
+            className="h-6 w-6 rounded-full object-cover"
+          />
+          <span className="font-semibold text-[#0a0f1e]">Richardson Dackam</span>
+        </a>
       </div>
     </footer>
   );

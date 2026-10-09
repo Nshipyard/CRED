@@ -148,18 +148,60 @@ export default function ChartControls({
     setDownloadOpen(false);
   }
 
-  // Rasterize the rendered chart SVG to a PNG data URL (2x).
+  function escapeXml(s: string): string {
+    return s
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  // Rasterize the rendered chart SVG to a branded PNG data URL (2x).
+  // FRED-style chrome so the file is self-contained: top-left CRED logo +
+  // series title, bottom-left source line and recession note, bottom-right
+  // domain. The chart itself is whatever the user currently sees (range,
+  // recession shading, compare series).
   async function renderChartPng(): Promise<string> {
     const svgEl = chartWrapRef.current?.querySelector('svg');
     if (!svgEl) throw new Error('chart not rendered');
     const clone = svgEl.cloneNode(true) as SVGSVGElement;
     clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-    clone.setAttribute('width', '1600');
-    clone.setAttribute('height', '640');
     const style = document.createElementNS('http://www.w3.org/2000/svg', 'style');
     style.textContent = 'text { font-family: Roboto, Arial, sans-serif; }';
     clone.insertBefore(style, clone.firstChild);
-    const svgData = new XMLSerializer().serializeToString(clone);
+    const chartInner = new XMLSerializer()
+      .serializeToString(clone)
+      .replace(/<svg[^>]*>/, '')
+      .replace(/<\/svg>\s*$/, '');
+
+    const W = 1600;
+    const HEADER_H = 110;
+    const CHART_H = 640; // chart is 800x320, rendered at 2x
+    const FOOTER_H = 130;
+    const H = HEADER_H + CHART_H + FOOTER_H;
+    const title =
+      seriesTitle.length > 52 ? seriesTitle.slice(0, 51).trimEnd() + '…' : seriesTitle;
+    const logo =
+      `<rect x="40" y="23" width="64" height="64" rx="14" fill="#0a0f1e"/>` +
+      `<polyline points="48,63 61,63 69,47 77,55 91,39" fill="none" stroke="#d80621" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>`;
+    const header =
+      logo +
+      `<text x="122" y="70" font-size="44" font-weight="900" letter-spacing="2" fill="#0a0f1e">${'CRED'}</text>` +
+      `<text x="280" y="70" font-size="36" fill="#0a0f1e">${escapeXml(title)}</text>`;
+    const footerY = HEADER_H + CHART_H;
+    const footer =
+      `<text x="40" y="${footerY + 52}" font-size="26" fill="#3a4152">Source: ${escapeXml(sourceLabel)} via CRED</text>` +
+      (showRecessions
+        ? `<text x="40" y="${footerY + 92}" font-size="24" font-style="italic" fill="#6b7280">Shaded areas indicate Canadian recessions (C.D. Howe Institute).</text>`
+        : '') +
+      `<text x="1560" y="${footerY + 52}" text-anchor="end" font-size="26" fill="#8a93a6">cred.nshipyard.com</text>`;
+    const svgData =
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">` +
+      `<rect width="${W}" height="${H}" fill="#ffffff"/>` +
+      header +
+      `<g transform="translate(0,${HEADER_H}) scale(2)">${chartInner}</g>` +
+      footer +
+      `</svg>`;
     const url = URL.createObjectURL(
       new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' })
     );
@@ -171,11 +213,11 @@ export default function ChartControls({
         img.src = url;
       });
       const canvas = document.createElement('canvas');
-      canvas.width = 1600;
-      canvas.height = 640;
+      canvas.width = W;
+      canvas.height = H;
       const ctx = canvas.getContext('2d');
       if (!ctx) throw new Error('no 2d context');
-      ctx.fillStyle = '#f4f6f9';
+      ctx.fillStyle = '#ffffff';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
       return canvas.toDataURL('image/png');
