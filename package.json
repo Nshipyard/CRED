@@ -11,6 +11,7 @@
     "@resvg/resvg-js": "^2.6.2",
     "@vercel/blob": "^2.8.1",
     "next": "16.4.0",
+    "posthog-js": "^1.438.7",
     "pptxgenjs": "^4.0.1",
     "react": "19.3.0",
     "react-dom": "19.3.0",

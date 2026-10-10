@@ -3,6 +3,7 @@ import { Archivo_Black, Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { PosthogProvider } from "../components/PosthogProvider";
 
 const archivoBlack = Archivo_Black({
   weight: "400",
@@ -36,11 +37,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en"
       className={`${archivoBlack.variable} ${roboto.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">
+      <body className="flex min-h-full flex-col"><PosthogProvider>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-      </body>
+      </PosthogProvider></body>
     </html>
   );
 }
