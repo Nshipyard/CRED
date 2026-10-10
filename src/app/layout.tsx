@@ -23,11 +23,26 @@ export const metadata: Metadata = {
   description:
     "Your trusted source for Canadian economic data. One search across Statistics Canada and the Bank of Canada, interactive charts, and a public API.",
   openGraph: {
+    title: "CRED | Canadian Research Economic Data",
+    description:
+      "Your trusted source for Canadian economic data. One search across Statistics Canada and the Bank of Canada, interactive charts, and a public API.",
     siteName: "CRED",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "CRED | Canadian Research Economic Data",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    title: "CRED | Canadian Research Economic Data",
+    description:
+      "Your trusted source for Canadian economic data. One search across Statistics Canada and the Bank of Canada, interactive charts, and a public API.",
+    images: ["/og-image.png"],
   },
 };
 
