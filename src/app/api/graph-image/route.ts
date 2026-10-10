@@ -85,6 +85,7 @@ export async function GET(req: Request) {
     chartInner +
     `<text x="24" y="392" font-family="${FONT}" font-size="11" fill="#4b5563">Source: ${escapeXml(series.sourceLabel)} via CRED</text>` +
     `<text x="24" y="408" font-family="${FONT}" font-size="10" font-style="italic" fill="#6b7280">Shaded areas indicate Canadian recessions (C.D. Howe Institute).</text>` +
+    `<text x="776" y="408" font-family="${FONT}" font-size="10" fill="#9aa1ad" text-anchor="end">cred.nshipyard.com</text>` +
     `</svg>`;
 
   try {
