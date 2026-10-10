@@ -43,7 +43,10 @@ export default function ChartFigure({
           <br />
           <em>Shaded areas indicate Canadian recessions (C.D. Howe Institute).</em>
         </div>
-        {footerActions}
+        <div className="flex flex-col items-end gap-1">
+          {footerActions}
+          <span className="text-xs text-gray-400">cred.nshipyard.com</span>
+        </div>
       </div>
     </div>
   );
