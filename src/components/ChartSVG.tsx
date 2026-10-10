@@ -96,9 +96,18 @@ export default function ChartSVG({
   const y = (v: number) => padT + (1 - (v - lo) / (hi - lo)) * plotH;
 
   // Year ticks: one per year, thinned so labels don't collide.
+  // The final year is always labeled so the axis never looks stale
+  // when thinning drops it (e.g. data runs to 2026 but ticks stop at 2024).
   const years = [...new Set(dates.map((d) => d.slice(0, 4)))];
   const thin = Math.max(1, Math.ceil(years.length / 10));
   const yearTicks = years.filter((_, i) => i % thin === 0);
+  const lastYear = years[years.length - 1];
+  if (yearTicks[yearTicks.length - 1] !== lastYear) {
+    if (Number(lastYear) - Number(yearTicks[yearTicks.length - 1]) < thin) {
+      yearTicks.pop();
+    }
+    yearTicks.push(lastYear);
+  }
 
   const visibleRecessions = recessions.filter(
     (r) => r.end >= minD && r.start <= maxD
@@ -149,17 +158,24 @@ export default function ChartSVG({
           </text>
         </g>
       ))}
-      {yearTicks.map((yr) => (
-        <text
-          key={`${id}-y${yr}`}
-          x={x(`${yr}-01-01`) < padL ? padL : x(`${yr}-01-01`)}
-          y={H - 12}
-          fontSize={11}
-          fill="#8a93a6"
-        >
-          {yr}
-        </text>
-      ))}
+      {yearTicks.map((yr, yi) => {
+        const pos = x(`${yr}-01-01`) < padL ? padL : x(`${yr}-01-01`);
+        // The final-year label sits near the right edge; anchor it inward
+        // so it never clips off the chart.
+        const anchorEnd = yi === yearTicks.length - 1 && pos + 30 > W;
+        return (
+          <text
+            key={`${id}-y${yr}`}
+            x={anchorEnd ? W - 6 : pos}
+            y={H - 12}
+            fontSize={11}
+            fill="#8a93a6"
+            textAnchor={anchorEnd ? 'end' : 'start'}
+          >
+            {yr}
+          </text>
+        );
+      })}
       {yLabel && (
         <text
           x={Y_TITLE_LANE_W / 2}
