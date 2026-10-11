@@ -142,11 +142,11 @@ export default function ApiDocs() {
         <Endpoint
           method="GET"
           path="/api/vintages?series=UNRATE_CA"
-          desc="List daily snapshot dates for a series from the vintage archive (Phase 2)."
+          desc="List daily snapshot dates for a series from the vintage archive (Phase 2). Each snapshot holds the full observation history as published that day, so revisions can be compared. Snapshots accumulate daily once the archive's Blob storage is connected."
           example={`curl "https://cred.nshipyard.com/api/vintages?series=UNRATE_CA"`}
           response={`{
   "series": "UNRATE_CA",
-  "snapshots": ["2026-10-09", "2026-10-08"]
+  "snapshots": ["2026-10-11", "2026-10-10", "2026-10-09"]
 }`}
         />
       </div>
@@ -157,7 +157,11 @@ export default function ApiDocs() {
           The MCP server exposes CRED to AI agents over streamable HTTP
           (JSON-RPC 2.0). It is live at <code>/mcp</code> and backed by the
           same registry and observation proxy as the REST API, so tools never
-          drift from the site. Pick your client below and copy the config.
+          drift from the site. The <code>get_observations</code> tool accepts
+          the same unit transforms and frequency aggregation as the series
+          page charts (<code>transform</code> and <code>frequency</code>
+          arguments), applied before the 500-point cap. Pick your client
+          below and copy the config.
         </p>
         <div className="mt-5">
           <McpSetup />

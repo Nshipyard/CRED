@@ -1,6 +1,14 @@
 import { NextResponse } from 'next/server';
 import { REGISTRY, CATEGORIES, searchSeries, getSeries } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
+import {
+  applyTransform,
+  aggregateFrequency,
+  periodsPerYearFor,
+  TRANSFORM_KINDS,
+  type TransformKind,
+  type FrequencyKind,
+} from '@/lib/transforms';
 
 // CRED MCP server over streamable HTTP (JSON-RPC 2.0 via POST).
 // Tools: search_series, get_observations, list_categories.
@@ -30,7 +38,13 @@ const TOOLS = [
   {
     name: 'get_observations',
     description:
-      'Get observations for a CRED series ID, optionally bounded by from/to dates (YYYY-MM-DD). Returns date/value pairs with source and cache metadata. Long histories are capped at the most recent 500 points.',
+      'Get observations for a CRED series ID, optionally bounded by from/to dates (YYYY-MM-DD). ' +
+      'Optional transform reshapes the values the way the site charts do: levels (default), change (period-over-period), ' +
+      'change_yoy (change from year ago), pct_change (percent change from previous period), ' +
+      'yoy (percent change from year ago), index (rebased to 100 at the first observation), log (natural log). ' +
+      'Optional frequency aggregates to a lower calendar frequency first: native (default), quarterly, annual ' +
+      '(calendar-period means). Transforms apply before the 500-point cap. ' +
+      'Long histories are capped at the most recent 500 points.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -45,6 +59,18 @@ const TOOLS = [
         to: {
           type: 'string',
           description: 'End date YYYY-MM-DD (optional)',
+        },
+        transform: {
+          type: 'string',
+          enum: [...TRANSFORM_KINDS],
+          description:
+            'Unit transform: levels, change, change_yoy, pct_change, yoy, index, log (optional, default levels)',
+        },
+        frequency: {
+          type: 'string',
+          enum: ['native', 'quarterly', 'annual'],
+          description:
+            'Lower-frequency aggregation as calendar-period means (optional, default native)',
         },
       },
       required: ['series'],
@@ -117,7 +143,32 @@ async function handle(msg: any) {
             args.from ? String(args.from) : undefined,
             args.to ? String(args.to) : undefined
           );
-          const capped = r.observations.length > 500;
+          const rawTransform = String(args.transform ?? 'levels');
+          const transform: TransformKind = (
+            TRANSFORM_KINDS as string[]
+          ).includes(rawTransform)
+            ? (rawTransform as TransformKind)
+            : 'levels';
+          const rawFrequency = String(args.frequency ?? 'native');
+          const frequency: FrequencyKind = ['native', 'quarterly', 'annual'].includes(
+            rawFrequency
+          )
+            ? (rawFrequency as FrequencyKind)
+            : 'native';
+          // Frequency aggregation first, then the unit transform, exactly
+          // like the site chart pipeline. The year-ago lookback follows the
+          // effective frequency (4 for quarterly, 1 for annual).
+          let obs = r.observations;
+          if (frequency !== 'native')
+            obs = aggregateFrequency(obs, frequency);
+          const periodsPerYear =
+            frequency === 'quarterly'
+              ? 4
+              : frequency === 'annual'
+                ? 1
+                : periodsPerYearFor(series.frequency);
+          const tres = applyTransform(obs, transform, periodsPerYear);
+          const capped = tres.data.length > 500;
           return ok(
             id,
             toText({
@@ -127,11 +178,14 @@ async function handle(msg: any) {
               source: series.sourceLabel,
               asOf: r.asOf,
               cached: r.cached,
-              count: r.observations.length,
+              transform,
+              frequency,
+              ...(tres.note ? { note: tres.note } : {}),
+              count: tres.data.length,
               truncated: capped,
               observations: capped
-                ? r.observations.slice(-500)
-                : r.observations,
+                ? tres.data.slice(-500)
+                : tres.data,
             })
           );
         }

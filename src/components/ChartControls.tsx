@@ -1,17 +1,28 @@
 'use client';
 
 // Client island on the series page: range pills, date inputs, Edit Graph
-// popover (recession shading toggle + compare series), CSV download,
-// fullscreen, share link. The chart itself renders through the shared
-// ChartFigure so thumbnails elsewhere stay pixel-identical in structure.
+// popover (recession shading toggle, compare series, units transform,
+// frequency aggregation), scroll-to-zoom / drag-to-pan chart window,
+// CSV/Excel/PNG/PPT downloads of the transformed data, fullscreen, share
+// link. The chart itself renders through the shared ChartFigure so
+// thumbnails elsewhere stay pixel-identical in structure.
 
-import { useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
 import ChartSVG, { type ChartPoint, chartLeftPad } from './ChartSVG';
 import ChartFigure from './ChartFigure';
 import ShareGraph from './ShareGraph';
 import { RECESSIONS } from '@/lib/recessions';
 import type { GeoFamily } from '@/lib/geo';
+import {
+  applyTransform,
+  aggregateFrequency,
+  periodsPerYearFor,
+  TRANSFORM_OPTIONS,
+  FREQUENCY_OPTIONS,
+  type TransformKind,
+  type FrequencyKind,
+} from '@/lib/transforms';
 
 // The choropleth (plus its 127KB province paths) loads only when requested.
 const GeoMap = dynamic(() => import('./GeoMap'), {
@@ -35,6 +46,8 @@ interface ChartControlsProps {
   initial: ChartPoint[];
   compareOptions: SeriesOption[];
   geoFamily?: GeoFamily;
+  /** Registry frequency label (Daily, Weekly, Monthly, Quarterly, Annual). */
+  frequency?: string;
 }
 
 type RangeKey = '1Y' | '5Y' | '10Y' | 'MAX';
@@ -47,6 +60,16 @@ function rangeToFrom(range: RangeKey, latest: string): string | undefined {
   return d.toISOString().slice(0, 10);
 }
 
+function isoOf(ms: number): string {
+  return new Date(ms).toISOString().slice(0, 10);
+}
+
+// ChartSVG geometry constants, kept in sync with ChartSVG.tsx.
+const CHART_W = 800;
+const PAD_R = 16;
+const PAD_T = 12;
+const PAD_B = 34;
+
 export default function ChartControls({
   seriesId,
   seriesTitle,
@@ -55,6 +78,7 @@ export default function ChartControls({
   initial,
   compareOptions,
   geoFamily,
+  frequency = 'Monthly',
 }: ChartControlsProps) {
   const latest = initial.length ? initial[initial.length - 1].date : '';
   const [data, setData] = useState<ChartPoint[]>(initial);
@@ -69,10 +93,21 @@ export default function ChartControls({
   const [editOpen, setEditOpen] = useState(false);
   const [downloadOpen, setDownloadOpen] = useState(false);
   const [mapView, setMapView] = useState(false);
+  const [transform, setTransform] = useState<TransformKind>('levels');
+  const [aggFreq, setAggFreq] = useState<FrequencyKind>('native');
+  // Zoom/pan window: explicit ISO bounds, or null for the full data range.
+  const [viewFrom, setViewFrom] = useState<string | null>(null);
+  const [viewTo, setViewTo] = useState<string | null>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const chartWrapRef = useRef<HTMLDivElement>(null);
 
+  function resetZoom() {
+    setViewFrom(null);
+    setViewTo(null);
+  }
+
   async function load(fromDate?: string, toDate?: string) {
+    resetZoom();
     setLoading(true);
     setSourceError(false);
     try {
@@ -125,8 +160,163 @@ export default function ChartControls({
     }
   }
 
+  function onTransformChange(k: TransformKind) {
+    setTransform(k);
+    resetZoom();
+  }
+
+  function onFreqChange(f: FrequencyKind) {
+    setAggFreq(f);
+    resetZoom();
+  }
+
+  // Pipeline: fetch (native range) -> aggregate frequency -> transform units.
+  // The compare series goes through the same pipeline for consistency.
+  const periodsPerYear =
+    aggFreq === 'quarterly' ? 4 : aggFreq === 'annual' ? 1 : periodsPerYearFor(frequency);
+  const aggregated = useMemo(
+    () => (aggFreq === 'native' ? data : aggregateFrequency(data, aggFreq)),
+    [data, aggFreq]
+  );
+  const tres = useMemo(
+    () => applyTransform(aggregated, transform, periodsPerYear),
+    [aggregated, transform, periodsPerYear]
+  );
+  const tData = tres.data;
+  const yLabel = units + tres.unitSuffix;
+
+  const aggCompare = useMemo(() => {
+    if (!compareData) return null;
+    return aggFreq === 'native' ? compareData : aggregateFrequency(compareData, aggFreq);
+  }, [compareData, aggFreq]);
+  const tCompare = useMemo(
+    () => (aggCompare ? applyTransform(aggCompare, transform, periodsPerYear).data : null),
+    [aggCompare, transform, periodsPerYear]
+  );
+
+  // Zoom window: slice the transformed data to the current view.
+  const effFrom = viewFrom ?? (tData.length ? tData[0].date : '');
+  const effTo = viewTo ?? (tData.length ? tData[tData.length - 1].date : '');
+  const windowed = useMemo(
+    () =>
+      effFrom && effTo
+        ? tData.filter((d) => d.date >= effFrom && d.date <= effTo)
+        : tData,
+    [tData, effFrom, effTo]
+  );
+  const windowedCompare = useMemo(
+    () =>
+      tCompare && effFrom && effTo
+        ? tCompare.filter((d) => d.date >= effFrom && d.date <= effTo)
+        : tCompare,
+    [tCompare, effFrom, effTo]
+  );
+
+  // Pixel geometry of the currently rendered chart, mirroring ChartSVG's
+  // layout math so the zoom/pan layer maps pixels to dates exactly.
+  const geom = useMemo(() => {
+    if (windowed.length === 0) return null;
+    const vals = windowed.map((d) => d.value);
+    const padL = chartLeftPad(Math.min(...vals), Math.max(...vals));
+    const plotW = CHART_W - padL - PAD_R;
+    const t0 = Date.parse(windowed[0].date + 'T00:00:00Z');
+    const t1 = Date.parse(windowed[windowed.length - 1].date + 'T00:00:00Z');
+    return { padL, plotW, t0, t1, span: Math.max(t1 - t0, 1) };
+  }, [windowed]);
+  const viewRef = useRef({ tData, geom });
+  viewRef.current = { tData, geom };
+
+  function zoomAt(clientX: number, factor: number) {
+    const v = viewRef.current;
+    if (!v.geom || v.tData.length < 2) return;
+    const el = chartWrapRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    // The SVG scales responsively, so map client pixels into viewBox units.
+    const x = ((clientX - rect.left) / rect.width) * CHART_W;
+    const { padL, plotW, t0, t1, span } = v.geom;
+    const cursorT = Math.min(Math.max(t0 + ((x - padL) / plotW) * span, t0), t1);
+    let n0 = cursorT - (cursorT - t0) * factor;
+    let n1 = cursorT + (t1 - cursorT) * factor;
+    // Clamp to the data bounds, preserving the window length.
+    const d0 = Date.parse(v.tData[0].date + 'T00:00:00Z');
+    const d1 = Date.parse(v.tData[v.tData.length - 1].date + 'T00:00:00Z');
+    if (n0 < d0) {
+      n1 += d0 - n0;
+      n0 = d0;
+    }
+    if (n1 > d1) {
+      n0 -= n1 - d1;
+      n1 = d1;
+    }
+    n0 = Math.max(n0, d0);
+    n1 = Math.min(n1, d1);
+    // Keep at least two observations visible so the chart stays meaningful.
+    const inside = v.tData.filter((d) => {
+      const t = Date.parse(d.date + 'T00:00:00Z');
+      return t >= n0 && t <= n1;
+    });
+    if (inside.length < 2) return;
+    setViewFrom(isoOf(n0));
+    setViewTo(isoOf(n1));
+  }
+
+  function zoomStep(dir: 1 | -1) {
+    const el = chartWrapRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    zoomAt(rect.left + rect.width / 2, dir > 0 ? 1 / 1.5 : 1.5);
+  }
+
+  // Wheel zoom needs a non-passive listener so preventDefault stops the page
+  // from scrolling under the chart.
+  useEffect(() => {
+    const el = chartWrapRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      zoomAt(e.clientX, e.deltaY > 0 ? 1.3 : 1 / 1.3);
+    };
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sourceError]);
+
+  const dragRef = useRef<{ startX: number; from: number; to: number } | null>(null);
+
+  function onPointerDown(e: React.PointerEvent) {
+    // Let the zoom buttons handle their own clicks.
+    if ((e.target as HTMLElement).closest('button')) return;
+    const v = viewRef.current;
+    if (!v.geom) return;
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+    dragRef.current = { startX: e.clientX, from: v.geom.t0, to: v.geom.t1 };
+  }
+
+  function onPointerMove(e: React.PointerEvent) {
+    const drag = dragRef.current;
+    const v = viewRef.current;
+    if (!drag || !v.geom || v.tData.length === 0) return;
+    const el = chartWrapRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const dx = ((e.clientX - drag.startX) / rect.width) * CHART_W;
+    const dMs = (dx / v.geom.plotW) * v.geom.span;
+    const len = drag.to - drag.from;
+    const d0 = Date.parse(v.tData[0].date + 'T00:00:00Z');
+    const d1 = Date.parse(v.tData[v.tData.length - 1].date + 'T00:00:00Z');
+    let nf = drag.from - dMs;
+    nf = Math.min(Math.max(nf, d0), Math.max(d1 - len, d0));
+    setViewFrom(isoOf(nf));
+    setViewTo(isoOf(nf + len));
+  }
+
+  function onPointerUp() {
+    dragRef.current = null;
+  }
+
   function downloadCSV() {
-    const rows = ['date,value', ...data.map((d) => `${d.date},${d.value}`)];
+    const rows = ['date,value', ...windowed.map((d) => `${d.date},${d.value}`)];
     const blob = new Blob([rows.join('\n')], { type: 'text/csv' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -140,7 +330,7 @@ export default function ChartControls({
   async function downloadExcel() {
     const XLSX = await import('xlsx');
     const ws = XLSX.utils.json_to_sheet(
-      data.map((d) => ({ date: d.date, value: d.value }))
+      windowed.map((d) => ({ date: d.date, value: d.value }))
     );
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, seriesId.slice(0, 31));
@@ -160,7 +350,7 @@ export default function ChartControls({
   // FRED-style chrome so the file is self-contained: top-left CRED logo +
   // series title, bottom-left source line and recession note, bottom-right
   // domain. The chart itself is whatever the user currently sees (range,
-  // recession shading, compare series).
+  // transform, zoom, recession shading, compare series).
   async function renderChartPng(): Promise<string> {
     const svgEl = chartWrapRef.current?.querySelector('svg');
     if (!svgEl) throw new Error('chart not rendered');
@@ -252,7 +442,7 @@ export default function ChartControls({
         bold: true,
         color: '0A0F1E',
       });
-      slide.addText(`${seriesId} · ${units} · Source: ${sourceLabel} via CRED`, {
+      slide.addText(`${seriesId} · ${yLabel} · Source: ${sourceLabel} via CRED`, {
         x: 0.5,
         y: 0.9,
         w: 9,
@@ -273,24 +463,25 @@ export default function ChartControls({
     else el.requestFullscreen();
   }
 
-  // Merge compare series as a gray dashed line behind the main series.
-  const comparePath = (() => {
-    if (!compareData || compareData.length === 0) return null;
-    const all = [...data, ...compareData];
-    const vals = all.map((d) => d.value);
+  // Merge compare series as a gray dashed line behind the main series, using
+  // the same geometry as the rendered (windowed) main chart.
+  const mainVals = windowed.map((d) => d.value);
+  const compareGeom = (() => {
+    if (!windowedCompare || windowedCompare.length === 0 || windowed.length === 0)
+      return null;
+    const vals = [...mainVals, ...windowedCompare.map((d) => d.value)];
     const minV = Math.min(...vals);
     const maxV = Math.max(...vals);
     const vPad = (maxV - minV || 1) * 0.08;
-    return { data: compareData, minV: minV - vPad, maxV: maxV + vPad };
+    return {
+      data: windowedCompare,
+      domain: [windowed[0].date, windowed[windowed.length - 1].date] as [string, string],
+      allMin: minV - vPad,
+      allMax: maxV + vPad,
+      // Same left margin as the main chart so the overlay aligns exactly.
+      padL: chartLeftPad(Math.min(...mainVals), Math.max(...mainVals)),
+    };
   })();
-
-  // Same left margin as the main chart so the overlay aligns exactly.
-  const overlayPadL = data.length
-    ? chartLeftPad(
-        Math.min(...data.map((d) => d.value)),
-        Math.max(...data.map((d) => d.value))
-      )
-    : 52;
 
   return (
     <div ref={panelRef}>
@@ -328,7 +519,7 @@ export default function ChartControls({
         seriesTitle={seriesTitle}
         sourceLabel={sourceLabel}
         compareLegend={
-          compareId && compareData ? (
+          compareId && windowedCompare ? (
             <>
               <span className="inline-block h-0 w-10 border-t-2 border-dashed border-gray-500" />
               <span className="text-sm text-gray-600">
@@ -427,6 +618,36 @@ export default function ChartControls({
                         </option>
                       ))}
                   </select>
+                  <label className="mt-3 block text-sm font-medium">Units</label>
+                  <select
+                    value={transform}
+                    onChange={(e) => onTransformChange(e.target.value as TransformKind)}
+                    className="mt-1 w-full rounded border border-[rgba(10,15,30,0.2)] px-2 py-1 text-sm"
+                  >
+                    {TRANSFORM_OPTIONS.map((o) => (
+                      <option key={o.kind} value={o.kind}>
+                        {o.label}
+                      </option>
+                    ))}
+                  </select>
+                  <label className="mt-3 block text-sm font-medium">Frequency</label>
+                  <select
+                    value={aggFreq}
+                    onChange={(e) => onFreqChange(e.target.value as FrequencyKind)}
+                    className="mt-1 w-full rounded border border-[rgba(10,15,30,0.2)] px-2 py-1 text-sm"
+                  >
+                    {FREQUENCY_OPTIONS.map((o) => (
+                      <option key={o.kind} value={o.kind}>
+                        {o.label}
+                      </option>
+                    ))}
+                  </select>
+                  <p className="mt-2 text-xs text-gray-500">
+                    Quarterly and annual views average each calendar period.
+                  </p>
+                  {tres.note && (
+                    <p className="mt-2 text-xs text-amber-700">{tres.note}</p>
+                  )}
                 </div>
               )}
             </div>
@@ -474,6 +695,8 @@ export default function ChartControls({
               data={data}
               from={from}
               to={to}
+              transform={transform}
+              frequency={aggFreq}
             />
           </div>
         }
@@ -497,24 +720,61 @@ export default function ChartControls({
             </button>
           </div>
         ) : (
-          <div ref={chartWrapRef}>
+          <div
+            ref={chartWrapRef}
+            onPointerDown={onPointerDown}
+            onPointerMove={onPointerMove}
+            onPointerUp={onPointerUp}
+            onPointerCancel={onPointerUp}
+            onDoubleClick={resetZoom}
+            className="relative cursor-grab touch-pan-y select-none active:cursor-grabbing"
+            aria-label="Chart. Scroll to zoom, drag to pan, double-click to reset."
+          >
             <ChartSVG
-              data={data}
+              data={windowed}
               recessions={showRecessions ? RECESSIONS : []}
-              yLabel={units}
+              yLabel={yLabel}
               color="#d80621"
               id={seriesId}
             />
+            {windowed.length > 1 && (
+              <div className="absolute right-2 top-2 z-10 flex gap-1">
+                <button
+                  onClick={() => zoomStep(1)}
+                  aria-label="Zoom in"
+                  title="Zoom in"
+                  className="rounded border border-[rgba(10,15,30,0.2)] bg-white/90 px-2 py-0.5 text-sm leading-5 text-[#0a0f1e] hover:border-[#d80621]"
+                >
+                  +
+                </button>
+                <button
+                  onClick={() => zoomStep(-1)}
+                  aria-label="Zoom out"
+                  title="Zoom out"
+                  className="rounded border border-[rgba(10,15,30,0.2)] bg-white/90 px-2 py-0.5 text-sm leading-5 text-[#0a0f1e] hover:border-[#d80621]"
+                >
+                  -
+                </button>
+                <button
+                  onClick={resetZoom}
+                  aria-label="Reset zoom"
+                  title="Reset zoom"
+                  className="rounded border border-[rgba(10,15,30,0.2)] bg-white/90 px-2 py-0.5 text-sm leading-5 text-[#0a0f1e] hover:border-[#d80621]"
+                >
+                  Reset
+                </button>
+              </div>
+            )}
           </div>
         )}
-        {comparePath && (
+        {compareGeom && (
           <div className="pointer-events-none absolute inset-0">
             <CompareOverlay
-              data={comparePath.data}
-              domain={data.length ? [data[0].date, data[data.length - 1].date] : ['2020-01-01', '2020-01-02']}
-              allMin={comparePath.minV}
-              allMax={comparePath.maxV}
-              padL={overlayPadL}
+              data={compareGeom.data}
+              domain={compareGeom.domain}
+              allMin={compareGeom.allMin}
+              allMax={compareGeom.allMax}
+              padL={compareGeom.padL}
             />
           </div>
         )}

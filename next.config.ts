@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   /* config options here */
   // CRED pages fetch live data per request; classic dynamic routing behavior.
   cacheComponents: false,
+  // /latest is an alias for the automated Latest page, which lives at /news
+  // (the nav label is "News"). Both URLs return the page directly.
+  async rewrites() {
+    return [{ source: '/latest', destination: '/news' }];
+  },
   // resvg-js ships a native addon; load it at runtime, not through the bundler.
   serverExternalPackages: ["@resvg/resvg-js"],
   turbopack: {

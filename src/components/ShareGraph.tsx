@@ -13,6 +13,7 @@ import {
   type GraphConfig,
   type GraphMode,
 } from '@/lib/graphLink';
+import type { TransformKind, FrequencyKind } from '@/lib/transforms';
 
 // True when the browser can open the native share sheet with an image file
 // attached (iOS Safari 15+, Android Chrome, desktop Chrome/Edge/Safari).
@@ -37,6 +38,8 @@ interface ShareGraphProps {
   data: ChartPoint[];
   from: string;
   to: string;
+  transform?: TransformKind;
+  frequency?: FrequencyKind;
 }
 
 const MODES: { id: GraphMode; label: string; hint: (ctx: { n: number; from: string; to: string }) => string }[] = [
@@ -63,6 +66,8 @@ export default function ShareGraph({
   data,
   from,
   to,
+  transform,
+  frequency,
 }: ShareGraphProps) {
   const [open, setOpen] = useState(false);
   const [modal, setModal] = useState<'custom' | 'embed' | null>(null);
@@ -82,13 +87,19 @@ export default function ShareGraph({
   const last = data.length ? data[data.length - 1].date : '';
 
   function buildConfig(m: GraphMode): GraphConfig {
-    if (m === 'full') return { v: 1, series: seriesId, mode: 'full' };
+    const shared: Pick<GraphConfig, 'v' | 'series' | 'mode'> & {
+      transform?: TransformKind;
+      frequency?: FrequencyKind;
+    } = { v: 1, series: seriesId, mode: m };
+    // Carry the current transform and frequency so the shared chart looks
+    // like the one on the series page; defaults stay out of the link.
+    if (transform && transform !== 'levels') shared.transform = transform;
+    if (frequency && frequency !== 'native') shared.frequency = frequency;
+    if (m === 'full') return shared;
     if (m === 'lastN')
-      return { v: 1, series: seriesId, mode: 'lastN', n };
+      return { ...shared, n };
     return {
-      v: 1,
-      series: seriesId,
-      mode: 'static',
+      ...shared,
       from: from || first || undefined,
       to: to || last || undefined,
     };

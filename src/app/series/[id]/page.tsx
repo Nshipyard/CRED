@@ -233,6 +233,7 @@ export default async function SeriesPage({
             initial={observations}
             compareOptions={compareOptions}
             geoFamily={series.geoFamily}
+            frequency={series.frequency}
           />
         )}
       </div>

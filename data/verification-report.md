@@ -5,8 +5,8 @@ and Bank of Canada Valet. No FRED data was used at any point.
 
 ## Summary
 
-- 104 series in the registry, across all 8 categories.
-- 87 mappings verified by live API calls returning recent values (WDS
+- 131 series in the registry, across all 8 categories.
+- 114 mappings verified by live API calls returning recent values (WDS
   getDataFromVectorsAndLatestNPeriods / getDataFromVectorByReferencePeriodRange,
   Valet /observations).
 - 17 mappings (all Labour Force Survey, table 14-10-0287-01) verified against
@@ -24,6 +24,20 @@ inclusion, except the 10 new LFS vectors which were verified against the
 official full-table CSV (14100287-eng.zip, 2026-09-04 release) by streaming
 the CSV from the zip and matching REF_DATE 2026-08, Estimate, Seasonally
 adjusted rows.
+
+Round 3 (2026-10-11): expanded 104 to 131 series, closing the audit's coverage
+gaps. All 27 new mappings were discovered via WDS getCubeMetadata +
+getSeriesInfoFromCubePidCoord (coordinates built from metadata member IDs,
+zero-padded to 10 segments, results paired by the echoed `coordinate` field
+since batched responses come back in arbitrary order; vector titles read from
+the response, never guessed) and verified live through the app's own
+/api/observations endpoint before inclusion. No new LFS vectors were needed.
+This round also fixed a real computation bug: trade-balance series
+(TRADE_BALANCE, TRADE_BALANCE_US) were summed (exports + imports) instead of
+subtracted. SeriesMeta gained an optional `vectorWeights` field and data.ts
+applies it per vector, so balance series now compute exports minus imports;
+the two pre-existing balances and the two new ones (China, EU) carry
+vectorWeights [1, -1].
 
 ## Verified series
 
@@ -133,6 +147,33 @@ adjusted rows.
 | CPI_NB | CPI: New Brunswick | StatCan 18-10-0004-01 | vector 41691648 | 171.9 (2026-08) |
 | CPI_NL | CPI: Newfoundland and Labrador | StatCan 18-10-0004-01 | vector 41691244 | 172.4 (2026-08) |
 | CPI_PEI | CPI: Prince Edward Island | StatCan 18-10-0004-01 | vector 41691379 | 176.1 (2026-08) |
+| GDP_NL | Real GDP: Newfoundland and Labrador | StatCan 36-10-0222-01 | vector 62787378 | $32,350M chained 2017 (2024) |
+| GDP_PEI | Real GDP: Prince Edward Island | StatCan 36-10-0222-01 | vector 62787495 | $8,482M chained 2017 (2024) |
+| GDP_NS | Real GDP: Nova Scotia | StatCan 36-10-0222-01 | vector 62787612 | $51,378M chained 2017 (2024) |
+| GDP_NB | Real GDP: New Brunswick | StatCan 36-10-0222-01 | vector 62787729 | $39,882M chained 2017 (2024) |
+| GDP_QC | Real GDP: Quebec | StatCan 36-10-0222-01 | vector 62787846 | $484,064M chained 2017 (2024) |
+| GDP_ON | Real GDP: Ontario | StatCan 36-10-0222-01 | vector 62787963 | $956,994M chained 2017 (2024) |
+| GDP_MB | Real GDP: Manitoba | StatCan 36-10-0222-01 | vector 62788080 | $78,307M chained 2017 (2024) |
+| GDP_SK | Real GDP: Saskatchewan | StatCan 36-10-0222-01 | vector 62788197 | $88,500M chained 2017 (2024) |
+| GDP_AB | Real GDP: Alberta | StatCan 36-10-0222-01 | vector 62788314 | $367,719M chained 2017 (2024) |
+| GDP_BC | Real GDP: British Columbia | StatCan 36-10-0222-01 | vector 62788431 | $341,012M chained 2017 (2024) |
+| IMPORTS_CHINA | Merchandise Imports from China | StatCan 12-10-0011-01 | vector 87008791 | $8,333.7M SA (2026-08) |
+| TRADE_BALANCE_CHINA | Canada-China Merchandise Trade Balance | StatCan 12-10-0011-01 | vectors 87008907 minus 87008791 | -$4,134.2M (2026-08) |
+| IMPORTS_EU | Merchandise Imports from the European Union | StatCan 12-10-0011-01 | vector 87008783 | $8,760.3M SA (2026-08) |
+| TRADE_BALANCE_EU | Canada-EU Merchandise Trade Balance | StatCan 12-10-0011-01 | vectors 87008899 minus 87008783 | -$5,084.1M (2026-08) |
+| EXPORTS_UK | Merchandise Exports to the United Kingdom | StatCan 12-10-0011-01 | vector 87008900 | $5,586.0M SA (2026-08) |
+| EXPORTS_JAPAN | Merchandise Exports to Japan | StatCan 12-10-0011-01 | vector 87008909 | $1,241.0M SA (2026-08) |
+| EXPORTS_MEXICO | Merchandise Exports to Mexico | StatCan 12-10-0011-01 | vector 87008908 | $901.4M SA (2026-08) |
+| CPI_GOODS | CPI: Goods | StatCan 18-10-0004-01 | vector 41691222 | 150.5 (2026-08) |
+| CPI_CLOTHING_FOOTWEAR | CPI: Clothing and Footwear | StatCan 18-10-0004-01 | vector 41691108 | 94.7 (2026-08) |
+| CPI_HOUSEHOLD_OPS | CPI: Household Operations, Furnishings and Equipment | StatCan 18-10-0004-01 | vector 41691067 | 134.4 (2026-08) |
+| CPI_HEALTH_PERSONAL_CARE | CPI: Health and Personal Care | StatCan 18-10-0004-01 | vector 41691153 | 158.8 (2026-08) |
+| CPI_REC_EDU_READING | CPI: Recreation, Education and Reading | StatCan 18-10-0004-01 | vector 41691170 | 135.9 (2026-08) |
+| JOB_VACANCIES | Job Vacancies | StatCan 14-10-0371-01 | vector 1212389364 | 507,750 (2026-07) |
+| UNRATE_CMA_TORONTO | Unemployment Rate: Toronto CMA | StatCan 14-10-0459-01 | vector 1643279334 | 6.9% (2026-09) |
+| UNRATE_CMA_MONTREAL | Unemployment Rate: Montreal CMA | StatCan 14-10-0459-01 | vector 1643278830 | 6.8% (2026-09) |
+| UNRATE_CMA_VANCOUVER | Unemployment Rate: Vancouver CMA | StatCan 14-10-0459-01 | vector 1643280790 | 6.5% (2026-09) |
+| UNRATE_CMA_CALGARY | Unemployment Rate: Calgary CMA | StatCan 14-10-0459-01 | vector 1643280342 | 6.3% (2026-09) |
 
 Plausibility checks passed: unemployment 6.4% (band 6-8%), youth 12.9%
 (roughly double), CPI index rising low-single-digits YoY, GDP $2.5T real /
@@ -143,13 +184,13 @@ near balance (+$434M), US exports $54.5B vs imports $33.0B (Aug 2026).
 ## Category breakdown
 
 - money-banking-finance: 14
-- population-employment-labour: 10
+- population-employment-labour: 11
 - national-accounts: 10
 - production-business-activity: 16
-- prices: 14
+- prices: 19
 - housing-construction: 8
-- international-trade-investment: 11
-- provinces-territories-cities: 21
+- international-trade-investment: 18
+- provinces-territories-cities: 35
 
 Featured (At a Glance candidates): UNRATE_CA, CPI_ALLITEMS_SA, GDP_REAL,
 POLICY_RATE, USDCAD, BOND_10Y.
@@ -185,6 +226,19 @@ POLICY_RATE, USDCAD, BOND_10Y.
 - 36-10-0024-01 (services by principal trading partners): inactive. Not used.
 - Retail by store type from 20-10-0008-01: archived (ended 2022-12), already
   noted. Used active table 20-10-0056-01 NAICS members instead.
+- Quarterly provincial GDP (expenditure-based): does not exist. StatCan's
+  provincial and territorial economic accounts are annual only; the candidate
+  36-10-0402-01 is an archived industry-based table. Used annual table
+  36-10-0222-01 (verified: Ontario $957.0B, Quebec $484.1B chained 2017, 2024).
+- CMA unemployment from 14-10-0380-01: archived/inactive (ended 2024-12). Used
+  the active successor 14-10-0459-01, "Labour force characteristics by census
+  metropolitan area, three-month moving average, seasonally adjusted"
+  (verified: Toronto 6.9%, Montreal 6.8%, Vancouver 6.5%, Calgary 6.3%, 2026-09).
+  Note: the table's coordinate needs 4 segments (geo.character.statistic.sa,
+  e.g. 26.5.1.1 for Toronto) though getCubeMetadata lists only 3 dimensions.
+- 14-10-0325-01 (Job Vacancy and Wage Survey, quarterly): archived
+  (ended 2023-07), already noted. Job vacancy levels come from the active
+  monthly table 14-10-0371-01 (verified: 507,750 vacancies, 2026-07).
 
 ## Method notes
 
