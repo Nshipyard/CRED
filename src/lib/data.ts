@@ -3,6 +3,7 @@
 // stale-while-revalidate, and never stored in the repo.
 
 import { getSeries } from './registry';
+import type { SeriesMeta } from './registry';
 
 export interface Observation {
   date: string; // ISO yyyy-mm-dd
@@ -30,6 +31,7 @@ interface StatCanDataPoint {
 interface StatCanVectorResponse {
   status: string;
   object: {
+    vectorId?: number | string;
     vectorDataPoint: StatCanDataPoint[];
   };
 }
@@ -48,9 +50,11 @@ function refPerToISO(refPer: string): string | null {
   return null;
 }
 
-async function fetchStatCan(vectorIds: number[]): Promise<Observation[]> {
+async function fetchStatCan(series: SeriesMeta): Promise<Observation[]> {
   // getDataFromVectorByReferencePeriodRange is a GET whose vectorIds are
   // quoted and comma-joined: ?vectorIds="41690973","2062815"&startRefPeriod=...
+  const vectorIds = series.vectorIds ?? [];
+  const weights = series.vectorWeights ?? [];
   const ids = vectorIds.map((v) => `"${v}"`).join(',');
   const tomorrow = new Date(Date.now() + 86400000).toISOString().slice(0, 10);
   const url =
@@ -67,14 +71,18 @@ async function fetchStatCan(vectorIds: number[]): Promise<Observation[]> {
   for (const block of payload) {
     if (block.status !== 'SUCCESS') continue;
     sawSuccess = true;
+    // Weighted combine: a series like a trade balance maps to
+    // [exportsVector, importsVector] with weights [1, -1].
+    const weight =
+      weights[vectorIds.indexOf(Number(block.object?.vectorId))] ?? 1;
     for (const point of block.object?.vectorDataPoint ?? []) {
       if (point.value === null || point.value === undefined) continue;
       const iso = refPerToISO(point.refPer);
       if (!iso) continue;
-      const v = Number(point.value);
+      const v = Number(point.value) * weight;
       if (Number.isNaN(v)) continue;
       const prev = byDate.get(iso);
-      // Sum across vectors when a series maps to several component vectors.
+      // Combine across vectors when a series maps to several component vectors.
       byDate.set(iso, prev === undefined ? v : prev + v);
     }
   }
@@ -132,7 +140,7 @@ async function refresh(seriesId: string): Promise<CacheEntry> {
   if (!series) throw new Error(`Unknown series: ${seriesId}`);
   const data =
     series.source === 'statcan'
-      ? await fetchStatCan(series.vectorIds ?? [])
+      ? await fetchStatCan(series)
       : await fetchBoC(series.valetSeriesKey ?? '');
   return { fetchedAt: Date.now(), data, refreshing: false };
 }

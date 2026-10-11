@@ -2,6 +2,11 @@ import { NextResponse } from 'next/server';
 import { getSeries } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
 import { decodeGraphConfig } from '@/lib/graphLink';
+import {
+  applyTransform,
+  aggregateFrequency,
+  periodsPerYearFor,
+} from '@/lib/transforms';
 import ChartSVG from '@/components/ChartSVG';
 
 // Standalone shared-graph page: renders the exact chart (CRED logo, axes,
@@ -73,11 +78,30 @@ export async function GET(req: Request) {
     );
   }
 
+  // Resolve the range first, then apply the shared frequency aggregation
+  // and unit transform so the embedded chart matches the series page view.
+  if (cfg.frequency && cfg.frequency !== 'native') {
+    observations = aggregateFrequency(observations, cfg.frequency);
+  }
+  const periodsPerYear =
+    cfg.frequency === 'quarterly'
+      ? 4
+      : cfg.frequency === 'annual'
+        ? 1
+        : periodsPerYearFor(series.frequency);
+  const tres = applyTransform(
+    observations,
+    cfg.transform ?? 'levels',
+    periodsPerYear
+  );
+  observations = tres.data;
+  const yLabel = series.units + tres.unitSuffix;
+
   // The exact SVG the chart component produces (dynamic import: static
   // react-dom/server imports are rejected in App Router routes).
   const { renderToStaticMarkup } = await import('react-dom/server');
   const chartSvg = renderToStaticMarkup(
-    ChartSVG({ data: observations, yLabel: series.units, id: `graph-${series.id}` })
+    ChartSVG({ data: observations, yLabel, id: `graph-${series.id}` })
   );
 
   const html =
@@ -94,9 +118,13 @@ export async function GET(req: Request) {
     `<span style="font-size:14px;color:#0a0f1e;">${escapeXml(series.title)}</span>` +
     `</div>` +
     `<div style="margin-top:12px;">${chartSvg}</div>` +
-    `<div style="margin-top:12px;font-size:12px;color:#4b5563;">` +
+    `<div style="margin-top:12px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;">` +
+    `<div style="font-size:12px;color:#4b5563;">` +
     `<span>Source: ${escapeXml(series.sourceLabel)} via CRED</span><br>` +
     `<em>Shaded areas indicate Canadian recessions (C.D. Howe Institute).</em>` +
+    (tres.note ? `<br><span>${escapeXml(tres.note)}</span>` : '') +
+    `</div>` +
+    `<div style="font-size:12px;color:#9aa1ad;">cred.nshipyard.com</div>` +
     `</div></div>` +
     `<p style="margin:12px 0 0;text-align:center;font-size:12px;color:#6b7280;">Shared from CRED, Canadian Research Economic Data</p>` +
     `</div></body></html>`;

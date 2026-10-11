@@ -2,7 +2,7 @@
 // Each family maps province/territory codes to the registry series id that
 // carries that region's data. Regions with no series render grey (no data).
 
-export type GeoFamily = 'unemployment-by-province' | 'cpi-by-province';
+export type GeoFamily = 'unemployment-by-province' | 'cpi-by-province' | 'gdp-by-province';
 
 export interface GeoFamilyMeta {
   title: string;
@@ -38,6 +38,23 @@ export const GEO_FAMILIES: Record<GeoFamily, GeoFamilyMeta> = {
       ON: 'CPI_ON',
       AB: 'CPI_AB',
       BC: 'CPI_BC',
+    },
+  },
+  'gdp-by-province': {
+    title: 'Real GDP',
+    units: 'Millions of chained 2017 dollars',
+    source: 'Statistics Canada',
+    members: {
+      NL: 'GDP_NL',
+      PE: 'GDP_PEI',
+      NS: 'GDP_NS',
+      NB: 'GDP_NB',
+      QC: 'GDP_QC',
+      ON: 'GDP_ON',
+      MB: 'GDP_MB',
+      SK: 'GDP_SK',
+      AB: 'GDP_AB',
+      BC: 'GDP_BC',
     },
   },
 };

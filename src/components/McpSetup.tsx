@@ -21,7 +21,7 @@ const TOOL_DOCS = [
   },
   {
     name: 'get_observations',
-    desc: 'Get date/value observations for a series ID. Arguments: series (string), from? (YYYY-MM-DD), to? (YYYY-MM-DD).',
+    desc: 'Get date/value observations for a series ID. Arguments: series (string), from? (YYYY-MM-DD), to? (YYYY-MM-DD), transform? (levels, change, change_yoy, pct_change, yoy, index, log), frequency? (native, quarterly, annual). Transforms apply before the 500-point cap; the response echoes the applied transform, frequency, and any note (e.g. points omitted by the log transform).',
   },
   {
     name: 'list_categories',
