@@ -36,3 +36,8 @@ body {
 .hairline {
   border-color: var(--hairline);
 }
+
+/* Sticky header offset: anchor targets must clear the fixed header. */
+section[id] {
+  scroll-margin-top: 104px;
+}

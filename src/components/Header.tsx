@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -104,13 +104,43 @@ export default function Header() {
   const [toolsOpen, setToolsOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
-  const isHome = pathname === '/';
 
-  const closeMenu = () => setMenuOpen(false);
+  const closeAll = () => {
+    setMenuOpen(false);
+    setToolsOpen(false);
+    setAboutOpen(false);
+  };
+
+  // Shadow once the page scrolls, so the sticky bar reads as a bar.
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  // Escape closes the mobile menu and any open desktop dropdown.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') closeAll();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
+
+  // Route changes (including back/forward) close the mobile menu.
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
 
   return (
-    <header className="bg-white">
+    <header
+      className={`sticky top-0 z-50 bg-white transition-shadow ${
+        scrolled ? 'shadow-[0_2px_12px_rgba(10,15,30,0.12)]' : ''
+      }`}
+    >
       {/* Institution brand, in the position FRED puts its reserve-bank line */}
       <div className="border-b hairline">
         <div className="mx-auto flex max-w-6xl items-center px-4 py-1.5">
@@ -122,10 +152,12 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <div className="border-b hairline">
+      <div className="relative border-b hairline">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2.5 md:py-3">
-          {/* Mobile: compact mark (hidden on the landing page, the hero carries it) */}
-          <div className="md:hidden">{isHome ? null : <CompactMark />}</div>
+          {/* Mobile: compact mark */}
+          <div className="md:hidden">
+            <CompactMark />
+          </div>
           {/* Desktop: full lockup */}
           <div className="hidden md:block">
             <CredLockup />
@@ -139,6 +171,7 @@ export default function Header() {
                   setAboutOpen(false);
                 }}
                 className="hover:text-[#d80621]"
+                aria-expanded={toolsOpen}
               >
                 Tools ▾
               </button>
@@ -167,6 +200,7 @@ export default function Header() {
                   setToolsOpen(false);
                 }}
                 className="hover:text-[#d80621]"
+                aria-expanded={aboutOpen}
               >
                 About ▾
               </button>
@@ -202,23 +236,23 @@ export default function Header() {
             <Hamburger open={menuOpen} />
           </button>
         </div>
-        {/* Mobile menu panel */}
+        {/* Mobile menu: absolute overlay, never pushes page content down */}
         {menuOpen && (
           <nav
-            className="border-t hairline bg-white md:hidden"
+            className="absolute inset-x-0 top-full z-40 max-h-[80dvh] overflow-y-auto border-b hairline bg-white shadow-lg md:hidden"
             aria-label="Mobile"
           >
             <div className="mx-auto max-w-6xl px-4 py-2">
               <a
                 href="https://canada.nshipyard.com"
-                onClick={closeMenu}
+                onClick={() => setMenuOpen(false)}
                 className="block border-b hairline py-3 text-base font-medium text-[#0a0f1e]"
               >
                 ← All projects
               </a>
               <Link
                 href="/"
-                onClick={closeMenu}
+                onClick={() => setMenuOpen(false)}
                 className="block border-b hairline py-3 text-base font-medium text-[#0a0f1e]"
               >
                 Home
@@ -230,7 +264,7 @@ export default function Header() {
                 <Link
                   key={item.label}
                   href={item.href}
-                  onClick={closeMenu}
+                  onClick={() => setMenuOpen(false)}
                   className="block py-2.5 text-base text-[#0a0f1e]"
                 >
                   {item.label}
@@ -238,7 +272,7 @@ export default function Header() {
               ))}
               <Link
                 href="/news"
-                onClick={closeMenu}
+                onClick={() => setMenuOpen(false)}
                 className="block border-t hairline py-3 text-base font-medium text-[#0a0f1e]"
               >
                 News
@@ -250,7 +284,7 @@ export default function Header() {
                 <Link
                   key={item.label}
                   href={item.href}
-                  onClick={closeMenu}
+                  onClick={() => setMenuOpen(false)}
                   className="block py-2.5 text-base text-[#0a0f1e]"
                 >
                   {item.label}
