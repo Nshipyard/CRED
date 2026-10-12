@@ -40,7 +40,7 @@ export async function writeSnapshot(s: VintageSnapshot): Promise<string> {
   const ndjson = toNDJSON(s);
   if (useBlob()) {
     const { url } = await put(blobPath(s.series, s.snapshot), ndjson, {
-      access: 'public',
+      access: 'private', // store is private: Vercel rejects public puts on private stores
       contentType: 'application/x-ndjson',
       allowOverwrite: true,
     });
