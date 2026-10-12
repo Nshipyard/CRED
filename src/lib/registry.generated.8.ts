@@ -8,6 +8,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100668_1278340199',
     title: 'Assets and Liabilities of Other Financial Corporations by Sector: Other domestic liabilities (except those included in Other items (net)), Canada',
+    originalTitle: 'Canada;Other domestic liabilities (except those included in Other items (net))', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Assets and Liabilities of Other Financial Corporations by Sector',
     release: 'Assets and Liabilities of Other Financial Corporations by Sector',
@@ -25,6 +26,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100668_1278340200',
     title: 'Assets and Liabilities of Other Financial Corporations by Sector: Shares and other equity, Canada',
+    originalTitle: 'Canada;Shares and other equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Assets and Liabilities of Other Financial Corporations by Sector',
     release: 'Assets and Liabilities of Other Financial Corporations by Sector',
@@ -42,6 +44,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100668_1278340201',
     title: 'Assets and Liabilities of Other Financial Corporations by Sector: Other items (net), Canada',
+    originalTitle: 'Canada;Other items (net)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Assets and Liabilities of Other Financial Corporations by Sector',
     release: 'Assets and Liabilities of Other Financial Corporations by Sector',
@@ -59,6 +62,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278058981',
     title: 'Operation, Total economic impact in closed model, Jobs, Utilities, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Jobs;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -76,6 +80,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278058984',
     title: 'Operation, Total economic impact in closed model, Jobs, Manufacturing, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Jobs;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -93,6 +98,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278058985',
     title: 'Operation, Total economic impact in closed model, Jobs, Wholesale trade, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Jobs;Wholesale trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -110,6 +116,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278058986',
     title: 'Operation, Total economic impact in closed model, Jobs, Retail trade, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Jobs;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -127,6 +134,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278059004',
     title: 'Operation, Total economic impact in closed model, Jobs, Total industries, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Jobs;Total industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -144,6 +152,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278059010',
     title: 'Operation, Total economic impact in open model, Jobs, Utilities, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Jobs;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -161,6 +170,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278059013',
     title: 'Operation, Total economic impact in open model, Jobs, Manufacturing, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Jobs;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -178,6 +188,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278059014',
     title: 'Operation, Total economic impact in open model, Jobs, Wholesale trade, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Jobs;Wholesale trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -195,6 +206,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278059015',
     title: 'Operation, Total economic impact in open model, Jobs, Retail trade, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Jobs;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -212,6 +224,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278059032',
     title: 'Operation, Total economic impact in open model, Jobs, Total industries, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Jobs;Total industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -229,6 +242,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062604',
     title: 'Operation, Total economic impact in closed model, Gross value added, Total industries, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Gross value added;Total industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -246,6 +260,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062610',
     title: 'Operation, Total economic impact in closed model, Output, Utilities, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Output;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -263,6 +278,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062613',
     title: 'Operation, Total economic impact in closed model, Output, Manufacturing, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Output;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -280,6 +296,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062615',
     title: 'Operation, Total economic impact in closed model, Output, Retail trade, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Output;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -297,6 +314,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062634',
     title: 'Operation, Total economic impact in closed model, Output, Total industries, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in closed model;Output;Total industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -314,6 +332,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062662',
     title: 'Operation, Total economic impact in open model, Gross value added, Total industries, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Gross value added;Total industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -331,6 +350,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062668',
     title: 'Operation, Total economic impact in open model, Output, Utilities, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Output;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -348,6 +368,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062671',
     title: 'Operation, Total economic impact in open model, Output, Manufacturing, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Output;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -365,6 +386,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062673',
     title: 'Operation, Total economic impact in open model, Output, Retail trade, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Output;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -382,6 +404,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100669_1278062690',
     title: 'Operation, Total economic impact in open model, Output, Total industries, Canada',
+    originalTitle: 'Canada;Operation;Total economic impact in open model;Output;Total industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wireless Telecommunications Carriers Industry Economic Impact',
     release: 'Wireless Telecommunications Carriers Industry Economic Impact',
@@ -399,6 +422,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022401',
     title: 'Raw data, Net transactions in securities, Canada',
+    originalTitle: 'Canada;Raw data;Net transactions in securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -416,6 +440,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022402',
     title: 'Raw data, Gross issuances, securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross issuances, securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -433,6 +458,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022403',
     title: 'Raw data, Gross redemptions, securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross redemptions, securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -450,6 +476,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022404',
     title: 'Raw data, Net transactions in debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Net transactions in debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -467,6 +494,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022405',
     title: 'Raw data, Gross issuances, debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross issuances, debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -484,6 +512,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022406',
     title: 'Raw data, Gross redemptions, debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross redemptions, debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -501,6 +530,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022407',
     title: 'Raw data, Net transactions in short-term debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Net transactions in short-term debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -518,6 +548,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022408',
     title: 'Raw data, Gross issuances, short-term debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross issuances, short-term debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -535,6 +566,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022409',
     title: 'Raw data, Gross redemptions, short-term debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross redemptions, short-term debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -552,6 +584,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022410',
     title: 'Raw data, Net transactions in long-term debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Net transactions in long-term debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -569,6 +602,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022411',
     title: 'Raw data, Gross issuances, long-term debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross issuances, long-term debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -586,6 +620,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022412',
     title: 'Raw data, Gross redemptions, long-term debt securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross redemptions, long-term debt securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -603,6 +638,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022413',
     title: 'Raw data, Net transactions in equity securities, Canada',
+    originalTitle: 'Canada;Raw data;Net transactions in equity securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -620,6 +656,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022414',
     title: 'Raw data, Gross issuances, equity securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross issuances, equity securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -637,6 +674,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100670_1281022415',
     title: 'Raw data, Gross redemptions, equity securities, Canada',
+    originalTitle: 'Canada;Raw data;Gross redemptions, equity securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Transactions in Securities of Private Non-financial Corporations',
     release: 'Transactions in Securities of Private Non-financial Corporations',
@@ -654,6 +692,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100673_1288342093',
     title: 'Residents, holders, All issuers, All maturities, Market value, Canada',
+    originalTitle: 'Canada;Residents, holders;All issuers;All maturities;Market value', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
     release: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
@@ -671,6 +710,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100673_1288342094',
     title: 'Non-financial corporations, holders, All issuers, All maturities, Market value, Canada',
+    originalTitle: 'Canada;Non-financial corporations, holders;All issuers;All maturities;Market value', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
     release: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
@@ -688,6 +728,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100673_1288342095',
     title: 'Financial corporations, holders, All issuers, All maturities, Market value, Canada',
+    originalTitle: 'Canada;Financial corporations, holders;All issuers;All maturities;Market value', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
     release: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
@@ -705,6 +746,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100673_1288342096',
     title: 'General governments, holders, All issuers, All maturities, Market value, Canada',
+    originalTitle: 'Canada;General governments, holders;All issuers;All maturities;Market value', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
     release: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
@@ -722,6 +764,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100673_1288342099',
     title: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework: All holders, Residents, issuers, All maturities, Market value, Canada',
+    originalTitle: 'Canada;All holders;Residents, issuers;All maturities;Market value', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
     release: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
@@ -739,6 +782,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100673_1288342106',
     title: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework: All holders, Non-financial corporations, issuers, All maturities, Market value, Canada',
+    originalTitle: 'Canada;All holders;Non-financial corporations, issuers;All maturities;Market value', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
     release: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
@@ -756,6 +800,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100673_1288342113',
     title: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework: All holders, Financial corporations, issuers, All maturities, Market value, Canada',
+    originalTitle: 'Canada;All holders;Financial corporations, issuers;All maturities;Market value', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
     release: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
@@ -773,6 +818,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100673_1288342120',
     title: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework: All holders, General governments, issuers, All maturities, Market value, Canada',
+    originalTitle: 'Canada;All holders;General governments, issuers;All maturities;Market value', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
     release: 'Debt Securities Issues and Holdings in a From-Whom-To-Whom Framework',
@@ -790,6 +836,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478127949',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Total housing type, Current dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Total housing type;Current dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -807,6 +854,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478127964',
     title: 'Housing Economic Account: Total economy, New construction, Total dwelling type, Total housing type, Current dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;New construction;Total dwelling type;Total housing type;Current dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -824,6 +872,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478127979',
     title: 'Housing Economic Account: Total economy, Renovations, Total dwelling type, Total housing type, Current dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Renovations;Total dwelling type;Total housing type;Current dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -841,6 +890,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478128129',
     title: 'Housing Economic Account: Total economy, Total residential construction, Row house, Total housing type, Current dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Row house;Total housing type;Current dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -858,6 +908,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478128189',
     title: 'Housing Economic Account: Total economy, Total residential construction, Apartment, Total housing type, Current dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Apartment;Total housing type;Current dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -875,6 +926,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478128309',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Private housing, Current dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Private housing;Current dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -892,6 +944,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478128669',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Social housing, Current dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Social housing;Current dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -909,6 +962,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478129029',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Total housing type, Constant dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Total housing type;Constant dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -926,6 +980,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478129044',
     title: 'Housing Economic Account: Total economy, New construction, Total dwelling type, Total housing type, Constant dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;New construction;Total dwelling type;Total housing type;Constant dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -943,6 +998,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478129059',
     title: 'Housing Economic Account: Total economy, Renovations, Total dwelling type, Total housing type, Constant dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Renovations;Total dwelling type;Total housing type;Constant dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -960,6 +1016,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478129209',
     title: 'Housing Economic Account: Total economy, Total residential construction, Row house, Total housing type, Constant dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Row house;Total housing type;Constant dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -977,6 +1034,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478129269',
     title: 'Housing Economic Account: Total economy, Total residential construction, Apartment, Total housing type, Constant dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Apartment;Total housing type;Constant dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -994,6 +1052,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478129389',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Private housing, Constant dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Private housing;Constant dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1011,6 +1070,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478129749',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Social housing, Constant dollars, Investment, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Social housing;Constant dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1028,6 +1088,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478130109',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Total housing type, Current dollars, Geometric depreciation, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Total housing type;Current dollars;Geometric depreciation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1045,6 +1106,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478131189',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Total housing type, Constant dollars, Geometric depreciation, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Total housing type;Constant dollars;Geometric depreciation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1062,6 +1124,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478132269',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Total housing type, Current dollars, Geometric end-year net stock, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Total housing type;Current dollars;Geometric end-year net stock', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1079,6 +1142,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478133349',
     title: 'Housing Economic Account: Total economy, Total residential construction, Total dwelling type, Total housing type, Constant dollars, Geometric end-year net stock, Canada',
+    originalTitle: 'Canada;Total economy;Total residential construction;Total dwelling type;Total housing type;Constant dollars;Geometric end-year net stock', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1096,6 +1160,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478190153',
     title: 'Households, Total residential construction, Total dwelling type, Total housing type, Current dollars, Investment, Canada',
+    originalTitle: 'Canada;Households;Total residential construction;Total dwelling type;Total housing type;Current dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1113,6 +1178,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100677_1478193393',
     title: 'Households, Total residential construction, Total dwelling type, Total housing type, Constant dollars, Investment, Canada',
+    originalTitle: 'Canada;Households;Total residential construction;Total dwelling type;Total housing type;Constant dollars;Investment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1130,6 +1196,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478211189',
     title: 'Housing Economic Account: Total impact, Total industries, Total residential construction, Total housing type, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total impact;Total industries;Total residential construction;Total housing type;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1147,6 +1214,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478216229',
     title: 'Housing Economic Account: Total impact, Total industries, Total residential construction, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Total industries;Total residential construction;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1164,6 +1232,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478216243',
     title: 'Direct Impact, Total industries, Total residential construction, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Direct Impact;Total industries;Total residential construction;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1181,6 +1250,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478216257',
     title: 'Indirect Impact, Total industries, Total residential construction, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Indirect Impact;Total industries;Total residential construction;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1198,6 +1268,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478216271',
     title: 'Housing Economic Account: Total impact, Primary industries, Total residential construction, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Primary industries;Total residential construction;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1215,6 +1286,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478216355',
     title: 'Housing Economic Account: Total impact, Construction, Total residential construction, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Construction;Total residential construction;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1232,6 +1304,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478216397',
     title: 'Housing Economic Account: Total impact, Manufacturing, Total residential construction, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Manufacturing;Total residential construction;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1249,6 +1322,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478216523',
     title: 'Housing Economic Account: Total impact, Care services, Total residential construction, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Care services;Total residential construction;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1266,6 +1340,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478216649',
     title: 'Housing Economic Account: Total impact, Total industries, New construction, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Total industries;New construction;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1283,6 +1358,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478217069',
     title: 'Housing Economic Account: Total impact, Total industries, Renovations, Total housing type, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Total industries;Renovations;Total housing type;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1300,6 +1376,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478217909',
     title: 'Housing Economic Account: Total impact, Total industries, Total residential construction, Private housing, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Total industries;Total residential construction;Private housing;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1317,6 +1394,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100679_1478219589',
     title: 'Housing Economic Account: Total impact, Total industries, Total residential construction, Social housing, Value added, Canada',
+    originalTitle: 'Canada;Total impact;Total industries;Total residential construction;Social housing;Value added', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1334,6 +1412,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478162509',
     title: 'Housing Economic Account: Total residential construction, Total dwelling type, Average age, Canada',
+    originalTitle: 'Canada;Total residential construction;Total dwelling type;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1351,6 +1430,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478162524',
     title: 'Housing Economic Account: Total residential construction, Single-detached house, Average age, Canada',
+    originalTitle: 'Canada;Total residential construction;Single-detached house;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1368,6 +1448,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478162539',
     title: 'Housing Economic Account: Total residential construction, Semi-detached house, Average age, Canada',
+    originalTitle: 'Canada;Total residential construction;Semi-detached house;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1385,6 +1466,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478162554',
     title: 'Housing Economic Account: Total residential construction, Row house, Average age, Canada',
+    originalTitle: 'Canada;Total residential construction;Row house;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1402,6 +1484,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478162569',
     title: 'Housing Economic Account: Total residential construction, Apartment, Average age, Canada',
+    originalTitle: 'Canada;Total residential construction;Apartment;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1419,6 +1502,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478162584',
     title: 'Housing Economic Account: Total residential construction, Other dwelling type, Average age, Canada',
+    originalTitle: 'Canada;Total residential construction;Other dwelling type;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1436,6 +1520,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478162689',
     title: 'New construction, Total dwelling type, Average age, Canada',
+    originalTitle: 'Canada;New construction;Total dwelling type;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1453,6 +1538,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478209578',
     title: 'Renovations, Total dwelling type, Average age, Canada',
+    originalTitle: 'Canada;Renovations;Total dwelling type;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1470,6 +1556,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478209668',
     title: 'Renovations, Row house, Average age, Canada',
+    originalTitle: 'Canada;Renovations;Row house;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1487,6 +1574,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100680_1478209698',
     title: 'Renovations, Apartment, Average age, Canada',
+    originalTitle: 'Canada;Renovations;Apartment;Average age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1504,6 +1592,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100681_1462635064',
     title: 'Average annual compensation of employees, Total, environmental and clean technology products, Canada',
+    originalTitle: 'Canada;Average annual compensation of employees;Total, environmental and clean technology products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Environmental and Clean Technology Products Economic Account',
     release: 'Environmental and Clean Technology Products Economic Account',
@@ -1521,6 +1610,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100681_1462635065',
     title: 'Average annual compensation of employees, Total, environmental products, Canada',
+    originalTitle: 'Canada;Average annual compensation of employees;Total, environmental products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Environmental and Clean Technology Products Economic Account',
     release: 'Environmental and Clean Technology Products Economic Account',
@@ -1538,6 +1628,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100681_1462635066',
     title: 'Average annual compensation of employees, Environmental goods, Canada',
+    originalTitle: 'Canada;Average annual compensation of employees;Environmental goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Environmental and Clean Technology Products Economic Account',
     release: 'Environmental and Clean Technology Products Economic Account',
@@ -1555,6 +1646,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100681_1462635067',
     title: 'Average annual compensation of employees, Environmental services, Canada',
+    originalTitle: 'Canada;Average annual compensation of employees;Environmental services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Environmental and Clean Technology Products Economic Account',
     release: 'Environmental and Clean Technology Products Economic Account',
@@ -1572,6 +1664,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100681_1462635068',
     title: 'Average annual compensation of employees, Total, clean technology products, Canada',
+    originalTitle: 'Canada;Average annual compensation of employees;Total, clean technology products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Environmental and Clean Technology Products Economic Account',
     release: 'Environmental and Clean Technology Products Economic Account',
@@ -1589,6 +1682,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100681_1462635069',
     title: 'Average annual compensation of employees, Clean technology goods, Canada',
+    originalTitle: 'Canada;Average annual compensation of employees;Clean technology goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Environmental and Clean Technology Products Economic Account',
     release: 'Environmental and Clean Technology Products Economic Account',
@@ -1606,6 +1700,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100681_1462635070',
     title: 'Average annual compensation of employees, Clean technology services, Canada',
+    originalTitle: 'Canada;Average annual compensation of employees;Clean technology services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Environmental and Clean Technology Products Economic Account',
     release: 'Environmental and Clean Technology Products Economic Account',
@@ -1623,6 +1718,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545145722',
     title: 'Non-financial corporations, Total housing type, Total private dwellings, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Non-financial corporations;Total housing type;Total private dwellings;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1640,6 +1736,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545146010',
     title: 'Financial corporations, Total housing type, Total private dwellings, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Financial corporations;Total housing type;Total private dwellings;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1657,6 +1754,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545146298',
     title: 'General government, Total housing type, Total private dwellings, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;General government;Total housing type;Total private dwellings;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1674,6 +1772,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545146586',
     title: 'Households, Total housing type, Total private dwellings, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Households;Total housing type;Total private dwellings;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1691,6 +1790,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545146874',
     title: 'Non-profit institutions serving households, Total housing type, Total private dwellings, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Non-profit institutions serving households;Total housing type;Total private dwellings;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1708,6 +1808,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545146970',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Private housing, Total private dwellings, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Private housing;Total private dwellings;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1725,6 +1826,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147066',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Social housing, Total private dwellings, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Social housing;Total private dwellings;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1742,6 +1844,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147138',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Private dwellings unoccupied, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Private dwellings unoccupied;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1759,6 +1862,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147159',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Total dwelling type, Band, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Total dwelling type;Band;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1776,6 +1880,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147160',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Total dwelling type, Owner, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Total dwelling type;Owner;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1793,6 +1898,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147161',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Total dwelling type, Renter, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Total dwelling type;Renter;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1810,6 +1916,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147162',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1827,6 +1934,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147166',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Single house, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Single house;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1844,6 +1952,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147170',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Double house, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Double house;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1861,6 +1970,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147174',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Row house, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Row house;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1878,6 +1988,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147178',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Apartment building, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Apartment building;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1895,6 +2006,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1545147182',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Total private dwellings, Mobile house, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Total private dwellings;Mobile house;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1912,6 +2024,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100688_1865181209',
     title: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure: Total economy, Total housing type, Private dwellings occupied, Total dwelling type, Total tenure type, Unit of housing, Canada',
+    originalTitle: 'Canada;Total economy;Total housing type;Private dwellings occupied;Total dwelling type;Total tenure type;Unit of housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
     release: 'Housing Stock in Units Included in the Gross Domestic Product by Income and Expenditure',
@@ -1929,6 +2042,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100690_1565288180',
     title: 'Clean input investment (total impact only), Total impact, Total assets, Canada',
+    originalTitle: 'Canada;Clean input investment (total impact only);Total impact;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1946,6 +2060,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100690_1565288181',
     title: 'Clean input investment (total impact only), Total impact, Residential construction, Canada',
+    originalTitle: 'Canada;Clean input investment (total impact only);Total impact;Residential construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1963,6 +2078,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100690_1565288182',
     title: 'Clean input investment (total impact only), Total impact, Ownership transfer costs, Canada',
+    originalTitle: 'Canada;Clean input investment (total impact only);Total impact;Ownership transfer costs', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Housing Economic Account',
     release: 'Housing Economic Account',
@@ -1980,6 +2096,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567106949',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, All employee jobs, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;All employee jobs;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -1997,6 +2114,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567106950',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, All employee jobs, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;All employee jobs;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2014,6 +2132,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567106953',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, All employee jobs, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;All employee jobs;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2031,6 +2150,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567107348',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, All employee jobs, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;All employee jobs;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2048,6 +2168,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567107349',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, All employee jobs, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental products;All employee jobs;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2065,6 +2186,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567107352',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, All employee jobs, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;All employee jobs;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2082,6 +2204,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567107747',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, All employee jobs, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;All employee jobs;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2099,6 +2222,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567107748',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, All employee jobs, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;All employee jobs;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2116,6 +2240,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567107751',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, All employee jobs, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;All employee jobs;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2133,6 +2258,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567108146',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, All employee jobs, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;All employee jobs;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2150,6 +2276,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567108147',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, All employee jobs, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;All employee jobs;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2167,6 +2294,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567108150',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, All employee jobs, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;All employee jobs;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2184,6 +2312,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567108545',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, All employee jobs, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;All employee jobs;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2201,6 +2330,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567108546',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, All employee jobs, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental products;All employee jobs;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2218,6 +2348,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567108549',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, All employee jobs, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;All employee jobs;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2235,6 +2366,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567108943',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, All employee jobs, Total employees, Average hourly compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;All employee jobs;Total employees;Average hourly compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2252,6 +2384,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100691_1567108947',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, All employee jobs, Total employees, Average hourly compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;All employee jobs;Total employees;Average hourly compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2269,6 +2402,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567120793',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2286,6 +2420,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567120794',
     title: 'Utilities, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Utilities;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2303,6 +2438,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567120796',
     title: 'Manufacturing, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Manufacturing;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2320,6 +2456,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567120800',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Women, Hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;Women;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2337,6 +2474,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567120807',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Men, Hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;Men;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2353,7 +2491,8 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   },
   {
     id: 'SC_36100692_1567120814',
-    title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, 15 to 24 years, Hours worked, Canada',
+    title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, ages 15 to 24, Hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;15 to 24 years;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2370,7 +2509,8 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   },
   {
     id: 'SC_36100692_1567120821',
-    title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, 25 to 34 years, Hours worked, Canada',
+    title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, ages 25 to 34, Hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;25 to 34 years;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2388,6 +2528,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567120884',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Immigrant, Hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;Immigrant;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2405,6 +2546,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567120891',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Non-immigrant, Hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;Non-immigrant;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2422,6 +2564,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567120926',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, all industries;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2439,6 +2582,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567121059',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2456,6 +2600,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567121192',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, all industries;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2473,6 +2618,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567121325',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, all industries;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2490,6 +2636,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1567121458',
     title: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, all industries, Total employees, Average hourly compensation of employees, Canada',
+    originalTitle: 'Canada;Total, all industries;Total employees;Average hourly compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2507,6 +2654,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100692_1592251846',
     title: 'Construction, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Construction;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Industry in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2524,6 +2672,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567110958',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental and clean technology products, Total, all genders, Total, all ages, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total, all genders;Total, all ages;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2541,6 +2690,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567110959',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental products, Total, all genders, Total, all ages, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total, all genders;Total, all ages;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2558,6 +2708,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567110962',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, clean technology products, Total, all genders, Total, all ages, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total, all genders;Total, all ages;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2575,6 +2726,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567112575',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental and clean technology products, Total, all genders, Total, all ages, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total, all genders;Total, all ages;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2592,6 +2744,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567112576',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental products, Total, all genders, Total, all ages, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total, all genders;Total, all ages;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2609,6 +2762,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567112579',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, clean technology products, Total, all genders, Total, all ages, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total, all genders;Total, all ages;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2626,6 +2780,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567114192',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental and clean technology products, Total, all genders, Total, all ages, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total, all genders;Total, all ages;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2643,6 +2798,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567114193',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental products, Total, all genders, Total, all ages, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total, all genders;Total, all ages;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2660,6 +2816,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567114196',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, clean technology products, Total, all genders, Total, all ages, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total, all genders;Total, all ages;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2677,6 +2834,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567115809',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental and clean technology products, Total, all genders, Total, all ages, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total, all genders;Total, all ages;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2694,6 +2852,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567115810',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental products, Total, all genders, Total, all ages, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total, all genders;Total, all ages;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2711,6 +2870,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567115813',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, clean technology products, Total, all genders, Total, all ages, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total, all genders;Total, all ages;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2728,6 +2888,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567117426',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental and clean technology products, Total, all genders, Total, all ages, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total, all genders;Total, all ages;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2745,6 +2906,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567117427',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental products, Total, all genders, Total, all ages, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total, all genders;Total, all ages;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2762,6 +2924,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567117430',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, clean technology products, Total, all genders, Total, all ages, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total, all genders;Total, all ages;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2779,6 +2942,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567119043',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, environmental and clean technology products, Total, all genders, Total, all ages, Total employees, Average hourly compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total, all genders;Total, all ages;Total employees;Average hourly compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2796,6 +2960,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100693_1567119047',
     title: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age: Total, clean technology products, Total, all genders, Total, all ages, Total employees, Average hourly compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total, all genders;Total, all ages;Total employees;Average hourly compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment in the Environmental and Clean Technology Products Sector by Gender and age',
     release: 'Employment in the Environmental and Clean Technology Products Sector by Gender and age',
@@ -2813,6 +2978,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466168',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, Total occupations, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total occupations;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2830,6 +2996,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466169',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, Total occupations, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total occupations;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2847,6 +3014,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466172',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, Total occupations, Total employees, Hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total occupations;Total employees;Hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2864,6 +3032,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466245',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, Total occupations, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total occupations;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2881,6 +3050,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466246',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, Total occupations, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total occupations;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2898,6 +3068,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466249',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, Total occupations, Total employees, Compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total occupations;Total employees;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2915,6 +3086,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466322',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, Total occupations, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total occupations;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2932,6 +3104,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466323',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, Total occupations, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total occupations;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2949,6 +3122,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466326',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, Total occupations, Total employees, Average annual hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total occupations;Total employees;Average annual hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2966,6 +3140,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466399',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, Total occupations, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total occupations;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -2983,6 +3158,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466400',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, Total occupations, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total occupations;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -3000,6 +3176,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466403',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, Total occupations, Total employees, Average weekly hours worked, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total occupations;Total employees;Average weekly hours worked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -3017,6 +3194,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466476',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, Total occupations, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total occupations;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -3034,6 +3212,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466477',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental products, Total occupations, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental products;Total occupations;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -3051,6 +3230,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466480',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, Total occupations, Total employees, Average annual compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total occupations;Total employees;Average annual compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -3068,6 +3248,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466553',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, environmental and clean technology products, Total occupations, Total employees, Average hourly compensation of employees, Canada',
+    originalTitle: 'Canada;Total, environmental and clean technology products;Total occupations;Total employees;Average hourly compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -3085,6 +3266,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100694_1571466557',
     title: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic: Total, clean technology products, Total occupations, Total employees, Average hourly compensation of employees, Canada',
+    originalTitle: 'Canada;Total, clean technology products;Total occupations;Total employees;Average hourly compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
     release: 'Employment per Occupation in the Environmental and Clean Technology Products Sector by Demographic Characteristic',
@@ -3102,6 +3284,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185735',
     title: 'Chained (2017) dollars, Durable goods, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Durable goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3119,6 +3302,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185738',
     title: 'Chained (2017) dollars, Services, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3136,6 +3320,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185767',
     title: 'Current Prices, Semi-durable goods, Canada',
+    originalTitle: 'Canada;Current Prices;Semi-durable goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3153,6 +3338,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185768',
     title: 'Current Prices, Non-durable goods, Canada',
+    originalTitle: 'Canada;Current Prices;Non-durable goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3170,6 +3356,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185774',
     title: 'Current Prices, Residential structures, Canada',
+    originalTitle: 'Canada;Current Prices;Residential structures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3187,6 +3374,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185777',
     title: 'Current Prices, Machinery and equipment, Canada',
+    originalTitle: 'Canada;Current Prices;Machinery and equipment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3204,6 +3392,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185786',
     title: 'Current Prices, Exports of goods, Canada',
+    originalTitle: 'Canada;Current Prices;Exports of goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3221,6 +3410,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185787',
     title: 'Current Prices, Exports of services, Canada',
+    originalTitle: 'Canada;Current Prices;Exports of services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3238,6 +3428,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185789',
     title: 'Current Prices, Imports of goods, Canada',
+    originalTitle: 'Canada;Current Prices;Imports of goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3255,6 +3446,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185790',
     title: 'Current Prices, Imports of services, Canada',
+    originalTitle: 'Canada;Current Prices;Imports of services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3272,6 +3464,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185791',
     title: 'Current Prices, Statistical discrepancy, Canada',
+    originalTitle: 'Canada;Current Prices;Statistical discrepancy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3289,6 +3482,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100699_1592185793',
     title: 'Current Prices, Final domestic demand, Canada',
+    originalTitle: 'Canada;Current Prices;Final domestic demand', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product',
     release: 'Gross Domestic Product',
@@ -3306,6 +3500,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315580',
     title: 'Chained (2017) dollars, Residential investment per capita, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Residential investment per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3323,6 +3518,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315581',
     title: 'Chained (2017) dollars, Household final consumption expenditure per capita, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Household final consumption expenditure per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3340,6 +3536,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315583',
     title: 'Current prices, Gross domestic product per capita, Canada',
+    originalTitle: 'Canada;Current prices;Gross domestic product per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3357,6 +3554,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315584',
     title: 'Current prices, Residential investment per capita, Canada',
+    originalTitle: 'Canada;Current prices;Residential investment per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3374,6 +3572,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315585',
     title: 'Current prices, Household final consumption expenditure per capita, Canada',
+    originalTitle: 'Canada;Current prices;Household final consumption expenditure per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3391,6 +3590,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315587',
     title: 'Chained (2017) dollars percentage change, Gross domestic product per capita, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars percentage change;Gross domestic product per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3408,6 +3608,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315588',
     title: 'Chained (2017) dollars percentage change, Residential investment per capita, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars percentage change;Residential investment per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3425,6 +3626,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315589',
     title: 'Chained (2017) dollars percentage change, Household final consumption expenditure per capita, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars percentage change;Household final consumption expenditure per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3442,6 +3644,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315591',
     title: 'Current dollars percentage change, Gross domestic product per capita, Canada',
+    originalTitle: 'Canada;Current dollars percentage change;Gross domestic product per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3459,6 +3662,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315592',
     title: 'Current dollars percentage change, Residential investment per capita, Canada',
+    originalTitle: 'Canada;Current dollars percentage change;Residential investment per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3476,6 +3680,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315593',
     title: 'Current dollars percentage change, Household final consumption expenditure per capita, Canada',
+    originalTitle: 'Canada;Current dollars percentage change;Household final consumption expenditure per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3493,6 +3698,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100706_1645315594',
     title: 'Current dollars percentage change, Household disposable income per capita, Canada',
+    originalTitle: 'Canada;Current dollars percentage change;Household disposable income per capita', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
     release: 'Gross Domestic Product per Capita and Other per Capita Macroeconomic Indicators',
@@ -3510,6 +3716,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548250',
     title: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account: Total critical mineral production, Output, Canada',
+    originalTitle: 'Canada;Total critical mineral production;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3527,6 +3734,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548251',
     title: 'Extraction of metallic minerals, Output, Canada',
+    originalTitle: 'Canada;Extraction of metallic minerals;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3544,6 +3752,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548252',
     title: 'Extraction of non-metallic minerals and gas, Output, Canada',
+    originalTitle: 'Canada;Extraction of non-metallic minerals and gas;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3561,6 +3770,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548253',
     title: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account: Services, Output, Canada',
+    originalTitle: 'Canada;Services;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3578,6 +3788,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548254',
     title: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account: Primary manufacturing, Output, Canada',
+    originalTitle: 'Canada;Primary manufacturing;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3595,6 +3806,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548255',
     title: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account: Total critical mineral production, Gross domestic product, Canada',
+    originalTitle: 'Canada;Total critical mineral production;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3612,6 +3824,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548256',
     title: 'Extraction of metallic minerals, Gross domestic product, Canada',
+    originalTitle: 'Canada;Extraction of metallic minerals;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3629,6 +3842,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548257',
     title: 'Extraction of non-metallic minerals and gas, Gross domestic product, Canada',
+    originalTitle: 'Canada;Extraction of non-metallic minerals and gas;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3646,6 +3860,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548258',
     title: 'Services, Gross domestic product, Canada',
+    originalTitle: 'Canada;Services;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3663,6 +3878,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100707_1787548259',
     title: 'Primary manufacturing, Gross domestic product, Canada',
+    originalTitle: 'Canada;Primary manufacturing;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
     release: 'Economic Contribution of Critical Mineral Production Based on the Natural Resources Satellite Account',
@@ -3680,6 +3896,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548270',
     title: 'Economic Contribution of Critical Mineral Production: Total critical mineral production, Output, Canada',
+    originalTitle: 'Canada;Total critical mineral production;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3697,6 +3914,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548272',
     title: 'Economic Contribution of Critical Mineral Production: Unrefined, Output, Canada',
+    originalTitle: 'Canada;Unrefined;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3714,6 +3932,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548273',
     title: 'Economic Contribution of Critical Mineral Production: Refined, Output, Canada',
+    originalTitle: 'Canada;Refined;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3731,6 +3950,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548274',
     title: 'Economic Contribution of Critical Mineral Production: Platinum group metals, Output, Canada',
+    originalTitle: 'Canada;Platinum group metals;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3748,6 +3968,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548275',
     title: 'Economic Contribution of Critical Mineral Production: Aluminum, Output, Canada',
+    originalTitle: 'Canada;Aluminum;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3765,6 +3986,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548276',
     title: 'Economic Contribution of Critical Mineral Production: Potash, Output, Canada',
+    originalTitle: 'Canada;Potash;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3782,6 +4004,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548277',
     title: 'Economic Contribution of Critical Mineral Production: Other critical minerals, Output, Canada',
+    originalTitle: 'Canada;Other critical minerals;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3799,6 +4022,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548278',
     title: 'Economic Contribution of Critical Mineral Production: Services, Output, Canada',
+    originalTitle: 'Canada;Services;Output', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3816,6 +4040,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548279',
     title: 'Economic Contribution of Critical Mineral Production: Total critical mineral production, Gross domestic product, Canada',
+    originalTitle: 'Canada;Total critical mineral production;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3833,6 +4058,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548282',
     title: 'Refined, Gross domestic product, Canada',
+    originalTitle: 'Canada;Refined;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3850,6 +4076,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548284',
     title: 'Aluminum, Gross domestic product, Canada',
+    originalTitle: 'Canada;Aluminum;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3867,6 +4094,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_36100708_1787548285',
     title: 'Potash, Gross domestic product, Canada',
+    originalTitle: 'Canada;Potash;Gross domestic product', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Economic Contribution of Critical Mineral Production',
     release: 'Economic Contribution of Critical Mineral Production',
@@ -3884,6 +4112,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100234_62698011',
     title: 'Credit Market Summary Table at Book Value: Households, Canada',
+    originalTitle: 'Canada;Households', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Credit Market Summary Table at Book Value',
     release: 'Credit Market Summary Table at Book Value',
@@ -3901,6 +4130,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100234_62698012',
     title: 'Credit Market Summary Table at Book Value: Consumer credit, Canada',
+    originalTitle: 'Canada;Consumer credit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Credit Market Summary Table at Book Value',
     release: 'Credit Market Summary Table at Book Value',
@@ -3918,6 +4148,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100234_62698020',
     title: 'Credit Market Summary Table at Book Value: Bonds, Canada',
+    originalTitle: 'Canada;Bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Credit Market Summary Table at Book Value',
     release: 'Credit Market Summary Table at Book Value',
@@ -3935,6 +4166,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100234_62698022',
     title: 'Credit Market Summary Table at Book Value: Mortgages, Canada',
+    originalTitle: 'Canada;Mortgages', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Credit Market Summary Table at Book Value',
     release: 'Credit Market Summary Table at Book Value',
@@ -3952,6 +4184,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100234_62698037',
     title: 'Credit Market Summary Table at Book Value: Total debt outstanding of domestic non-financial sectors, Canada',
+    originalTitle: 'Canada;Total debt outstanding of domestic non-financial sectors', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Credit Market Summary Table at Book Value',
     release: 'Credit Market Summary Table at Book Value',
@@ -3969,6 +4202,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100234_62698043',
     title: 'Credit Market Summary Table at Book Value: Non-residents, Canada',
+    originalTitle: 'Canada;Non-residents', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Credit Market Summary Table at Book Value',
     release: 'Credit Market Summary Table at Book Value',
@@ -3986,6 +4220,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100234_62698047',
     title: 'Credit Market Summary Table at Book Value: Total debt outstanding excluding domestic financial institutions, Canada',
+    originalTitle: 'Canada;Total debt outstanding excluding domestic financial institutions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Credit Market Summary Table at Book Value',
     release: 'Credit Market Summary Table at Book Value',
@@ -4003,6 +4238,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100234_62698053',
     title: 'Credit Market Summary Table at Book Value: Total debt outstanding, Canada',
+    originalTitle: 'Canada;Total debt outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Credit Market Summary Table at Book Value',
     release: 'Credit Market Summary Table at Book Value',
@@ -4020,6 +4256,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698062',
     title: 'Households, Debt to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Households;Debt to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4037,6 +4274,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698063',
     title: 'Households, Debt to disposable income, Canada',
+    originalTitle: 'Canada;Households;Debt to disposable income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4054,6 +4292,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698064',
     title: 'Households, Credit market debt to disposable income, Canada',
+    originalTitle: 'Canada;Households;Credit market debt to disposable income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4071,6 +4310,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698065',
     title: 'Households, Consumer credit and mortgage liabilities to disposable income, Canada',
+    originalTitle: 'Canada;Households;Consumer credit and mortgage liabilities to disposable income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4088,6 +4328,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698066',
     title: 'Households, Net worth as a percentage of disposable income, Canada',
+    originalTitle: 'Canada;Households;Net worth as a percentage of disposable income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4105,6 +4346,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698067',
     title: 'Households, Debt to total assets, Canada',
+    originalTitle: 'Canada;Households;Debt to total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4122,6 +4364,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698068',
     title: 'Financial Indicators of Households and Non-profit Institutions Serving Households: Households, Debt to net worth, Canada',
+    originalTitle: 'Canada;Households;Debt to net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4139,6 +4382,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698069',
     title: 'Households, Credit market debt to net worth, Canada',
+    originalTitle: 'Canada;Households;Credit market debt to net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4156,6 +4400,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698070',
     title: 'Households, Consumer credit and mortgage liabilities to net worth, Canada',
+    originalTitle: 'Canada;Households;Consumer credit and mortgage liabilities to net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4173,6 +4418,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698071',
     title: 'Households, Total assets to net worth, Canada',
+    originalTitle: 'Canada;Households;Total assets to net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4190,6 +4436,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698072',
     title: 'Households, Financial assets to net worth, Canada',
+    originalTitle: 'Canada;Households;Financial assets to net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4207,6 +4454,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698073',
     title: 'Households, Financial assets to non-financial assets, Canada',
+    originalTitle: 'Canada;Households;Financial assets to non-financial assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4224,6 +4472,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698074',
     title: 'Households, Owner\'s equity as a percentage of real estate, Canada',
+    originalTitle: 'Canada;Households;Owner\'s equity as a percentage of real estate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4241,6 +4490,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698075',
     title: 'Households, Real estate as a percentage of disposable income, Canada',
+    originalTitle: 'Canada;Households;Real estate as a percentage of disposable income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4258,6 +4508,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_62698077',
     title: 'Households and non-profit institutions serving households, Debt to disposable income, Canada',
+    originalTitle: 'Canada;Households and non-profit institutions serving households;Debt to disposable income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4275,6 +4526,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_1806944994',
     title: 'Households, Effective interest cost, total loans (unadjusted at quarterly rates), Canada',
+    originalTitle: 'Canada;Households;Effective interest cost, total loans (unadjusted at quarterly rates)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4292,6 +4544,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100235_1806944996',
     title: 'Households, Effective interest cost, mortgage loans (unadjusted at quarterly rates), Canada',
+    originalTitle: 'Canada;Households;Effective interest cost, mortgage loans (unadjusted at quarterly rates)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Households and Non-profit Institutions Serving Households',
     release: 'Financial Indicators of Households and Non-profit Institutions Serving Households',
@@ -4309,6 +4562,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100236_62698054',
     title: 'Private non-financial corporations debt to equity (market value), Canada',
+    originalTitle: 'Canada;Private non-financial corporations debt to equity (market value)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Corporate Sector',
     release: 'Financial Indicators of Corporate Sector',
@@ -4326,6 +4580,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100236_62698055',
     title: 'Private non-financial corporations credit market debt to equity (book value), Canada',
+    originalTitle: 'Canada;Private non-financial corporations credit market debt to equity (book value)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Corporate Sector',
     release: 'Financial Indicators of Corporate Sector',
@@ -4343,6 +4598,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100236_1290927378',
     title: 'Private non-financial corporations debt (market value) to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Private non-financial corporations debt (market value) to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Corporate Sector',
     release: 'Financial Indicators of Corporate Sector',
@@ -4360,6 +4616,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100236_1290927379',
     title: 'Private non-financial corporations credit market debt (book value) to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Private non-financial corporations credit market debt (book value) to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Corporate Sector',
     release: 'Financial Indicators of Corporate Sector',
@@ -4377,6 +4634,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100236_1446773694',
     title: 'Private non-financial corporations debt to total assets, Canada',
+    originalTitle: 'Canada;Private non-financial corporations debt to total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Corporate Sector',
     release: 'Financial Indicators of Corporate Sector',
@@ -4394,6 +4652,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100236_1446773695',
     title: 'Private non-financial corporations effective interest cost (unadjusted at quarterly rates), Canada',
+    originalTitle: 'Canada;Private non-financial corporations effective interest cost (unadjusted at quarterly rates)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of Corporate Sector',
     release: 'Financial Indicators of Corporate Sector',
@@ -4411,6 +4670,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_62698056',
     title: 'General government gross debt to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;General government gross debt to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4428,6 +4688,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_62698057',
     title: 'Of which: Federal general government gross debt to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Of which: Federal general government gross debt to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4445,6 +4706,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_62698058',
     title: 'Of which: Other levels of general government gross debt to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Of which: Other levels of general government gross debt to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4462,6 +4724,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_62698059',
     title: 'General government net financial liabilities to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;General government net financial liabilities to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4479,6 +4742,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_62698060',
     title: 'Of which: Federal general government net financial liabilities to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Of which: Federal general government net financial liabilities to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4496,6 +4760,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_62698061',
     title: 'Of which: Other levels of general government net financial liabilities to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Of which: Other levels of general government net financial liabilities to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4513,6 +4778,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773696',
     title: 'General government credit market debt to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;General government credit market debt to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4530,6 +4796,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773697',
     title: 'Of which: Federal general government credit market debt to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Of which: Federal general government credit market debt to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4547,6 +4814,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773698',
     title: 'Of which: Other levels of general government credit market debt to gross domestic product (GDP), Canada',
+    originalTitle: 'Canada;Of which: Other levels of general government credit market debt to gross domestic product (GDP)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4564,6 +4832,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773699',
     title: 'General government debt to total assets, Canada',
+    originalTitle: 'Canada;General government debt to total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4581,6 +4850,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773700',
     title: 'Of which: Federal general government debt to total assets, Canada',
+    originalTitle: 'Canada;Of which: Federal general government debt to total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4598,6 +4868,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773701',
     title: 'Of which: Other levels of general government debt to total assets, Canada',
+    originalTitle: 'Canada;Of which: Other levels of general government debt to total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4615,6 +4886,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773702',
     title: 'General government effective interest cost (unadjusted at quarterly rates), Canada',
+    originalTitle: 'Canada;General government effective interest cost (unadjusted at quarterly rates)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4632,6 +4904,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773703',
     title: 'Of which: Federal general government effective interest cost (unadjusted at quarterly rates), Canada',
+    originalTitle: 'Canada;Of which: Federal general government effective interest cost (unadjusted at quarterly rates)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4649,6 +4922,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100237_1446773704',
     title: 'Of which: Other levels of general government effective interest cost (unadjusted at quarterly rates), Canada',
+    originalTitle: 'Canada;Of which: Other levels of general government effective interest cost (unadjusted at quarterly rates)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Indicators of General Government Sector',
     release: 'Financial Indicators of General Government Sector',
@@ -4666,6 +4940,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100238_95701115',
     title: 'Credit market debt - financial flow, Canada',
+    originalTitle: 'Canada;Credit market debt - financial flow', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Household Sector Credit Market Summary Table',
     release: 'Household Sector Credit Market Summary Table',
@@ -4683,6 +4958,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100238_95701116',
     title: 'Consumer credit - financial flow, Canada',
+    originalTitle: 'Canada;Consumer credit - financial flow', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Household Sector Credit Market Summary Table',
     release: 'Household Sector Credit Market Summary Table',
@@ -4700,6 +4976,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100238_95701117',
     title: 'Non-mortgage loans - financial flow, Canada',
+    originalTitle: 'Canada;Non-mortgage loans - financial flow', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Household Sector Credit Market Summary Table',
     release: 'Household Sector Credit Market Summary Table',
@@ -4717,6 +4994,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100238_95701118',
     title: 'Household Sector Credit Market Summary Table: Mortgages - financial flow, Canada',
+    originalTitle: 'Canada;Mortgages - financial flow', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Household Sector Credit Market Summary Table',
     release: 'Household Sector Credit Market Summary Table',
@@ -4734,6 +5012,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100238_1038036700',
     title: 'Credit market debt - national balance sheet, Canada',
+    originalTitle: 'Canada;Credit market debt - national balance sheet', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Household Sector Credit Market Summary Table',
     release: 'Household Sector Credit Market Summary Table',
@@ -4751,6 +5030,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100238_1038036701',
     title: 'Consumer credit - national balance sheet, Canada',
+    originalTitle: 'Canada;Consumer credit - national balance sheet', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Household Sector Credit Market Summary Table',
     release: 'Household Sector Credit Market Summary Table',
@@ -4768,6 +5048,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100238_1038036702',
     title: 'Non-mortgage loans - national balance sheet, Canada',
+    originalTitle: 'Canada;Non-mortgage loans - national balance sheet', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Household Sector Credit Market Summary Table',
     release: 'Household Sector Credit Market Summary Table',
@@ -4785,6 +5066,7 @@ export const GENERATED_SERIES_PART8: SeriesMeta[] = [
   {
     id: 'SC_38100238_1038036703',
     title: 'Mortgages - national balance sheet, Canada',
+    originalTitle: 'Canada;Mortgages - national balance sheet', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Household Sector Credit Market Summary Table',
     release: 'Household Sector Credit Market Summary Table',

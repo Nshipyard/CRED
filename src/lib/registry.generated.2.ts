@@ -7,7 +7,8 @@ import type { SeriesMeta } from './registry';
 export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100020_2582526',
-    title: 'Unemployment, Total, all education levels, 15 to 24 years, Canada (annual)',
+    title: 'Unemployment, Total, all education levels, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all education levels;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -24,7 +25,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582589',
-    title: 'Employment, Total, all education levels, 25 years and over, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -41,7 +43,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582661',
-    title: 'Population, Total, all education levels, 25 to 44 years, Canada (annual)',
+    title: 'Population, Total, all education levels, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -58,7 +61,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582670',
-    title: 'Labour force, Total, all education levels, 25 to 44 years, Canada (annual)',
+    title: 'Labour force, Total, all education levels, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all education levels;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -75,7 +79,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582679',
-    title: 'Employment, Total, all education levels, 25 to 44 years, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -92,7 +97,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582706',
-    title: 'Unemployment, Total, all education levels, 25 to 44 years, Canada (annual)',
+    title: 'Unemployment, Total, all education levels, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all education levels;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -109,7 +115,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582769',
-    title: 'Employment, Total, all education levels, 45 years and over, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -126,7 +133,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582841',
-    title: 'Population, Total, all education levels, 25 to 54 years, Canada (annual)',
+    title: 'Population, Total, all education levels, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -143,7 +151,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582850',
-    title: 'Labour force, Total, all education levels, 25 to 54 years, Canada (annual)',
+    title: 'Labour force, Total, all education levels, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all education levels;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -160,7 +169,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582859',
-    title: 'Employment, Total, all education levels, 25 to 54 years, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -177,7 +187,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582886',
-    title: 'Unemployment, Total, all education levels, 25 to 54 years, Canada (annual)',
+    title: 'Unemployment, Total, all education levels, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all education levels;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -194,7 +205,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582949',
-    title: 'Employment, Total, all education levels, 55 years and over, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -211,7 +223,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2583021',
-    title: 'Population, Total, all education levels, 55 to 64 years, Canada (annual)',
+    title: 'Population, Total, all education levels, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -228,7 +241,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2583030',
-    title: 'Labour force, Total, all education levels, 55 to 64 years, Canada (annual)',
+    title: 'Labour force, Total, all education levels, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all education levels;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -245,7 +259,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2583039',
-    title: 'Employment, Total, all education levels, 55 to 64 years, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -262,7 +277,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2583066',
-    title: 'Unemployment, Total, all education levels, 55 to 64 years, Canada (annual)',
+    title: 'Unemployment, Total, all education levels, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all education levels;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -279,7 +295,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479864',
-    title: 'Population, Total, all students and non-students, 15 to 24 years, Canada',
+    title: 'Population, Total, all students and non-students, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -296,7 +313,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479869',
-    title: 'Labour force, Total, all students and non-students, 15 to 24 years, Canada',
+    title: 'Labour force, Total, all students and non-students, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -313,7 +331,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479874',
-    title: 'Employment, Total, all students and non-students, 15 to 24 years, Canada',
+    title: 'Employment, Total, all students and non-students, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -330,7 +349,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479889',
-    title: 'Unemployment, Total, all students and non-students, 15 to 24 years, Canada',
+    title: 'Unemployment, Total, all students and non-students, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -347,7 +367,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479914',
-    title: 'Population, Total, all students and non-students, 15 to 29 years, Canada',
+    title: 'Population, Total, all students and non-students, ages 15 to 29, Canada',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -364,7 +385,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479919',
-    title: 'Labour force, Total, all students and non-students, 15 to 29 years, Canada',
+    title: 'Labour force, Total, all students and non-students, ages 15 to 29, Canada',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -381,7 +403,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479924',
-    title: 'Employment, Total, all students and non-students, 15 to 29 years, Canada',
+    title: 'Employment, Total, all students and non-students, ages 15 to 29, Canada',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -398,7 +421,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479939',
-    title: 'Unemployment, Total, all students and non-students, 15 to 29 years, Canada',
+    title: 'Unemployment, Total, all students and non-students, ages 15 to 29, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -415,7 +439,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479964',
-    title: 'Population, Total, all students and non-students, 15 to 19 years, Canada',
+    title: 'Population, Total, all students and non-students, ages 15 to 19, Canada',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -432,7 +457,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479969',
-    title: 'Labour force, Total, all students and non-students, 15 to 19 years, Canada',
+    title: 'Labour force, Total, all students and non-students, ages 15 to 19, Canada',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -449,7 +475,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479974',
-    title: 'Employment, Total, all students and non-students, 15 to 19 years, Canada',
+    title: 'Employment, Total, all students and non-students, ages 15 to 19, Canada',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -466,7 +493,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3479989',
-    title: 'Unemployment, Total, all students and non-students, 15 to 19 years, Canada',
+    title: 'Unemployment, Total, all students and non-students, ages 15 to 19, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -483,7 +511,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3480014',
-    title: 'Population, Total, all students and non-students, 20 to 24 years, Canada',
+    title: 'Population, Total, all students and non-students, ages 20 to 24, Canada',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -500,7 +529,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3480019',
-    title: 'Labour force, Total, all students and non-students, 20 to 24 years, Canada',
+    title: 'Labour force, Total, all students and non-students, ages 20 to 24, Canada',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -517,7 +547,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3480024',
-    title: 'Employment, Total, all students and non-students, 20 to 24 years, Canada',
+    title: 'Employment, Total, all students and non-students, ages 20 to 24, Canada',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -534,7 +565,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3480039',
-    title: 'Unemployment, Total, all students and non-students, 20 to 24 years, Canada',
+    title: 'Unemployment, Total, all students and non-students, ages 20 to 24, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -551,7 +583,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3480064',
-    title: 'Population, Total, all students and non-students, 25 to 29 years, Canada',
+    title: 'Population, Total, all students and non-students, ages 25 to 29, Canada',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -568,7 +601,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3480069',
-    title: 'Labour force, Total, all students and non-students, 25 to 29 years, Canada',
+    title: 'Labour force, Total, all students and non-students, ages 25 to 29, Canada',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -585,7 +619,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3480074',
-    title: 'Employment, Total, all students and non-students, 25 to 29 years, Canada',
+    title: 'Employment, Total, all students and non-students, ages 25 to 29, Canada',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -602,7 +637,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100021_3480089',
-    title: 'Unemployment, Total, all students and non-students, 25 to 29 years, Canada',
+    title: 'Unemployment, Total, all students and non-students, ages 25 to 29, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -619,7 +655,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_2710104',
-    title: 'Labour force, Total, all industries, 15 years and over, Canada',
+    title: 'Labour force, Total, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Labour force;Total, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -636,7 +673,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_2710133',
-    title: 'Employment, Total, all industries, 15 years and over, Canada',
+    title: 'Employment, Total, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Employment;Total, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -653,7 +691,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_2710217',
-    title: 'Unemployment, Total, all industries, 15 years and over, Canada',
+    title: 'Unemployment, Total, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -670,7 +709,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_2710246',
-    title: 'Unemployment rate, Total, all industries, 15 years and over, Canada',
+    title: 'Unemployment rate, Total, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Unemployment rate;Total, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -687,7 +727,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19651242',
-    title: 'Labour force, Total, all industries, 15 to 24 years, Canada',
+    title: 'Labour force, Total, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Labour force;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -704,7 +745,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19651243',
-    title: 'Labour force, Total, all industries, 25 to 54 years, Canada',
+    title: 'Labour force, Total, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Labour force;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -721,7 +763,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19651244',
-    title: 'Labour force, Total, all industries, 55 years and over, Canada',
+    title: 'Labour force, Total, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Labour force;Total, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -738,7 +781,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19651503',
-    title: 'Employment, Total, all industries, 15 to 24 years, Canada',
+    title: 'Employment, Total, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Employment;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -755,7 +799,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19651504',
-    title: 'Employment, Total, all industries, 25 to 54 years, Canada',
+    title: 'Employment, Total, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Employment;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -772,7 +817,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19651505',
-    title: 'Employment, Total, all industries, 55 years and over, Canada',
+    title: 'Employment, Total, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Employment;Total, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -789,7 +835,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19651755',
-    title: 'Full-time employment, Total, all industries, 15 to 24 years, Canada',
+    title: 'Full-time employment, Total, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Full-time employment;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -806,7 +853,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19651756',
-    title: 'Full-time employment, Total, all industries, 25 to 54 years, Canada',
+    title: 'Full-time employment, Total, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Full-time employment;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -823,7 +871,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19652007',
-    title: 'Part-time employment, Total, all industries, 15 to 24 years, Canada',
+    title: 'Part-time employment, Total, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Part-time employment;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -840,7 +889,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19652008',
-    title: 'Part-time employment, Total, all industries, 25 to 54 years, Canada',
+    title: 'Part-time employment, Total, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Part-time employment;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -857,7 +907,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19652259',
-    title: 'Unemployment, Total, all industries, 15 to 24 years, Canada',
+    title: 'Unemployment, Total, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -874,7 +925,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19652260',
-    title: 'Unemployment, Total, all industries, 25 to 54 years, Canada',
+    title: 'Unemployment, Total, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -891,7 +943,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19652261',
-    title: 'Unemployment, Total, all industries, 55 years and over, Canada',
+    title: 'Unemployment, Total, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -908,7 +961,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19652520',
-    title: 'Unemployment rate, Total, all industries, 15 to 24 years, Canada',
+    title: 'Unemployment rate, Total, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Unemployment rate;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -925,7 +979,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19652521',
-    title: 'Unemployment rate, Total, all industries, 25 to 54 years, Canada',
+    title: 'Unemployment rate, Total, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Unemployment rate;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -942,7 +997,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100022_19652522',
-    title: 'Unemployment rate, Total, all industries, 55 years and over, Canada',
+    title: 'Unemployment rate, Total, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Unemployment rate;Total, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -959,7 +1015,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_2363353',
-    title: 'Labour force, Total, all industries, 15 years and over, Canada (annual)',
+    title: 'Labour force, Total, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -976,7 +1033,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_2363382',
-    title: 'Employment, Total, all industries, 15 years and over, Canada (annual)',
+    title: 'Employment, Total, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -993,7 +1051,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_2363466',
-    title: 'Unemployment, Total, all industries, 15 years and over, Canada (annual)',
+    title: 'Unemployment, Total, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1010,7 +1069,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_2363495',
-    title: 'Unemployment rate, Total, all industries, 15 years and over, Canada (annual)',
+    title: 'Unemployment rate, Total, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Unemployment rate;Total, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1027,7 +1087,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668072',
-    title: 'Labour force, Total, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Labour force, Total, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1044,7 +1105,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668073',
-    title: 'Labour force, Total, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Labour force, Total, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1061,7 +1123,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668074',
-    title: 'Labour force, Total, all industries, 55 years and over, Canada (annual)',
+    title: 'Labour force, Total, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1078,7 +1141,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668333',
-    title: 'Employment, Total, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Employment, Total, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1095,7 +1159,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668334',
-    title: 'Employment, Total, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Employment, Total, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1112,7 +1177,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668335',
-    title: 'Employment, Total, all industries, 55 years and over, Canada (annual)',
+    title: 'Employment, Total, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1129,7 +1195,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668585',
-    title: 'Full-time employment, Total, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Full-time employment, Total, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Full-time employment;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1146,7 +1213,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668586',
-    title: 'Full-time employment, Total, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Full-time employment, Total, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Full-time employment;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1163,7 +1231,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668837',
-    title: 'Part-time employment, Total, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Part-time employment, Total, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Part-time employment;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1180,7 +1249,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19668838',
-    title: 'Part-time employment, Total, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Part-time employment, Total, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Part-time employment;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1197,7 +1267,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19669089',
-    title: 'Unemployment, Total, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Unemployment, Total, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1214,7 +1285,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19669090',
-    title: 'Unemployment, Total, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Unemployment, Total, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1231,7 +1303,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19669091',
-    title: 'Unemployment, Total, all industries, 55 years and over, Canada (annual)',
+    title: 'Unemployment, Total, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1248,7 +1321,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19669350',
-    title: 'Unemployment rate, Total, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Unemployment rate, Total, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Unemployment rate;Total, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1265,7 +1339,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19669351',
-    title: 'Unemployment rate, Total, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Unemployment rate, Total, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Unemployment rate;Total, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1282,7 +1357,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100023_19669352',
-    title: 'Unemployment rate, Total, all industries, 55 years and over, Canada (annual)',
+    title: 'Unemployment rate, Total, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Unemployment rate;Total, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1300,6 +1376,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437441',
     title: 'Labour Force Survey: Total employed, all classes of workers, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1317,6 +1394,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437442',
     title: 'Employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1334,6 +1412,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437443',
     title: 'Public sector employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Public sector employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1351,6 +1430,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437444',
     title: 'Private sector employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Private sector employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1368,6 +1448,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437445',
     title: 'Self-employed, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Self-employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1385,6 +1466,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437450',
     title: 'Unpaid family worker, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Unpaid family worker;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1402,6 +1484,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437451',
     title: 'Labour Force Survey: Total employed, all classes of workers, Goods-producing sector, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Goods-producing sector;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1419,6 +1502,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437461',
     title: 'Labour Force Survey: Total employed, all classes of workers, Agriculture, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1436,6 +1520,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437481',
     title: 'Labour Force Survey: Total employed, all classes of workers, Utilities, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1453,6 +1538,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437491',
     title: 'Labour Force Survey: Total employed, all classes of workers, Construction, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1470,6 +1556,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437501',
     title: 'Labour Force Survey: Total employed, all classes of workers, Manufacturing, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1487,6 +1574,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437511',
     title: 'Labour Force Survey: Total employed, all classes of workers, Services-producing sector, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Services-producing sector;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1504,6 +1592,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437521',
     title: 'Labour Force Survey: Total employed, all classes of workers, Wholesale and retail trade, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Wholesale and retail trade;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1521,6 +1610,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437531',
     title: 'Labour Force Survey: Total employed, all classes of workers, Transportation and warehousing, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Transportation and warehousing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1538,6 +1628,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437571',
     title: 'Labour Force Survey: Total employed, all classes of workers, Educational services, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Educational services;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1555,6 +1646,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437581',
     title: 'Labour Force Survey: Total employed, all classes of workers, Health care and social assistance, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Health care and social assistance;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1572,6 +1664,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437601',
     title: 'Labour Force Survey: Total employed, all classes of workers, Accommodation and food services, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Accommodation and food services;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1589,6 +1682,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437621',
     title: 'Labour Force Survey: Total employed, all classes of workers, Public administration, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Public administration;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1606,6 +1700,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437631',
     title: 'Labour Force Survey: Total employed, all classes of workers, Total employed, all industries, Men+, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1623,6 +1718,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100026_3437821',
     title: 'Labour Force Survey: Total employed, all classes of workers, Total employed, all industries, Women+, Canada',
+    originalTitle: 'Canada;Total employed, all classes of workers;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1640,6 +1736,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522952',
     title: 'Labour Force Survey: Total employed, all classes of workers, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1657,6 +1754,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522953',
     title: 'Employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1674,6 +1772,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522954',
     title: 'Public sector employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Public sector employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1691,6 +1790,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522955',
     title: 'Private sector employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Private sector employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1708,6 +1808,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522956',
     title: 'Self-employed, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Self-employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1725,6 +1826,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522961',
     title: 'Unpaid family worker, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Unpaid family worker;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1742,6 +1844,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522962',
     title: 'Labour Force Survey: Total employed, all classes of workers, Goods-producing sector, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Goods-producing sector;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1759,6 +1862,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522972',
     title: 'Labour Force Survey: Total employed, all classes of workers, Agriculture, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1776,6 +1880,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2522992',
     title: 'Labour Force Survey: Total employed, all classes of workers, Utilities, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1793,6 +1898,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523002',
     title: 'Labour Force Survey: Total employed, all classes of workers, Construction, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1810,6 +1916,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523012',
     title: 'Labour Force Survey: Total employed, all classes of workers, Manufacturing, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1827,6 +1934,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523022',
     title: 'Labour Force Survey: Total employed, all classes of workers, Services-producing sector, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Services-producing sector;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1844,6 +1952,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523032',
     title: 'Labour Force Survey: Total employed, all classes of workers, Wholesale and retail trade, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Wholesale and retail trade;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1861,6 +1970,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523042',
     title: 'Labour Force Survey: Total employed, all classes of workers, Transportation and warehousing, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Transportation and warehousing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1878,6 +1988,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523082',
     title: 'Labour Force Survey: Total employed, all classes of workers, Educational services, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Educational services;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1895,6 +2006,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523092',
     title: 'Labour Force Survey: Total employed, all classes of workers, Health care and social assistance, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Health care and social assistance;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1912,6 +2024,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523112',
     title: 'Labour Force Survey: Total employed, all classes of workers, Accommodation and food services, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Accommodation and food services;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1929,6 +2042,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523132',
     title: 'Labour Force Survey: Total employed, all classes of workers, Public administration, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Public administration;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1946,6 +2060,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523142',
     title: 'Labour Force Survey: Total employed, all classes of workers, Total employed, all industries, Men+, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1963,6 +2078,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100027_2523332',
     title: 'Labour Force Survey: Total employed, all classes of workers, Total employed, all industries, Women+, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all classes of workers;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1979,7 +2095,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050770',
-    title: 'Own illness, 15 years and over, Canada',
+    title: 'Labour Force Survey: Own illness, ages 15 and over, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -1996,7 +2113,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050773',
-    title: 'Going to school, 15 years and over, Canada',
+    title: 'Going to school, ages 15 and over, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2013,7 +2131,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050781',
-    title: 'Labour Force Survey: Own illness, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Own illness, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2030,7 +2149,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050782',
-    title: 'Caring for children, 15 to 24 years, Canada',
+    title: 'Caring for children, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Caring for children;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2047,7 +2167,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050784',
-    title: 'Going to school, 15 to 24 years, Canada',
+    title: 'Going to school, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2064,7 +2185,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050792',
-    title: 'Own illness, 25 years and over, Canada',
+    title: 'Labour Force Survey: Own illness, ages 25 and over, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2081,7 +2203,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050795',
-    title: 'Going to school, 25 years and over, Canada',
+    title: 'Going to school, ages 25 and over, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2098,7 +2221,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050803',
-    title: 'Labour Force Survey: Own illness, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Own illness, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2115,7 +2239,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050804',
-    title: 'Caring for children, 25 to 44 years, Canada',
+    title: 'Caring for children, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Caring for children;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2132,7 +2257,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050806',
-    title: 'Going to school, 25 to 44 years, Canada',
+    title: 'Going to school, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2149,7 +2275,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050814',
-    title: 'Own illness, 45 years and over, Canada',
+    title: 'Labour Force Survey: Own illness, ages 45 and over, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2166,7 +2293,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050817',
-    title: 'Going to school, 45 years and over, Canada',
+    title: 'Going to school, ages 45 and over, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2183,7 +2311,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050825',
-    title: 'Labour Force Survey: Own illness, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Own illness, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2200,7 +2329,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050828',
-    title: 'Going to school, 25 to 54 years, Canada',
+    title: 'Going to school, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2217,7 +2347,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050836',
-    title: 'Own illness, 55 years and over, Canada',
+    title: 'Labour Force Survey: Own illness, ages 55 and over, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2234,7 +2365,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050839',
-    title: 'Going to school, 55 years and over, Canada',
+    title: 'Going to school, ages 55 and over, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2251,7 +2383,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050847',
-    title: 'Labour Force Survey: Own illness, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Own illness, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2268,7 +2401,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050850',
-    title: 'Going to school, 55 to 64 years, Canada',
+    title: 'Going to school, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2285,7 +2419,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050858',
-    title: 'Own illness, 65 years and over, Canada',
+    title: 'Labour Force Survey: Own illness, ages 65 and over, Canada',
+    originalTitle: 'Canada;Own illness;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2302,7 +2437,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100028_2050861',
-    title: 'Going to school, 65 years and over, Canada',
+    title: 'Going to school, ages 65 and over, Canada',
+    originalTitle: 'Canada;Going to school;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2319,7 +2455,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457811',
-    title: 'Own illness, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2336,7 +2473,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457814',
-    title: 'Going to school, 15 years and over, Canada (annual)',
+    title: 'Going to school, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Going to school;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2353,7 +2491,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457822',
-    title: 'Labour Force Survey: Own illness, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2370,7 +2509,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457823',
-    title: 'Caring for children, 15 to 24 years, Canada (annual)',
+    title: 'Caring for children, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Caring for children;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2387,7 +2527,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457825',
-    title: 'Going to school, 15 to 24 years, Canada (annual)',
+    title: 'Going to school, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Going to school;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2404,7 +2545,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457833',
-    title: 'Own illness, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2421,7 +2563,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457836',
-    title: 'Going to school, 25 years and over, Canada (annual)',
+    title: 'Going to school, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Going to school;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2438,7 +2581,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457844',
-    title: 'Labour Force Survey: Own illness, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2455,7 +2599,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457845',
-    title: 'Caring for children, 25 to 44 years, Canada (annual)',
+    title: 'Caring for children, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Caring for children;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2472,7 +2617,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457847',
-    title: 'Going to school, 25 to 44 years, Canada (annual)',
+    title: 'Going to school, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Going to school;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2489,7 +2635,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457855',
-    title: 'Own illness, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2506,7 +2653,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457858',
-    title: 'Going to school, 45 years and over, Canada (annual)',
+    title: 'Going to school, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Going to school;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2523,7 +2671,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457866',
-    title: 'Labour Force Survey: Own illness, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2540,7 +2689,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457869',
-    title: 'Going to school, 25 to 54 years, Canada (annual)',
+    title: 'Going to school, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Going to school;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2557,7 +2707,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457877',
-    title: 'Own illness, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2574,7 +2725,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457880',
-    title: 'Going to school, 55 years and over, Canada (annual)',
+    title: 'Going to school, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Going to school;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2591,7 +2743,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457888',
-    title: 'Labour Force Survey: Own illness, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2608,7 +2761,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457891',
-    title: 'Going to school, 55 to 64 years, Canada (annual)',
+    title: 'Going to school, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Going to school;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2625,7 +2779,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100029_2457899',
-    title: 'Own illness, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Own illness, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Own illness;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2642,7 +2797,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443721',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2659,7 +2815,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443729',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2676,7 +2833,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443741',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2693,7 +2851,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443749',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2710,7 +2869,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443761',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2727,7 +2887,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443769',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2744,7 +2905,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443781',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2761,7 +2923,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443789',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2778,7 +2941,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443801',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2795,7 +2959,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443809',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2812,7 +2977,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443821',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2829,7 +2995,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443829',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2846,7 +3013,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443841',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2863,7 +3031,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443849',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2880,7 +3049,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443861',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2897,7 +3067,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443869',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2914,7 +3085,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443881',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2931,7 +3103,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443889',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2948,7 +3121,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443921',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2965,7 +3139,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100030_3443961',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2982,7 +3157,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468017',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -2999,7 +3175,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468026',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3016,7 +3193,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468037',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3033,7 +3211,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468046',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3050,7 +3229,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468057',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3067,7 +3247,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468066',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3084,7 +3265,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468077',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3101,7 +3283,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468086',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3118,7 +3301,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468097',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3135,7 +3319,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468106',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3152,7 +3337,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468117',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3169,7 +3355,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468126',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3186,7 +3373,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468137',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3203,7 +3391,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468146',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3220,7 +3409,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468157',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3237,7 +3427,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468166',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3254,7 +3445,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468177',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3271,7 +3463,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468186',
-    title: 'Labour Force Survey: Total usual hours, All jobs, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3288,7 +3481,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468217',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3305,7 +3499,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100031_2468257',
-    title: 'Labour Force Survey: Total employed, all hours, All jobs, Men+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, all hours, All jobs, Men+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;All jobs;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3322,7 +3517,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685149',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3339,7 +3535,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685173',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3356,7 +3553,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685197',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3373,7 +3571,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685221',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3390,7 +3589,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685245',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3407,7 +3607,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685269',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3424,7 +3625,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685293',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3441,7 +3643,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685317',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3458,7 +3661,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685341',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3475,7 +3679,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685389',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3492,7 +3697,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100032_2685437',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3509,7 +3715,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634366',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3526,7 +3733,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634390',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3543,7 +3751,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634414',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3560,7 +3769,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634438',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3577,7 +3787,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634462',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3594,7 +3805,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634486',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3611,7 +3823,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634510',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3628,7 +3841,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634534',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3645,7 +3859,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634558',
-    title: 'Labour Force Survey: Total actual hours, All jobs, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3662,7 +3877,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634606',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3679,7 +3895,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100033_2634654',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Men+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Men+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3697,6 +3914,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348296',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3714,6 +3932,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348297',
     title: '1 to 14 hours, Total employed, all industries, Canada',
+    originalTitle: 'Canada;1 to 14 hours;Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3731,6 +3950,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348301',
     title: '40 hours, Total employed, all industries, Canada',
+    originalTitle: 'Canada;40 hours;Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3748,6 +3968,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348304',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3765,6 +3986,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348316',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, Agriculture, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3782,6 +4004,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348324',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, Agriculture, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3799,6 +4022,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348336',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, Utilities, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3816,6 +4040,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348344',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, Utilities, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3833,6 +4058,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348346',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, Construction, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3850,6 +4076,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348354',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, Construction, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3867,6 +4094,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348356',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, Manufacturing, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3884,6 +4112,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348364',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, Manufacturing, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3901,6 +4130,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348486',
     title: 'Labour Force Survey: Total employed, all hours, Employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3918,6 +4148,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348494',
     title: 'Labour Force Survey: Total usual hours (main job), Employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3935,6 +4166,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348676',
     title: 'Labour Force Survey: Total employed, all hours, Self-employed, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Self-employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3952,6 +4184,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348684',
     title: 'Labour Force Survey: Total usual hours (main job), Self-employed, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Self-employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3969,6 +4202,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348866',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, all industries, Men+, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -3986,6 +4220,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2348874',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, all industries, Men+, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4003,6 +4238,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2692514',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, all industries, Women+, Canada',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4020,6 +4256,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100034_2692522',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, all industries, Women+, Canada',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4037,6 +4274,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609121',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4054,6 +4292,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609122',
     title: '1 to 14 hours, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;1 to 14 hours;Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4071,6 +4310,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609126',
     title: '40 hours, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;40 hours;Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4088,6 +4328,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609129',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4105,6 +4346,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609141',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, Agriculture, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4122,6 +4364,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609149',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, Agriculture, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4139,6 +4382,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609161',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, Utilities, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4156,6 +4400,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609169',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, Utilities, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4173,6 +4418,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609171',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, Construction, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4190,6 +4436,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609179',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, Construction, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4207,6 +4454,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609181',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, Manufacturing, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4224,6 +4472,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609189',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, Manufacturing, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4241,6 +4490,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609311',
     title: 'Labour Force Survey: Total employed, all hours, Employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4258,6 +4508,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609319',
     title: 'Labour Force Survey: Total usual hours (main job), Employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4275,6 +4526,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609501',
     title: 'Labour Force Survey: Total employed, all hours, Self-employed, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Self-employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4292,6 +4544,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609509',
     title: 'Labour Force Survey: Total usual hours (main job), Self-employed, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Self-employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4309,6 +4562,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609691',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, all industries, Men+, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4326,6 +4580,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2609699',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, all industries, Men+, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4343,6 +4598,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2610261',
     title: 'Labour Force Survey: Total employed, all hours, Total employed, all industries, Women+, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all hours;Total employed;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4360,6 +4616,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100035_2610269',
     title: 'Labour Force Survey: Total usual hours (main job), Total employed, all industries, Women+, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours (main job);Total employed;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4377,6 +4634,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3411402',
     title: '0 hours, Total employed, all industries, Canada',
+    originalTitle: 'Canada;0 hours;Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4394,6 +4652,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3411410',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4411,6 +4670,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3411434',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, Agriculture, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4428,6 +4688,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3411458',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, Utilities, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4445,6 +4706,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3411470',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, Construction, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4462,6 +4724,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3411482',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, Manufacturing, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4479,6 +4742,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3411638',
     title: 'Labour Force Survey: Total actual hours (main job), Employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4496,6 +4760,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3411866',
     title: 'Labour Force Survey: Total actual hours (main job), Self-employed, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Self-employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4513,6 +4778,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3412094',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, all industries, Men+, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4530,6 +4796,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100036_3412778',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, all industries, Women+, Canada',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4547,6 +4814,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2641482',
     title: '0 hours, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;0 hours;Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4564,6 +4832,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2641490',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4581,6 +4850,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2641514',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, Agriculture, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4598,6 +4868,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2641538',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, Utilities, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4615,6 +4886,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2641550',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, Construction, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4632,6 +4904,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2641562',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, Manufacturing, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4649,6 +4922,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2641718',
     title: 'Labour Force Survey: Total actual hours (main job), Employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4666,6 +4940,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2641946',
     title: 'Labour Force Survey: Total actual hours (main job), Self-employed, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Self-employed;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4683,6 +4958,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2642174',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, all industries, Men+, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4700,6 +4976,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100037_2642858',
     title: 'Labour Force Survey: Total actual hours (main job), Total employed, all industries, Women+, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours (main job);Total employed;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4716,7 +4993,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494851',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4733,7 +5011,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494854',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Full-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4750,7 +5029,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494856',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4767,7 +5047,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494861',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4784,7 +5065,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494864',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Full-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4801,7 +5083,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494866',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4818,7 +5101,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494871',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4835,7 +5119,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494874',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Full-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4852,7 +5137,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494876',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4869,7 +5155,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494881',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4886,7 +5173,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494884',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Full-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4903,7 +5191,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494886',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4920,7 +5209,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494944',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Part-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4937,7 +5227,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494946',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Part-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4954,7 +5245,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494954',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Part-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4971,7 +5263,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494956',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Part-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -4988,7 +5281,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494964',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Part-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5005,7 +5299,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494966',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Part-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5022,7 +5317,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494974',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total usual hours;All jobs;Part-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5039,7 +5335,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100042_3494976',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total actual hours;All jobs;Part-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5056,7 +5353,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529359',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5073,7 +5371,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529362',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Full-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5090,7 +5389,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529364',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5107,7 +5407,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529369',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5124,7 +5425,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529372',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Full-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5141,7 +5443,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529374',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5158,7 +5461,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529379',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5175,7 +5479,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529382',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Full-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5192,7 +5497,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529384',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5209,7 +5515,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529389',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5226,7 +5533,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529392',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Full-time employment, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Full-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5243,7 +5551,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529394',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Full-time employment, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Full-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5260,7 +5569,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529452',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Part-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5277,7 +5587,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529454',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Part-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5294,7 +5605,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529462',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Part-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5311,7 +5623,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529464',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Part-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5328,7 +5641,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529472',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Part-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5345,7 +5659,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529474',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Part-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5362,7 +5677,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529482',
-    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total usual hours, All jobs, Part-time employment, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total usual hours;All jobs;Part-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5379,7 +5695,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100043_2529484',
-    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total actual hours, All jobs, Part-time employment, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total actual hours;All jobs;Part-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5396,7 +5713,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342653',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5413,7 +5731,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342672',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5430,7 +5749,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342691',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5447,7 +5767,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342710',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5464,7 +5785,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342729',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5481,7 +5803,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342748',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5498,7 +5821,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342767',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5515,7 +5839,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342786',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5532,7 +5857,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342805',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5549,7 +5875,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342824',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5566,7 +5893,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342843',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5583,7 +5911,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342862',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5600,7 +5929,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342881',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5617,7 +5947,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342900',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5634,7 +5965,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342919',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5651,7 +5983,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2342957',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5668,7 +6001,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2343014',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5685,7 +6019,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2343052',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5702,7 +6037,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2343090',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5719,7 +6055,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100044_2343128',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5736,7 +6073,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834095',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5753,7 +6091,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834114',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5770,7 +6109,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834133',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5787,7 +6127,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834152',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5804,7 +6145,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834171',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5821,7 +6163,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834190',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5838,7 +6181,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834209',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5855,7 +6199,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834228',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5872,7 +6217,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834247',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5889,7 +6235,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834266',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5906,7 +6253,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834285',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5923,7 +6271,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834304',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5940,7 +6289,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834323',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5957,7 +6307,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834342',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5974,7 +6325,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834361',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -5991,7 +6343,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834380',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Men+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6008,7 +6361,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834456',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6025,7 +6379,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834494',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6042,7 +6397,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834513',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6059,7 +6415,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100045_3834551',
-    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employed multiple jobholders, all industries, Women+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employed multiple jobholders, all industries;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6077,6 +6434,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054044',
     title: 'Main job, 1 to 14 hours, All jobs, total multiple jobholders, all hours, Canada',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, total multiple jobholders, all hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6094,6 +6452,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054045',
     title: 'Main job, 1 to 14 hours, All jobs, 1 to 14 hours, Canada',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 1 to 14 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6111,6 +6470,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054046',
     title: 'Main job, 1 to 14 hours, All jobs, 15 to 29 hours, Canada',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 15 to 29 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6128,6 +6488,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054047',
     title: 'Main job, 1 to 14 hours, All jobs, 30 to 34 hours, Canada',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 30 to 34 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6145,6 +6506,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054048',
     title: 'Main job, 1 to 14 hours, All jobs, 35 to 39 hours, Canada',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 35 to 39 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6162,6 +6524,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054049',
     title: 'Main job, 1 to 14 hours, All jobs, 40 hours, Canada',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 40 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6179,6 +6542,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054050',
     title: 'Main job, 1 to 14 hours, All jobs, 41 to 49 hours, Canada',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 41 to 49 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6196,6 +6560,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054051',
     title: 'Main job, 1 to 14 hours, All jobs, 50 hours or more, Canada',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 50 hours or more', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6213,6 +6578,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054053',
     title: 'Main job, 15 to 29 hours, All jobs, 15 to 29 hours, Canada',
+    originalTitle: 'Canada;Main job, 15 to 29 hours;All jobs, 15 to 29 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6230,6 +6596,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054054',
     title: 'Main job, 15 to 29 hours, All jobs, 30 to 34 hours, Canada',
+    originalTitle: 'Canada;Main job, 15 to 29 hours;All jobs, 30 to 34 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6247,6 +6614,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054055',
     title: 'Main job, 15 to 29 hours, All jobs, 35 to 39 hours, Canada',
+    originalTitle: 'Canada;Main job, 15 to 29 hours;All jobs, 35 to 39 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6264,6 +6632,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054070',
     title: 'Main job, 40 hours, All jobs, total multiple jobholders, all hours, Canada',
+    originalTitle: 'Canada;Main job, 40 hours;All jobs, total multiple jobholders, all hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6281,6 +6650,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054072',
     title: 'Main job, 40 hours, All jobs, 41 to 49 hours, Canada',
+    originalTitle: 'Canada;Main job, 40 hours;All jobs, 41 to 49 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6298,6 +6668,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100048_2054073',
     title: 'Main job, 40 hours, All jobs, 50 hours or more, Canada',
+    originalTitle: 'Canada;Main job, 40 hours;All jobs, 50 hours or more', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6315,6 +6686,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327798',
     title: 'Main job, 1 to 14 hours, All jobs, total multiple jobholders, all hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, total multiple jobholders, all hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6332,6 +6704,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327799',
     title: 'Main job, 1 to 14 hours, All jobs, 1 to 14 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 1 to 14 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6349,6 +6722,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327800',
     title: 'Main job, 1 to 14 hours, All jobs, 15 to 29 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 15 to 29 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6366,6 +6740,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327801',
     title: 'Main job, 1 to 14 hours, All jobs, 30 to 34 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 30 to 34 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6383,6 +6758,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327802',
     title: 'Main job, 1 to 14 hours, All jobs, 35 to 39 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 35 to 39 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6400,6 +6776,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327804',
     title: 'Main job, 1 to 14 hours, All jobs, 41 to 49 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 41 to 49 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6417,6 +6794,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327805',
     title: 'Main job, 1 to 14 hours, All jobs, 50 hours or more, Canada (annual)',
+    originalTitle: 'Canada;Main job, 1 to 14 hours;All jobs, 50 hours or more', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6434,6 +6812,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327807',
     title: 'Main job, 15 to 29 hours, All jobs, 15 to 29 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 15 to 29 hours;All jobs, 15 to 29 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6451,6 +6830,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327808',
     title: 'Main job, 15 to 29 hours, All jobs, 30 to 34 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 15 to 29 hours;All jobs, 30 to 34 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6468,6 +6848,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327809',
     title: 'Main job, 15 to 29 hours, All jobs, 35 to 39 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 15 to 29 hours;All jobs, 35 to 39 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6485,6 +6866,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327824',
     title: 'Main job, 40 hours, All jobs, total multiple jobholders, all hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 40 hours;All jobs, total multiple jobholders, all hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6502,6 +6884,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327826',
     title: 'Main job, 40 hours, All jobs, 41 to 49 hours, Canada (annual)',
+    originalTitle: 'Canada;Main job, 40 hours;All jobs, 41 to 49 hours', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6519,6 +6902,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100049_2327827',
     title: 'Main job, 40 hours, All jobs, 50 hours or more, Canada (annual)',
+    originalTitle: 'Canada;Main job, 40 hours;All jobs, 50 hours or more', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6535,7 +6919,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824312',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6552,7 +6937,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824321',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6569,7 +6955,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824330',
-    title: 'Labour Force Survey: Total employed, Both full and part-time employment, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employed, Both full and part-time employment, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employed;Both full and part-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6586,7 +6973,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824339',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6603,7 +6991,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824348',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6620,7 +7009,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824366',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6637,7 +7027,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824375',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6654,7 +7045,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824393',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6671,7 +7063,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824402',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6688,7 +7081,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824411',
-    title: 'Labour Force Survey: Total employed, Both full and part-time employment, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employed, Both full and part-time employment, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employed;Both full and part-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6705,7 +7099,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824420',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6722,7 +7117,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824429',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6739,7 +7135,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824447',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6756,7 +7153,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824456',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6773,7 +7171,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824474',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6790,7 +7189,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824483',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6807,7 +7207,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824501',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6824,7 +7225,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824510',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6841,7 +7243,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824528',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6858,7 +7261,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100050_2824537',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6875,7 +7279,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838283',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6892,7 +7297,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838292',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6909,7 +7315,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838310',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6926,7 +7333,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838319',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6943,7 +7351,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838328',
-    title: 'Labour Force Survey: Total employed, Both full and part-time employment, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Both full and part-time employment, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Both full and part-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6960,7 +7369,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838337',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6977,7 +7387,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838346',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -6994,7 +7405,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838364',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7011,7 +7423,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838373',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7028,7 +7441,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838391',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7045,7 +7459,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838400',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7062,7 +7477,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838409',
-    title: 'Labour Force Survey: Total employed, Both full and part-time employment, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Both full and part-time employment, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Both full and part-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7079,7 +7495,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838418',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7096,7 +7513,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838427',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7113,7 +7531,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838445',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7130,7 +7549,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838454',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7147,7 +7567,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838472',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7164,7 +7585,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838481',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7181,7 +7603,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838499',
-    title: 'Labour Force Survey: Total employed, Full-time employment, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Full-time employment, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Full-time employment;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7198,7 +7621,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100051_2838508',
-    title: 'Labour Force Survey: Total employed, Part-time employment, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employed, Part-time employment, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employed;Part-time employment;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7216,6 +7640,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085317',
     title: 'Labour Force Survey: Total employed, all months, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total employed, all months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7233,6 +7658,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085318',
     title: '1 to 3 months, Total employed, all industries, Canada',
+    originalTitle: 'Canada;1 to 3 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7250,6 +7676,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085319',
     title: '4 to 6 months, Total employed, all industries, Canada',
+    originalTitle: 'Canada;4 to 6 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7267,6 +7694,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085320',
     title: '7 to 12 months, Total employed, all industries, Canada',
+    originalTitle: 'Canada;7 to 12 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7284,6 +7712,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085321',
     title: '13 to 60 months, Total employed, all industries, Canada',
+    originalTitle: 'Canada;13 to 60 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7301,6 +7730,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085322',
     title: '61 to 120 months, Total employed, all industries, Canada',
+    originalTitle: 'Canada;61 to 120 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7318,6 +7748,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085323',
     title: '121 to 240 months, Total employed, all industries, Canada',
+    originalTitle: 'Canada;121 to 240 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7335,6 +7766,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085324',
     title: '241 months or more, Total employed, all industries, Canada',
+    originalTitle: 'Canada;241 months or more;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7352,6 +7784,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085325',
     title: 'Average tenure, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Average tenure;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7369,6 +7802,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085335',
     title: 'Labour Force Survey: Total employed, all months, Utilities, Canada',
+    originalTitle: 'Canada;Total employed, all months;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7386,6 +7820,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085344',
     title: 'Labour Force Survey: Total employed, all months, Construction, Canada',
+    originalTitle: 'Canada;Total employed, all months;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7403,6 +7838,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085353',
     title: 'Labour Force Survey: Total employed, all months, Manufacturing, Canada',
+    originalTitle: 'Canada;Total employed, all months;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7420,6 +7856,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085362',
     title: 'Labour Force Survey: Total employed, all months, Services-producing sector, Canada',
+    originalTitle: 'Canada;Total employed, all months;Services-producing sector;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7437,6 +7874,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085371',
     title: 'Labour Force Survey: Total employed, all months, Wholesale and retail trade, Canada',
+    originalTitle: 'Canada;Total employed, all months;Wholesale and retail trade;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7454,6 +7892,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085407',
     title: 'Labour Force Survey: Total employed, all months, Educational services, Canada',
+    originalTitle: 'Canada;Total employed, all months;Educational services;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7471,6 +7910,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085452',
     title: 'Labour Force Survey: Total employed, all months, Goods-producing sector, Canada',
+    originalTitle: 'Canada;Total employed, all months;Goods-producing sector;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7488,6 +7928,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085461',
     title: 'Labour Force Survey: Total employed, all months, Agriculture, Canada',
+    originalTitle: 'Canada;Total employed, all months;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7505,6 +7946,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085479',
     title: 'Labour Force Survey: Total employed, all months, Public administration, Canada',
+    originalTitle: 'Canada;Total employed, all months;Public administration;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7522,6 +7964,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085488',
     title: 'Labour Force Survey: Total employed, all months, Total employed, all industries, Men+, Canada',
+    originalTitle: 'Canada;Total employed, all months;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7539,6 +7982,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100054_2085659',
     title: 'Labour Force Survey: Total employed, all months, Total employed, all industries, Women+, Canada',
+    originalTitle: 'Canada;Total employed, all months;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7556,6 +8000,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328259',
     title: 'Labour Force Survey: Total employed, all months, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7573,6 +8018,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328260',
     title: '1 to 3 months, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;1 to 3 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7590,6 +8036,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328261',
     title: '4 to 6 months, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;4 to 6 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7607,6 +8054,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328262',
     title: '7 to 12 months, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;7 to 12 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7624,6 +8072,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328263',
     title: '13 to 60 months, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;13 to 60 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7641,6 +8090,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328264',
     title: '61 to 120 months, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;61 to 120 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7658,6 +8108,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328265',
     title: '121 to 240 months, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;121 to 240 months;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7675,6 +8126,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328266',
     title: '241 months or more, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;241 months or more;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7692,6 +8144,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328267',
     title: 'Average tenure, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Average tenure;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7709,6 +8162,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328268',
     title: 'Labour Force Survey: Total employed, all months, Goods-producing sector, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Goods-producing sector;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7726,6 +8180,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328277',
     title: 'Labour Force Survey: Total employed, all months, Agriculture, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7743,6 +8198,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328286',
     title: 'Labour Force Survey: Total employed, all months, Construction, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7760,6 +8216,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328295',
     title: 'Labour Force Survey: Total employed, all months, Manufacturing, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7777,6 +8234,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328340',
     title: 'Labour Force Survey: Total employed, all months, Educational services, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Educational services;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7794,6 +8252,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328376',
     title: 'Labour Force Survey: Total employed, all months, Utilities, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7811,6 +8270,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328385',
     title: 'Labour Force Survey: Total employed, all months, Services-producing sector, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Services-producing sector;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7828,6 +8288,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328394',
     title: 'Labour Force Survey: Total employed, all months, Wholesale and retail trade, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Wholesale and retail trade;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7845,6 +8306,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328421',
     title: 'Labour Force Survey: Total employed, all months, Public administration, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Public administration;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7862,6 +8324,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328430',
     title: 'Labour Force Survey: Total employed, all months, Total employed, all industries, Men+, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7879,6 +8342,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100055_2328601',
     title: 'Labour Force Survey: Total employed, all months, Total employed, all industries, Women+, Canada (annual)',
+    originalTitle: 'Canada;Total employed, all months;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7895,7 +8359,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349180',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7912,7 +8377,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349192',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7929,7 +8395,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349204',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7946,7 +8413,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349216',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7963,7 +8431,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349228',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7980,7 +8449,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349240',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -7997,7 +8467,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349252',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8014,7 +8485,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349264',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8031,7 +8503,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349276',
-    title: 'Labour Force Survey: Total unemployed, all weeks, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8048,7 +8521,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349288',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8065,7 +8539,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349300',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8082,7 +8557,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349312',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8099,7 +8575,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349324',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8116,7 +8593,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349336',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8133,7 +8611,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349348',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8150,7 +8629,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349372',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Men+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8167,7 +8647,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349408',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8184,7 +8665,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349432',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Women+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Women+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8201,7 +8683,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349456',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8218,7 +8701,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100057_2349480',
-    title: 'Labour Force Survey: Total unemployed, all weeks, Women+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, all weeks, Women+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total unemployed, all weeks;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8235,7 +8719,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469253',
-    title: 'Labour Force Survey: Total unemployed, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8252,7 +8737,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469266',
-    title: 'Labour Force Survey: Total unemployed, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8269,7 +8755,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469279',
-    title: 'Labour Force Survey: Total unemployed, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8286,7 +8773,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469292',
-    title: 'Labour Force Survey: Total unemployed, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8303,7 +8791,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469305',
-    title: 'Labour Force Survey: Total unemployed, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8320,7 +8809,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469318',
-    title: 'Labour Force Survey: Total unemployed, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8337,7 +8827,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469331',
-    title: 'Labour Force Survey: Total unemployed, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8354,7 +8845,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469344',
-    title: 'Labour Force Survey: Total unemployed, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8371,7 +8863,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469357',
-    title: 'Labour Force Survey: Total unemployed, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8388,7 +8881,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469370',
-    title: 'Labour Force Survey: Total unemployed, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8405,7 +8899,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469383',
-    title: 'Labour Force Survey: Total unemployed, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8422,7 +8917,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469396',
-    title: 'Labour Force Survey: Total unemployed, Men+, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8439,7 +8935,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469409',
-    title: 'Labour Force Survey: Total unemployed, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8456,7 +8953,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469422',
-    title: 'Labour Force Survey: Total unemployed, Men+, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8473,7 +8971,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469435',
-    title: 'Labour Force Survey: Total unemployed, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8490,7 +8989,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469461',
-    title: 'Labour Force Survey: Total unemployed, Men+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8507,7 +9007,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469500',
-    title: 'Labour Force Survey: Total unemployed, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total unemployed;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8524,7 +9025,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469526',
-    title: 'Labour Force Survey: Total unemployed, Women+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, Women+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total unemployed;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8541,7 +9043,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469552',
-    title: 'Labour Force Survey: Total unemployed, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total unemployed;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8558,7 +9061,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100058_3469578',
-    title: 'Labour Force Survey: Total unemployed, Women+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total unemployed, Women+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total unemployed;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8575,7 +9079,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352742',
-    title: 'Labour Force Survey: Total unemployed, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8592,7 +9097,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352755',
-    title: 'Labour Force Survey: Total unemployed, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8609,7 +9115,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352768',
-    title: 'Labour Force Survey: Total unemployed, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8626,7 +9133,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352781',
-    title: 'Labour Force Survey: Total unemployed, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8643,7 +9151,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352794',
-    title: 'Labour Force Survey: Total unemployed, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8660,7 +9169,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352807',
-    title: 'Labour Force Survey: Total unemployed, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8677,7 +9187,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352820',
-    title: 'Labour Force Survey: Total unemployed, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8694,7 +9205,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352833',
-    title: 'Labour Force Survey: Total unemployed, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8711,7 +9223,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352846',
-    title: 'Labour Force Survey: Total unemployed, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8728,7 +9241,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352859',
-    title: 'Labour Force Survey: Total unemployed, Men+, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8745,7 +9259,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352872',
-    title: 'Labour Force Survey: Total unemployed, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8762,7 +9277,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352885',
-    title: 'Labour Force Survey: Total unemployed, Men+, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8779,7 +9295,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352898',
-    title: 'Labour Force Survey: Total unemployed, Men+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8796,7 +9313,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352911',
-    title: 'Labour Force Survey: Total unemployed, Men+, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8813,7 +9331,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352924',
-    title: 'Labour Force Survey: Total unemployed, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8830,7 +9349,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352950',
-    title: 'Labour Force Survey: Total unemployed, Men+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8847,7 +9367,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2352989',
-    title: 'Labour Force Survey: Total unemployed, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8864,7 +9385,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2353015',
-    title: 'Labour Force Survey: Total unemployed, Women+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Women+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8881,7 +9403,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2353041',
-    title: 'Labour Force Survey: Total unemployed, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8898,7 +9421,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100059_2353067',
-    title: 'Labour Force Survey: Total unemployed, Women+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Women+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8916,6 +9440,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342629',
     title: 'Median age, Total, all retirees, Canada',
+    originalTitle: 'Canada;Median age;Total, all retirees;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8933,6 +9458,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342630',
     title: 'Average age, Total, all retirees, Canada',
+    originalTitle: 'Canada;Average age;Total, all retirees;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8950,6 +9476,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342631',
     title: 'Median age, Public sector employees, Canada',
+    originalTitle: 'Canada;Median age;Public sector employees;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8967,6 +9494,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342632',
     title: 'Average age, Public sector employees, Canada',
+    originalTitle: 'Canada;Average age;Public sector employees;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -8984,6 +9512,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342633',
     title: 'Median age, Private sector employees, Canada',
+    originalTitle: 'Canada;Median age;Private sector employees;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9001,6 +9530,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342634',
     title: 'Average age, Private sector employees, Canada',
+    originalTitle: 'Canada;Average age;Private sector employees;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9017,7 +9547,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100060_2342635',
-    title: 'Labour Force Survey: Median age, Self-employed, Canada',
+    title: 'Labour Force Survey: Self-employed Median age, Canada',
+    originalTitle: 'Canada;Median age;Self-employed;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9034,7 +9565,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100060_2342636',
-    title: 'Labour Force Survey: Average age, Self-employed, Canada',
+    title: 'Labour Force Survey: Self-employed average age, Canada',
+    originalTitle: 'Canada;Average age;Self-employed;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9052,6 +9584,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342637',
     title: 'Median age, Total, all retirees, Men+, Canada',
+    originalTitle: 'Canada;Median age;Total, all retirees;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9069,6 +9602,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342638',
     title: 'Average age, Total, all retirees, Men+, Canada',
+    originalTitle: 'Canada;Average age;Total, all retirees;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9086,6 +9620,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342639',
     title: 'Median age, Public sector employees, Men+, Canada',
+    originalTitle: 'Canada;Median age;Public sector employees;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9103,6 +9638,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342640',
     title: 'Average age, Public sector employees, Men+, Canada',
+    originalTitle: 'Canada;Average age;Public sector employees;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9120,6 +9656,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342641',
     title: 'Median age, Private sector employees, Men+, Canada',
+    originalTitle: 'Canada;Median age;Private sector employees;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9136,7 +9673,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100060_2342643',
-    title: 'Median age, Self-employed, Men+, Canada',
+    title: 'Self-employed Median age, Men+, Canada',
+    originalTitle: 'Canada;Median age;Self-employed;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9153,7 +9691,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100060_2342644',
-    title: 'Average age, Self-employed, Men+, Canada',
+    title: 'Self-employed average age, Men+, Canada',
+    originalTitle: 'Canada;Average age;Self-employed;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9171,6 +9710,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342645',
     title: 'Median age, Total, all retirees, Women+, Canada',
+    originalTitle: 'Canada;Median age;Total, all retirees;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9188,6 +9728,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342646',
     title: 'Average age, Total, all retirees, Women+, Canada',
+    originalTitle: 'Canada;Average age;Total, all retirees;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9205,6 +9746,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100060_2342647',
     title: 'Median age, Public sector employees, Women+, Canada',
+    originalTitle: 'Canada;Median age;Public sector employees;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9221,7 +9763,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100060_2342651',
-    title: 'Median age, Self-employed, Women+, Canada',
+    title: 'Self-employed Median age, Women+, Canada',
+    originalTitle: 'Canada;Median age;Self-employed;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9238,7 +9781,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100060_2342652',
-    title: 'Average age, Self-employed, Women+, Canada',
+    title: 'Self-employed average age, Women+, Canada',
+    originalTitle: 'Canada;Average age;Self-employed;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9255,7 +9799,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2132578',
-    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9272,7 +9817,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2132673',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9289,7 +9835,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2132768',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9306,7 +9853,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2132863',
-    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9323,7 +9871,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2132958',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9340,7 +9889,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2133053',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9357,7 +9907,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2133148',
-    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9374,7 +9925,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2133243',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9391,7 +9943,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2133338',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9408,7 +9961,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2133433',
-    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9425,7 +9979,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2133528',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9442,7 +9997,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2133623',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9459,7 +10015,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2134098',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9476,7 +10033,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2134193',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9493,7 +10051,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2134383',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9510,7 +10069,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2134478',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9527,7 +10087,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2135238',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9544,7 +10105,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2135333',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9561,7 +10123,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2135523',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9578,7 +10141,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100063_2135618',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9595,7 +10159,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2196614',
-    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9612,7 +10177,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2196709',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9629,7 +10195,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2196804',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9646,7 +10213,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2196899',
-    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9663,7 +10231,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2196994',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9680,7 +10249,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2197089',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9697,7 +10267,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2197184',
-    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9714,7 +10285,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2197279',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9731,7 +10303,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2197374',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9748,7 +10321,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2197469',
-    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employees, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9765,7 +10339,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2197564',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9782,7 +10357,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2197659',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9799,7 +10375,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2198134',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9816,7 +10393,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2198229',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9833,7 +10411,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2198419',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9850,7 +10429,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2198514',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9867,7 +10447,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2199274',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9884,7 +10465,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2199369',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9901,7 +10483,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2199559',
-    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employees, all industries, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9918,7 +10501,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100064_2199654',
-    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employees, all industries, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9935,7 +10519,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3074026',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9952,7 +10537,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3074081',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Union coverage;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9969,7 +10555,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3074136',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, No union coverage, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, No union coverage, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;No union coverage;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -9986,7 +10573,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3074191',
-    title: 'Labour Force Survey: Total employees, all wages, Permanent employees, Total employees, covered and not covered by union, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Permanent employees, Total employees, covered and not covered by union, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Permanent employees;Total employees, covered and not covered by union;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10003,7 +10591,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3074521',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10020,7 +10609,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3074576',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Union coverage;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10037,7 +10627,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3075016',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10054,7 +10645,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3075071',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Union coverage;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10071,7 +10663,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3075511',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10088,7 +10681,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3075566',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Union coverage;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10105,7 +10699,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3075621',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, No union coverage, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, No union coverage, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;No union coverage;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10122,7 +10717,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3075676',
-    title: 'Labour Force Survey: Total employees, all wages, Permanent employees, Total employees, covered and not covered by union, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Permanent employees, Total employees, covered and not covered by union, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Permanent employees;Total employees, covered and not covered by union;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10139,7 +10735,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3076006',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10156,7 +10753,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3076501',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Men+;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10173,7 +10771,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3076996',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10190,7 +10789,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3077491',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10207,7 +10807,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3077986',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10224,7 +10825,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3078481',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Women+;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10241,7 +10843,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3078976',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Women+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10258,7 +10861,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100065_3079471',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10275,7 +10879,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2107929',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10292,7 +10897,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2107984',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Union coverage;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10309,7 +10915,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2108039',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, No union coverage, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, No union coverage, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;No union coverage;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10326,7 +10933,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2108094',
-    title: 'Labour Force Survey: Total employees, all wages, Permanent employees, Total employees, covered and not covered by union, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Permanent employees, Total employees, covered and not covered by union, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Permanent employees;Total employees, covered and not covered by union;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10343,7 +10951,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2108424',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10360,7 +10969,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2108479',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Union coverage;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10377,7 +10987,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2108919',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10394,7 +11005,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2108974',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Union coverage;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10411,7 +11023,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2109414',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10428,7 +11041,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2109469',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Union coverage, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Union coverage;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10445,7 +11059,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2109524',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, No union coverage, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, No union coverage, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;No union coverage;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10462,7 +11077,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2109579',
-    title: 'Labour Force Survey: Total employees, all wages, Permanent employees, Total employees, covered and not covered by union, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Permanent employees, Total employees, covered and not covered by union, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Permanent employees;Total employees, covered and not covered by union;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10479,7 +11095,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2109909',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10496,7 +11113,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2110404',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Men+;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10513,7 +11131,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2110899',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10530,7 +11149,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2111394',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10547,7 +11167,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2111889',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10564,7 +11185,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2112384',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Women+;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10581,7 +11203,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2112879',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Women+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10598,7 +11221,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100066_2113374',
-    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all wages, Total employees, permanent and temporary, Total employees, covered and not covered by union, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Total employees, permanent and temporary;Total employees, covered and not covered by union;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10615,7 +11239,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3527384',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10632,7 +11257,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3527479',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10649,7 +11275,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3527574',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10666,7 +11293,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3527669',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10683,7 +11311,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3527764',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10700,7 +11329,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3527859',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10717,7 +11347,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3527954',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10734,7 +11365,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528049',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10751,7 +11383,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528144',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10768,7 +11401,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528239',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10785,7 +11419,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528334',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10802,7 +11437,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528429',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10819,7 +11455,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528524',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10836,7 +11473,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528619',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10853,7 +11491,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528714',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10870,7 +11509,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3528904',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10887,7 +11527,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3529189',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10904,7 +11545,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3529379',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10921,7 +11563,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3529569',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10938,7 +11581,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100067_3529759',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10955,7 +11599,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2299575',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10972,7 +11617,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2299670',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -10989,7 +11635,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2299765',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11006,7 +11653,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2299860',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11023,7 +11671,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2299955',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11040,7 +11689,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300050',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11057,7 +11707,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300145',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11074,7 +11725,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300240',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11091,7 +11743,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300335',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11108,7 +11761,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300430',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11125,7 +11779,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300525',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11142,7 +11797,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300620',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11159,7 +11815,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300715',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11176,7 +11833,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300810',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11193,7 +11851,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2300905',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11210,7 +11869,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2301095',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Men+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11227,7 +11887,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2301380',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11244,7 +11905,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2301570',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11261,7 +11923,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2301760',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11278,7 +11941,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100068_2301950',
-    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, all establishment sizes, Total employees, all industries, Women+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all establishment sizes;Total employees, all industries;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11295,7 +11959,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3311707',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11312,7 +11977,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3311770',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11329,7 +11995,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3311833',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11346,7 +12013,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3311896',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11363,7 +12031,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3311959',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11380,7 +12049,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312022',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11397,7 +12067,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312085',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11414,7 +12085,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312148',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11431,7 +12103,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312211',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11448,7 +12121,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312274',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11465,7 +12139,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312337',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11482,7 +12157,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312400',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11499,7 +12175,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312463',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11516,7 +12193,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312526',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11533,7 +12211,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312589',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11550,7 +12229,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312715',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11567,7 +12247,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3312904',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11584,7 +12265,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3313030',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11601,7 +12283,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3313156',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11618,7 +12301,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100069_3313282',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11635,7 +12319,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2113867',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11652,7 +12337,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2113930',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11669,7 +12355,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2113993',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11686,7 +12373,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114056',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11703,7 +12391,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114119',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11720,7 +12409,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114182',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11737,7 +12427,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114245',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11754,7 +12445,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114308',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11771,7 +12463,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114371',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11788,7 +12481,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114434',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11805,7 +12499,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114497',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11822,7 +12517,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114560',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11839,7 +12535,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114623',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11856,7 +12553,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114686',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11873,7 +12571,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114749',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11890,7 +12589,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2114875',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Men+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11907,7 +12607,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2115064',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11924,7 +12625,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2115190',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11941,7 +12643,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2115316',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11958,7 +12661,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100070_2115442',
-    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, covered and not covered by union, Total employees, all industries, Women+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, covered and not covered by union;Total employees, all industries;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11975,7 +12679,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3555599',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -11992,7 +12697,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3555732',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12009,7 +12715,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3555865',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12026,7 +12733,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3555998',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12043,7 +12751,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3556131',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12060,7 +12769,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3556264',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12077,7 +12787,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3556397',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12094,7 +12805,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3556530',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12111,7 +12823,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3556663',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12128,7 +12841,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3556796',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12145,7 +12859,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3556929',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12162,7 +12877,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3557062',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12179,7 +12895,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3557195',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12196,7 +12913,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3557328',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12213,7 +12931,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3557461',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12230,7 +12949,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3557727',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12247,7 +12967,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3558126',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12264,7 +12985,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3558392',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12281,7 +13003,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3558658',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12298,7 +13021,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100071_3558924',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12315,7 +13039,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2375695',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12332,7 +13057,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2375828',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12349,7 +13075,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2375961',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12366,7 +13093,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2376094',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12383,7 +13111,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2376227',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12400,7 +13129,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2376360',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12417,7 +13147,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2376493',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12434,7 +13165,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2376626',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12451,7 +13183,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2376759',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12468,7 +13201,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2376892',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12485,7 +13219,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2377025',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12502,7 +13237,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2377158',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12519,7 +13255,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2377291',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12536,7 +13273,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2377424',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12553,7 +13291,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2377557',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12570,7 +13309,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2377823',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Men+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12587,7 +13327,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2378222',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12604,7 +13345,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2378488',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12621,7 +13363,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2378754',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12638,7 +13381,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100072_2379020',
-    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees, permanent and temporary, Total employees, all industries, Women+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees, permanent and temporary;Total employees, all industries;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12655,7 +13399,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3595100',
-    title: 'Labour Force Survey: Total employees at work, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12672,7 +13417,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3595290',
-    title: 'Labour Force Survey: Total employees at work, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12689,7 +13435,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3595480',
-    title: 'Labour Force Survey: Total employees at work, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12706,7 +13453,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3595670',
-    title: 'Labour Force Survey: Total employees at work, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12723,7 +13471,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3595860',
-    title: 'Labour Force Survey: Total employees at work, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12740,7 +13489,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3596050',
-    title: 'Labour Force Survey: Total employees at work, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12757,7 +13507,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3596240',
-    title: 'Labour Force Survey: Total employees at work, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12774,7 +13525,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3596430',
-    title: 'Labour Force Survey: Total employees at work, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12791,7 +13543,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3596620',
-    title: 'Labour Force Survey: Total employees at work, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total employees at work, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12808,7 +13561,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3596810',
-    title: 'Labour Force Survey: Total employees at work, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12825,7 +13579,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3597000',
-    title: 'Labour Force Survey: Total employees at work, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12842,7 +13597,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3597190',
-    title: 'Labour Force Survey: Total employees at work, Men+, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12859,7 +13615,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3597380',
-    title: 'Labour Force Survey: Total employees at work, Men+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12876,7 +13633,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3597570',
-    title: 'Labour Force Survey: Total employees at work, Men+, 45 years and over, Canada',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 45 and over, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12893,7 +13651,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3597760',
-    title: 'Labour Force Survey: Total employees at work, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12910,7 +13669,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3598140',
-    title: 'Labour Force Survey: Total employees at work, Men+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12927,7 +13687,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3598710',
-    title: 'Labour Force Survey: Total employees at work, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12944,7 +13705,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3599090',
-    title: 'Labour Force Survey: Total employees at work, Women+, 25 to 44 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, Women+, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12961,7 +13723,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3599470',
-    title: 'Labour Force Survey: Total employees at work, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12978,7 +13741,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100075_3599850',
-    title: 'Labour Force Survey: Total employees at work, Women+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total employees at work, Women+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -12995,7 +13759,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3330418',
-    title: 'Labour Force Survey: Total employees at work, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13012,7 +13777,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3330608',
-    title: 'Labour Force Survey: Total employees at work, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13029,7 +13795,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3330798',
-    title: 'Labour Force Survey: Total employees at work, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13046,7 +13813,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3330988',
-    title: 'Labour Force Survey: Total employees at work, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13063,7 +13831,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3331178',
-    title: 'Labour Force Survey: Total employees at work, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13080,7 +13849,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3331368',
-    title: 'Labour Force Survey: Total employees at work, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13097,7 +13867,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3331558',
-    title: 'Labour Force Survey: Total employees at work, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13114,7 +13885,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3331748',
-    title: 'Labour Force Survey: Total employees at work, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13131,7 +13903,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3331938',
-    title: 'Labour Force Survey: Total employees at work, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13148,7 +13921,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3332128',
-    title: 'Labour Force Survey: Total employees at work, Men+, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13165,7 +13939,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3332318',
-    title: 'Labour Force Survey: Total employees at work, Men+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13182,7 +13957,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3332508',
-    title: 'Labour Force Survey: Total employees at work, Men+, 25 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13199,7 +13975,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3332698',
-    title: 'Labour Force Survey: Total employees at work, Men+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13216,7 +13993,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3332888',
-    title: 'Labour Force Survey: Total employees at work, Men+, 45 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13233,7 +14011,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3333078',
-    title: 'Labour Force Survey: Total employees at work, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13250,7 +14029,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3333458',
-    title: 'Labour Force Survey: Total employees at work, Men+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Men+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13267,7 +14047,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3334028',
-    title: 'Labour Force Survey: Total employees at work, Women+, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Women+, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13284,7 +14065,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3334408',
-    title: 'Labour Force Survey: Total employees at work, Women+, 25 to 44 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Women+, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Women+;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13301,7 +14083,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3334788',
-    title: 'Labour Force Survey: Total employees at work, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13318,7 +14101,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100076_3335168',
-    title: 'Labour Force Survey: Total employees at work, Women+, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Total employees at work, Women+, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Total employees at work;Total employees at work;Women+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13335,7 +14119,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440389',
-    title: 'R4 - official rate, 15 years and over, Canada',
+    title: 'R4 - official rate, ages 15 and over, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13352,7 +14137,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440410',
-    title: 'R1 - unemployed 1 year or more, 15 to 24 years, Canada',
+    title: 'R1 - unemployed 1 year or more, ages 15 to 24, Canada',
+    originalTitle: 'Canada;R1 - unemployed 1 year or more;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13369,7 +14155,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440411',
-    title: 'R2 - unemployed 3 months or more, 15 to 24 years, Canada',
+    title: 'R2 - unemployed 3 months or more, ages 15 to 24, Canada',
+    originalTitle: 'Canada;R2 - unemployed 3 months or more;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13386,7 +14173,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440413',
-    title: 'R4 - official rate, 15 to 24 years, Canada',
+    title: 'R4 - official rate, ages 15 to 24, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13403,7 +14191,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440414',
-    title: 'R5 - plus discouraged searchers, 15 to 24 years, Canada',
+    title: 'R5 - plus discouraged searchers, ages 15 to 24, Canada',
+    originalTitle: 'Canada;R5 - plus discouraged searchers;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13420,7 +14209,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440434',
-    title: 'R1 - unemployed 1 year or more, 55 to 64 years, Canada',
+    title: 'R1 - unemployed 1 year or more, ages 55 to 64, Canada',
+    originalTitle: 'Canada;R1 - unemployed 1 year or more;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13437,7 +14227,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440437',
-    title: 'R4 - official rate, 55 to 64 years, Canada',
+    title: 'R4 - official rate, ages 55 to 64, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13454,7 +14245,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440438',
-    title: 'R5 - plus discouraged searchers, 55 to 64 years, Canada',
+    title: 'R5 - plus discouraged searchers, ages 55 to 64, Canada',
+    originalTitle: 'Canada;R5 - plus discouraged searchers;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13471,7 +14263,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440461',
-    title: 'R4 - official rate, 65 years and over, Canada',
+    title: 'R4 - official rate, ages 65 and over, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13488,7 +14281,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440485',
-    title: 'R4 - official rate, 25 years and over, Canada',
+    title: 'R4 - official rate, ages 25 and over, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13505,7 +14299,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440506',
-    title: 'R1 - unemployed 1 year or more, 25 to 54 years, Canada',
+    title: 'R1 - unemployed 1 year or more, ages 25 to 54, Canada',
+    originalTitle: 'Canada;R1 - unemployed 1 year or more;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13522,7 +14317,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440507',
-    title: 'R2 - unemployed 3 months or more, 25 to 54 years, Canada',
+    title: 'R2 - unemployed 3 months or more, ages 25 to 54, Canada',
+    originalTitle: 'Canada;R2 - unemployed 3 months or more;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13539,7 +14335,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440509',
-    title: 'R4 - official rate, 25 to 54 years, Canada',
+    title: 'R4 - official rate, ages 25 to 54, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13556,7 +14353,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440510',
-    title: 'R5 - plus discouraged searchers, 25 to 54 years, Canada',
+    title: 'R5 - plus discouraged searchers, ages 25 to 54, Canada',
+    originalTitle: 'Canada;R5 - plus discouraged searchers;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13573,7 +14371,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440530',
-    title: 'R1 - unemployed 1 year or more, 25 to 44 years, Canada',
+    title: 'R1 - unemployed 1 year or more, ages 25 to 44, Canada',
+    originalTitle: 'Canada;R1 - unemployed 1 year or more;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13590,7 +14389,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440531',
-    title: 'R2 - unemployed 3 months or more, 25 to 44 years, Canada',
+    title: 'R2 - unemployed 3 months or more, ages 25 to 44, Canada',
+    originalTitle: 'Canada;R2 - unemployed 3 months or more;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13607,7 +14407,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440533',
-    title: 'R4 - official rate, 25 to 44 years, Canada',
+    title: 'R4 - official rate, ages 25 to 44, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13624,7 +14425,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440534',
-    title: 'R5 - plus discouraged searchers, 25 to 44 years, Canada',
+    title: 'R5 - plus discouraged searchers, ages 25 to 44, Canada',
+    originalTitle: 'Canada;R5 - plus discouraged searchers;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13641,7 +14443,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440557',
-    title: 'R4 - official rate, 45 years and over, Canada',
+    title: 'R4 - official rate, ages 45 and over, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13658,7 +14461,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100077_2440581',
-    title: 'R4 - official rate, 55 years and over, Canada',
+    title: 'R4 - official rate, ages 55 and over, Canada',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13675,7 +14479,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170201',
-    title: 'R4 - official rate, 15 years and over, Canada (annual)',
+    title: 'R4 - official rate, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13692,7 +14497,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170222',
-    title: 'R1 - unemployed 1 year or more, 15 to 24 years, Canada (annual)',
+    title: 'R1 - unemployed 1 year or more, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;R1 - unemployed 1 year or more;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13709,7 +14515,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170223',
-    title: 'R2 - unemployed 3 months or more, 15 to 24 years, Canada (annual)',
+    title: 'R2 - unemployed 3 months or more, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;R2 - unemployed 3 months or more;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13726,7 +14533,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170225',
-    title: 'R4 - official rate, 15 to 24 years, Canada (annual)',
+    title: 'R4 - official rate, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13743,7 +14551,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170226',
-    title: 'R5 - plus discouraged searchers, 15 to 24 years, Canada (annual)',
+    title: 'R5 - plus discouraged searchers, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;R5 - plus discouraged searchers;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13760,7 +14569,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170246',
-    title: 'R1 - unemployed 1 year or more, 55 to 64 years, Canada (annual)',
+    title: 'R1 - unemployed 1 year or more, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;R1 - unemployed 1 year or more;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13777,7 +14587,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170249',
-    title: 'R4 - official rate, 55 to 64 years, Canada (annual)',
+    title: 'R4 - official rate, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13794,7 +14605,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170250',
-    title: 'R5 - plus discouraged searchers, 55 to 64 years, Canada (annual)',
+    title: 'R5 - plus discouraged searchers, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;R5 - plus discouraged searchers;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13811,7 +14623,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170273',
-    title: 'R4 - official rate, 25 years and over, Canada (annual)',
+    title: 'R4 - official rate, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13828,7 +14641,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170294',
-    title: 'R1 - unemployed 1 year or more, 25 to 54 years, Canada (annual)',
+    title: 'R1 - unemployed 1 year or more, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;R1 - unemployed 1 year or more;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13845,7 +14659,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170295',
-    title: 'R2 - unemployed 3 months or more, 25 to 54 years, Canada (annual)',
+    title: 'R2 - unemployed 3 months or more, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;R2 - unemployed 3 months or more;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13862,7 +14677,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170297',
-    title: 'R4 - official rate, 25 to 54 years, Canada (annual)',
+    title: 'R4 - official rate, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13879,7 +14695,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170298',
-    title: 'R5 - plus discouraged searchers, 25 to 54 years, Canada (annual)',
+    title: 'R5 - plus discouraged searchers, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;R5 - plus discouraged searchers;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13896,7 +14713,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170318',
-    title: 'R1 - unemployed 1 year or more, 25 to 44 years, Canada (annual)',
+    title: 'R1 - unemployed 1 year or more, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;R1 - unemployed 1 year or more;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13913,7 +14731,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170319',
-    title: 'R2 - unemployed 3 months or more, 25 to 44 years, Canada (annual)',
+    title: 'R2 - unemployed 3 months or more, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;R2 - unemployed 3 months or more;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13930,7 +14749,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170321',
-    title: 'R4 - official rate, 25 to 44 years, Canada (annual)',
+    title: 'R4 - official rate, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13947,7 +14767,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170322',
-    title: 'R5 - plus discouraged searchers, 25 to 44 years, Canada (annual)',
+    title: 'R5 - plus discouraged searchers, ages 25 to 44, Canada (annual)',
+    originalTitle: 'Canada;R5 - plus discouraged searchers;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13964,7 +14785,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170345',
-    title: 'R4 - official rate, 65 years and over, Canada (annual)',
+    title: 'R4 - official rate, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13981,7 +14803,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170369',
-    title: 'R4 - official rate, 45 years and over, Canada (annual)',
+    title: 'R4 - official rate, ages 45 and over, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -13998,7 +14821,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100078_2170393',
-    title: 'R4 - official rate, 55 years and over, Canada (annual)',
+    title: 'R4 - official rate, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;R4 - official rate;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14015,7 +14839,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684902',
-    title: 'Population, Total, all students and non-students, 15 to 24 years, Canada (annual)',
+    title: 'Population, Total, all students and non-students, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14032,7 +14857,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684903',
-    title: 'Population, Total, all students and non-students, 15 to 29 years, Canada (annual)',
+    title: 'Population, Total, all students and non-students, ages 15 to 29, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14049,7 +14875,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684904',
-    title: 'Population, Total, all students and non-students, 15 to 19 years, Canada (annual)',
+    title: 'Population, Total, all students and non-students, ages 15 to 19, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14066,7 +14893,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684905',
-    title: 'Population, Total, all students and non-students, 20 to 24 years, Canada (annual)',
+    title: 'Population, Total, all students and non-students, ages 20 to 24, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14083,7 +14911,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684906',
-    title: 'Population, Total, all students and non-students, 25 to 29 years, Canada (annual)',
+    title: 'Population, Total, all students and non-students, ages 25 to 29, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all students and non-students;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14100,7 +14929,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684977',
-    title: 'Labour force, Total, all students and non-students, 15 to 24 years, Canada (annual)',
+    title: 'Labour force, Total, all students and non-students, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14117,7 +14947,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684978',
-    title: 'Labour force, Total, all students and non-students, 15 to 29 years, Canada (annual)',
+    title: 'Labour force, Total, all students and non-students, ages 15 to 29, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14134,7 +14965,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684979',
-    title: 'Labour force, Total, all students and non-students, 15 to 19 years, Canada (annual)',
+    title: 'Labour force, Total, all students and non-students, ages 15 to 19, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14151,7 +14983,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684980',
-    title: 'Labour force, Total, all students and non-students, 20 to 24 years, Canada (annual)',
+    title: 'Labour force, Total, all students and non-students, ages 20 to 24, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14168,7 +15001,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19684981',
-    title: 'Labour force, Total, all students and non-students, 25 to 29 years, Canada (annual)',
+    title: 'Labour force, Total, all students and non-students, ages 25 to 29, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all students and non-students;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14185,7 +15019,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685052',
-    title: 'Employment, Total, all students and non-students, 15 to 24 years, Canada (annual)',
+    title: 'Employment, Total, all students and non-students, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14202,7 +15037,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685053',
-    title: 'Employment, Total, all students and non-students, 15 to 29 years, Canada (annual)',
+    title: 'Employment, Total, all students and non-students, ages 15 to 29, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14219,7 +15055,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685054',
-    title: 'Employment, Total, all students and non-students, 15 to 19 years, Canada (annual)',
+    title: 'Employment, Total, all students and non-students, ages 15 to 19, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14236,7 +15073,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685055',
-    title: 'Employment, Total, all students and non-students, 20 to 24 years, Canada (annual)',
+    title: 'Employment, Total, all students and non-students, ages 20 to 24, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14253,7 +15091,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685056',
-    title: 'Employment, Total, all students and non-students, 25 to 29 years, Canada (annual)',
+    title: 'Employment, Total, all students and non-students, ages 25 to 29, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all students and non-students;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14270,7 +15109,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685277',
-    title: 'Unemployment, Total, all students and non-students, 15 to 24 years, Canada (annual)',
+    title: 'Unemployment, Total, all students and non-students, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14287,7 +15127,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685278',
-    title: 'Unemployment, Total, all students and non-students, 15 to 29 years, Canada (annual)',
+    title: 'Unemployment, Total, all students and non-students, ages 15 to 29, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14304,7 +15145,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685279',
-    title: 'Unemployment, Total, all students and non-students, 15 to 19 years, Canada (annual)',
+    title: 'Unemployment, Total, all students and non-students, ages 15 to 19, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14321,7 +15163,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685280',
-    title: 'Unemployment, Total, all students and non-students, 20 to 24 years, Canada (annual)',
+    title: 'Unemployment, Total, all students and non-students, ages 20 to 24, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14338,7 +15181,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100081_19685281',
-    title: 'Unemployment, Total, all students and non-students, 25 to 29 years, Canada (annual)',
+    title: 'Unemployment, Total, all students and non-students, ages 25 to 29, Canada (annual)',
+    originalTitle: 'Canada;Unemployment;Total, all students and non-students;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14355,7 +15199,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073032',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Population, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Population, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Population;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14372,7 +15217,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073033',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Population, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Population, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Population;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14389,7 +15235,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073035',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Population, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Population, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Population;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14406,7 +15253,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073037',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Population, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Population, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Population;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14423,7 +15271,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073038',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Labour force, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Labour force, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Labour force;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14440,7 +15289,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073039',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Labour force, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Labour force, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Labour force;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14457,7 +15307,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073044',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14474,7 +15325,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073045',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14491,7 +15343,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073047',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14508,7 +15361,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073049',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14525,7 +15379,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073050',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Unemployment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14542,7 +15397,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073051',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Unemployment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14559,7 +15415,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073056',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Not in labour force, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Not in labour force, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Not in labour force;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14576,7 +15433,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073057',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Not in labour force, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Not in labour force, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Not in labour force;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14593,7 +15451,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073062',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment rate, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment rate, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Unemployment rate;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14610,7 +15469,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073063',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment rate, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment rate, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Unemployment rate;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14627,7 +15487,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073068',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Participation rate, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Participation rate, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Participation rate;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14644,7 +15505,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073069',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Participation rate, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Participation rate, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Participation rate;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14661,7 +15523,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073074',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment rate, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment rate, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment rate;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14678,7 +15541,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100086_53073075',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment rate, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment rate, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment rate;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14695,7 +15559,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074760',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Population, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Population, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Population;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14712,7 +15577,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074761',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Population, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Population, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Population;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14729,7 +15595,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074763',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Population, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Population, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Population;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14746,7 +15613,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074765',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Population, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Population, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Population;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14763,7 +15631,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074766',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Labour force, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Labour force, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Labour force;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14780,7 +15649,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074767',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Labour force, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Labour force, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Labour force;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14797,7 +15667,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074772',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14814,7 +15685,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074773',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14831,7 +15703,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074775',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, Men+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, Men+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14848,7 +15721,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074777',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, Women+, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment, Women+, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14865,7 +15739,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074778',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Unemployment;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14882,7 +15757,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074779',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Unemployment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14899,7 +15775,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074784',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Not in labour force, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Not in labour force, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Not in labour force;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14916,7 +15793,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074785',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Not in labour force, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Not in labour force, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Not in labour force;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14933,7 +15811,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074790',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment rate, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment rate, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Unemployment rate;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14950,7 +15829,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074791',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment rate, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Unemployment rate, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Unemployment rate;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14967,7 +15847,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074796',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Participation rate, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Participation rate, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Participation rate;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -14984,7 +15865,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074797',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Participation rate, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Participation rate, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Participation rate;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15001,7 +15883,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074802',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment rate, 15 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment rate, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment rate;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15018,7 +15901,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100087_53074803',
-    title: 'Labour Force Survey: Total population, Total, all education levels, Employment rate, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Total population, Total, all education levels, Employment rate, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Total population;Total, all education levels;Employment rate;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15036,6 +15920,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071108',
     title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15053,6 +15938,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071165',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15070,6 +15956,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071166',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employed, all industries, Men+, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15087,6 +15974,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071167',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employed, all industries, Women+, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15104,6 +15992,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071171',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Agriculture, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15121,6 +16010,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071177',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Utilities, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15138,6 +16028,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071180',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Construction, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15155,6 +16046,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071183',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Manufacturing, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15172,6 +16064,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071222',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15189,6 +16082,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071223',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employed, all industries, Men+, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15206,6 +16100,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071224',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employed, all industries, Women+, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15223,6 +16118,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071228',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Agriculture, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15240,6 +16136,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071234',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Utilities, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15257,6 +16154,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071237',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Construction, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15274,6 +16172,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071240',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Manufacturing, Canada',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15291,6 +16190,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071507',
     title: '$500 to $799, Full-time employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;$500 to $799;Full-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15308,6 +16208,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071564',
     title: '$500 to $799, Part-time employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;$500 to $799;Part-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15325,6 +16226,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071678',
     title: '$800 to $1, 199, Full-time employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;$800 to $1,199;Full-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15342,6 +16244,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071849',
     title: '$1, 200 or more, Full-time employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;$1,200 or more;Full-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15359,6 +16262,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100109_55071906',
     title: '$1, 200 or more, Part-time employees, Total employed, all industries, Canada',
+    originalTitle: 'Canada;$1,200 or more;Part-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15376,6 +16280,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55071963',
     title: 'Labour Force Survey: Total employees, all wages, Both full- and part-time employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Both full- and part-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15393,6 +16298,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072020',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15410,6 +16316,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072021',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employed, all industries, Men+, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15427,6 +16334,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072022',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Total employed, all industries, Women+, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15444,6 +16352,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072026',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Agriculture, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15461,6 +16370,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072032',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Utilities, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15478,6 +16388,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072035',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Construction, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15495,6 +16406,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072038',
     title: 'Labour Force Survey: Total employees, all wages, Full-time employees, Manufacturing, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Full-time employees;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15512,6 +16424,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072077',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15529,6 +16442,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072078',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employed, all industries, Men+, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employed, all industries;Men+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15546,6 +16460,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072079',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Total employed, all industries, Women+, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Total employed, all industries;Women+', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15563,6 +16478,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072083',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Agriculture, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Agriculture;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15580,6 +16496,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072089',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Utilities, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Utilities;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15597,6 +16514,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072092',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Construction, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Construction;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15614,6 +16532,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072095',
     title: 'Labour Force Survey: Total employees, all wages, Part-time employees, Manufacturing, Canada (annual)',
+    originalTitle: 'Canada;Total employees, all wages;Part-time employees;Manufacturing;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15631,6 +16550,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072362',
     title: '$500 to $799, Full-time employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;$500 to $799;Full-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15648,6 +16568,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072419',
     title: '$500 to $799, Part-time employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;$500 to $799;Part-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15665,6 +16586,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072533',
     title: '$800 to $1, 199, Full-time employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;$800 to $1,199;Full-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15682,6 +16604,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072704',
     title: '$1, 200 or more, Full-time employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;$1,200 or more;Full-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15699,6 +16622,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100110_55072761',
     title: '$1, 200 or more, Part-time employees, Total employed, all industries, Canada (annual)',
+    originalTitle: 'Canada;$1,200 or more;Part-time employees;Total employed, all industries;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15715,7 +16639,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100117_54910720',
-    title: 'Population, Total, all education levels, 15 years and over, Canada',
+    title: 'Population, Total, all education levels, ages 15 and over, Canada',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15732,7 +16657,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100117_54910722',
-    title: 'Population, Total, all education levels, 25 years and over, Canada',
+    title: 'Population, Total, all education levels, ages 25 and over, Canada',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15749,7 +16675,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100117_54910724',
-    title: 'Population, Total, all education levels, 55 years and over, Canada',
+    title: 'Population, Total, all education levels, ages 55 and over, Canada',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15766,7 +16693,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100117_54910726',
-    title: 'Population, Total, all education levels, 65 years and over, Canada',
+    title: 'Population, Total, all education levels, ages 65 and over, Canada',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15783,7 +16711,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100117_54911146',
-    title: 'Employment, Total, all education levels, 65 years and over, Canada',
+    title: 'Employment, Total, all education levels, ages 65 and over, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15800,7 +16729,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100118_55009060',
-    title: 'Population, Total, all education levels, 15 years and over, Canada (annual)',
+    title: 'Population, Total, all education levels, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15817,7 +16747,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100118_55009062',
-    title: 'Population, Total, all education levels, 25 years and over, Canada (annual)',
+    title: 'Population, Total, all education levels, ages 25 and over, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15834,7 +16765,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100118_55009064',
-    title: 'Population, Total, all education levels, 55 years and over, Canada (annual)',
+    title: 'Population, Total, all education levels, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15851,7 +16783,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100118_55009066',
-    title: 'Population, Total, all education levels, 65 years and over, Canada (annual)',
+    title: 'Population, Total, all education levels, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15868,7 +16801,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100118_55009486',
-    title: 'Employment, Total, all education levels, 65 years and over, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15886,6 +16820,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552175',
     title: 'Hours lost by employees, Employees away full week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Employees away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15903,6 +16838,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552181',
     title: 'Hours lost by employees, Personal and family, away full week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Personal and family, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15920,6 +16856,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552184',
     title: 'Hours lost by employees, Vacation, away full week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Vacation, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15937,6 +16874,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552190',
     title: 'Hours lost by employees, Other reasons, away full week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Other reasons, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15954,6 +16892,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552193',
     title: 'Hours lost by employees, Employees away part week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Employees away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15971,6 +16910,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552199',
     title: 'Hours lost by employees, Personal and family, away part week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Personal and family, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -15988,6 +16928,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552202',
     title: 'Hours lost by employees, Vacation or holiday, away part week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Vacation or holiday, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16005,6 +16946,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552211',
     title: 'Hours lost by employees, Weather, away part week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Weather, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16022,6 +16964,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552217',
     title: 'Hours lost by employees, Working short-time, away part week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Working short-time, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16039,6 +16982,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552220',
     title: 'Hours lost by employees, Other reasons, away part week, Canada',
+    originalTitle: 'Canada;Hours lost by employees;Other reasons, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16056,6 +17000,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552223',
     title: 'Number of employees, Employees away full week, Canada',
+    originalTitle: 'Canada;Number of employees;Employees away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16073,6 +17018,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552229',
     title: 'Number of employees, Personal and family, away full week, Canada',
+    originalTitle: 'Canada;Number of employees;Personal and family, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16090,6 +17036,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552232',
     title: 'Number of employees, Vacation, away full week, Canada',
+    originalTitle: 'Canada;Number of employees;Vacation, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16107,6 +17054,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552238',
     title: 'Number of employees, Other reasons, away full week, Canada',
+    originalTitle: 'Canada;Number of employees;Other reasons, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16124,6 +17072,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552241',
     title: 'Number of employees, Employees away part week, Canada',
+    originalTitle: 'Canada;Number of employees;Employees away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16141,6 +17090,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552247',
     title: 'Number of employees, Personal and family, away part week, Canada',
+    originalTitle: 'Canada;Number of employees;Personal and family, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16158,6 +17108,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552250',
     title: 'Number of employees, Vacation or holiday, away part week, Canada',
+    originalTitle: 'Canada;Number of employees;Vacation or holiday, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16175,6 +17126,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552259',
     title: 'Number of employees, Weather, away part week, Canada',
+    originalTitle: 'Canada;Number of employees;Weather, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16192,6 +17144,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552265',
     title: 'Number of employees, Working short-time, away part week, Canada',
+    originalTitle: 'Canada;Number of employees;Working short-time, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16209,6 +17162,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100121_54552268',
     title: 'Number of employees, Other reasons, away part week, Canada',
+    originalTitle: 'Canada;Number of employees;Other reasons, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16226,6 +17180,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551119',
     title: 'Hours lost by employees, Employees away full week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Employees away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16243,6 +17198,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551125',
     title: 'Hours lost by employees, Personal and family, away full week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Personal and family, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16260,6 +17216,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551128',
     title: 'Hours lost by employees, Vacation, away full week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Vacation, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16277,6 +17234,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551134',
     title: 'Hours lost by employees, Other reasons, away full week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Other reasons, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16294,6 +17252,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551137',
     title: 'Hours lost by employees, Employees away part week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Employees away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16311,6 +17270,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551143',
     title: 'Hours lost by employees, Personal and family, away part week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Personal and family, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16328,6 +17288,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551146',
     title: 'Hours lost by employees, Vacation or holiday, away part week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Vacation or holiday, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16345,6 +17306,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551155',
     title: 'Hours lost by employees, Weather, away part week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Weather, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16362,6 +17324,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551161',
     title: 'Hours lost by employees, Working short-time, away part week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Working short-time, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16379,6 +17342,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551164',
     title: 'Hours lost by employees, Other reasons, away part week, Canada (annual)',
+    originalTitle: 'Canada;Hours lost by employees;Other reasons, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16396,6 +17360,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551167',
     title: 'Number of employees, Employees away full week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Employees away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16413,6 +17378,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551173',
     title: 'Number of employees, Personal and family, away full week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Personal and family, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16430,6 +17396,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551176',
     title: 'Number of employees, Vacation, away full week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Vacation, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16447,6 +17414,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551182',
     title: 'Number of employees, Other reasons, away full week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Other reasons, away full week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16464,6 +17432,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551185',
     title: 'Number of employees, Employees away part week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Employees away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16481,6 +17450,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551191',
     title: 'Number of employees, Personal and family, away part week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Personal and family, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16498,6 +17468,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551194',
     title: 'Number of employees, Vacation or holiday, away part week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Vacation or holiday, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16515,6 +17486,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551203',
     title: 'Number of employees, Weather, away part week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Weather, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16532,6 +17504,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551209',
     title: 'Number of employees, Working short-time, away part week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Working short-time, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16549,6 +17522,7 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   {
     id: 'SC_14100122_54551212',
     title: 'Number of employees, Other reasons, away part week, Canada (annual)',
+    originalTitle: 'Canada;Number of employees;Other reasons, away part week;Total - Gender', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16565,7 +17539,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100123_54548358',
-    title: 'Labour Force Survey: Total unemployed, Men+, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16582,7 +17557,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100123_54548360',
-    title: 'Labour Force Survey: Total unemployed, Men+, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total unemployed;Men+;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16599,7 +17575,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100123_54548411',
-    title: 'Labour Force Survey: Worked, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Worked, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Worked;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16616,7 +17593,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100123_54548413',
-    title: 'Labour Force Survey: Worked, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Worked, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Worked;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16633,7 +17611,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100123_54548415',
-    title: 'Labour Force Survey: Worked, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Worked, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Worked;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16650,7 +17629,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100124_54545586',
-    title: 'Labour Force Survey: Total unemployed, Men+, 55 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 55 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16667,7 +17647,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100124_54545588',
-    title: 'Labour Force Survey: Total unemployed, Men+, 65 years and over, Canada (annual)',
+    title: 'Labour Force Survey: Total unemployed, Men+, ages 65 and over, Canada (annual)',
+    originalTitle: 'Canada;Total unemployed;Men+;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16684,7 +17665,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100124_54545639',
-    title: 'Labour Force Survey: Worked, 15 to 24 years, Canada (annual)',
+    title: 'Labour Force Survey: Worked, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Worked;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16701,7 +17683,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100124_54545641',
-    title: 'Labour Force Survey: Worked, 25 to 54 years, Canada (annual)',
+    title: 'Labour Force Survey: Worked, ages 25 to 54, Canada (annual)',
+    originalTitle: 'Canada;Worked;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16718,7 +17701,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100124_54545643',
-    title: 'Labour Force Survey: Worked, 55 to 64 years, Canada (annual)',
+    title: 'Labour Force Survey: Worked, ages 55 to 64, Canada (annual)',
+    originalTitle: 'Canada;Worked;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16735,7 +17719,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864091',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16752,7 +17737,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864092',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16769,7 +17755,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864093',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16786,7 +17773,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864094',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16803,7 +17791,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864095',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16820,7 +17809,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864096',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16837,7 +17827,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864097',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Total - Gender;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16854,7 +17845,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864098',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, 15 years and over, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, ages 15 and over, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Men+;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16871,7 +17863,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864099',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Men+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16888,7 +17881,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864100',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, 25 years and over, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, ages 25 and over, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Men+;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16905,7 +17899,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864101',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Men+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16922,7 +17917,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864102',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, 55 years and over, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, ages 55 and over, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Men+;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16939,7 +17935,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864103',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, 55 to 64 years, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Men+;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16956,7 +17953,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864104',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, 65 years and over, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Men+, ages 65 and over, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Men+;65 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16973,7 +17971,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864106',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Women+, 15 to 24 years, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Women+, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Women+;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16990,7 +17989,8 @@ export const GENERATED_SERIES_PART2: SeriesMeta[] = [
   },
   {
     id: 'SC_14100125_54864108',
-    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Women+, 25 to 54 years, Canada',
+    title: 'Labour Force Survey: Total, all reasons, Total, unemployed and not in the labour force, Women+, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Total, all reasons;Total, unemployed and not in the labour force;Women+;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',

@@ -8,6 +8,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100166_1070721303',
     title: 'Investment Banking Services Price Index: Fisher price index, Canada',
+    originalTitle: 'Canada;Fisher price index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Investment Banking Services Price Index',
     release: 'Investment Banking Services Price Index',
@@ -25,6 +26,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100166_1070721304',
     title: 'Investment Banking Services Price Index: Laspeyres price index, Canada',
+    originalTitle: 'Canada;Laspeyres price index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Investment Banking Services Price Index',
     release: 'Investment Banking Services Price Index',
@@ -42,6 +44,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100166_1070721305',
     title: 'Investment Banking Services Price Index: Paasche price index, Canada',
+    originalTitle: 'Canada;Paasche price index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Investment Banking Services Price Index',
     release: 'Investment Banking Services Price Index',
@@ -59,6 +62,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100178_1078934066',
     title: 'Consulting Services Price Index: Total price, Canada',
+    originalTitle: 'Canada;Total price', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services Price Index',
     release: 'Consulting Services Price Index',
@@ -76,6 +80,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100178_1078934067',
     title: 'Management consulting services, Canada (index; quarterly)',
+    originalTitle: 'Canada;Management consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services Price Index',
     release: 'Consulting Services Price Index',
@@ -93,6 +98,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100178_1078934068',
     title: 'Environmental, scientific and technical consulting services, Canada',
+    originalTitle: 'Canada;Environmental, scientific and technical consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services Price Index',
     release: 'Consulting Services Price Index',
@@ -110,6 +116,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100181_1138753419',
     title: 'Freight Rail Services Price Index, Canada (quarterly)',
+    originalTitle: 'Canada;Freight Rail Services Price Index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -127,6 +134,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100181_1138753421',
     title: 'Freight Rail Services Price Index: Intermodal, Canada (quarterly)',
+    originalTitle: 'Canada;Intermodal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -144,6 +152,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100181_1138753422',
     title: 'Freight Rail Services Price Index: Forest products, Canada (quarterly)',
+    originalTitle: 'Canada;Forest products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -161,6 +170,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100181_1138753423',
     title: 'Freight Rail Services Price Index: Petroleum and chemicals, Canada (quarterly)',
+    originalTitle: 'Canada;Petroleum and chemicals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -178,6 +188,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100181_1138753424',
     title: 'Freight Rail Services Price Index: Metals and minerals, Canada (quarterly)',
+    originalTitle: 'Canada;Metals and minerals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -195,6 +206,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100181_1138753425',
     title: 'Freight Rail Services Price Index: Grain and fertilizer, Canada (quarterly)',
+    originalTitle: 'Canada;Grain and fertilizer', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -212,6 +224,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100204_107792869',
     title: 'Electric power selling price indexes, national total, Canada',
+    originalTitle: 'Canada;Electric power selling price indexes, national total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Electric Power Selling Price Index',
     release: 'Electric Power Selling Price Index',
@@ -229,6 +242,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100204_107792870',
     title: 'Electric power selling price over 5000kw, Canada',
+    originalTitle: 'Canada;Electric power selling price over 5000kw', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Electric Power Selling Price Index',
     release: 'Electric Power Selling Price Index',
@@ -246,6 +260,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100204_107792871',
     title: 'Electric power selling price under 5000kw, Canada',
+    originalTitle: 'Canada;Electric power selling price under 5000kw', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Electric Power Selling Price Index',
     release: 'Electric Power Selling Price Index',
@@ -263,6 +278,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100205_111955443',
     title: 'New Housing Price Index: House only, Canada',
+    originalTitle: 'Canada;House only', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, New Housing Price Index',
     release: 'New Housing Price Index',
@@ -280,6 +296,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100205_111955444',
     title: 'New Housing Price Index: Land only, Canada',
+    originalTitle: 'Canada;Land only', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, New Housing Price Index',
     release: 'New Housing Price Index',
@@ -297,6 +314,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100210_112068508',
     title: 'Index, 201612=100, Total, house and land, Canada',
+    originalTitle: 'Canada;Index, 201612=100;Total, house and land', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, New Housing Price Index',
     release: 'New Housing Price Index',
@@ -314,6 +332,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100212_1138753427',
     title: 'Freight Rail Services Price Index, Canada',
+    originalTitle: 'Canada;Freight Rail Services Price Index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -331,6 +350,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100212_1138753429',
     title: 'Freight Rail Services Price Index: Intermodal, Canada',
+    originalTitle: 'Canada;Intermodal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -348,6 +368,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100212_1138753430',
     title: 'Freight Rail Services Price Index: Forest products, Canada',
+    originalTitle: 'Canada;Forest products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -365,6 +386,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100212_1138753431',
     title: 'Freight Rail Services Price Index: Petroleum and chemicals, Canada',
+    originalTitle: 'Canada;Petroleum and chemicals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -382,6 +404,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100212_1138753432',
     title: 'Freight Rail Services Price Index: Metals and minerals, Canada',
+    originalTitle: 'Canada;Metals and minerals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -399,6 +422,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100212_1138753433',
     title: 'Freight Rail Services Price Index: Grain and fertilizer, Canada',
+    originalTitle: 'Canada;Grain and fertilizer', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Freight Rail Services Price Index',
     release: 'Freight Rail Services Price Index',
@@ -416,6 +440,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834280',
     title: 'Consumer Price Index: Bacon, 500 grams, Canada',
+    originalTitle: 'Canada;Bacon, 500 grams', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -433,6 +458,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834283',
     title: 'Consumer Price Index: Milk, 1 litre, Canada',
+    originalTitle: 'Canada;Milk, 1 litre', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -450,6 +476,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834284',
     title: 'Consumer Price Index: Milk, 2 litres, Canada',
+    originalTitle: 'Canada;Milk, 2 litres', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -467,6 +494,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834285',
     title: 'Consumer Price Index: Milk, 4 litres, Canada',
+    originalTitle: 'Canada;Milk, 4 litres', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -484,6 +512,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834286',
     title: 'Consumer Price Index: Cream, 1 litre, Canada',
+    originalTitle: 'Canada;Cream, 1 litre', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -501,6 +530,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834287',
     title: 'Consumer Price Index: Butter, 454 grams, Canada',
+    originalTitle: 'Canada;Butter, 454 grams', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -518,6 +548,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834290',
     title: 'Consumer Price Index: Eggs, 1 dozen, Canada',
+    originalTitle: 'Canada;Eggs, 1 dozen', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -535,6 +566,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834296',
     title: 'Consumer Price Index: Lemons, unit, Canada',
+    originalTitle: 'Canada;Lemons, unit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -552,6 +584,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834298',
     title: 'Consumer Price Index: Cantaloupe, unit, Canada',
+    originalTitle: 'Canada;Cantaloupe, unit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -569,6 +602,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834299',
     title: 'Consumer Price Index: Avocado, unit, Canada',
+    originalTitle: 'Canada;Avocado, unit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -586,6 +620,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834306',
     title: 'Consumer Price Index: Celery, unit, Canada',
+    originalTitle: 'Canada;Celery, unit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -603,6 +638,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834307',
     title: 'Consumer Price Index: Cucumber, unit, Canada',
+    originalTitle: 'Canada;Cucumber, unit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -620,6 +656,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834309',
     title: 'Consumer Price Index: Broccoli, unit, Canada',
+    originalTitle: 'Canada;Broccoli, unit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -637,6 +674,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834315',
     title: 'Consumer Price Index: Limes, unit, Canada',
+    originalTitle: 'Canada;Limes, unit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -654,6 +692,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834328',
     title: 'Consumer Price Index: Cereal, 400 grams, Canada',
+    originalTitle: 'Canada;Cereal, 400 grams', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -671,6 +710,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834334',
     title: 'Consumer Price Index: Tea (20 bags), Canada',
+    originalTitle: 'Canada;Tea (20 bags)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -688,6 +728,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1353834335',
     title: 'Consumer Price Index: Ketchup, 1 litre, Canada',
+    originalTitle: 'Canada;Ketchup, 1 litre', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -705,6 +746,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1458869918',
     title: 'Consumer Price Index: Hummus, 227 grams, Canada',
+    originalTitle: 'Canada;Hummus, 227 grams', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -722,6 +764,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1458869931',
     title: 'Consumer Price Index: Shrimp, 300 grams, Canada',
+    originalTitle: 'Canada;Shrimp, 300 grams', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -739,6 +782,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100245_1458869936',
     title: 'Consumer Price Index: Tofu, 350 grams, Canada',
+    originalTitle: 'Canada;Tofu, 350 grams ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -756,6 +800,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645719',
     title: 'Retail Services Price Index: Retail trade, Canada',
+    originalTitle: 'Canada;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -773,6 +818,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645723',
     title: 'Retail Services Price Index: Tire dealers, Canada',
+    originalTitle: 'Canada;Tire dealers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -790,6 +836,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645725',
     title: 'Retail Services Price Index: Furniture stores, Canada',
+    originalTitle: 'Canada;Furniture stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -807,6 +854,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645735',
     title: 'Retail Services Price Index: Home centres, Canada',
+    originalTitle: 'Canada;Home centres', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -824,6 +872,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645737',
     title: 'Retail Services Price Index: Hardware stores, Canada',
+    originalTitle: 'Canada;Hardware stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -841,6 +890,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645743',
     title: 'Retail Services Price Index: Grocery stores, Canada',
+    originalTitle: 'Canada;Grocery stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -858,6 +908,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645747',
     title: 'Retail Services Price Index: Meat markets, Canada',
+    originalTitle: 'Canada;Meat markets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -875,6 +926,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645764',
     title: 'Retail Services Price Index: Clothing stores, Canada',
+    originalTitle: 'Canada;Clothing stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -892,6 +944,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645771',
     title: 'Retail Services Price Index: Shoe stores, Canada',
+    originalTitle: 'Canada;Shoe stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -909,6 +962,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645774',
     title: 'Retail Services Price Index: Jewellery stores, Canada',
+    originalTitle: 'Canada;Jewellery stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -926,6 +980,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645789',
     title: 'Retail Services Price Index: All other general merchandise stores, Canada',
+    originalTitle: 'Canada;All other general merchandise stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -943,6 +998,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645791',
     title: 'Retail Services Price Index: Florists, Canada',
+    originalTitle: 'Canada;Florists', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -960,6 +1016,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645800',
     title: 'Retail Services Price Index: Art dealers, Canada',
+    originalTitle: 'Canada;Art dealers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -977,6 +1034,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_107645802',
     title: 'Retail Services Price Index: All other miscellaneous store retailers, Canada',
+    originalTitle: 'Canada;All other miscellaneous store retailers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -994,6 +1052,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100251_1585921793',
     title: 'Retail Services Price Index: New car dealers, Canada',
+    originalTitle: 'Canada;New car dealers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Retail Services Price Index',
     release: 'Retail Services Price Index',
@@ -1011,6 +1070,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100255_1210497010',
     title: 'Commercial Rents Services Price Index: Total, building type, Canada',
+    originalTitle: 'Canada;Total, building type', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial Rents Services Price Index',
     release: 'Commercial Rents Services Price Index',
@@ -1028,6 +1088,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100255_1210497037',
     title: 'Commercial Rents Services Price Index: Office buildings, Canada',
+    originalTitle: 'Canada;Office buildings', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial Rents Services Price Index',
     release: 'Commercial Rents Services Price Index',
@@ -1045,6 +1106,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100255_1210497048',
     title: 'Commercial Rents Services Price Index: Retail buildings, Canada',
+    originalTitle: 'Canada;Retail buildings', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial Rents Services Price Index',
     release: 'Commercial Rents Services Price Index',
@@ -1062,6 +1124,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100255_1210497059',
     title: 'Industrial buildings and warehouses, Canada',
+    originalTitle: 'Canada;Industrial buildings and warehouses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial Rents Services Price Index',
     release: 'Commercial Rents Services Price Index',
@@ -1078,7 +1141,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_18100256_108785713',
-    title: 'Consumer Price Index: Measure of core inflation based on a factor model, CPI-common (year-over-year percent change), Canada',
+    title: 'CPI: Measure of core inflation based on a factor model, CPI-common (year-over-year percent change), Canada',
+    originalTitle: 'Canada;Measure of core inflation based on a factor model, CPI-common (year-over-year percent change)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1095,7 +1159,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_18100256_108785714',
-    title: 'Consumer Price Index: Measure of core inflation based on a weighted median approach, CPI-median (year-over-year percent change), Canada',
+    title: 'CPI: Measure of core inflation based on a weighted median approach, CPI-median (year-over-year percent change), Canada',
+    originalTitle: 'Canada;Measure of core inflation based on a weighted median approach, CPI-median (year-over-year percent change)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1112,7 +1177,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_18100256_108785715',
-    title: 'Consumer Price Index: Measure of core inflation based on a trimmed mean approach, CPI-trim (year-over-year percent change), Canada',
+    title: 'CPI: Measure of core inflation based on a trimmed mean approach, CPI-trim (year-over-year percent change), Canada',
+    originalTitle: 'Canada;Measure of core inflation based on a trimmed mean approach, CPI-trim (year-over-year percent change)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1130,6 +1196,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100256_112593702',
     title: 'Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada and excluding the effect of changes in indirect taxes, Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada and excluding the effect of changes in indirect taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1147,6 +1214,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100256_112593703',
     title: 'Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada, Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1164,6 +1232,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100256_112593704',
     title: 'Consumer Price Index (CPI), all-items excluding the effect of indirect taxes, Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI), all-items excluding the effect of indirect taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1181,6 +1250,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100256_112593705',
     title: 'Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada and excluding the effect of changes in indirect taxes, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada and excluding the effect of changes in indirect taxes, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1198,6 +1268,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100256_112593706',
     title: 'Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1215,6 +1286,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100256_112593707',
     title: 'Consumer Price Index (CPI), all-items excluding the effect of indirect taxes, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI), all-items excluding the effect of indirect taxes, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1232,6 +1304,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100256_1675033092',
     title: 'Consumer Price Index (CPI), all-items excluding food, energy and the effect of indirect taxes, Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI), all-items excluding food, energy and the effect of indirect taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1249,6 +1322,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100256_1675033093',
     title: 'Consumer Price Index (CPI), all-items excluding food, energy and the effect of indirect taxes, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI), all-items excluding food, energy and the effect of indirect taxes, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index',
     release: 'Consumer Price Index',
@@ -1266,6 +1340,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440252',
     title: 'Farm Input Price Index: Farm input total, Canada',
+    originalTitle: 'Canada;Farm input total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1283,6 +1358,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440253',
     title: 'Farm Input Price Index: Buildings, Canada',
+    originalTitle: 'Canada;Buildings', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1300,6 +1376,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440258',
     title: 'Farm Input Price Index: Machinery fuel, Canada',
+    originalTitle: 'Canada;Machinery fuel', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1317,6 +1394,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440259',
     title: 'Farm Input Price Index: Machine repairs, Canada',
+    originalTitle: 'Canada;Machine repairs', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1334,6 +1412,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440260',
     title: 'Farm Input Price Index: General business costs, Canada',
+    originalTitle: 'Canada;General business costs', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1351,6 +1430,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440261',
     title: 'Farm Input Price Index: Crop production, Canada',
+    originalTitle: 'Canada;Crop production', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1368,6 +1448,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440263',
     title: 'Farm Input Price Index: Fertilizer, Canada',
+    originalTitle: 'Canada;Fertilizer', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1385,6 +1466,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440264',
     title: 'Farm Input Price Index: Nitrogen fertilizers, Canada',
+    originalTitle: 'Canada;Nitrogen fertilizers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1402,6 +1484,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440265',
     title: 'Farm Input Price Index: Other fertilizers, Canada',
+    originalTitle: 'Canada;Other fertilizers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1419,6 +1502,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440266',
     title: 'Farm Input Price Index: Pesticides, Canada',
+    originalTitle: 'Canada;Pesticides', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1436,6 +1520,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440268',
     title: 'Farm Input Price Index: Production insurance, Canada',
+    originalTitle: 'Canada;Production insurance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1453,6 +1538,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440269',
     title: 'Farm Input Price Index: Stabilization premiums, Canada',
+    originalTitle: 'Canada;Stabilization premiums', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1470,6 +1556,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440272',
     title: 'Farm Input Price Index: Animal production, Canada',
+    originalTitle: 'Canada;Animal production', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1487,6 +1574,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440273',
     title: 'Farm Input Price Index: Livestock purchases, Canada',
+    originalTitle: 'Canada;Livestock purchases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1504,6 +1592,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440274',
     title: 'Farm Input Price Index: Cattle, Canada',
+    originalTitle: 'Canada;Cattle', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1521,6 +1610,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440275',
     title: 'Farm Input Price Index: Hogs, Canada',
+    originalTitle: 'Canada;Hogs', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1538,6 +1628,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440277',
     title: 'Farm Input Price Index: Commercial feed, Canada',
+    originalTitle: 'Canada;Commercial feed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1555,6 +1646,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440278',
     title: 'Farm Input Price Index: Prepared feed, Canada',
+    originalTitle: 'Canada;Prepared feed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1572,6 +1664,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100258_113440279',
     title: 'Farm Input Price Index: Grain feed, Canada',
+    originalTitle: 'Canada;Grain feed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Farm Input Price Index',
     release: 'Farm Input Price Index',
@@ -1589,6 +1682,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100260_1210497070',
     title: 'Commercial Rents Services Price Index: Total, building type, Canada (quarterly)',
+    originalTitle: 'Canada;Total, building type', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial Rents Services Price Index',
     release: 'Commercial Rents Services Price Index',
@@ -1606,6 +1700,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100260_1210497097',
     title: 'Commercial Rents Services Price Index: Office buildings, Canada (quarterly)',
+    originalTitle: 'Canada;Office buildings', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial Rents Services Price Index',
     release: 'Commercial Rents Services Price Index',
@@ -1623,6 +1718,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100260_1210497108',
     title: 'Commercial Rents Services Price Index: Retail buildings, Canada (quarterly)',
+    originalTitle: 'Canada;Retail buildings', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial Rents Services Price Index',
     release: 'Commercial Rents Services Price Index',
@@ -1640,6 +1736,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100260_1210497119',
     title: 'Industrial buildings and warehouses, Canada (quarterly)',
+    originalTitle: 'Canada;Industrial buildings and warehouses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial Rents Services Price Index',
     release: 'Commercial Rents Services Price Index',
@@ -1657,6 +1754,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100262_1234840205',
     title: 'Lending Services Price Index: Total (individual and business), Canada',
+    originalTitle: 'Canada;Total (individual and business)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Lending Services Price Index',
     release: 'Lending Services Price Index',
@@ -1674,6 +1772,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100262_1234840206',
     title: 'Lending Services Price Index: Individual, Canada',
+    originalTitle: 'Canada;Individual', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Lending Services Price Index',
     release: 'Lending Services Price Index',
@@ -1691,6 +1790,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100262_1234840207',
     title: 'Lending Services Price Index: Business, Canada',
+    originalTitle: 'Canada;Business', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Lending Services Price Index',
     release: 'Lending Services Price Index',
@@ -1708,6 +1808,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995984',
     title: 'Industrial Product Price Index: Total Industrial product price index (IPPI), excluding energy and petroleum products, Canada',
+    originalTitle: 'Canada;Total Industrial product price index (IPPI), excluding energy and petroleum products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1725,6 +1826,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995985',
     title: 'Industrial Product Price Index: Meat, fish and dairy products, Canada',
+    originalTitle: 'Canada;Meat, fish and dairy products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1742,6 +1844,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995986',
     title: 'Fruit, vegetables, feed and other food products, Canada',
+    originalTitle: 'Canada;Fruit, vegetables, feed and other food products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1759,6 +1862,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995987',
     title: 'Industrial Product Price Index: Beverages (except juices), Canada',
+    originalTitle: 'Canada;Beverages (except juices)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1776,6 +1880,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995988',
     title: 'Industrial Product Price Index: Tobacco products, Canada',
+    originalTitle: 'Canada;Tobacco products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1793,6 +1898,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995990',
     title: 'Industrial Product Price Index: Textile and leather products, Canada',
+    originalTitle: 'Canada;Textile and leather products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1810,6 +1916,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995991',
     title: 'Clothing, footwear and accessories, Canada',
+    originalTitle: 'Canada;Clothing, footwear and accessories', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1827,6 +1934,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995992',
     title: 'Chemicals and chemical products, Canada',
+    originalTitle: 'Canada;Chemicals and chemical products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1844,6 +1952,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995993',
     title: 'Industrial Product Price Index: Plastic and rubber products, Canada',
+    originalTitle: 'Canada;Plastic and rubber products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1861,6 +1970,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995994',
     title: 'Lumber and other wood products, Canada',
+    originalTitle: 'Canada;Lumber and other wood products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1878,6 +1988,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995995',
     title: 'Industrial Product Price Index: Pulp and paper products, Canada',
+    originalTitle: 'Canada;Pulp and paper products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1895,6 +2006,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995996',
     title: 'Industrial Product Price Index: Energy and petroleum products, Canada',
+    originalTitle: 'Canada;Energy and petroleum products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1912,6 +2024,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995997',
     title: 'Primary ferrous metal products, Canada',
+    originalTitle: 'Canada;Primary ferrous metal products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1929,6 +2042,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230995998',
     title: 'Primary non-ferrous metal products, Canada',
+    originalTitle: 'Canada;Primary non-ferrous metal products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1946,6 +2060,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230996000',
     title: 'Motorized and recreational vehicles, Canada',
+    originalTitle: 'Canada;Motorized and recreational vehicles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1963,6 +2078,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230996001',
     title: 'Industrial Product Price Index: Machinery and equipment, Canada',
+    originalTitle: 'Canada;Machinery and equipment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1980,6 +2096,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230996003',
     title: 'Industrial Product Price Index: Furniture and fixtures, Canada',
+    originalTitle: 'Canada;Furniture and fixtures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -1997,6 +2114,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230996005',
     title: 'Packaging materials and containers, Canada',
+    originalTitle: 'Canada;Packaging materials and containers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2014,6 +2132,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100265_1230996006',
     title: 'Industrial Product Price Index: Miscellaneous products, Canada',
+    originalTitle: 'Canada;Miscellaneous products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2031,6 +2150,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996007',
     title: 'Industrial Product Price Index: Total, Industrial product price index (IPPI), Canada',
+    originalTitle: 'Canada;Total, Industrial product price index (IPPI)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2048,6 +2168,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996052',
     title: 'Industrial Product Price Index: Beer, Canada',
+    originalTitle: 'Canada;Beer', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2065,6 +2186,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996065',
     title: 'Industrial Product Price Index: Fabrics, Canada',
+    originalTitle: 'Canada;Fabrics', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2082,6 +2204,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996110',
     title: 'Industrial Product Price Index: Tires, Canada',
+    originalTitle: 'Canada;Tires', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2099,6 +2222,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996136',
     title: 'Industrial Product Price Index: Wood chips, Canada',
+    originalTitle: 'Canada;Wood chips', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2116,6 +2240,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996137',
     title: 'Industrial Product Price Index: Wood pulp, Canada',
+    originalTitle: 'Canada;Wood pulp', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2133,6 +2258,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996138',
     title: 'Industrial Product Price Index: Newsprint, Canada',
+    originalTitle: 'Canada;Newsprint', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2150,6 +2276,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996140',
     title: 'Industrial Product Price Index: Paperboard, Canada',
+    originalTitle: 'Canada;Paperboard', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2167,6 +2294,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996197',
     title: 'Industrial Product Price Index: Hardware, Canada',
+    originalTitle: 'Canada;Hardware', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2184,6 +2312,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996225',
     title: 'Industrial Product Price Index: Aircraft, Canada',
+    originalTitle: 'Canada;Aircraft', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2201,6 +2330,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996231',
     title: 'Industrial Product Price Index: Ships, Canada',
+    originalTitle: 'Canada;Ships', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2218,6 +2348,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996295',
     title: 'Industrial Product Price Index: Appliances, Canada',
+    originalTitle: 'Canada;Appliances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2235,6 +2366,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996316',
     title: 'Industrial Product Price Index: Cement, Canada',
+    originalTitle: 'Canada;Cement', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2252,6 +2384,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1230996340',
     title: 'Industrial Product Price Index: Signs, Canada',
+    originalTitle: 'Canada;Signs', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2269,6 +2402,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1324952490',
     title: 'Industrial Product Price Index: Urea, Canada',
+    originalTitle: 'Canada;Urea', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2286,6 +2420,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1324952503',
     title: 'Industrial Product Price Index: Jet fuel, Canada',
+    originalTitle: 'Canada;Jet fuel', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2303,6 +2438,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100266_1599340839',
     title: 'Industrial Product Price Index: Footwear, Canada',
+    originalTitle: 'Canada;Footwear', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2320,6 +2456,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996350',
     title: 'Industrial Product Price Index: Manufacturing, Canada',
+    originalTitle: 'Canada;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2337,6 +2474,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996381',
     title: 'Industrial Product Price Index: All other food manufacturing, Canada',
+    originalTitle: 'Canada;All other food manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2354,6 +2492,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996385',
     title: 'Industrial Product Price Index: Breweries, Canada',
+    originalTitle: 'Canada;Breweries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2371,6 +2510,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996386',
     title: 'Industrial Product Price Index: Wineries, Canada',
+    originalTitle: 'Canada;Wineries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2388,6 +2528,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996387',
     title: 'Industrial Product Price Index: Distilleries, Canada',
+    originalTitle: 'Canada;Distilleries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2405,6 +2546,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996396',
     title: 'Industrial Product Price Index: Fabric mills, Canada',
+    originalTitle: 'Canada;Fabric mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2422,6 +2564,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996410',
     title: 'Industrial Product Price Index: All other textile product mills, Canada',
+    originalTitle: 'Canada;All other textile product mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2439,6 +2582,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996435',
     title: 'Industrial Product Price Index: Millwork, Canada',
+    originalTitle: 'Canada;Millwork', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2456,6 +2600,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996437',
     title: 'Industrial Product Price Index: All other wood product manufacturing, Canada',
+    originalTitle: 'Canada;All other wood product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2473,6 +2618,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996440',
     title: 'Industrial Product Price Index: Pulp mills, Canada',
+    originalTitle: 'Canada;Pulp mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2490,6 +2636,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996441',
     title: 'Industrial Product Price Index: Paper mills, Canada',
+    originalTitle: 'Canada;Paper mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2507,6 +2654,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996450',
     title: 'Industrial Product Price Index: Printing, Canada',
+    originalTitle: 'Canada;Printing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2524,6 +2672,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996481',
     title: 'Industrial Product Price Index: All other chemical product manufacturing, Canada',
+    originalTitle: 'Canada;All other chemical product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2541,6 +2690,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996511',
     title: 'Industrial Product Price Index: All other non-metallic mineral product manufacturing, Canada',
+    originalTitle: 'Canada;All other non-metallic mineral product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2558,6 +2708,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996524',
     title: 'Industrial Product Price Index: Foundries, Canada',
+    originalTitle: 'Canada;Foundries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2575,6 +2726,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996544',
     title: 'Industrial Product Price Index: Machine shops, Canada',
+    originalTitle: 'Canada;Machine shops', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2592,6 +2744,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996550',
     title: 'Industrial Product Price Index: All other fabricated metal product manufacturing, Canada',
+    originalTitle: 'Canada;All other fabricated metal product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2609,6 +2762,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996569',
     title: 'Industrial Product Price Index: All other general-purpose machinery manufacturing, Canada',
+    originalTitle: 'Canada;All other general-purpose machinery manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2626,6 +2780,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996598',
     title: 'Industrial Product Price Index: All other electrical equipment and component manufacturing, Canada',
+    originalTitle: 'Canada;All other electrical equipment and component manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2643,6 +2798,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100267_1230996640',
     title: 'Industrial Product Price Index: All other miscellaneous manufacturing, Canada',
+    originalTitle: 'Canada;All other miscellaneous manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Industrial Product Price Index',
     release: 'Industrial Product Price Index',
@@ -2660,6 +2816,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998135',
     title: 'Raw Materials Price Index: Total, Raw materials price indexes (RMPI), Canada',
+    originalTitle: 'Canada;Total, Raw materials price indexes (RMPI)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2677,6 +2834,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998141',
     title: 'Raw Materials Price Index: Natural gas, Canada',
+    originalTitle: 'Canada;Natural gas', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2694,6 +2852,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998142',
     title: 'Raw Materials Price Index: Coal, Canada',
+    originalTitle: 'Canada;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2711,6 +2870,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998143',
     title: 'Raw Materials Price Index: Hard coal, Canada',
+    originalTitle: 'Canada;Hard coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2728,6 +2888,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998144',
     title: 'Raw Materials Price Index: Brown coal, Canada',
+    originalTitle: 'Canada;Brown coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2745,6 +2906,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998146',
     title: 'Raw Materials Price Index: Fuel wood, Canada',
+    originalTitle: 'Canada;Fuel wood', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2762,6 +2924,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998148',
     title: 'Raw Materials Price Index: Total, excluding crude energy products, Canada',
+    originalTitle: 'Canada;Total, excluding crude energy products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2779,6 +2942,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998149',
     title: 'Raw Materials Price Index: Crop products, Canada',
+    originalTitle: 'Canada;Crop products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2796,6 +2960,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998150',
     title: 'Raw Materials Price Index: Wheat, Canada',
+    originalTitle: 'Canada;Wheat', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2813,6 +2978,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998166',
     title: 'Raw Materials Price Index: Live animals, Canada',
+    originalTitle: 'Canada;Live animals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2830,6 +2996,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998168',
     title: 'Raw Materials Price Index: Hogs, Canada',
+    originalTitle: 'Canada;Hogs', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2847,6 +3014,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998169',
     title: 'Raw Materials Price Index: Poultry, Canada',
+    originalTitle: 'Canada;Poultry', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2864,6 +3032,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998178',
     title: 'Raw Materials Price Index: Potash, Canada',
+    originalTitle: 'Canada;Potash', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2881,6 +3050,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998181',
     title: 'Raw Materials Price Index: Stone, Canada',
+    originalTitle: 'Canada;Stone', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2898,6 +3068,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1230998189',
     title: 'Raw Materials Price Index: Pulpwood, Canada',
+    originalTitle: 'Canada;Pulpwood', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2915,6 +3086,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1324952524',
     title: 'Raw Materials Price Index: Oats, Canada',
+    originalTitle: 'Canada;Oats', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2932,6 +3104,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1324952525',
     title: 'Raw Materials Price Index: Barley, Canada',
+    originalTitle: 'Canada;Barley', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2949,6 +3122,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1324952526',
     title: 'Raw Materials Price Index: Soybeans, Canada',
+    originalTitle: 'Canada;Soybeans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2966,6 +3140,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100268_1324952528',
     title: 'Raw Materials Price Index: Chickens, Canada',
+    originalTitle: 'Canada;Chickens', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Raw Materials Price Index',
     release: 'Raw Materials Price Index',
@@ -2983,6 +3158,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100275_1354181065',
     title: 'Couriers and Messengers Services Price Index: Couriers and messengers, Canada',
+    originalTitle: 'Canada;Couriers and messengers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Couriers and Messengers Services Price Index',
     release: 'Couriers and Messengers Services Price Index',
@@ -3000,6 +3176,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100275_1354181066',
     title: 'Couriers and Messengers Services Price Index: Couriers, Canada',
+    originalTitle: 'Canada;Couriers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Couriers and Messengers Services Price Index',
     release: 'Couriers and Messengers Services Price Index',
@@ -3017,6 +3194,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100275_1354181067',
     title: 'Local messengers and local delivery, Canada',
+    originalTitle: 'Canada;Local messengers and local delivery', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Couriers and Messengers Services Price Index',
     release: 'Couriers and Messengers Services Price Index',
@@ -3034,6 +3212,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252464',
     title: 'Wholesale Services Price Index: Wholesale trade, Canada',
+    originalTitle: 'Canada;Wholesale trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3051,6 +3230,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252465',
     title: 'Farm product merchant wholesalers, Canada',
+    originalTitle: 'Canada;Farm product merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3068,6 +3248,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252467',
     title: 'Live animal merchant wholesalers, Canada',
+    originalTitle: 'Canada;Live animal merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3085,6 +3266,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252475',
     title: 'Wholesale Services Price Index: Food merchant wholesalers, Canada',
+    originalTitle: 'Canada;Food merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3102,6 +3284,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252483',
     title: 'Wholesale Services Price Index: Beverage merchant wholesalers, Canada',
+    originalTitle: 'Canada;Beverage merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3119,6 +3302,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252488',
     title: 'Wholesale Services Price Index: Cannabis merchant wholesalers, Canada',
+    originalTitle: 'Canada;Cannabis merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3136,6 +3320,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252493',
     title: 'Wholesale Services Price Index: Footwear merchant wholesalers, Canada',
+    originalTitle: 'Canada;Footwear merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3153,6 +3338,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252500',
     title: 'Floor covering merchant wholesalers, Canada',
+    originalTitle: 'Canada;Floor covering merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3170,6 +3356,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252515',
     title: 'Motor vehicle merchant wholesalers, Canada',
+    originalTitle: 'Canada;Motor vehicle merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3187,6 +3374,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252520',
     title: 'Wholesale Services Price Index: Tire merchant wholesalers, Canada',
+    originalTitle: 'Canada;Tire merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3204,6 +3392,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252528',
     title: 'Wholesale Services Price Index: Metal service centres, Canada',
+    originalTitle: 'Canada;Metal service centres', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3221,6 +3410,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252533',
     title: 'Wholesale Services Price Index: Hardware merchant wholesalers, Canada',
+    originalTitle: 'Canada;Hardware merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3238,6 +3428,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252550',
     title: 'Wholesale Services Price Index: All other machinery, equipment and supplies merchant wholesalers, Canada',
+    originalTitle: 'Canada;All other machinery, equipment and supplies merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3255,6 +3446,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252551',
     title: 'Miscellaneous merchant wholesalers, Canada',
+    originalTitle: 'Canada;Miscellaneous merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3272,6 +3464,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252561',
     title: 'Wholesale Services Price Index: Seed merchant wholesalers, Canada',
+    originalTitle: 'Canada;Seed merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3289,6 +3482,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100277_1446252569',
     title: 'Wholesale Services Price Index: All other merchant wholesalers, Canada',
+    originalTitle: 'Canada;All other merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Wholesale Services Price Index',
     release: 'Wholesale Services Price Index',
@@ -3306,6 +3500,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100279_1481613644',
     title: 'Commercial and industrial machinery and equipment rental and leasing, Canada (quarterly)',
+    originalTitle: 'Canada;Commercial and industrial machinery and equipment rental and leasing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
     release: 'Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
@@ -3323,6 +3518,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100279_1481613645',
     title: 'Construction, transportation, mining and forestry equipment rental and leasing, Canada (quarterly)',
+    originalTitle: 'Canada;Construction, transportation, mining and forestry equipment rental and leasing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
     release: 'Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
@@ -3340,6 +3536,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100279_1481613646',
     title: 'Office and other commercial and industrial machinery and equipment rental and leasing, Canada (quarterly)',
+    originalTitle: 'Canada;Office and other commercial and industrial machinery and equipment rental and leasing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
     release: 'Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
@@ -3357,6 +3554,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100280_1481613641',
     title: 'Commercial and industrial machinery and equipment rental and leasing, Canada',
+    originalTitle: 'Canada;Commercial and industrial machinery and equipment rental and leasing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
     release: 'Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
@@ -3374,6 +3572,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100280_1481613642',
     title: 'Construction, transportation, mining and forestry equipment rental and leasing, Canada',
+    originalTitle: 'Canada;Construction, transportation, mining and forestry equipment rental and leasing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
     release: 'Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
@@ -3391,6 +3590,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100280_1481613643',
     title: 'Office and other commercial and industrial machinery and equipment rental and leasing, Canada',
+    originalTitle: 'Canada;Office and other commercial and industrial machinery and equipment rental and leasing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
     release: 'Commercial and Industrial Machinery and Equipment Rental and Leasing Services Price Index',
@@ -3408,6 +3608,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100281_1490434186',
     title: 'For-hire Motor Carrier Freight Services Price Index: Truck transportation, Canada',
+    originalTitle: 'Canada;Truck transportation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3425,6 +3626,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100281_1490434187',
     title: 'For-hire Motor Carrier Freight Services Price Index: General freight trucking, Canada',
+    originalTitle: 'Canada;General freight trucking', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3442,6 +3644,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100281_1490434188',
     title: 'General freight trucking, local, Canada',
+    originalTitle: 'Canada;General freight trucking, local', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3459,6 +3662,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100281_1490434189',
     title: 'General freight trucking, long distance, Canada',
+    originalTitle: 'Canada;General freight trucking, long distance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3476,6 +3680,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100281_1490434190',
     title: 'For-hire Motor Carrier Freight Services Price Index: Specialized freight trucking, Canada',
+    originalTitle: 'Canada;Specialized freight trucking', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3493,6 +3698,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100281_1490434191',
     title: 'Used household and office goods moving, Canada',
+    originalTitle: 'Canada;Used household and office goods moving', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3510,6 +3716,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100281_1490434192',
     title: 'Specialized freight (except used goods) trucking, local, Canada',
+    originalTitle: 'Canada;Specialized freight (except used goods) trucking, local', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3527,6 +3734,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100281_1490434193',
     title: 'Specialized freight (except used goods) trucking, long distance, Canada',
+    originalTitle: 'Canada;Specialized freight (except used goods) trucking, long distance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3544,6 +3752,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100282_1490434223',
     title: 'For-hire Motor Carrier Freight Services Price Index: Truck transportation, Canada (quarterly)',
+    originalTitle: 'Canada;Truck transportation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3561,6 +3770,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100282_1490434224',
     title: 'For-hire Motor Carrier Freight Services Price Index: General freight trucking, Canada (quarterly)',
+    originalTitle: 'Canada;General freight trucking', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3578,6 +3788,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100282_1490434225',
     title: 'General freight trucking, local, Canada (quarterly)',
+    originalTitle: 'Canada;General freight trucking, local', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3595,6 +3806,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100282_1490434226',
     title: 'General freight trucking, long distance, Canada (quarterly)',
+    originalTitle: 'Canada;General freight trucking, long distance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3612,6 +3824,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100282_1490434227',
     title: 'For-hire Motor Carrier Freight Services Price Index: Specialized freight trucking, Canada (quarterly)',
+    originalTitle: 'Canada;Specialized freight trucking', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3629,6 +3842,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100282_1490434228',
     title: 'Used household and office goods moving, Canada (quarterly)',
+    originalTitle: 'Canada;Used household and office goods moving', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3646,6 +3860,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100282_1490434229',
     title: 'Specialized freight (except used goods) trucking, local, Canada (quarterly)',
+    originalTitle: 'Canada;Specialized freight (except used goods) trucking, local', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3663,6 +3878,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100282_1490434230',
     title: 'Specialized freight (except used goods) trucking, long distance, Canada (quarterly)',
+    originalTitle: 'Canada;Specialized freight (except used goods) trucking, long distance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, For-hire Motor Carrier Freight Services Price Index',
     release: 'For-hire Motor Carrier Freight Services Price Index',
@@ -3680,6 +3896,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106355',
     title: 'Machinery and Equipment Price Index: Total machinery and equipment, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Total machinery and equipment;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3697,6 +3914,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106356',
     title: 'Carpets, rugs and mats, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Carpets, rugs and mats;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3714,6 +3932,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106357',
     title: 'Textile products, n.e.c., Total domestic and imported, Canada',
+    originalTitle: 'Canada;Textile products, n.e.c.;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3731,6 +3950,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106360',
     title: 'Tires, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Tires;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3748,6 +3968,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106364',
     title: 'Springs and wire products, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Springs and wire products;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3765,6 +3986,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106376',
     title: 'Pumps and compressors, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Pumps and compressors;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3782,6 +4004,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106386',
     title: 'Small electric appliances, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Small electric appliances;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3799,6 +4022,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106387',
     title: 'Major appliances, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Major appliances;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3816,6 +4040,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106391',
     title: 'Wiring devices, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Wiring devices;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3833,6 +4058,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106393',
     title: 'Passenger cars, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Passenger cars;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3850,6 +4076,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106396',
     title: 'Buses, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Buses;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3867,6 +4094,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106400',
     title: 'Aircraft, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Aircraft;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3884,6 +4112,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106401',
     title: 'Aircraft engines, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Aircraft engines;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3901,6 +4130,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106404',
     title: 'Ships, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Ships;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3918,6 +4148,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106407',
     title: 'Household furniture, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Household furniture;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3935,6 +4166,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106409',
     title: 'Office furniture, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Office furniture;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3952,6 +4184,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106411',
     title: 'Mattresses and foundations, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Mattresses and foundations;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3969,6 +4202,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100283_1567106415',
     title: 'Signs, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Signs;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -3986,6 +4220,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476336',
     title: 'Crop production, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Crop production;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4003,6 +4238,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476338',
     title: 'Forestry and logging, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Forestry and logging;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4020,6 +4256,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476344',
     title: 'Oil sands extraction, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Oil sands extraction;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4037,6 +4274,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476347',
     title: 'Utilities, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Utilities;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4054,6 +4292,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476348',
     title: 'Construction, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Construction;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4071,6 +4310,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476349',
     title: 'Machinery and Equipment Price Index: All manufacturing, Total domestic and imported, Canada',
+    originalTitle: 'Canada;All manufacturing;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4088,6 +4328,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476350',
     title: 'Food manufacturing, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Food manufacturing;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4105,6 +4346,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476355',
     title: 'Paper manufacturing, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Paper manufacturing;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4122,6 +4364,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476358',
     title: 'Chemical manufacturing, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Chemical manufacturing;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4139,6 +4382,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476371',
     title: 'Trade, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Trade;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4156,6 +4400,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476372',
     title: 'Wholesale trade, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Wholesale trade;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4173,6 +4418,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476373',
     title: 'Retail trade, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Retail trade;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4190,6 +4436,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476376',
     title: 'Finance and insurance, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Finance and insurance;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4207,6 +4454,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476384',
     title: 'Holding companies, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Holding companies;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4224,6 +4472,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476388',
     title: 'Machinery and Equipment Price Index: Other services, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Other services;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4241,6 +4490,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476393',
     title: 'Public administration, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Public administration;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4258,6 +4508,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1571476394',
     title: 'Defence services, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Defence services;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4275,6 +4526,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1864629076',
     title: 'Universities, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Universities;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4292,6 +4544,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100284_1864629078',
     title: 'Hospitals, Total domestic and imported, Canada',
+    originalTitle: 'Canada;Hospitals;Total domestic and imported', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Machinery and Equipment Price Index',
     release: 'Machinery and Equipment Price Index',
@@ -4309,6 +4562,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100292_1951246998',
     title: 'Sector-based Producer Price Indexes: Energy, Canada',
+    originalTitle: 'Canada;Energy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sector-based Producer Price Indexes',
     release: 'Sector-based Producer Price Indexes',
@@ -4326,6 +4580,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100292_1951246999',
     title: 'Sector-based Producer Price Indexes: Non-Energy, Canada',
+    originalTitle: 'Canada;Non-Energy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sector-based Producer Price Indexes',
     release: 'Sector-based Producer Price Indexes',
@@ -4343,6 +4598,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100292_1951247000',
     title: 'Sector-based Producer Price Indexes: Goods, Canada',
+    originalTitle: 'Canada;Goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sector-based Producer Price Indexes',
     release: 'Sector-based Producer Price Indexes',
@@ -4360,6 +4616,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_18100292_1951247001',
     title: 'Sector-based Producer Price Indexes: Services, Canada',
+    originalTitle: 'Canada;Services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sector-based Producer Price Indexes',
     release: 'Sector-based Producer Price Indexes',
@@ -4377,6 +4634,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596475',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Number of enterprises, Canadian control, Total enterprises, all sizes, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Number of enterprises;Canadian control;Total enterprises, all sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4394,6 +4652,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596476',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Number of enterprises, Canadian control, Small enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Number of enterprises;Canadian control;Small enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4411,6 +4670,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596477',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Number of enterprises, Canadian control, Medium enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Number of enterprises;Canadian control;Medium enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4428,6 +4688,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596478',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Number of enterprises, Canadian control, Large enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Number of enterprises;Canadian control;Large enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4445,6 +4706,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596479',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Number of enterprises, Foreign control, Total enterprises, all sizes, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Number of enterprises;Foreign control;Total enterprises, all sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4462,6 +4724,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596480',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Number of enterprises, Foreign control, Small enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Number of enterprises;Foreign control;Small enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4479,6 +4742,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596481',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Number of enterprises, Foreign control, Medium enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Number of enterprises;Foreign control;Medium enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4496,6 +4760,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596482',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Number of enterprises, Foreign control, Large enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Number of enterprises;Foreign control;Large enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4513,6 +4778,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596483',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Mean operating revenues (dollars), Canadian control, Total enterprises, all sizes, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Mean operating revenues (dollars);Canadian control;Total enterprises, all sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4530,6 +4796,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596484',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Mean operating revenues (dollars), Canadian control, Small enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Mean operating revenues (dollars);Canadian control;Small enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4547,6 +4814,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596485',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Mean operating revenues (dollars), Canadian control, Medium enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Mean operating revenues (dollars);Canadian control;Medium enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4564,6 +4832,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596486',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Mean operating revenues (dollars), Canadian control, Large enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Mean operating revenues (dollars);Canadian control;Large enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4581,6 +4850,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596487',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Mean operating revenues (dollars), Foreign control, Total enterprises, all sizes, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Mean operating revenues (dollars);Foreign control;Total enterprises, all sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4598,6 +4868,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596488',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Mean operating revenues (dollars), Foreign control, Small enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Mean operating revenues (dollars);Foreign control;Small enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4615,6 +4886,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596489',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Mean operating revenues (dollars), Foreign control, Medium enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Mean operating revenues (dollars);Foreign control;Medium enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4632,6 +4904,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100005_41596490',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Mean operating revenues (dollars), Foreign control, Large enterprises, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Mean operating revenues (dollars);Foreign control;Large enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -4649,6 +4922,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502560',
     title: 'Accommodation services, Operating revenue, Canada',
+    originalTitle: 'Canada;Accommodation services;Operating revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4666,6 +4940,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502561',
     title: 'Accommodation services, Operating expenses, Canada',
+    originalTitle: 'Canada;Accommodation services;Operating expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4683,6 +4958,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502562',
     title: 'Accommodation services, Salaries, wages, commissions and benefits, Canada (dollars; annual)',
+    originalTitle: 'Canada;Accommodation services;Salaries, wages, commissions and benefits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4700,6 +4976,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502563',
     title: 'Accommodation services, Operating profit margin, Canada',
+    originalTitle: 'Canada;Accommodation services;Operating profit margin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4717,6 +4994,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502564',
     title: 'Hotels, motor hotels and motels, Operating revenue, Canada',
+    originalTitle: 'Canada;Hotels, motor hotels and motels;Operating revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4734,6 +5012,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502565',
     title: 'Hotels, motor hotels and motels, Operating expenses, Canada',
+    originalTitle: 'Canada;Hotels, motor hotels and motels;Operating expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4751,6 +5030,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502566',
     title: 'Hotels, motor hotels and motels, Salaries, wages, commissions and benefits, Canada',
+    originalTitle: 'Canada;Hotels, motor hotels and motels;Salaries, wages, commissions and benefits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4768,6 +5048,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502567',
     title: 'Hotels, motor hotels and motels, Operating profit margin, Canada',
+    originalTitle: 'Canada;Hotels, motor hotels and motels;Operating profit margin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4785,6 +5066,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502568',
     title: 'Accommodation Services: Other accommodation industries, Operating revenue, Canada',
+    originalTitle: 'Canada;Other accommodation industries;Operating revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4802,6 +5084,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502569',
     title: 'Accommodation Services: Other accommodation industries, Operating expenses, Canada',
+    originalTitle: 'Canada;Other accommodation industries;Operating expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4819,6 +5102,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502570',
     title: 'Accommodation Services: Other accommodation industries, Salaries, wages, commissions and benefits, Canada',
+    originalTitle: 'Canada;Other accommodation industries;Salaries, wages, commissions and benefits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4836,6 +5120,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100102_99502571',
     title: 'Accommodation Services: Other accommodation industries, Operating profit margin, Canada',
+    originalTitle: 'Canada;Other accommodation industries;Operating profit margin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4853,6 +5138,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502728',
     title: 'Accommodation services, Total operating expense, Canada',
+    originalTitle: 'Canada;Accommodation services;Total operating expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4870,6 +5156,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502729',
     title: 'Accommodation services, Cost of goods sold, Canada',
+    originalTitle: 'Canada;Accommodation services;Cost of goods sold', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4887,6 +5174,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502730',
     title: 'Accommodation services, Salaries, wages, commissions and benefits, Canada (percent; annual)',
+    originalTitle: 'Canada;Accommodation services;Salaries, wages, commissions and benefits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4904,6 +5192,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502731',
     title: 'Accommodation services, Subcontracts, Canada',
+    originalTitle: 'Canada;Accommodation services;Subcontracts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4921,6 +5210,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502732',
     title: 'Accommodation services, Research and development fees, Canada',
+    originalTitle: 'Canada;Accommodation services;Research and development fees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4938,6 +5228,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502733',
     title: 'Accommodation services, Professional and business fees, Canada',
+    originalTitle: 'Canada;Accommodation services;Professional and business fees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4955,6 +5246,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502734',
     title: 'Accommodation services, Utilities, Canada',
+    originalTitle: 'Canada;Accommodation services;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4972,6 +5264,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502735',
     title: 'Accommodation services, Office and computer related expenses, Canada',
+    originalTitle: 'Canada;Accommodation services;Office and computer related expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -4989,6 +5282,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502736',
     title: 'Accommodation services, Telephone, Internet and other telecommunication, Canada',
+    originalTitle: 'Canada;Accommodation services;Telephone, Internet and other telecommunication', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5006,6 +5300,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502737',
     title: 'Accommodation services, Business taxes, licences and permits, Canada',
+    originalTitle: 'Canada;Accommodation services;Business taxes, licences and permits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5023,6 +5318,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502738',
     title: 'Accommodation services, Royalties, franchise fees and memberships, Canada',
+    originalTitle: 'Canada;Accommodation services;Royalties, franchise fees and memberships', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5040,6 +5336,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502739',
     title: 'Accommodation services, Crown charges, Canada',
+    originalTitle: 'Canada;Accommodation services;Crown charges', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5057,6 +5354,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502740',
     title: 'Accommodation services, Rental and leasing, Canada',
+    originalTitle: 'Canada;Accommodation services;Rental and leasing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5074,6 +5372,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502741',
     title: 'Accommodation services, Repair and maintenance, Canada',
+    originalTitle: 'Canada;Accommodation services;Repair and maintenance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5091,6 +5390,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502742',
     title: 'Accommodation services, Amortization and depreciation, Canada',
+    originalTitle: 'Canada;Accommodation services;Amortization and depreciation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5108,6 +5408,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502743',
     title: 'Accommodation services, Insurance, Canada',
+    originalTitle: 'Canada;Accommodation services;Insurance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5125,6 +5426,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502745',
     title: 'Accommodation services, Travel, meetings and conventions, Canada',
+    originalTitle: 'Canada;Accommodation services;Travel, meetings and conventions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5142,6 +5444,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502746',
     title: 'Accommodation services, Financial services, Canada',
+    originalTitle: 'Canada;Accommodation services;Financial services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5159,6 +5462,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502747',
     title: 'Accommodation services, Other non-production-related costs and expenses, Canada',
+    originalTitle: 'Canada;Accommodation services;Other non-production-related costs and expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5176,6 +5480,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100103_99502748',
     title: 'Accommodation services, All other cost and expenses, Canada',
+    originalTitle: 'Canada;Accommodation services;All other cost and expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Accommodation Services',
     release: 'Accommodation Services',
@@ -5193,6 +5498,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100110_99918351',
     title: 'Head Offices and Head Office Employment: Head offices, Canada',
+    originalTitle: 'Canada;Head offices', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Head Offices and Head Office Employment',
     release: 'Head Offices and Head Office Employment',
@@ -5210,6 +5516,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100110_99918352',
     title: 'Head Offices and Head Office Employment: Head office employment, Canada',
+    originalTitle: 'Canada;Head office employment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Head Offices and Head Office Employment',
     release: 'Head Offices and Head Office Employment',
@@ -5227,6 +5534,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565735',
     title: 'Management, scientific and technical consulting services, Total sales, Canada',
+    originalTitle: 'Canada;Management, scientific and technical consulting services;Total sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5244,6 +5552,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565745',
     title: 'Management, scientific and technical consulting services, Environmental audits, Canada',
+    originalTitle: 'Canada;Management, scientific and technical consulting services;Environmental audits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5261,6 +5570,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565758',
     title: 'Management consulting services, Total sales, Canada',
+    originalTitle: 'Canada;Management consulting services;Total sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5278,6 +5588,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565759',
     title: 'Management consulting services, Canada (percent; annual)',
+    originalTitle: 'Canada;Management consulting services;Management consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5295,6 +5606,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565760',
     title: 'Management consulting services, Strategic management consulting services, Canada',
+    originalTitle: 'Canada;Management consulting services;Strategic management consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5312,6 +5624,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565761',
     title: 'Management consulting services, Financial management consulting services, Canada',
+    originalTitle: 'Canada;Management consulting services;Financial management consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5329,6 +5642,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565762',
     title: 'Management consulting services, Marketing management consulting services, Canada',
+    originalTitle: 'Canada;Management consulting services;Marketing management consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5346,6 +5660,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565763',
     title: 'Management consulting services, Human resources management consulting services, Canada',
+    originalTitle: 'Canada;Management consulting services;Human resources management consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5363,6 +5678,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565765',
     title: 'Management consulting services, Other management consulting services, Canada',
+    originalTitle: 'Canada;Management consulting services;Other management consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5380,6 +5696,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565766',
     title: 'Management consulting services, Environmental consulting services, Canada',
+    originalTitle: 'Canada;Management consulting services;Environmental consulting services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5397,6 +5714,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565768',
     title: 'Management consulting services, Other sales of goods and services, Canada',
+    originalTitle: 'Canada;Management consulting services;Other sales of goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5414,6 +5732,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100162_106565769',
     title: 'Environmental and other scientific and technical consulting services, Total sales, Canada',
+    originalTitle: 'Canada;Environmental and other scientific and technical consulting services;Total sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consulting Services',
     release: 'Consulting Services',
@@ -5431,6 +5750,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666252',
     title: 'Brazilian real, monthly average, Canada',
+    originalTitle: 'Canada;Brazilian real, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5448,6 +5768,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666253',
     title: 'Chinese renminbi, monthly average, Canada',
+    originalTitle: 'Canada;Chinese renminbi, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5465,6 +5786,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666254',
     title: 'European euro, monthly average, Canada',
+    originalTitle: 'Canada;European euro, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5482,6 +5804,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666255',
     title: 'Hong Kong dollar, monthly average, Canada',
+    originalTitle: 'Canada;Hong Kong dollar, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5499,6 +5822,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666256',
     title: 'Monthly Average Foreign Exchange Rates in Canadian Dollars: Indian rupee, monthly average, Canada',
+    originalTitle: 'Canada;Indian rupee, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5516,6 +5840,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666258',
     title: 'Monthly Average Foreign Exchange Rates in Canadian Dollars: Japanese yen, monthly average, Canada',
+    originalTitle: 'Canada;Japanese yen, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5533,6 +5858,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666260',
     title: 'Monthly Average Foreign Exchange Rates in Canadian Dollars: Mexican peso, monthly average, Canada',
+    originalTitle: 'Canada;Mexican peso, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5550,6 +5876,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666262',
     title: 'Norwegian krone, monthly average, Canada',
+    originalTitle: 'Canada;Norwegian krone, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5567,6 +5894,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666263',
     title: 'Peruvian new sol, monthly average, Canada',
+    originalTitle: 'Canada;Peruvian new sol, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5584,6 +5912,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666266',
     title: 'Singapore dollar, monthly average, Canada',
+    originalTitle: 'Canada;Singapore dollar, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5601,6 +5930,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666268',
     title: 'South Korean won, monthly average, Canada',
+    originalTitle: 'Canada;South Korean won, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5618,6 +5948,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666269',
     title: 'Swedish krona, monthly average, Canada',
+    originalTitle: 'Canada;Swedish krona, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5635,6 +5966,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666270',
     title: 'Monthly Average Foreign Exchange Rates in Canadian Dollars: Swiss franc, monthly average, Canada',
+    originalTitle: 'Canada;Swiss franc, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5652,6 +5984,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666273',
     title: 'Monthly Average Foreign Exchange Rates in Canadian Dollars: Turkish lira, monthly average, Canada',
+    originalTitle: 'Canada;Turkish lira, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5669,6 +6002,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_111666275',
     title: 'Monthly Average Foreign Exchange Rates in Canadian Dollars: U.S. dollar, monthly average, Canada',
+    originalTitle: 'Canada;U.S. dollar, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5686,6 +6020,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100163_1891952280',
     title: 'Monthly Average Foreign Exchange Rates in Canadian Dollars: Polish zloty, monthly average, Canada',
+    originalTitle: 'Canada;Polish zloty, monthly average', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Monthly Average Foreign Exchange Rates in Canadian Dollars',
     release: 'Monthly Average Foreign Exchange Rates in Canadian Dollars',
@@ -5703,6 +6038,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100224_1145999133',
     title: 'Quarterly Balance Sheet: Total, all industries, Total assets, Canada',
+    originalTitle: 'Canada;Total, all industries;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5720,6 +6056,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100224_1145999182',
     title: 'Quarterly Balance Sheet: Total, all industries, Total liabilities, Canada',
+    originalTitle: 'Canada;Total, all industries;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5737,6 +6074,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100224_1145999196',
     title: 'Quarterly Balance Sheet: Total, all industries, Total equity, Canada',
+    originalTitle: 'Canada;Total, all industries;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5754,6 +6092,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100224_1145999206',
     title: 'Quarterly Balance Sheet: Total, all industries, Total revenue, Canada',
+    originalTitle: 'Canada;Total, all industries;Total revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5771,6 +6110,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100224_1145999207',
     title: 'Quarterly Balance Sheet: Total, all industries, Total operating revenue, Canada',
+    originalTitle: 'Canada;Total, all industries;Total operating revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5788,6 +6128,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100224_1145999227',
     title: 'Quarterly Balance Sheet: Total, all industries, Total expenses, Canada',
+    originalTitle: 'Canada;Total, all industries;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5805,6 +6146,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100224_1446300008',
     title: 'Quarterly Balance Sheet: Total, all industries, Total operating expenses, Canada',
+    originalTitle: 'Canada;Total, all industries;Total operating expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5822,6 +6164,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999249',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total assets, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5839,6 +6182,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999258',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total real estate, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total real estate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5856,6 +6200,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999262',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total investments in and claims on parent, subsidiaries and affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total investments in and claims on parent, subsidiaries and affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5873,6 +6218,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999270',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total investments in non-affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total investments in non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5890,6 +6236,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999279',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total loans to non-affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total loans to non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5907,6 +6254,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999295',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, All other assets, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;All other assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5924,6 +6272,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999297',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total liabilities, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5941,6 +6290,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999299',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total amounts owing to affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total amounts owing to affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5958,6 +6308,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999302',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total borrowings from non-affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total borrowings from non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5975,6 +6326,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999310',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, All other miscellaneous liabilities, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;All other miscellaneous liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -5992,6 +6344,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999311',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total equity, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6009,6 +6362,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999322',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total operating revenue, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total operating revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6026,6 +6380,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999329',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total interest revenue, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total interest revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6043,6 +6398,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999336',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total dividends, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total dividends', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6060,6 +6416,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999341',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, All other revenues, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;All other revenues', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6077,6 +6434,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999342',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total expenses, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6094,6 +6452,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999345',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total interest expense, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total interest expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6111,6 +6470,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999351',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, All other miscellaneous expenses, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;All other miscellaneous expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6128,6 +6488,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1145999360',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total capital expenditures, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6145,6 +6506,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100225_1446286615',
     title: 'Quarterly Balance Sheet: Total, non-financial industries, Total operating expenses, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total operating expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6162,6 +6524,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004129',
     title: 'Quarterly Balance Sheet and Income Statement: Total, all industries, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Total, all industries;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6179,6 +6542,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004132',
     title: 'Quarterly Balance Sheet and Income Statement: Total, non-financial industries, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6196,6 +6560,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004144',
     title: 'Utilities, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Utilities;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6213,6 +6578,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004147',
     title: 'Construction, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Construction;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6230,6 +6596,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004156',
     title: 'Wood product and paper manufacturing, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Wood product and paper manufacturing;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6247,6 +6614,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004183',
     title: 'Motor vehicle parts manufacturing, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Motor vehicle parts manufacturing;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6264,6 +6632,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004201',
     title: 'Quarterly Balance Sheet and Income Statement: Other wholesalers, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Other wholesalers;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6281,6 +6650,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004204',
     title: 'Motor vehicle and parts dealers, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Motor vehicle and parts dealers;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6298,6 +6668,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004207',
     title: 'Food and beverage stores, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Food and beverage stores;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6315,6 +6686,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004213',
     title: 'Quarterly Balance Sheet and Income Statement: Other retailers, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Other retailers;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6332,6 +6704,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004219',
     title: 'Pipelines, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Pipelines;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6349,6 +6722,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004222',
     title: 'Warehousing, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Warehousing;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6366,6 +6740,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004228',
     title: 'Telecommunications, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Telecommunications;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6383,6 +6758,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004231',
     title: 'Real estate, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Real estate;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6400,6 +6776,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004252',
     title: 'Quarterly Balance Sheet and Income Statement: Total, finance and insurance industries, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6417,6 +6794,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004258',
     title: 'Local credit unions, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Local credit unions;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6434,6 +6812,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004264',
     title: 'Quarterly Balance Sheet and Income Statement: All other non-depository credit intermediation, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6451,6 +6830,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004267',
     title: 'Central credit unions, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Central credit unions;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6468,6 +6848,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004276',
     title: 'Securities and commodity brokerage, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Securities and commodity brokerage;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6485,6 +6866,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100226_1146004279',
     title: 'Miscellaneous Intermediation, Total operating revenue, seasonally adjusted, Canada',
+    originalTitle: 'Canada;Miscellaneous Intermediation;Total operating revenue, seasonally adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet and Income Statement',
     release: 'Quarterly Balance Sheet and Income Statement',
@@ -6502,6 +6884,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162496',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, Total assets, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6519,6 +6902,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162509',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, All other assets, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;All other assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6536,6 +6920,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162551',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, Total amounts owing to affiliates, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total amounts owing to affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6553,6 +6938,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162555',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, Total borrowings from non-affiliates, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total borrowings from non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6570,6 +6956,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162576',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, All other miscellaneous liabilities, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;All other miscellaneous liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6587,6 +6974,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162580',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, Total equity, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6604,6 +6992,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162624',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, Total interest revenue, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total interest revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6621,6 +7010,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162632',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, Total dividends, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total dividends', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6638,6 +7028,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162639',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, All other revenues, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;All other revenues', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6655,6 +7046,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162640',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, Total expenses, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6672,6 +7064,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162674',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, Total interest expense, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total interest expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6689,6 +7082,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100227_1146162678',
     title: 'Quarterly Balance Sheet: All other non-depository credit intermediation, All other miscellaneous expenses, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;All other miscellaneous expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Quarterly Balance Sheet',
     release: 'Quarterly Balance Sheet',
@@ -6706,6 +7100,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1231413801',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Total tourism transportation, Active businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Active businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6723,6 +7118,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1231413802',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Total tourism transportation, Opening businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Opening businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6740,6 +7136,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1231413803',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Total tourism transportation, Continuing businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Continuing businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6757,6 +7154,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1231413804',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Total tourism transportation, Closing businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Closing businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6774,6 +7172,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1271258903',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Total tourism transportation, Reopening businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Reopening businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6791,6 +7190,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1271259687',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Construction [23], Entrants, Canada',
+    originalTitle: 'Canada;Construction [23];Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6808,6 +7208,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1271259736',
     title: 'Manufacturing [31-33], Entrants, Canada',
+    originalTitle: 'Canada;Manufacturing [31-33];Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6825,6 +7226,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1271259785',
     title: 'Wholesale trade [41], Entrants, Canada',
+    originalTitle: 'Canada;Wholesale trade [41];Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6842,6 +7244,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1271259834',
     title: 'Retail trade [44-45], Entrants, Canada',
+    originalTitle: 'Canada;Retail trade [44-45];Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6859,6 +7262,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1271260422',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Tourism industry, Entrants, Canada',
+    originalTitle: 'Canada;Tourism industry;Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6876,6 +7280,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1271260471',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Total tourism transportation, Entrants, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6893,6 +7298,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1296954309',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Total tourism transportation, Temporary closures, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Temporary closures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6910,6 +7316,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1296955093',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Construction [23], Exits, Canada',
+    originalTitle: 'Canada;Construction [23];Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6927,6 +7334,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1296955142',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Manufacturing [31-33], Exits, Canada',
+    originalTitle: 'Canada;Manufacturing [31-33];Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6944,6 +7352,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1296955191',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Wholesale trade [41], Exits, Canada',
+    originalTitle: 'Canada;Wholesale trade [41];Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6961,6 +7370,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1296955240',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Retail trade [44-45], Exits, Canada',
+    originalTitle: 'Canada;Retail trade [44-45];Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6978,6 +7388,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1296955828',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Tourism industry, Exits, Canada',
+    originalTitle: 'Canada;Tourism industry;Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -6995,6 +7406,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100270_1296955877',
     title: 'Experimental Estimates for Business Openings and Closures for Canada: Total tourism transportation, Exits, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures for Canada',
     release: 'Experimental Estimates for Business Openings and Closures for Canada',
@@ -7012,6 +7424,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261548',
     title: 'Balance Sheet: Total, all industries, Total assets, Canada',
+    originalTitle: 'Canada;Total, all industries;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7029,6 +7442,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261555',
     title: 'Balance Sheet: Total, all industries, All other assets, Canada',
+    originalTitle: 'Canada;Total, all industries;All other assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7046,6 +7460,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261559',
     title: 'Balance Sheet: Total, all industries, Inventory, Canada',
+    originalTitle: 'Canada;Total, all industries;Inventory', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7063,6 +7478,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261561',
     title: 'Balance Sheet: Total, all industries, Total investments in and claims on parent, subsidiaries and affiliates, Canada',
+    originalTitle: 'Canada;Total, all industries;Total investments in and claims on parent, subsidiaries and affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7080,6 +7496,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261562',
     title: 'Balance Sheet: Total, all industries, Total investments in non-affiliates, Canada',
+    originalTitle: 'Canada;Total, all industries;Total investments in non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7097,6 +7514,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261578',
     title: 'Balance Sheet: Total, all industries, Total loans to non-affiliates, Canada',
+    originalTitle: 'Canada;Total, all industries;Total loans to non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7114,6 +7532,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261579',
     title: 'Balance Sheet: Total, all industries, Total liabilities, Canada',
+    originalTitle: 'Canada;Total, all industries;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7131,6 +7550,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261588',
     title: 'Balance Sheet: Total, all industries, Total borrowings from non-affiliates, Canada',
+    originalTitle: 'Canada;Total, all industries;Total borrowings from non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7148,6 +7568,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261589',
     title: 'Balance Sheet: Total, all industries, Total amounts owing to affiliates, Canada',
+    originalTitle: 'Canada;Total, all industries;Total amounts owing to affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7165,6 +7586,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261595',
     title: 'Balance Sheet: Total, all industries, All other miscellaneous liabilities, Canada',
+    originalTitle: 'Canada;Total, all industries;All other miscellaneous liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7182,6 +7604,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261598',
     title: 'Balance Sheet: Total, all industries, Total equity, Canada',
+    originalTitle: 'Canada;Total, all industries;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7199,6 +7622,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261600',
     title: 'Balance Sheet: Total, all industries, Common stocks, Canada',
+    originalTitle: 'Canada;Total, all industries;Common stocks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7216,6 +7640,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261609',
     title: 'Balance Sheet: Total, all industries, Total revenue, Canada',
+    originalTitle: 'Canada;Total, all industries;Total revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7233,6 +7658,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261614',
     title: 'Balance Sheet: Total, all industries, Total operating revenue, Canada',
+    originalTitle: 'Canada;Total, all industries;Total operating revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7250,6 +7676,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261623',
     title: 'Balance Sheet: Total, all industries, All other revenues, Canada',
+    originalTitle: 'Canada;Total, all industries;All other revenues', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7267,6 +7694,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261624',
     title: 'Balance Sheet: Total, all industries, Total expenses, Canada',
+    originalTitle: 'Canada;Total, all industries;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7284,6 +7712,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261625',
     title: 'Balance Sheet: Total, all industries, Total operating expense, Canada',
+    originalTitle: 'Canada;Total, all industries;Total operating expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7301,6 +7730,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261644',
     title: 'Balance Sheet: Total, all industries, All other miscellaneous expenses, Canada',
+    originalTitle: 'Canada;Total, all industries;All other miscellaneous expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7318,6 +7748,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261664',
     title: 'Balance Sheet: Total, all industries, Depreciation, Canada',
+    originalTitle: 'Canada;Total, all industries;Depreciation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7335,6 +7766,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100498_1331261686',
     title: 'Balance Sheet: Total, all industries, Taxes, total, Canada',
+    originalTitle: 'Canada;Total, all industries;Taxes, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7352,6 +7784,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262150',
     title: 'Balance Sheet: Total, finance and insurance industries, All other assets, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;All other assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7369,6 +7802,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262190',
     title: 'Balance Sheet: Total, finance and insurance industries, All other miscellaneous liabilities, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;All other miscellaneous liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7386,6 +7820,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262218',
     title: 'Balance Sheet: Total, finance and insurance industries, All other revenues, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;All other revenues', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7403,6 +7838,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262239',
     title: 'Balance Sheet: Total, finance and insurance industries, All other miscellaneous expenses, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;All other miscellaneous expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7420,6 +7856,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262719',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total assets, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7437,6 +7874,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262726',
     title: 'Balance Sheet: All other non-depository credit intermediation, All other assets, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;All other assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7454,6 +7892,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262732',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total investments in and claims on parent, subsidiaries and affiliates, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total investments in and claims on parent, subsidiaries and affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7471,6 +7910,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262733',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total investments in non-affiliates, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total investments in non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7488,6 +7928,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262749',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total loans to non-affiliates, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total loans to non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7505,6 +7946,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262750',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total liabilities, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7522,6 +7964,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262759',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total borrowings from non-affiliates, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total borrowings from non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7539,6 +7982,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262760',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total amounts owing to affiliates, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total amounts owing to affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7556,6 +8000,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262766',
     title: 'Balance Sheet: All other non-depository credit intermediation, All other miscellaneous liabilities, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;All other miscellaneous liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7573,6 +8018,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262769',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total equity, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7590,6 +8036,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262780',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total revenue, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7607,6 +8054,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262785',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total operating revenue, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total operating revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7624,6 +8072,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262794',
     title: 'Balance Sheet: All other non-depository credit intermediation, All other revenues, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;All other revenues', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7641,6 +8090,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262795',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total expenses, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7658,6 +8108,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262796',
     title: 'Balance Sheet: All other non-depository credit intermediation, Total operating expense, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total operating expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7675,6 +8126,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100499_1331262815',
     title: 'Balance Sheet: All other non-depository credit intermediation, All other miscellaneous expenses, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;All other miscellaneous expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7692,6 +8144,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423022',
     title: 'Balance Sheet: Total, non-financial industries, Total assets, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7709,6 +8162,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423029',
     title: 'Balance Sheet: Total, non-financial industries, All other assets, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;All other assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7726,6 +8180,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423033',
     title: 'Balance Sheet: Total, non-financial industries, Inventory, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Inventory', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7743,6 +8198,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423035',
     title: 'Balance Sheet: Total, non-financial industries, Total investments in and claims on parent, subsidiaries and affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total investments in and claims on parent, subsidiaries and affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7760,6 +8216,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423036',
     title: 'Balance Sheet: Total, non-financial industries, Total investments in non-affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total investments in non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7777,6 +8234,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423052',
     title: 'Balance Sheet: Total, non-financial industries, Total loans to non-affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total loans to non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7794,6 +8252,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423053',
     title: 'Balance Sheet: Total, non-financial industries, Total liabilities, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7811,6 +8270,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423062',
     title: 'Balance Sheet: Total, non-financial industries, Total borrowings from non-affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total borrowings from non-affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7828,6 +8288,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423063',
     title: 'Balance Sheet: Total, non-financial industries, Total amounts owing to affiliates, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total amounts owing to affiliates', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7845,6 +8306,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423069',
     title: 'Balance Sheet: Total, non-financial industries, All other miscellaneous liabilities, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;All other miscellaneous liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7862,6 +8324,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423072',
     title: 'Balance Sheet: Total, non-financial industries, Total equity, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7879,6 +8342,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423083',
     title: 'Balance Sheet: Total, non-financial industries, Total revenue, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7896,6 +8360,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423088',
     title: 'Balance Sheet: Total, non-financial industries, Total operating revenue, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total operating revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7913,6 +8378,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423097',
     title: 'Balance Sheet: Total, non-financial industries, All other revenues, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;All other revenues', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7930,6 +8396,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423098',
     title: 'Balance Sheet: Total, non-financial industries, Total expenses, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7947,6 +8414,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423099',
     title: 'Balance Sheet: Total, non-financial industries, Total operating expense, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total operating expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7964,6 +8432,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331423118',
     title: 'Balance Sheet: Total, non-financial industries, All other miscellaneous expenses, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;All other miscellaneous expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7981,6 +8450,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331427205',
     title: 'Balance Sheet: Pipelines, All other assets, Canada',
+    originalTitle: 'Canada;Pipelines;All other assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -7998,6 +8468,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331427245',
     title: 'Pipelines, All other miscellaneous liabilities, Canada',
+    originalTitle: 'Canada;Pipelines;All other miscellaneous liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -8015,6 +8486,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100500_1331427294',
     title: 'Pipelines, All other miscellaneous expenses, Canada',
+    originalTitle: 'Canada;Pipelines;All other miscellaneous expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet',
     release: 'Balance Sheet',
@@ -8032,6 +8504,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992054',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total outstanding residential mortgages, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total outstanding residential mortgages;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8049,6 +8522,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992055',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured outstanding residential mortgages, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured outstanding residential mortgages;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8066,6 +8540,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992056',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total uninsured outstanding residential mortgages, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total uninsured outstanding residential mortgages;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8083,6 +8558,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992057',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured outstanding residential mortgages by amortization period, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured outstanding residential mortgages by amortization period;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8100,6 +8576,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992064',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total uninsured outstanding residential mortgages by amortization period, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total uninsured outstanding residential mortgages by amortization period;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8117,6 +8594,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992071',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured outstanding residential mortgages by total debt service (TDS) ratio, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured outstanding residential mortgages by total debt service (TDS) ratio;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8134,6 +8612,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992080',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total uninsured outstanding residential mortgages by total debt service (TDS) ratio, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total uninsured outstanding residential mortgages by total debt service (TDS) ratio;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8151,6 +8630,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992089',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured outstanding residential mortgages by loan-to-value (LTV) ratio, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured outstanding residential mortgages by loan-to-value (LTV) ratio;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8168,6 +8648,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992097',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total uninsured outstanding residential mortgages by loan-to-value (LTV) ratio, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total uninsured outstanding residential mortgages by loan-to-value (LTV) ratio;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8185,6 +8666,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992104',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured residential mortgages in arrears by days in arrears, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured residential mortgages in arrears by days in arrears;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8202,6 +8684,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992109',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total uninsured residential mortgages in arrears by days in arrears, Value of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total uninsured residential mortgages in arrears by days in arrears;Value of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8219,6 +8702,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992294',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total outstanding residential mortgages, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total outstanding residential mortgages;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8236,6 +8720,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992295',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured outstanding residential mortgages, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured outstanding residential mortgages;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8253,6 +8738,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992296',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total uninsured outstanding residential mortgages, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total uninsured outstanding residential mortgages;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8270,6 +8756,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992297',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured outstanding residential mortgages by amortization period, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured outstanding residential mortgages by amortization period;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8287,6 +8774,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992304',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total uninsured outstanding residential mortgages by amortization period, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total uninsured outstanding residential mortgages by amortization period;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8304,6 +8792,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992311',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured outstanding residential mortgages by total debt service (TDS) ratio, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured outstanding residential mortgages by total debt service (TDS) ratio;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8321,6 +8810,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992329',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured outstanding residential mortgages by loan-to-value (LTV) ratio, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured outstanding residential mortgages by loan-to-value (LTV) ratio;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8338,6 +8828,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992337',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total uninsured outstanding residential mortgages by loan-to-value (LTV) ratio, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total uninsured outstanding residential mortgages by loan-to-value (LTV) ratio;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8355,6 +8846,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100530_1374992344',
     title: 'Non-bank Mortgages Outstanding: All non-bank lenders, Total insured residential mortgages in arrears by days in arrears, Number of mortgages outstanding, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured residential mortgages in arrears by days in arrears;Number of mortgages outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Outstanding',
     release: 'Non-bank Mortgages Outstanding',
@@ -8372,6 +8864,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992534',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total residential mortgages extended, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total residential mortgages extended;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8389,6 +8882,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992535',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total insured residential mortgages extended by type of increase, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured residential mortgages extended by type of increase;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8406,6 +8900,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992541',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total uninsured residential mortgages extended by type of increase, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders; Total uninsured residential mortgages extended by type of increase;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8423,6 +8918,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992547',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total new funds advanced, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total new funds advanced;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8440,6 +8936,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992548',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total new funds advanced for insured mortgages, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total new funds advanced for insured mortgages;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8457,6 +8954,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992553',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total new funds advanced for uninsured mortgages, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total new funds advanced for uninsured mortgages;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8474,6 +8972,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992558',
     title: 'Credit Unions, Total residential mortgages extended, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;Credit Unions;Total residential mortgages extended;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8491,6 +8990,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992559',
     title: 'Credit Unions, Total insured residential mortgages extended by type of increase, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;Credit Unions;Total insured residential mortgages extended by type of increase;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8508,6 +9008,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992565',
     title: 'Credit Unions, Total uninsured residential mortgages extended by type of increase, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;Credit Unions; Total uninsured residential mortgages extended by type of increase;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8525,6 +9026,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992571',
     title: 'Credit Unions, Total new funds advanced, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;Credit Unions;Total new funds advanced;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8542,6 +9044,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992572',
     title: 'Credit Unions, Total new funds advanced for insured mortgages, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;Credit Unions;Total new funds advanced for insured mortgages;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8559,6 +9062,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992577',
     title: 'Credit Unions, Total new funds advanced for uninsured mortgages, Value of mortgage increases, Canada',
+    originalTitle: 'Canada;Credit Unions;Total new funds advanced for uninsured mortgages;Value of mortgage increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8576,6 +9080,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992630',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total residential mortgages extended, Number of mortgages increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total residential mortgages extended;Number of mortgages increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8593,6 +9098,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992631',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total insured residential mortgages extended by type of increase, Number of mortgages increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total insured residential mortgages extended by type of increase;Number of mortgages increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8610,6 +9116,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992637',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total uninsured residential mortgages extended by type of increase, Number of mortgages increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders; Total uninsured residential mortgages extended by type of increase;Number of mortgages increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8627,6 +9134,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992643',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total new funds advanced, Number of mortgages increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total new funds advanced;Number of mortgages increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8644,6 +9152,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992644',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total new funds advanced for insured mortgages, Number of mortgages increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total new funds advanced for insured mortgages;Number of mortgages increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8661,6 +9170,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992649',
     title: 'Non-bank Mortgages Extended: All non-bank lenders, Total new funds advanced for uninsured mortgages, Number of mortgages increases, Canada',
+    originalTitle: 'Canada;All non-bank lenders;Total new funds advanced for uninsured mortgages;Number of mortgages increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8678,6 +9188,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992655',
     title: 'Credit Unions, Total insured residential mortgages extended by type of increase, Number of mortgages increases, Canada',
+    originalTitle: 'Canada;Credit Unions;Total insured residential mortgages extended by type of increase;Number of mortgages increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8695,6 +9206,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100531_1374992661',
     title: 'Credit Unions, Total uninsured residential mortgages extended by type of increase, Number of mortgages increases, Canada',
+    originalTitle: 'Canada;Credit Unions; Total uninsured residential mortgages extended by type of increase;Number of mortgages increases', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Non-bank Mortgages Extended',
     release: 'Non-bank Mortgages Extended',
@@ -8712,6 +9224,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438498873',
     title: 'Financial and Employment Statistics for Enterprises: Total, all industries, Total assets, Canada',
+    originalTitle: 'Canada;Total, all industries;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8729,6 +9242,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438498874',
     title: 'Financial and Employment Statistics for Enterprises: Total, finance and insurance industries, Total assets, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8746,6 +9260,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438498878',
     title: 'Financial and Employment Statistics for Enterprises: All other non-depository credit intermediation, Total assets, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8763,6 +9278,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438498888',
     title: 'Financial and Employment Statistics for Enterprises: Total, non-financial industries, Total assets, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8780,6 +9296,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438503225',
     title: 'Financial and Employment Statistics for Enterprises: Total, all industries, Total liabilities, Canada',
+    originalTitle: 'Canada;Total, all industries;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8797,6 +9314,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438503226',
     title: 'Financial and Employment Statistics for Enterprises: Total, finance and insurance industries, Total liabilities, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8814,6 +9332,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438503230',
     title: 'Financial and Employment Statistics for Enterprises: All other non-depository credit intermediation, Total liabilities, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8831,6 +9350,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438503240',
     title: 'Financial and Employment Statistics for Enterprises: Total, non-financial industries, Total liabilities, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8848,6 +9368,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438504313',
     title: 'Financial and Employment Statistics for Enterprises: Total, all industries, Total equity, Canada',
+    originalTitle: 'Canada;Total, all industries;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8865,6 +9386,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438504314',
     title: 'Financial and Employment Statistics for Enterprises: Total, finance and insurance industries, Total equity, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8882,6 +9404,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438504318',
     title: 'Financial and Employment Statistics for Enterprises: All other non-depository credit intermediation, Total equity, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8899,6 +9422,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438504328',
     title: 'Financial and Employment Statistics for Enterprises: Total, non-financial industries, Total equity, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8916,6 +9440,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438505401',
     title: 'Financial and Employment Statistics for Enterprises: Total, all industries, Total revenue, Canada',
+    originalTitle: 'Canada;Total, all industries;Total revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8933,6 +9458,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438505402',
     title: 'Financial and Employment Statistics for Enterprises: Total, finance and insurance industries, Total revenue, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;Total revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8950,6 +9476,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438505406',
     title: 'Financial and Employment Statistics for Enterprises: All other non-depository credit intermediation, Total revenue, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8967,6 +9494,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438505416',
     title: 'Financial and Employment Statistics for Enterprises: Total, non-financial industries, Total revenue, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -8984,6 +9512,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438507577',
     title: 'Financial and Employment Statistics for Enterprises: Total, all industries, Total expenses, Canada',
+    originalTitle: 'Canada;Total, all industries;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -9001,6 +9530,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438507578',
     title: 'Financial and Employment Statistics for Enterprises: Total, finance and insurance industries, Total expenses, Canada',
+    originalTitle: 'Canada;Total, finance and insurance industries;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -9018,6 +9548,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438507582',
     title: 'Financial and Employment Statistics for Enterprises: All other non-depository credit intermediation, Total expenses, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -9035,6 +9566,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100551_1438507592',
     title: 'Financial and Employment Statistics for Enterprises: Total, non-financial industries, Total expenses, Canada',
+    originalTitle: 'Canada;Total, non-financial industries;Total expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial and Employment Statistics for Enterprises',
     release: 'Financial and Employment Statistics for Enterprises',
@@ -9052,6 +9584,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462653998',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Assets, Total Asia, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Assets;Total Asia', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9069,6 +9602,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654012',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Assets, Total Americas (excluding Canada), Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Assets;Total Americas (excluding Canada)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9086,6 +9620,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654020',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Assets, Total Africa, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Assets;Total Africa', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9103,6 +9638,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654021',
     title: 'Foreign-controlled Enterprises in Canada: Total, all industries (excluding management of companies and enterprises), Assets, Total Canadian control, Canada',
+    originalTitle: 'Canada;Total, all industries (excluding management of companies and enterprises);Assets;Total Canadian control', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9120,6 +9656,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654152',
     title: 'Foreign-controlled Enterprises in Canada: Total finance and insurance industries, Assets, Total foreign and Canadian, Canada',
+    originalTitle: 'Canada;Total finance and insurance industries;Assets;Total foreign and Canadian', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9137,6 +9674,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654153',
     title: 'Foreign-controlled Enterprises in Canada: Total finance and insurance industries, Assets, Total foreign control, Canada',
+    originalTitle: 'Canada;Total finance and insurance industries;Assets;Total foreign control', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9154,6 +9692,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654154',
     title: 'Foreign-controlled Enterprises in Canada: Total finance and insurance industries, Assets, Total Asia, Canada',
+    originalTitle: 'Canada;Total finance and insurance industries;Assets;Total Asia', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9171,6 +9710,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654160',
     title: 'Foreign-controlled Enterprises in Canada: Total finance and insurance industries, Assets, Total Europe, Canada',
+    originalTitle: 'Canada;Total finance and insurance industries;Assets;Total Europe', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9188,6 +9728,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654168',
     title: 'Foreign-controlled Enterprises in Canada: Total finance and insurance industries, Assets, Total Americas (excluding Canada), Canada',
+    originalTitle: 'Canada;Total finance and insurance industries;Assets;Total Americas (excluding Canada)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9205,6 +9746,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654177',
     title: 'Foreign-controlled Enterprises in Canada: Total finance and insurance industries, Assets, Total Canadian control, Canada',
+    originalTitle: 'Canada;Total finance and insurance industries;Assets;Total Canadian control', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9222,6 +9764,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654308',
     title: 'Foreign-controlled Enterprises in Canada: Total non-financial industries (excluding management of companies and enterprises), Assets, Total foreign and Canadian, Canada',
+    originalTitle: 'Canada;Total non-financial industries (excluding management of companies and enterprises);Assets;Total foreign and Canadian', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9239,6 +9782,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654309',
     title: 'Foreign-controlled Enterprises in Canada: Total non-financial industries (excluding management of companies and enterprises), Assets, Total foreign control, Canada',
+    originalTitle: 'Canada;Total non-financial industries (excluding management of companies and enterprises);Assets;Total foreign control', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9256,6 +9800,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654310',
     title: 'Foreign-controlled Enterprises in Canada: Total non-financial industries (excluding management of companies and enterprises), Assets, Total Asia, Canada',
+    originalTitle: 'Canada;Total non-financial industries (excluding management of companies and enterprises);Assets;Total Asia', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9273,6 +9818,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654316',
     title: 'Foreign-controlled Enterprises in Canada: Total non-financial industries (excluding management of companies and enterprises), Assets, Total Europe, Canada',
+    originalTitle: 'Canada;Total non-financial industries (excluding management of companies and enterprises);Assets;Total Europe', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9290,6 +9836,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654324',
     title: 'Foreign-controlled Enterprises in Canada: Total non-financial industries (excluding management of companies and enterprises), Assets, Total Americas (excluding Canada), Canada',
+    originalTitle: 'Canada;Total non-financial industries (excluding management of companies and enterprises);Assets;Total Americas (excluding Canada)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9307,6 +9854,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100570_1462654333',
     title: 'Foreign-controlled Enterprises in Canada: Total non-financial industries (excluding management of companies and enterprises), Assets, Total Canadian control, Canada',
+    originalTitle: 'Canada;Total non-financial industries (excluding management of companies and enterprises);Assets;Total Canadian control', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Foreign-controlled Enterprises in Canada',
     release: 'Foreign-controlled Enterprises in Canada',
@@ -9324,6 +9872,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573697303',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, Total, all employment sizes, Active businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Total, all employment sizes;Active businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9341,6 +9890,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573698871',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, Total, all employment sizes, Opening businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Total, all employment sizes;Opening businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9358,6 +9908,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573700439',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, Total, all employment sizes, Continuing businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Total, all employment sizes;Continuing businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9375,6 +9926,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573702007',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, Total, all employment sizes, Closing businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Total, all employment sizes;Closing businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9392,6 +9944,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573703575',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, Total, all employment sizes, Reopening businesses, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Total, all employment sizes;Reopening businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9409,6 +9962,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573704359',
     title: 'Construction [23], Total, all employment sizes, Entrants, Canada',
+    originalTitle: 'Canada;Construction [23];Total, all employment sizes;Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9426,6 +9980,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573705094',
     title: 'Tourism industry, Total, all employment sizes, Entrants, Canada',
+    originalTitle: 'Canada;Tourism industry;Total, all employment sizes;Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9443,6 +9998,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573705143',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, Total, all employment sizes, Entrants, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Total, all employment sizes;Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9460,6 +10016,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573706711',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, Total, all employment sizes, Temporary closures, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Total, all employment sizes;Temporary closures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9477,6 +10034,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573707495',
     title: 'Construction [23], Total, all employment sizes, Exits, Canada',
+    originalTitle: 'Canada;Construction [23];Total, all employment sizes;Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9494,6 +10052,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573708230',
     title: 'Tourism industry, Total, all employment sizes, Exits, Canada',
+    originalTitle: 'Canada;Tourism industry;Total, all employment sizes;Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9511,6 +10070,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573708279',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, Total, all employment sizes, Exits, Canada',
+    originalTitle: 'Canada;Total tourism transportation;Total, all employment sizes;Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9528,6 +10088,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573717687',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, 1 to 4 employees, Entrants, Canada',
+    originalTitle: 'Canada;Total tourism transportation;1 to 4 employees;Entrants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9545,6 +10106,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33100722_1573720823',
     title: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada: Total tourism transportation, 1 to 4 employees, Exits, Canada',
+    originalTitle: 'Canada;Total tourism transportation;1 to 4 employees;Exits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
     release: 'Experimental Estimates for Business Openings and Closures by Employment Size for Canada',
@@ -9562,6 +10124,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101056_1860548509',
     title: 'Financial Ratios by Enterprise Size: All other non-depository credit intermediation, Return on assets, All enterprise sizes, 25th percentile, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Return on assets;All enterprise sizes;25th percentile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Ratios by Enterprise Size',
     release: 'Financial Ratios by Enterprise Size',
@@ -9579,6 +10142,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101056_1860551941',
     title: 'Financial Ratios by Enterprise Size: All other non-depository credit intermediation, Return on assets, All enterprise sizes, 75th percentile, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Return on assets;All enterprise sizes;75th percentile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Ratios by Enterprise Size',
     release: 'Financial Ratios by Enterprise Size',
@@ -9596,6 +10160,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101056_1860555367',
     title: 'Financial Ratios by Enterprise Size: All other non-depository credit intermediation, Debt to assets ratio, All enterprise sizes, Median, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Debt to assets ratio;All enterprise sizes;Median', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Ratios by Enterprise Size',
     release: 'Financial Ratios by Enterprise Size',
@@ -9613,6 +10178,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101056_1860555369',
     title: 'Financial Ratios by Enterprise Size: All other non-depository credit intermediation, Pre-tax profit margin, All enterprise sizes, Median, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Pre-tax profit margin;All enterprise sizes;Median', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Ratios by Enterprise Size',
     release: 'Financial Ratios by Enterprise Size',
@@ -9630,6 +10196,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101056_1860555371',
     title: 'Financial Ratios by Enterprise Size: All other non-depository credit intermediation, Net profit margin, All enterprise sizes, Median, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Net profit margin;All enterprise sizes;Median', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Ratios by Enterprise Size',
     release: 'Financial Ratios by Enterprise Size',
@@ -9647,6 +10214,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101056_1860555372',
     title: 'Financial Ratios by Enterprise Size: All other non-depository credit intermediation, Return on equity, All enterprise sizes, Median, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Return on equity;All enterprise sizes;Median', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Ratios by Enterprise Size',
     release: 'Financial Ratios by Enterprise Size',
@@ -9664,6 +10232,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101056_1860555373',
     title: 'Financial Ratios by Enterprise Size: All other non-depository credit intermediation, Return on assets, All enterprise sizes, Median, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Return on assets;All enterprise sizes;Median', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Ratios by Enterprise Size',
     release: 'Financial Ratios by Enterprise Size',
@@ -9681,6 +10250,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555624',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total assets, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total assets;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9698,6 +10268,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555631',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total investments in non-affiliates, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total investments in non-affiliates;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9715,6 +10286,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555645',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total liabilities, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total liabilities;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9732,6 +10304,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555653',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total borrowings from non-affiliates, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total borrowings from non-affiliates;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9749,6 +10322,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555654',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total amounts owing to affiliates, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total amounts owing to affiliates;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9766,6 +10340,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555661',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total equity, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total equity;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9783,6 +10358,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555668',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total revenue, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total revenue;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9800,6 +10376,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555673',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total operating revenue, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total operating revenue;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9817,6 +10394,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555682',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total expenses, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total expenses;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9834,6 +10412,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860555683',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: Total, all industries, Total operating expense, All enterprise sizes, Canada',
+    originalTitle: 'Canada;Total, all industries;Total operating expense;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9851,6 +10430,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558822',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total assets, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total assets;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9868,6 +10448,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558829',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total investments in non-affiliates, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total investments in non-affiliates;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9885,6 +10466,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558843',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total liabilities, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total liabilities;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9902,6 +10484,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558851',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total borrowings from non-affiliates, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total borrowings from non-affiliates;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9919,6 +10502,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558852',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total amounts owing to affiliates, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total amounts owing to affiliates;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9936,6 +10520,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558859',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total equity, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total equity;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9953,6 +10538,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558866',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total revenue, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total revenue;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9970,6 +10556,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558871',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total operating revenue, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total operating revenue;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -9987,6 +10574,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558880',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total expenses, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total expenses;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -10004,6 +10592,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_33101057_1860558881',
     title: 'Balance Sheet and Income Statement Statistics by Enterprise Size: All other non-depository credit intermediation, Total operating expense, All enterprise sizes, Canada',
+    originalTitle: 'Canada;All other non-depository credit intermediation;Total operating expense;All enterprise sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance Sheet and Income Statement Statistics by Enterprise Size',
     release: 'Balance Sheet and Income Statement Statistics by Enterprise Size',
@@ -10021,6 +10610,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923552',
     title: 'Capital expenditures, All Industries, Canada',
+    originalTitle: 'Canada;Capital expenditures;All Industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10038,6 +10628,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923563',
     title: 'Capital expenditures, Utilities, Canada',
+    originalTitle: 'Canada;Capital expenditures;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10055,6 +10646,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923564',
     title: 'Capital expenditures, Construction, Canada',
+    originalTitle: 'Canada;Capital expenditures;Construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10072,6 +10664,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923565',
     title: 'Capital expenditures, Manufacturing, Canada',
+    originalTitle: 'Canada;Capital expenditures;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10089,6 +10682,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923569',
     title: 'Capital expenditures, Textile mills, Canada',
+    originalTitle: 'Canada;Capital expenditures;Textile mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10106,6 +10700,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923589',
     title: 'Capital expenditures, Retail trade, Canada',
+    originalTitle: 'Canada;Capital expenditures;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10123,6 +10718,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923606',
     title: 'Capital, construction, All Industries, Canada',
+    originalTitle: 'Canada;Capital, construction;All Industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10140,6 +10736,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923617',
     title: 'Capital, construction, Utilities, Canada',
+    originalTitle: 'Canada;Capital, construction;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10157,6 +10754,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923660',
     title: 'Capital, machinery and equipment, All Industries, Canada',
+    originalTitle: 'Canada;Capital, machinery and equipment;All Industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10174,6 +10772,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923714',
     title: 'Repair expenditures, All Industries, Canada',
+    originalTitle: 'Canada;Repair expenditures;All Industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10191,6 +10790,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923725',
     title: 'Repair expenditures, Utilities, Canada',
+    originalTitle: 'Canada;Repair expenditures;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10208,6 +10808,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923726',
     title: 'Repair expenditures, Construction, Canada',
+    originalTitle: 'Canada;Repair expenditures;Construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10225,6 +10826,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923727',
     title: 'Repair expenditures, Manufacturing, Canada',
+    originalTitle: 'Canada;Repair expenditures;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10242,6 +10844,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923731',
     title: 'Repair expenditures, Textile mills, Canada',
+    originalTitle: 'Canada;Repair expenditures;Textile mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10259,6 +10862,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923751',
     title: 'Repair expenditures, Retail trade, Canada',
+    originalTitle: 'Canada;Repair expenditures;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10276,6 +10880,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923768',
     title: 'Repair, construction, All Industries, Canada',
+    originalTitle: 'Canada;Repair, construction;All Industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10293,6 +10898,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923779',
     title: 'Repair, construction, Utilities, Canada',
+    originalTitle: 'Canada;Repair, construction;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10310,6 +10916,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923780',
     title: 'Capital and Repair Expenditures: Repair, construction, Canada',
+    originalTitle: 'Canada;Repair, construction;Construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10327,6 +10934,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923805',
     title: 'Repair, construction, Retail trade, Canada',
+    originalTitle: 'Canada;Repair, construction;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10344,6 +10952,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100035_95923822',
     title: 'Repair, machinery and equipment, All Industries, Canada',
+    originalTitle: 'Canada;Repair, machinery and equipment;All Industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10361,6 +10970,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100036_95928120',
     title: 'Capital expenditures, All other non-metallic mineral mining and quarrying, Canada',
+    originalTitle: 'Canada;Capital expenditures;All other non-metallic mineral mining and quarrying', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10378,6 +10988,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100036_95928229',
     title: 'Capital expenditures, Hospitals, Canada',
+    originalTitle: 'Canada;Capital expenditures;Hospitals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10395,6 +11006,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100036_95928279',
     title: 'Capital, construction, All other non-metallic mineral mining and quarrying, Canada',
+    originalTitle: 'Canada;Capital, construction;All other non-metallic mineral mining and quarrying', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10412,6 +11024,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100036_95928438',
     title: 'Capital, machinery and equipment, All other non-metallic mineral mining and quarrying, Canada',
+    originalTitle: 'Canada;Capital, machinery and equipment;All other non-metallic mineral mining and quarrying', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10429,6 +11042,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100036_95928576',
     title: 'Repair expenditures, Coal mining, Canada',
+    originalTitle: 'Canada;Repair expenditures;Coal mining', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10446,6 +11060,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100036_95928592',
     title: 'Repair expenditures, Salt mining, Canada',
+    originalTitle: 'Canada;Repair expenditures;Salt mining', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10463,6 +11078,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100036_95928706',
     title: 'Repair expenditures, Hospitals, Canada',
+    originalTitle: 'Canada;Repair expenditures;Hospitals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10480,6 +11096,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100036_95928865',
     title: 'Repair, construction, Hospitals, Canada',
+    originalTitle: 'Canada;Repair, construction;Hospitals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10496,7 +11113,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929042',
-    title: 'Capital expenditures, All Industries, Private, Canada',
+    title: 'Private capital expenditures, All Industries, Canada',
+    originalTitle: 'Canada;Capital expenditures;All Industries;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10513,7 +11131,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929043',
-    title: 'Capital expenditures, All Industries, Public, Canada',
+    title: 'Public capital expenditures, All Industries, Canada',
+    originalTitle: 'Canada;Capital expenditures;All Industries;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10530,7 +11149,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929048',
-    title: 'Capital expenditures, Utilities, Private, Canada',
+    title: 'Private capital expenditures, Utilities, Canada',
+    originalTitle: 'Canada;Capital expenditures;Utilities;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10547,7 +11167,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929049',
-    title: 'Capital expenditures, Utilities, Public, Canada',
+    title: 'Public capital expenditures, Utilities, Canada',
+    originalTitle: 'Canada;Capital expenditures;Utilities;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10565,6 +11186,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929084',
     title: 'Capital, construction, All Industries, Private, Canada',
+    originalTitle: 'Canada;Capital, construction;All Industries;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10582,6 +11204,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929085',
     title: 'Capital, construction, All Industries, Public, Canada',
+    originalTitle: 'Canada;Capital, construction;All Industries;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10599,6 +11222,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929091',
     title: 'Capital, construction, Utilities, Public, Canada',
+    originalTitle: 'Canada;Capital, construction;Utilities;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10616,6 +11240,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929126',
     title: 'Capital, machinery and equipment, All Industries, Private, Canada',
+    originalTitle: 'Canada;Capital, machinery and equipment;All Industries;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10633,6 +11258,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929127',
     title: 'Capital, machinery and equipment, All Industries, Public, Canada',
+    originalTitle: 'Canada;Capital, machinery and equipment;All Industries;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10649,7 +11275,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929168',
-    title: 'Repair expenditures, All Industries, Private, Canada',
+    title: 'Private repair expenditures, All Industries, Canada',
+    originalTitle: 'Canada;Repair expenditures;All Industries;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10666,7 +11293,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929169',
-    title: 'Repair expenditures, All Industries, Public, Canada',
+    title: 'Public repair expenditures, All Industries, Canada',
+    originalTitle: 'Canada;Repair expenditures;All Industries;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10683,7 +11311,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929174',
-    title: 'Repair expenditures, Utilities, Private, Canada',
+    title: 'Private repair expenditures, Utilities, Canada',
+    originalTitle: 'Canada;Repair expenditures;Utilities;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10700,7 +11329,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929175',
-    title: 'Repair expenditures, Utilities, Public, Canada',
+    title: 'Public repair expenditures, Utilities, Canada',
+    originalTitle: 'Canada;Repair expenditures;Utilities;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10717,7 +11347,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100037_95929177',
-    title: 'Repair expenditures, Construction, Public, Canada',
+    title: 'Public repair expenditures, Construction, Canada',
+    originalTitle: 'Canada;Repair expenditures;Construction;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10735,6 +11366,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929210',
     title: 'Repair, construction, All Industries, Private, Canada',
+    originalTitle: 'Canada;Repair, construction;All Industries;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10752,6 +11384,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929211',
     title: 'Repair, construction, All Industries, Public, Canada',
+    originalTitle: 'Canada;Repair, construction;All Industries;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10769,6 +11402,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929216',
     title: 'Repair, construction, Utilities, Private, Canada',
+    originalTitle: 'Canada;Repair, construction;Utilities;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10786,6 +11420,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929217',
     title: 'Repair, construction, Utilities, Public, Canada',
+    originalTitle: 'Canada;Repair, construction;Utilities;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10803,6 +11438,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929252',
     title: 'Repair, machinery and equipment, All Industries, Private, Canada',
+    originalTitle: 'Canada;Repair, machinery and equipment;All Industries;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10820,6 +11456,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100037_95929253',
     title: 'Repair, machinery and equipment, All Industries, Public, Canada',
+    originalTitle: 'Canada;Repair, machinery and equipment;All Industries;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10836,7 +11473,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100038_95929294',
-    title: 'Capital and Repair Expenditures: Capital expenditures, Private, Canada',
+    title: 'Capital and Repair Expenditures: Private capital expenditures, Canada',
+    originalTitle: 'Canada;Capital expenditures;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10853,7 +11491,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100038_95929295',
-    title: 'Capital and Repair Expenditures: Capital expenditures, Public, Canada',
+    title: 'Capital and Repair Expenditures: Public capital expenditures, Canada',
+    originalTitle: 'Canada;Capital expenditures;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10871,6 +11510,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100038_95929296',
     title: 'Capital, construction, Private, Canada',
+    originalTitle: 'Canada;Capital, construction;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10888,6 +11528,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100038_95929297',
     title: 'Capital and Repair Expenditures: Capital, construction, Public, Canada',
+    originalTitle: 'Canada;Capital, construction;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10905,6 +11546,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100038_95929298',
     title: 'Capital, machinery and equipment, Private, Canada',
+    originalTitle: 'Canada;Capital, machinery and equipment;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10922,6 +11564,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100038_95929299',
     title: 'Capital, machinery and equipment, Public, Canada',
+    originalTitle: 'Canada;Capital, machinery and equipment;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10938,7 +11581,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100038_95929300',
-    title: 'Capital and Repair Expenditures: Repair expenditures, Private, Canada',
+    title: 'Capital and Repair Expenditures: Private repair expenditures, Canada',
+    originalTitle: 'Canada;Repair expenditures;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10955,7 +11599,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100038_95929301',
-    title: 'Capital and Repair Expenditures: Repair expenditures, Public, Canada',
+    title: 'Capital and Repair Expenditures: Public repair expenditures, Canada',
+    originalTitle: 'Canada;Repair expenditures;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10973,6 +11618,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100038_95929302',
     title: 'Capital and Repair Expenditures: Repair, construction, Private, Canada',
+    originalTitle: 'Canada;Repair, construction;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -10990,6 +11636,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100038_95929303',
     title: 'Capital and Repair Expenditures: Repair, construction, Public, Canada',
+    originalTitle: 'Canada;Repair, construction;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -11007,6 +11654,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100038_95929304',
     title: 'Repair, machinery and equipment, Private, Canada',
+    originalTitle: 'Canada;Repair, machinery and equipment;Private', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -11024,6 +11672,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100038_95929305',
     title: 'Repair, machinery and equipment, Public, Canada',
+    originalTitle: 'Canada;Repair, machinery and equipment;Public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital and Repair Expenditures',
     release: 'Capital and Repair Expenditures',
@@ -11041,6 +11690,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929470',
     title: 'Capital Expenditures: All industries, Warehouses, Canada',
+    originalTitle: 'Canada;All industries;Warehouses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11058,6 +11708,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929471',
     title: 'Capital Expenditures: All industries, Service stations, Canada',
+    originalTitle: 'Canada;All industries;Service stations', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11075,6 +11726,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929472',
     title: 'Capital Expenditures: All industries, Office buildings, Canada',
+    originalTitle: 'Canada;All industries;Office buildings', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11092,6 +11744,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929473',
     title: 'Capital Expenditures: All industries, Hotels and motels, Canada',
+    originalTitle: 'Canada;All industries;Hotels and motels', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11109,6 +11762,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929474',
     title: 'Capital Expenditures: All industries, Restaurants, Canada',
+    originalTitle: 'Canada;All industries;Restaurants', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11126,6 +11780,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929487',
     title: 'Capital Expenditures: All industries, Hospitals, Canada',
+    originalTitle: 'Canada;All industries;Hospitals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11143,6 +11798,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929490',
     title: 'Capital Expenditures: All industries, Daycare centres, Canada',
+    originalTitle: 'Canada;All industries;Daycare centres', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11160,6 +11816,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929491',
     title: 'Capital Expenditures: All industries, Libraries, Canada',
+    originalTitle: 'Canada;All industries;Libraries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11177,6 +11834,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929492',
     title: 'Capital Expenditures: All industries, Historical sites, Canada',
+    originalTitle: 'Canada;All industries;Historical sites', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11194,6 +11852,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929493',
     title: 'Capital Expenditures: All industries, Museums, Canada',
+    originalTitle: 'Canada;All industries;Museums', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11211,6 +11870,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929506',
     title: 'Capital Expenditures: All industries, Railway tracks, Canada',
+    originalTitle: 'Canada;All industries;Railway tracks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11228,6 +11888,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929507',
     title: 'Capital Expenditures: All industries, Bridges, Canada',
+    originalTitle: 'Canada;All industries;Bridges', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11245,6 +11906,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929508',
     title: 'Capital Expenditures: All industries, Tunnels, Canada',
+    originalTitle: 'Canada;All industries;Tunnels', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11262,6 +11924,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929532',
     title: 'Capital Expenditures: All industries, Pipelines, Canada',
+    originalTitle: 'Canada;All industries;Pipelines', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11279,6 +11942,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929541',
     title: 'Capital Expenditures: All industries, Mine structures, Canada',
+    originalTitle: 'Canada;All industries;Mine structures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11296,6 +11960,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100039_95929550',
     title: 'Capital Expenditures: All industries, Reclaimed land, Canada',
+    originalTitle: 'Canada;All industries;Reclaimed land', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -11313,6 +11978,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100040_95933032',
     title: 'Capital Expenditures on Intellectual Property Product: All industries, Oil and gas and mineral exploration, Canada',
+    originalTitle: 'Canada;All industries;Oil and gas and mineral exploration', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures on Intellectual Property Product',
     release: 'Capital Expenditures on Intellectual Property Product',
@@ -11330,6 +11996,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100040_95933033',
     title: 'Capital Expenditures on Intellectual Property Product: All industries, Exploration drilling for oil and gas, Canada',
+    originalTitle: 'Canada;All industries;Exploration drilling for oil and gas', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures on Intellectual Property Product',
     release: 'Capital Expenditures on Intellectual Property Product',
@@ -11347,6 +12014,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100040_95933034',
     title: 'Capital Expenditures on Intellectual Property Product: All industries, Other oil and gas exploration, Canada',
+    originalTitle: 'Canada;All industries;Other oil and gas exploration', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures on Intellectual Property Product',
     release: 'Capital Expenditures on Intellectual Property Product',
@@ -11364,6 +12032,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100040_95933035',
     title: 'Capital Expenditures on Intellectual Property Product: All industries, Mineral exploration, Canada',
+    originalTitle: 'Canada;All industries;Mineral exploration', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures on Intellectual Property Product',
     release: 'Capital Expenditures on Intellectual Property Product',
@@ -11381,6 +12050,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100040_95933036',
     title: 'Capital Expenditures on Intellectual Property Product: All industries, Software, Canada',
+    originalTitle: 'Canada;All industries;Software', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures on Intellectual Property Product',
     release: 'Capital Expenditures on Intellectual Property Product',
@@ -11398,6 +12068,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100095_12991',
     title: 'Maintenance and Repair Expenditures in Housing: Total expenditures, Canada',
+    originalTitle: 'Canada;Total expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Maintenance and Repair Expenditures in Housing',
     release: 'Maintenance and Repair Expenditures in Housing',
@@ -11415,6 +12086,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100095_13003',
     title: 'Maintenance and Repair Expenditures in Housing: Owner occupied expenditures, Canada',
+    originalTitle: 'Canada;Owner occupied expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Maintenance and Repair Expenditures in Housing',
     release: 'Maintenance and Repair Expenditures in Housing',
@@ -11432,6 +12104,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100095_13015',
     title: 'Landlord and tenant occupied expenditures, Canada',
+    originalTitle: 'Canada;Landlord and tenant occupied expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Maintenance and Repair Expenditures in Housing',
     release: 'Maintenance and Repair Expenditures in Housing',
@@ -11448,7 +12121,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100126_730524',
-    title: 'Housing starts, Single-detached, Canada',
+    title: 'Single-detached housing starts, Canada',
+    originalTitle: 'Canada;Housing starts;Single-detached', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11465,7 +12139,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100126_730535',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Semi-detached, Canada',
+    title: 'Semi-detached housing starts, Canada',
+    originalTitle: 'Canada;Housing starts;Semi-detached', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11482,7 +12157,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100126_730546',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Row, Canada',
+    title: 'Row housing starts, Canada',
+    originalTitle: 'Canada;Housing starts;Row', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11500,6 +12176,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100126_730557',
     title: 'Housing starts, Apartment and other unit types, Canada (annual)',
+    originalTitle: 'Canada;Housing starts;Apartment and other unit types', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11516,7 +12193,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100126_730568',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Multiples, Canada (annual)',
+    title: 'Multiples housing starts, Canada (annual)',
+    originalTitle: 'Canada;Housing starts;Multiples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11533,7 +12211,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100126_730579',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Total units, Canada (annual)',
+    title: 'Housing starts, Total units, Canada (annual)',
+    originalTitle: 'Canada;Housing starts;Total units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11551,6 +12230,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100136_15817792',
     title: 'Housing starts, Single-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Housing starts;Single-detached units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11568,6 +12248,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100136_15817803',
     title: 'Housing starts, Semi-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Housing starts;Semi-detached units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11584,7 +12265,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100136_15817814',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Row units, Canada (quarterly)',
+    title: 'Housing starts, Row units, Canada (quarterly)',
+    originalTitle: 'Canada;Housing starts;Row units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11602,6 +12284,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100136_15817825',
     title: 'Housing starts, Apartment and other units, Canada (quarterly)',
+    originalTitle: 'Canada;Housing starts;Apartment and other units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11618,7 +12301,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100136_15817836',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Total units, Canada (quarterly)',
+    title: 'Housing starts, Total units, Canada (quarterly)',
+    originalTitle: 'Canada;Housing starts;Total units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11635,7 +12319,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15817902',
-    title: 'Single-detached units, Homeowner, Canada (quarterly)',
+    title: 'Homeowner single-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Single-detached units;Homeowner', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11652,7 +12337,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15817913',
-    title: 'Canada Mortgage and Housing Corporation: Single-detached units, Rental, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Rental single-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Single-detached units;Rental', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11669,7 +12355,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15817924',
-    title: 'Canada Mortgage and Housing Corporation: Single-detached units, Condo, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Condo single-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Single-detached units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11686,7 +12373,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15817935',
-    title: 'Canada Mortgage and Housing Corporation: Single-detached units, Co-op, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Co-op single-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Single-detached units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11703,7 +12391,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15817957',
-    title: 'Semi-detached units, Homeowner, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Homeowner semi-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Semi-detached units;Homeowner', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11720,7 +12409,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15817968',
-    title: 'Canada Mortgage and Housing Corporation: Semi-detached units, Rental, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Rental semi-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Semi-detached units;Rental', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11737,7 +12427,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15817979',
-    title: 'Canada Mortgage and Housing Corporation: Semi-detached units, Condo, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Condo semi-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Semi-detached units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11754,7 +12445,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15817990',
-    title: 'Canada Mortgage and Housing Corporation: Semi-detached units, Co-op, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Co-op semi-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Semi-detached units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11771,7 +12463,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15818012',
-    title: 'Canada Mortgage and Housing Corporation: Row units, Homeowner, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Homeowner row units, Canada (quarterly)',
+    originalTitle: 'Canada;Row units;Homeowner', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11788,7 +12481,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15818023',
-    title: 'Canada Mortgage and Housing Corporation: Row units, Rental, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Rental row units, Canada (quarterly)',
+    originalTitle: 'Canada;Row units;Rental', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11805,7 +12499,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15818034',
-    title: 'Canada Mortgage and Housing Corporation: Row units, Condo, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Condo row units, Canada (quarterly)',
+    originalTitle: 'Canada;Row units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11822,7 +12517,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15818045',
-    title: 'Canada Mortgage and Housing Corporation: Row units, Co-op, Canada (quarterly)',
+    title: 'Canada Mortgage and Housing Corporation: Co-op row units, Canada (quarterly)',
+    originalTitle: 'Canada;Row units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11840,6 +12536,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100137_15818056',
     title: 'Canada Mortgage and Housing Corporation: Row units, Other market type, Canada (quarterly)',
+    originalTitle: 'Canada;Row units;Other market type', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11856,7 +12553,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15818089',
-    title: 'Apartment and other units, Condo, Canada (quarterly)',
+    title: 'Condo apartment and other units, Canada (quarterly)',
+    originalTitle: 'Canada;Apartment and other units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11873,7 +12571,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100137_15818100',
-    title: 'Apartment and other units, Co-op, Canada (quarterly)',
+    title: 'Co-op apartment and other units, Canada (quarterly)',
+    originalTitle: 'Canada;Apartment and other units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11891,6 +12590,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100137_15818122',
     title: 'Canada Mortgage and Housing Corporation: Total units, Homeowner, Canada (quarterly)',
+    originalTitle: 'Canada;Total units;Homeowner', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11908,6 +12608,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100137_15818133',
     title: 'Canada Mortgage and Housing Corporation: Total units, Rental, Canada (quarterly)',
+    originalTitle: 'Canada;Total units;Rental', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11925,6 +12626,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100137_15818144',
     title: 'Canada Mortgage and Housing Corporation: Total units, Condo, Canada (quarterly)',
+    originalTitle: 'Canada;Total units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11942,6 +12644,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100137_15818155',
     title: 'Canada Mortgage and Housing Corporation: Total units, Co-op, Canada (quarterly)',
+    originalTitle: 'Canada;Total units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11959,6 +12662,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100137_15818166',
     title: 'Canada Mortgage and Housing Corporation: Total units, Other market type, Canada (quarterly)',
+    originalTitle: 'Canada;Total units;Other market type', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11976,6 +12680,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100140_52299983',
     title: 'Canada Mortgage and Housing Corporation: Total units, Canada (quarterly)',
+    originalTitle: 'Canada;Total units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -11993,6 +12698,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100140_52299984',
     title: 'Canada Mortgage and Housing Corporation: Single-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Single-detached units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12010,6 +12716,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100140_52299985',
     title: 'Canada Mortgage and Housing Corporation: Semi-detached units, Canada (quarterly)',
+    originalTitle: 'Canada;Semi-detached units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12027,6 +12734,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100140_52299986',
     title: 'Canada Mortgage and Housing Corporation: Row units, Canada (quarterly)',
+    originalTitle: 'Canada;Row units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12044,6 +12752,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100140_52299987',
     title: 'Apartment and other unit types, Canada (quarterly)',
+    originalTitle: 'Canada;Apartment and other unit types', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12061,6 +12770,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100140_52299988',
     title: 'Canada Mortgage and Housing Corporation: Multiples, Canada (quarterly)',
+    originalTitle: 'Canada;Multiples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12077,7 +12787,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100143_729949',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Total units, Canada',
+    title: 'Housing starts, Total units, Canada',
+    originalTitle: 'Canada;Housing starts;Total units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12095,6 +12806,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100143_729996',
     title: 'Housing starts, Single-detached units, Canada',
+    originalTitle: 'Canada;Housing starts;Single-detached units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12112,6 +12824,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100143_730007',
     title: 'Housing starts, Semi-detached units, Canada',
+    originalTitle: 'Canada;Housing starts;Semi-detached units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12128,7 +12841,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100143_730018',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Row units, Canada',
+    title: 'Housing starts, Row units, Canada',
+    originalTitle: 'Canada;Housing starts;Row units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12146,6 +12860,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100143_730029',
     title: 'Housing starts, Apartment and other unit types, Canada',
+    originalTitle: 'Canada;Housing starts;Apartment and other unit types', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12162,7 +12877,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100143_13946611',
-    title: 'Canada Mortgage and Housing Corporation: Housing starts, Multiples, Canada',
+    title: 'Multiples housing starts, Canada',
+    originalTitle: 'Canada;Housing starts;Multiples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12180,6 +12896,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100145_733833',
     title: 'Canada Mortgage and Housing Corporation, Canada (percent)',
+    originalTitle: 'Canada', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12197,6 +12914,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100151_15817880',
     title: 'Housing starts, Apartment and other units, Canada',
+    originalTitle: 'Canada;Housing starts;Apartment and other units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12213,7 +12931,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818177',
-    title: 'Single-detached units, Homeowner, Canada',
+    title: 'Homeowner single-detached units, Canada',
+    originalTitle: 'Canada;Single-detached units;Homeowner', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12230,7 +12949,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818188',
-    title: 'Canada Mortgage and Housing Corporation: Single-detached units, Rental, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Rental single-detached units, Canada',
+    originalTitle: 'Canada;Single-detached units;Rental', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12247,7 +12967,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818199',
-    title: 'Canada Mortgage and Housing Corporation: Single-detached units, Condo, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Condo single-detached units, Canada',
+    originalTitle: 'Canada;Single-detached units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12264,7 +12985,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818210',
-    title: 'Canada Mortgage and Housing Corporation: Single-detached units, Co-op, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Co-op single-detached units, Canada',
+    originalTitle: 'Canada;Single-detached units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12281,7 +13003,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818232',
-    title: 'Semi-detached units, Homeowner, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Homeowner semi-detached units, Canada',
+    originalTitle: 'Canada;Semi-detached units;Homeowner', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12298,7 +13021,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818243',
-    title: 'Canada Mortgage and Housing Corporation: Semi-detached units, Rental, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Rental semi-detached units, Canada',
+    originalTitle: 'Canada;Semi-detached units;Rental', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12315,7 +13039,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818254',
-    title: 'Canada Mortgage and Housing Corporation: Semi-detached units, Condo, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Condo semi-detached units, Canada',
+    originalTitle: 'Canada;Semi-detached units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12332,7 +13057,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818265',
-    title: 'Canada Mortgage and Housing Corporation: Semi-detached units, Co-op, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Co-op semi-detached units, Canada',
+    originalTitle: 'Canada;Semi-detached units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12349,7 +13075,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818287',
-    title: 'Canada Mortgage and Housing Corporation: Row units, Homeowner, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Homeowner row units, Canada',
+    originalTitle: 'Canada;Row units;Homeowner', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12366,7 +13093,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818298',
-    title: 'Canada Mortgage and Housing Corporation: Row units, Rental, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Rental row units, Canada',
+    originalTitle: 'Canada;Row units;Rental', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12383,7 +13111,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818309',
-    title: 'Canada Mortgage and Housing Corporation: Row units, Condo, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Condo row units, Canada',
+    originalTitle: 'Canada;Row units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12400,7 +13129,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818320',
-    title: 'Canada Mortgage and Housing Corporation: Row units, Co-op, Canada',
+    title: 'Canada Mortgage and Housing Corporation: Co-op row units, Canada',
+    originalTitle: 'Canada;Row units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12418,6 +13148,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100152_15818331',
     title: 'Canada Mortgage and Housing Corporation: Row units, Other market type, Canada',
+    originalTitle: 'Canada;Row units;Other market type', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12434,7 +13165,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818364',
-    title: 'Apartment and other units, Condo, Canada',
+    title: 'Condo apartment and other units, Canada',
+    originalTitle: 'Canada;Apartment and other units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12451,7 +13183,8 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   },
   {
     id: 'SC_34100152_15818375',
-    title: 'Apartment and other units, Co-op, Canada',
+    title: 'Co-op apartment and other units, Canada',
+    originalTitle: 'Canada;Apartment and other units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12469,6 +13202,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100152_15818397',
     title: 'Canada Mortgage and Housing Corporation: Total units, Homeowner, Canada',
+    originalTitle: 'Canada;Total units;Homeowner', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12486,6 +13220,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100152_15818408',
     title: 'Canada Mortgage and Housing Corporation: Total units, Rental, Canada',
+    originalTitle: 'Canada;Total units;Rental', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12503,6 +13238,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100152_15818419',
     title: 'Canada Mortgage and Housing Corporation: Total units, Condo, Canada',
+    originalTitle: 'Canada;Total units;Condo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12520,6 +13256,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100152_15818430',
     title: 'Canada Mortgage and Housing Corporation: Total units, Co-op, Canada',
+    originalTitle: 'Canada;Total units;Co-op', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12537,6 +13274,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100152_15818441',
     title: 'Canada Mortgage and Housing Corporation: Total units, Other market type, Canada',
+    originalTitle: 'Canada;Total units;Other market type', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12554,6 +13292,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100156_52299896',
     title: 'Canada Mortgage and Housing Corporation: Total units, Canada',
+    originalTitle: 'Canada;Total units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12571,6 +13310,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100156_52299897',
     title: 'Canada Mortgage and Housing Corporation: Single-detached units, Canada',
+    originalTitle: 'Canada;Single-detached units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12588,6 +13328,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100156_52299898',
     title: 'Canada Mortgage and Housing Corporation: Semi-detached units, Canada',
+    originalTitle: 'Canada;Semi-detached units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12605,6 +13346,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100156_52299899',
     title: 'Canada Mortgage and Housing Corporation: Row units, Canada',
+    originalTitle: 'Canada;Row units', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12622,6 +13364,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100156_52299900',
     title: 'Apartment and other unit types, Canada',
+    originalTitle: 'Canada;Apartment and other unit types', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12639,6 +13382,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100156_52299901',
     title: 'Canada Mortgage and Housing Corporation: Multiples, Canada',
+    originalTitle: 'Canada;Multiples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12656,6 +13400,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100159_52300185',
     title: 'Canada Mortgage and Housing Corporation, Canada (units)',
+    originalTitle: 'Canada', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada Mortgage and Housing Corporation',
     release: 'Canada Mortgage and Housing Corporation',
@@ -12673,6 +13418,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844180',
     title: 'Current prices, Total all sectors, Investment, Total assets, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Investment;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12690,6 +13436,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844181',
     title: 'Current prices, Total all sectors, Investment, Total non-residential, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Investment;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12707,6 +13454,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844186',
     title: 'Current prices, Total all sectors, Investment, Total residential construction, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Investment;Total residential construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12724,6 +13472,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844187',
     title: 'Current prices, Total all sectors, Geometric depreciation, Total assets, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Geometric depreciation;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12741,6 +13490,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844188',
     title: 'Current prices, Total all sectors, Geometric depreciation, Total non-residential, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Geometric depreciation;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12758,6 +13508,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844193',
     title: 'Current prices, Total all sectors, Geometric depreciation, Total residential construction, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Geometric depreciation;Total residential construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12775,6 +13526,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844194',
     title: 'Current prices, Total all sectors, Geometric end-year net stock, Total assets, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Geometric end-year net stock;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12792,6 +13544,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844195',
     title: 'Current prices, Total all sectors, Geometric end-year net stock, Total non-residential, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Geometric end-year net stock;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12809,6 +13562,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844200',
     title: 'Current prices, Total all sectors, Geometric end-year net stock, Total residential construction, Canada',
+    originalTitle: 'Canada;Current prices;Total all sectors;Geometric end-year net stock;Total residential construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12826,6 +13580,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844264',
     title: '2017 constant prices, Total all sectors, Investment, Total assets, Canada',
+    originalTitle: 'Canada;2017 constant prices;Total all sectors;Investment;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12843,6 +13598,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844265',
     title: '2017 constant prices, Total all sectors, Investment, Total non-residential, Canada',
+    originalTitle: 'Canada;2017 constant prices;Total all sectors;Investment;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12860,6 +13616,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844270',
     title: '2017 constant prices, Total all sectors, Investment, Total residential construction, Canada',
+    originalTitle: 'Canada;2017 constant prices;Total all sectors;Investment;Total residential construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12877,6 +13634,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844271',
     title: '2017 constant prices, Total all sectors, Geometric depreciation, Total assets, Canada',
+    originalTitle: 'Canada;2017 constant prices;Total all sectors;Geometric depreciation;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12894,6 +13652,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844272',
     title: '2017 constant prices, Total all sectors, Geometric depreciation, Total non-residential, Canada',
+    originalTitle: 'Canada;2017 constant prices;Total all sectors;Geometric depreciation;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12911,6 +13670,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844277',
     title: '2017 constant prices, Total all sectors, Geometric depreciation, Total residential construction, Canada',
+    originalTitle: 'Canada;2017 constant prices;Total all sectors;Geometric depreciation;Total residential construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12928,6 +13688,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844348',
     title: 'Chained (2017) dollars, Total all sectors, Investment, Total assets, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Total all sectors;Investment;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12945,6 +13706,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844349',
     title: 'Chained (2017) dollars, Total all sectors, Investment, Total non-residential, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Total all sectors;Investment;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12962,6 +13724,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844354',
     title: 'Chained (2017) dollars, Total all sectors, Investment, Total residential construction, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Total all sectors;Investment;Total residential construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12979,6 +13742,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844355',
     title: 'Chained (2017) dollars, Total all sectors, Geometric depreciation, Total assets, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Total all sectors;Geometric depreciation;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -12996,6 +13760,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100163_103844356',
     title: 'Chained (2017) dollars, Total all sectors, Geometric depreciation, Total non-residential, Canada',
+    originalTitle: 'Canada;Chained (2017) dollars;Total all sectors;Geometric depreciation;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Flows and Stocks of Fixed Non-residential and Residential Capital',
     release: 'Flows and Stocks of Fixed Non-residential and Residential Capital',
@@ -13013,6 +13778,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100164_106572918',
     title: 'Spectator sports, Total sales of goods and services, Canada',
+    originalTitle: 'Canada;Spectator sports;Total sales of goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Spectator Sports',
     release: 'Spectator Sports',
@@ -13030,6 +13796,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100164_106572919',
     title: 'Spectator sports, Admissions to live performances and events presented by this business, Canada',
+    originalTitle: 'Canada;Spectator sports;Admissions to live performances and events presented by this business', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Spectator Sports',
     release: 'Spectator Sports',
@@ -13047,6 +13814,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100164_106572920',
     title: 'Spectator sports, Facility rental revenue, Canada',
+    originalTitle: 'Canada;Spectator sports;Facility rental revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Spectator Sports',
     release: 'Spectator Sports',
@@ -13064,6 +13832,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100164_106572926',
     title: 'Spectator sports, Receipts from gambling, Canada',
+    originalTitle: 'Canada;Spectator sports;Receipts from gambling', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Spectator Sports',
     release: 'Spectator Sports',
@@ -13081,6 +13850,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100164_106572927',
     title: 'Spectator sports, Advertising revenue, Canada',
+    originalTitle: 'Canada;Spectator sports;Advertising revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Spectator Sports',
     release: 'Spectator Sports',
@@ -13098,6 +13868,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100164_106572929',
     title: 'Spectator sports, Sales of alcoholic beverages, Canada',
+    originalTitle: 'Canada;Spectator sports;Sales of alcoholic beverages', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Spectator Sports',
     release: 'Spectator Sports',
@@ -13115,6 +13886,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100164_106572930',
     title: 'Spectator sports, Sales of merchandise, Canada',
+    originalTitle: 'Canada;Spectator sports;Sales of merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Spectator Sports',
     release: 'Spectator Sports',
@@ -13132,6 +13904,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100164_106572931',
     title: 'Spectator sports, Other sales of goods and services, Canada',
+    originalTitle: 'Canada;Spectator sports;Other sales of goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Spectator Sports',
     release: 'Spectator Sports',
@@ -13149,6 +13922,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113325921',
     title: 'Original prices, Average age, Total all industries, Total non-residential, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Total all industries;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13166,6 +13940,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113325922',
     title: 'Original prices, Average age, Total all industries, Building, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Total all industries;Building', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13183,6 +13958,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113325931',
     title: 'Original prices, Average age, Total all industries, Engineering, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Total all industries;Engineering', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13200,6 +13976,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113325945',
     title: 'Original prices, Average age, Total all industries, Wood products, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Total all industries;Wood products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13217,6 +13994,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113325958',
     title: 'Original prices, Average age, Total all industries, Software, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Total all industries;Software', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13234,6 +14012,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113326035',
     title: 'Original prices, Average age, Utilities, Total non-residential, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Utilities;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13251,6 +14030,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113326073',
     title: 'Original prices, Average age, Construction, Total non-residential, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Construction;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13268,6 +14048,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113326111',
     title: 'Original prices, Average age, Manufacturing, Total non-residential, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Manufacturing;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13285,6 +14066,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113326187',
     title: 'Original prices, Average age, Retail trade, Total non-residential, Canada',
+    originalTitle: 'Canada;Original prices;Average age;Retail trade;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13302,6 +14084,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327441',
     title: 'Current prices, Average age, Total all industries, Total non-residential, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Total all industries;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13319,6 +14102,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327442',
     title: 'Current prices, Average age, Total all industries, Building, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Total all industries;Building', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13336,6 +14120,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327451',
     title: 'Current prices, Average age, Total all industries, Engineering, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Total all industries;Engineering', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13353,6 +14138,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327465',
     title: 'Current prices, Average age, Total all industries, Wood products, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Total all industries;Wood products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13370,6 +14156,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327478',
     title: 'Current prices, Average age, Total all industries, Software, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Total all industries;Software', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13387,6 +14174,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327555',
     title: 'Current prices, Average age, Utilities, Total non-residential, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Utilities;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13404,6 +14192,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327593',
     title: 'Current prices, Average age, Construction, Total non-residential, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Construction;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13421,6 +14210,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327631',
     title: 'Current prices, Average age, Manufacturing, Total non-residential, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Manufacturing;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13438,6 +14228,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100166_113327707',
     title: 'Current prices, Average age, Retail trade, Total non-residential, Canada',
+    originalTitle: 'Canada;Current prices;Average age;Retail trade;Total non-residential', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average age Measures of Non-residential Capital Stock by Industry',
     release: 'Average age Measures of Non-residential Capital Stock by Industry',
@@ -13455,6 +14246,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100278_1810934276',
     title: 'Repair expenditures, All Industries, February 25, 2026, Canada',
+    originalTitle: 'Canada;Repair expenditures;All Industries;February 25, 2026', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Historical (real Time) Releases of Capital and Repair Expenditures',
     release: 'Historical (real Time) Releases of Capital and Repair Expenditures',
@@ -13472,6 +14264,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320933',
     title: 'Capital Expenditures: All ownerships, All functions, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;All functions;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13489,6 +14282,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320934',
     title: 'Capital Expenditures: All ownerships, Transport, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Transport;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13506,6 +14300,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320935',
     title: 'Capital Expenditures: All ownerships, Road transport, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Road transport;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13523,6 +14318,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320936',
     title: 'Capital Expenditures: All ownerships, Public transit, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Public transit;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13540,6 +14336,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320937',
     title: 'Capital Expenditures: All ownerships, Other transport, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Other transport;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13557,6 +14354,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320939',
     title: 'Capital Expenditures: All ownerships, Water supply, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Water supply;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13574,6 +14372,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320942',
     title: 'Capital Expenditures: All ownerships, Waste management, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Waste management;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13591,6 +14390,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320944',
     title: 'Capital Expenditures: All ownerships, Housing, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Housing;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13608,6 +14408,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320947',
     title: 'Capital Expenditures: All ownerships, Electricity, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Electricity;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13625,6 +14426,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320948',
     title: 'Capital Expenditures: All ownerships, Other fuel and energy, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Other fuel and energy;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13642,6 +14444,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320949',
     title: 'Capital Expenditures: All ownerships, Other economic affairs, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Other economic affairs;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13659,6 +14462,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320952',
     title: 'Capital Expenditures: All ownerships, Education, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Education;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13676,6 +14480,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144320953',
     title: 'Capital Expenditures: All ownerships, All functions, Infrastructure assets, Canada',
+    originalTitle: 'Canada;All ownerships;All functions;Infrastructure assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13693,6 +14498,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144321013',
     title: 'Capital Expenditures: All ownerships, All functions, Marine infrastructure, Canada',
+    originalTitle: 'Canada;All ownerships;All functions;Marine infrastructure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13710,6 +14516,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144321053',
     title: 'Capital Expenditures: All ownerships, All functions, Sewage infrastructure, Canada',
+    originalTitle: 'Canada;All ownerships;All functions;Sewage infrastructure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13727,6 +14534,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144321193',
     title: 'Capital Expenditures: All ownerships, All functions, Health facilities, Canada',
+    originalTitle: 'Canada;All ownerships;All functions;Health facilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13744,6 +14552,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144321213',
     title: 'Capital Expenditures: All ownerships, All functions, Education facilities, Canada',
+    originalTitle: 'Canada;All ownerships;All functions;Education facilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13761,6 +14570,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144321293',
     title: 'Public, All functions, All Capital expenditures, Canada',
+    originalTitle: 'Canada;Public;All functions;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13778,6 +14588,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144321653',
     title: 'Federal government, All functions, All Capital expenditures, Canada',
+    originalTitle: 'Canada;Federal government;All functions;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13795,6 +14606,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100280_1144322733',
     title: 'Private, All functions, All Capital expenditures, Canada',
+    originalTitle: 'Canada;Private;All functions;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13812,6 +14624,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100281_1145980514',
     title: 'Capital Expenditures: All ownerships, Recreation and Culture, All Capital expenditures, Canada',
+    originalTitle: 'Canada;All ownerships;Recreation and Culture;All Capital expenditures', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13829,6 +14642,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145990734',
     title: 'Private, All functions, All sources of funds, Canada',
+    originalTitle: 'Canada;Private;All functions;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13846,6 +14660,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145990748',
     title: 'Public, All functions, All sources of funds, Canada',
+    originalTitle: 'Canada;Public;All functions;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13863,6 +14678,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145990762',
     title: 'Capital Expenditures: All ownerships, All functions, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;All functions;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13880,6 +14696,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145990930',
     title: 'Capital Expenditures: All ownerships, All functions, Other sources of funding, Canada',
+    originalTitle: 'Canada;All ownerships;All functions;Other sources of funding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13897,6 +14714,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145990972',
     title: 'Capital Expenditures: All ownerships, Transport, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Transport;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13914,6 +14732,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145991602',
     title: 'Capital Expenditures: All ownerships, Health and social protection, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Health and social protection;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13931,6 +14750,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145991812',
     title: 'Capital Expenditures: All ownerships, Road transport, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Road transport;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13948,6 +14768,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145992022',
     title: 'Capital Expenditures: All ownerships, Public transit, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Public transit;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13965,6 +14786,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145992232',
     title: 'Capital Expenditures: All ownerships, Other transport, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Other transport;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13982,6 +14804,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145992442',
     title: 'Capital Expenditures: All ownerships, Water supply, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Water supply;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -13999,6 +14822,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145992652',
     title: 'Capital Expenditures: All ownerships, Storm water management, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Storm water management;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14016,6 +14840,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145992862',
     title: 'Capital Expenditures: All ownerships, Waste water management, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Waste water management;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14033,6 +14858,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145993072',
     title: 'Capital Expenditures: All ownerships, Waste management, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Waste management;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14050,6 +14876,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145993492',
     title: 'Capital Expenditures: All ownerships, Defense, public order and safety, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Defense, public order and safety;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14067,6 +14894,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145993702',
     title: 'Capital Expenditures: All ownerships, Housing, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Housing;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14084,6 +14912,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145993912',
     title: 'Capital Expenditures: All ownerships, Education, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Education;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14101,6 +14930,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145994122',
     title: 'Capital Expenditures: All ownerships, Recreation and Culture, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Recreation and Culture;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14118,6 +14948,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145994332',
     title: 'Capital Expenditures: All ownerships, Electricity, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Electricity;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14135,6 +14966,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145994542',
     title: 'Capital Expenditures: All ownerships, Other fuel and energy, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Other fuel and energy;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14152,6 +14984,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100282_1145994752',
     title: 'Capital Expenditures: All ownerships, Other economic affairs, All sources of funds, Canada',
+    originalTitle: 'Canada;All ownerships;Other economic affairs;All sources of funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Capital Expenditures',
     release: 'Capital Expenditures',
@@ -14169,6 +15002,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1907392953',
     title: '400 metres from all public transit stops, Total, location, Started, Units, Row house, Homeowner, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Started;Units;Row house;Homeowner;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14186,6 +15020,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1907395437',
     title: '500 metres from all public transit stops, Total, location, Started, Units, Row house, Homeowner, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Started;Units;Row house;Homeowner;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14203,6 +15038,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1907895963',
     title: '400 metres from all public transit stops, Total, location, Started, Units, Row house, Rental, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Started;Units;Row house;Rental;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14220,6 +15056,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1907898447',
     title: '500 metres from all public transit stops, Total, location, Started, Units, Row house, Rental, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Started;Units;Row house;Rental;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14237,6 +15074,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1907929497',
     title: '400 metres from all public transit stops, Total, location, Completed, Units, Row house, Rental, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Completed;Units;Row house;Rental;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14254,6 +15092,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1907931981',
     title: '500 metres from all public transit stops, Total, location, Completed, Units, Row house, Rental, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Completed;Units;Row house;Rental;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14271,6 +15110,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908298371',
     title: '400 metres from all public transit stops, Total, location, Started, Units, Semi-detached, Condo, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Started;Units;Semi-detached;Condo;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14288,6 +15128,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908300855',
     title: '500 metres from all public transit stops, Total, location, Started, Units, Semi-detached, Condo, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Started;Units;Semi-detached;Condo;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14305,6 +15146,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908398973',
     title: '400 metres from all public transit stops, Total, location, Started, Units, Row house, Condo, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Started;Units;Row house;Condo;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14322,6 +15164,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908401457',
     title: '500 metres from all public transit stops, Total, location, Started, Units, Row house, Condo, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Started;Units;Row house;Condo;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14339,6 +15182,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908432507',
     title: '400 metres from all public transit stops, Total, location, Completed, Units, Row house, Condo, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Completed;Units;Row house;Condo;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14356,6 +15200,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908434991',
     title: '500 metres from all public transit stops, Total, location, Completed, Units, Row house, Condo, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Completed;Units;Row house;Condo;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14373,6 +15218,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908801381',
     title: '400 metres from all public transit stops, Total, location, Started, Units, Semi-detached, Co-op, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Started;Units;Semi-detached;Co-op;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14390,6 +15236,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908803865',
     title: '500 metres from all public transit stops, Total, location, Started, Units, Semi-detached, Co-op, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Started;Units;Semi-detached;Co-op;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14407,6 +15254,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908901983',
     title: '400 metres from all public transit stops, Total, location, Started, Units, Row house, Co-op, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Started;Units;Row house;Co-op;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14424,6 +15272,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908904467',
     title: '500 metres from all public transit stops, Total, location, Started, Units, Row house, Co-op, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Started;Units;Row house;Co-op;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14441,6 +15290,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908935517',
     title: '400 metres from all public transit stops, Total, location, Completed, Units, Row house, Co-op, Count within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Completed;Units;Row house;Co-op;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14458,6 +15308,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1908938001',
     title: '500 metres from all public transit stops, Total, location, Completed, Units, Row house, Co-op, Count within service area, Canada',
+    originalTitle: 'Canada;500 metres from all public transit stops;Total, location;Completed;Units;Row house;Co-op;Count within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14475,6 +15326,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_34100298_1911305253',
     title: '400 metres from all public transit stops, Total, location, Started, Units, Row house, Condo, Proportion within service area, Canada',
+    originalTitle: 'Canada;400 metres from all public transit stops;Total, location;Started;Units;Row house;Condo;Proportion within service area', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Residential Housing Development by Distance to Public Transport',
     release: 'Residential Housing Development by Distance to Public Transport',
@@ -14492,6 +15344,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_118976726',
     title: 'Purchaser price, Total supply, Total use, Canada',
+    originalTitle: 'Canada;Purchaser price;Total supply;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14509,6 +15362,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_118976771',
     title: 'Purchaser price, Total supply, Breweries, Canada',
+    originalTitle: 'Canada;Purchaser price;Total supply;Breweries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14526,6 +15380,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_118976799',
     title: 'Purchaser price, Total supply, Foundries, Canada',
+    originalTitle: 'Canada;Purchaser price;Total supply;Foundries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14543,6 +15398,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119060856',
     title: 'Basic price, Total supply, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14560,6 +15416,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119060860',
     title: 'Basic price, Total supply, Aquaculture, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Aquaculture', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14577,6 +15434,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119060867',
     title: 'Basic price, Total supply, Coal mining, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Coal mining', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14594,6 +15452,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119060876',
     title: 'Basic price, Total supply, Potash mining, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Potash mining', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14611,6 +15470,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119060901',
     title: 'Basic price, Total supply, Breweries, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Breweries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14628,6 +15488,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119060929',
     title: 'Basic price, Total supply, Foundries, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Foundries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14645,6 +15506,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119061078',
     title: 'Basic price, Total supply, Universities, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Universities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14662,6 +15524,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119061080',
     title: 'Basic price, Total supply, Hospitals, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Hospitals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14679,6 +15542,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119062307',
     title: 'Basic price, Aquaculture, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Aquaculture;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14696,6 +15560,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119063600',
     title: 'Basic price, Coal mining, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Coal mining;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14713,6 +15578,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119065884',
     title: 'Basic price, Potash mining, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Potash mining;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14730,6 +15596,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119070970',
     title: 'Basic price, Breweries, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Breweries;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14747,6 +15614,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119079738',
     title: 'Basic price, Foundries, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Foundries;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14764,6 +15632,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119123059',
     title: 'Basic price, Universities, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Universities;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14781,6 +15650,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_119123455',
     title: 'Basic price, Hospitals, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Hospitals;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14798,6 +15668,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_1865192095',
     title: 'Basic price, Credit unions, Total use, Canada',
+    originalTitle: 'Canada;Basic price;Credit unions;Total use', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14815,6 +15686,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100001_1865194229',
     title: 'Basic price, Total supply, Credit unions, Canada',
+    originalTitle: 'Canada;Basic price;Total supply;Credit unions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Input-output Tables',
     release: 'Input-output Tables',
@@ -14832,6 +15704,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112543',
     title: 'Balance of International Payments: Total investment income, receipts, Canada (annual)',
+    originalTitle: 'Canada;Total investment income, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14849,6 +15722,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112544',
     title: 'Balance of International Payments: Total interest, receipts, Canada (annual)',
+    originalTitle: 'Canada;Total interest, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14866,6 +15740,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112545',
     title: 'Balance of International Payments: Total dividends, receipts, Canada (annual)',
+    originalTitle: 'Canada;Total dividends, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14883,6 +15758,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112546',
     title: 'Balance of International Payments: Total reinvested earnings, receipts, Canada (annual)',
+    originalTitle: 'Canada;Total reinvested earnings, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14900,6 +15776,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112547',
     title: 'Direct investment income, receipts, Canada (annual)',
+    originalTitle: 'Canada;Direct investment income, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14917,6 +15794,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112548',
     title: 'Direct investment, interest, receipts, Canada (annual)',
+    originalTitle: 'Canada;Direct investment, interest, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14934,6 +15812,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112555',
     title: 'Direct investment, profits, receipts, Canada (annual)',
+    originalTitle: 'Canada;Direct investment, profits, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14951,6 +15830,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112556',
     title: 'Balance of International Payments: Total investment income, payments, Canada (annual)',
+    originalTitle: 'Canada;Total investment income, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14968,6 +15848,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112557',
     title: 'Balance of International Payments: Total interest, payments, Canada (annual)',
+    originalTitle: 'Canada;Total interest, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -14985,6 +15866,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112558',
     title: 'Interest payments, governments, Canada (annual)',
+    originalTitle: 'Canada;Interest payments, governments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15002,6 +15884,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112565',
     title: 'Interest payments, corporations, Canada (annual)',
+    originalTitle: 'Canada;Interest payments, corporations', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15019,6 +15902,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112566',
     title: 'Balance of International Payments: Total dividends, payments, Canada (annual)',
+    originalTitle: 'Canada;Total dividends, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15036,6 +15920,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112567',
     title: 'Balance of International Payments: Total reinvested earnings, payments, Canada (annual)',
+    originalTitle: 'Canada;Total reinvested earnings, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15053,6 +15938,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112568',
     title: 'Direct investment income, payments, Canada (annual)',
+    originalTitle: 'Canada;Direct investment income, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15070,6 +15956,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112569',
     title: 'Direct investment, interest, payments, Canada (annual)',
+    originalTitle: 'Canada;Direct investment, interest, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15087,6 +15974,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112586',
     title: 'Direct investment, profits, payments, Canada (annual)',
+    originalTitle: 'Canada;Direct investment, profits, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15104,6 +15992,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112587',
     title: 'Balance of International Payments: Total investment income, balances, Canada (annual)',
+    originalTitle: 'Canada;Total investment income, balances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15121,6 +16010,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112588',
     title: 'Direct investment income, balances, Canada (annual)',
+    originalTitle: 'Canada;Direct investment income, balances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15138,6 +16028,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112589',
     title: 'Direct investment, interest, balances, Canada (annual)',
+    originalTitle: 'Canada;Direct investment, interest, balances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15155,6 +16046,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100002_112598',
     title: 'Direct investment, profits, balances, Canada (annual)',
+    originalTitle: 'Canada;Direct investment, profits, balances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15172,6 +16064,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112599',
     title: 'Balance of International Payments: Total investment income, receipts, Canada (quarterly)',
+    originalTitle: 'Canada;Total investment income, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15189,6 +16082,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112600',
     title: 'Balance of International Payments: Total interest, receipts, Canada (quarterly)',
+    originalTitle: 'Canada;Total interest, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15206,6 +16100,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112601',
     title: 'Balance of International Payments: Total dividends, receipts, Canada (quarterly)',
+    originalTitle: 'Canada;Total dividends, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15223,6 +16118,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112602',
     title: 'Balance of International Payments: Total reinvested earnings, receipts, Canada (quarterly)',
+    originalTitle: 'Canada;Total reinvested earnings, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15240,6 +16136,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112603',
     title: 'Direct investment income, receipts, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment income, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15257,6 +16154,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112604',
     title: 'Direct investment, interest, receipts, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment, interest, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15274,6 +16172,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112611',
     title: 'Direct investment, profits, receipts, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment, profits, receipts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15291,6 +16190,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112612',
     title: 'Balance of International Payments: Total investment income, payments, Canada (quarterly)',
+    originalTitle: 'Canada;Total investment income, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15308,6 +16208,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112613',
     title: 'Balance of International Payments: Total interest, payments, Canada (quarterly)',
+    originalTitle: 'Canada;Total interest, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15325,6 +16226,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112614',
     title: 'Interest payments, governments, Canada (quarterly)',
+    originalTitle: 'Canada;Interest payments, governments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15342,6 +16244,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112621',
     title: 'Interest payments, corporations, Canada (quarterly)',
+    originalTitle: 'Canada;Interest payments, corporations', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15359,6 +16262,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112622',
     title: 'Balance of International Payments: Total dividends, payments, Canada (quarterly)',
+    originalTitle: 'Canada;Total dividends, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15376,6 +16280,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112623',
     title: 'Balance of International Payments: Total reinvested earnings, payments, Canada (quarterly)',
+    originalTitle: 'Canada;Total reinvested earnings, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15393,6 +16298,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112624',
     title: 'Direct investment income, payments, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment income, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15410,6 +16316,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112625',
     title: 'Direct investment, interest, payments, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment, interest, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15427,6 +16334,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112642',
     title: 'Direct investment, profits, payments, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment, profits, payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15444,6 +16352,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112643',
     title: 'Balance of International Payments: Total investment income, balances, Canada (quarterly)',
+    originalTitle: 'Canada;Total investment income, balances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15461,6 +16370,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112644',
     title: 'Direct investment income, balances, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment income, balances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15478,6 +16388,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112645',
     title: 'Direct investment, interest, balances, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment, interest, balances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15495,6 +16406,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100003_112654',
     title: 'Direct investment, profits, balances, Canada (quarterly)',
+    originalTitle: 'Canada;Direct investment, profits, balances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -15512,6 +16424,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149508',
     title: 'Exports, Travel, total, All countries, Canada',
+    originalTitle: 'Canada;Exports;Travel, total;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15529,6 +16442,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149509',
     title: 'Exports, Business travel, All countries, Canada',
+    originalTitle: 'Canada;Exports;Business travel;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15546,6 +16460,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149510',
     title: 'Exports, Crew spending, All countries, Canada',
+    originalTitle: 'Canada;Exports;Crew spending;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15563,6 +16478,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149512',
     title: 'Exports, Personal travel, All countries, Canada',
+    originalTitle: 'Canada;Exports;Personal travel;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15580,6 +16496,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149513',
     title: 'Exports, Health related, All countries, Canada',
+    originalTitle: 'Canada;Exports;Health related;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15597,6 +16514,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149516',
     title: 'Imports, Travel, total, All countries, Canada',
+    originalTitle: 'Canada;Imports;Travel, total;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15614,6 +16532,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149518',
     title: 'Imports, Crew spending, All countries, Canada',
+    originalTitle: 'Canada;Imports;Crew spending;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15631,6 +16550,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149521',
     title: 'Imports, Health related, All countries, Canada',
+    originalTitle: 'Canada;Imports;Health related;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15648,6 +16568,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149524',
     title: 'Balances, Travel, total, All countries, Canada',
+    originalTitle: 'Canada;Balances;Travel, total;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15665,6 +16586,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149526',
     title: 'Balances, Crew spending, All countries, Canada',
+    originalTitle: 'Canada;Balances;Crew spending;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15682,6 +16604,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149556',
     title: 'Exports, Travel, total, All other countries, Canada',
+    originalTitle: 'Canada;Exports;Travel, total;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15699,6 +16622,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149557',
     title: 'Exports, Business travel, All other countries, Canada',
+    originalTitle: 'Canada;Exports;Business travel;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15716,6 +16640,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149558',
     title: 'Exports, Crew spending, All other countries, Canada',
+    originalTitle: 'Canada;Exports;Crew spending;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15733,6 +16658,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149560',
     title: 'Exports, Personal travel, All other countries, Canada',
+    originalTitle: 'Canada;Exports;Personal travel;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15750,6 +16676,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149561',
     title: 'Exports, Health related, All other countries, Canada',
+    originalTitle: 'Canada;Exports;Health related;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15767,6 +16694,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149564',
     title: 'Imports, Travel, total, All other countries, Canada',
+    originalTitle: 'Canada;Imports;Travel, total;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15784,6 +16712,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149566',
     title: 'Imports, Crew spending, All other countries, Canada',
+    originalTitle: 'Canada;Imports;Crew spending;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15801,6 +16730,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149569',
     title: 'Imports, Health related, All other countries, Canada',
+    originalTitle: 'Canada;Imports;Health related;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15818,6 +16748,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149572',
     title: 'Balances, Travel, total, All other countries, Canada',
+    originalTitle: 'Canada;Balances;Travel, total;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15835,6 +16766,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100004_149574',
     title: 'Balances, Crew spending, All other countries, Canada',
+    originalTitle: 'Canada;Balances;Crew spending;All other countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15852,6 +16784,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149580',
     title: 'Exports, Transportation, total, All countries, Canada',
+    originalTitle: 'Canada;Exports;Transportation, total;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15869,6 +16802,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149581',
     title: 'Exports, Water transport, All countries, Canada',
+    originalTitle: 'Canada;Exports;Water transport;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15886,6 +16820,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149582',
     title: 'Exports, Water transport, freight, All countries, Canada',
+    originalTitle: 'Canada;Exports;Water transport, freight;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15903,6 +16838,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149583',
     title: 'Exports, Water transport, auxiliary services, All countries, Canada',
+    originalTitle: 'Canada;Exports;Water transport, auxiliary services;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15920,6 +16856,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149584',
     title: 'Exports, Air transport, All countries, Canada',
+    originalTitle: 'Canada;Exports;Air transport;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15937,6 +16874,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149585',
     title: 'Exports, Air transport, passenger fares, All countries, Canada',
+    originalTitle: 'Canada;Exports;Air transport, passenger fares;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15954,6 +16892,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149590',
     title: 'Imports, Transportation, total, All countries, Canada',
+    originalTitle: 'Canada;Imports;Transportation, total;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15971,6 +16910,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149591',
     title: 'Imports, Water transport, All countries, Canada',
+    originalTitle: 'Canada;Imports;Water transport;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -15988,6 +16928,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149592',
     title: 'Imports, Water transport, freight, All countries, Canada',
+    originalTitle: 'Canada;Imports;Water transport, freight;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16005,6 +16946,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149593',
     title: 'Imports, Water transport, auxiliary services, All countries, Canada',
+    originalTitle: 'Canada;Imports;Water transport, auxiliary services;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16022,6 +16964,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149594',
     title: 'Imports, Air transport, All countries, Canada',
+    originalTitle: 'Canada;Imports;Air transport;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16039,6 +16982,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149595',
     title: 'Imports, Air transport, passenger fares, All countries, Canada',
+    originalTitle: 'Canada;Imports;Air transport, passenger fares;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16056,6 +17000,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149600',
     title: 'Balances, Transportation, total, All countries, Canada',
+    originalTitle: 'Canada;Balances;Transportation, total;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16073,6 +17018,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149601',
     title: 'Balances, Water transport, All countries, Canada',
+    originalTitle: 'Canada;Balances;Water transport;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16090,6 +17036,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149602',
     title: 'Balances, Water transport, freight, All countries, Canada',
+    originalTitle: 'Canada;Balances;Water transport, freight;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16107,6 +17054,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149604',
     title: 'Balances, Air transport, All countries, Canada',
+    originalTitle: 'Canada;Balances;Air transport;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16124,6 +17072,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_149605',
     title: 'Balances, Air transport, passenger fares, All countries, Canada',
+    originalTitle: 'Canada;Balances;Air transport, passenger fares;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16141,6 +17090,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_62295402',
     title: 'Exports, Postal and courier services, All countries, Canada',
+    originalTitle: 'Canada;Exports;Postal and courier services;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16158,6 +17108,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_62295403',
     title: 'Imports, Postal and courier services, All countries, Canada',
+    originalTitle: 'Canada;Imports;Postal and courier services;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16175,6 +17126,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100005_62295404',
     title: 'Balances, Postal and courier services, All countries, Canada',
+    originalTitle: 'Canada;Balances;Postal and courier services;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16192,6 +17144,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100006_149646',
     title: 'Exports, Trademarks, All countries, all transactions, Canada',
+    originalTitle: 'Canada;Exports;Trademarks;All countries, all transactions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16209,6 +17162,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100006_149647',
     title: 'Exports, Franchises, All countries, all transactions, Canada',
+    originalTitle: 'Canada;Exports;Franchises;All countries, all transactions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16226,6 +17180,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100006_149653',
     title: 'Exports, Legal services, All countries, all transactions, Canada',
+    originalTitle: 'Canada;Exports;Legal services;All countries, all transactions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16243,6 +17198,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100006_149679',
     title: 'Imports, Trademarks, All countries, all transactions, Canada',
+    originalTitle: 'Canada;Imports;Trademarks;All countries, all transactions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16260,6 +17216,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100006_149680',
     title: 'Imports, Franchises, All countries, all transactions, Canada',
+    originalTitle: 'Canada;Imports;Franchises;All countries, all transactions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16277,6 +17234,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100006_149712',
     title: 'Balances, Trademarks, All countries, all transactions, Canada',
+    originalTitle: 'Canada;Balances;Trademarks;All countries, all transactions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16294,6 +17252,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100006_149713',
     title: 'Balances, Franchises, All countries, all transactions, Canada',
+    originalTitle: 'Canada;Balances;Franchises;All countries, all transactions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16311,6 +17270,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_95568',
     title: 'International Transactions in Services: Travel, exports, Chile, Canada',
+    originalTitle: 'Canada;Travel, exports;Chile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16328,6 +17288,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_95577',
     title: 'International Transactions in Services: Travel, exports, China, Canada',
+    originalTitle: 'Canada;Travel, exports;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16345,6 +17306,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_95595',
     title: 'International Transactions in Services: Travel, exports, Egypt, Canada',
+    originalTitle: 'Canada;Travel, exports;Egypt', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16362,6 +17324,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_95649',
     title: 'International Transactions in Services: Travel, exports, India, Canada',
+    originalTitle: 'Canada;Travel, exports;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16379,6 +17342,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_95667',
     title: 'International Transactions in Services: Travel, exports, Iran, Canada',
+    originalTitle: 'Canada;Travel, exports;Iran', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16396,6 +17360,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_95671',
     title: 'International Transactions in Services: Travel, imports, Iran, Canada',
+    originalTitle: 'Canada;Travel, imports;Iran', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16413,6 +17378,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_95694',
     title: 'International Transactions in Services: Travel, exports, Italy, Canada',
+    originalTitle: 'Canada;Travel, exports;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16430,6 +17396,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852602',
     title: 'Services, exports, All countries, Canada',
+    originalTitle: 'Canada;Services, exports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16447,6 +17414,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852603',
     title: 'Travel, exports, All countries, Canada',
+    originalTitle: 'Canada;Travel, exports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16464,6 +17432,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852604',
     title: 'Commercial services, exports, All countries, Canada',
+    originalTitle: 'Canada;Commercial services, exports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16481,6 +17450,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852605',
     title: 'Transportation and government services, exports, All countries, Canada',
+    originalTitle: 'Canada;Transportation and government services, exports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16498,6 +17468,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852606',
     title: 'Services, imports, All countries, Canada',
+    originalTitle: 'Canada;Services, imports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16515,6 +17486,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852607',
     title: 'Travel, imports, All countries, Canada',
+    originalTitle: 'Canada;Travel, imports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16532,6 +17504,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852608',
     title: 'Commercial services, imports, All countries, Canada',
+    originalTitle: 'Canada;Commercial services, imports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16549,6 +17522,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852609',
     title: 'Transportation and government services, imports, All countries, Canada',
+    originalTitle: 'Canada;Transportation and government services, imports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16566,6 +17540,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_88852610',
     title: 'Services, balances, All countries, Canada',
+    originalTitle: 'Canada;Services, balances;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16583,6 +17558,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_114623916',
     title: 'Transportation services, exports, All countries, Canada',
+    originalTitle: 'Canada;Transportation services, exports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16600,6 +17576,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_114623959',
     title: 'Government services, exports, All countries, Canada',
+    originalTitle: 'Canada;Government services, exports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16617,6 +17594,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_114624781',
     title: 'Transportation services, imports, All countries, Canada',
+    originalTitle: 'Canada;Transportation services, imports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16634,6 +17612,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100007_114624824',
     title: 'Government services, imports, All countries, Canada',
+    originalTitle: 'Canada;Government services, imports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -16651,6 +17630,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_7117682',
     title: 'Canadian direct investment abroad - total book value, All countries, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - total book value;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16668,6 +17648,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_7117859',
     title: 'Foreign direct investment in Canada - total book value, All countries, Canada',
+    originalTitle: 'Canada;Foreign direct investment in Canada - total book value;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16685,6 +17666,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085009',
     title: 'Canadian direct investment abroad - equity, All countries, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - equity;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16702,6 +17684,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085012',
     title: 'Canadian direct investment abroad - equity, Aruba, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - equity;Aruba', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16719,6 +17702,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085018',
     title: 'Canadian direct investment abroad - equity, Cuba, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - equity;Cuba', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16736,6 +17720,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085047',
     title: 'Canadian direct investment abroad - equity, Peru, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - equity;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16753,6 +17738,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085121',
     title: 'Canadian direct investment abroad - equity, Mali, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - equity;Mali', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16770,6 +17756,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085137',
     title: 'Canadian direct investment abroad - equity, Togo, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - equity;Togo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16787,6 +17774,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085154',
     title: 'Canadian direct investment abroad - equity, Iran, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - equity;Iran', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16804,6 +17792,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085169',
     title: 'Canadian direct investment abroad - equity, Oman, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - equity;Oman', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16821,6 +17810,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085186',
     title: 'Canadian direct investment abroad - net debt, All countries, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - net debt;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16838,6 +17828,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085363',
     title: 'Foreign direct investment in Canada - equity, All countries, Canada',
+    originalTitle: 'Canada;Foreign direct investment in Canada - equity;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16855,6 +17846,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_112085540',
     title: 'Foreign direct investment in Canada - net debt, All countries, Canada',
+    originalTitle: 'Canada;Foreign direct investment in Canada - net debt;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16872,6 +17864,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_122595618',
     title: 'Canadian direct investment abroad - debt assets, All countries, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - debt assets;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16889,6 +17882,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_122595795',
     title: 'Canadian direct investment abroad - debt liabilities, All countries, Canada',
+    originalTitle: 'Canada;Canadian direct investment abroad - debt liabilities;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16906,6 +17900,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_122595972',
     title: 'Foreign direct investment in Canada - debt assets, All countries, Canada',
+    originalTitle: 'Canada;Foreign direct investment in Canada - debt assets;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16923,6 +17918,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100008_122596149',
     title: 'Foreign direct investment in Canada - debt liabilities, All countries, Canada',
+    originalTitle: 'Canada;Foreign direct investment in Canada - debt liabilities;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16940,6 +17936,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100009_20143876',
     title: 'International Investment Position: Total, all industries, Canadian direct investment abroad - total book value, Total, all countries, Canada',
+    originalTitle: 'Canada;Total, all industries;Canadian direct investment abroad - total book value;Total, all countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16957,6 +17954,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100009_20143898',
     title: 'International Investment Position: All other industries, Canadian direct investment abroad - total book value, Total, all countries, Canada',
+    originalTitle: 'Canada;All other industries;Canadian direct investment abroad - total book value;Total, all countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16974,6 +17972,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100009_112085717',
     title: 'International Investment Position: Total, all industries, Canadian direct investment abroad - equity, Total, all countries, Canada',
+    originalTitle: 'Canada;Total, all industries;Canadian direct investment abroad - equity;Total, all countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',
@@ -16991,6 +17990,7 @@ export const GENERATED_SERIES_PART5: SeriesMeta[] = [
   {
     id: 'SC_36100009_112085723',
     title: 'International Investment Position: Total, all industries, Canadian direct investment abroad - net debt, Total, all countries, Canada',
+    originalTitle: 'Canada;Total, all industries;Canadian direct investment abroad - net debt;Total, all countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Investment Position',
     release: 'International Investment Position',

@@ -8,6 +8,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822803',
     title: 'Central Government Debt: B. Net debt, (C - D), Canada',
+    originalTitle: 'Canada;B. Net debt, (C - D)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -25,6 +26,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822804',
     title: 'Central Government Debt: C. Liabilities, gross debt, Canada',
+    originalTitle: 'Canada;C. Liabilities, gross debt', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -42,6 +44,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822806',
     title: 'Central Government Debt: Interest-bearing debt, Canada',
+    originalTitle: 'Canada;Interest-bearing debt', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -59,6 +62,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822807',
     title: 'Central Government Debt: Unmatured debt, Canada',
+    originalTitle: 'Canada;Unmatured debt', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -76,6 +80,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822810',
     title: 'Central Government Debt: Treasury bills, Canada',
+    originalTitle: 'Canada;Treasury bills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -93,6 +98,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822811',
     title: 'Central Government Debt: Retail debt, Canada',
+    originalTitle: 'Canada;Retail debt', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -110,6 +116,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822815',
     title: 'Central Government Debt: Medium-term notes, Canada',
+    originalTitle: 'Canada;Medium-term notes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -127,6 +134,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822816',
     title: 'Central Government Debt: Canada bills, Canada',
+    originalTitle: 'Canada;Canada bills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -144,6 +152,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822821',
     title: 'Central Government Debt: Pensions and other accounts, Canada',
+    originalTitle: 'Canada;Pensions and other accounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -161,6 +170,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822822',
     title: 'Central Government Debt: D. Financial assets, Canada',
+    originalTitle: 'Canada;D. Financial assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -178,6 +188,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822823',
     title: 'Central Government Debt: Cash and accounts receivable, Canada',
+    originalTitle: 'Canada;Cash and accounts receivable', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -195,6 +206,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822826',
     title: 'Central Government Debt: E. Non-financial assets, Canada',
+    originalTitle: 'Canada;E. Non-financial assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -212,6 +224,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822827',
     title: 'Central Government Debt: Market debt, Canada',
+    originalTitle: 'Canada;Market debt', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -229,6 +242,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822828',
     title: 'Central Government Debt: a) Short-term, Canada',
+    originalTitle: 'Canada;a) Short-term', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -246,6 +260,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822829',
     title: 'Central Government Debt: b) Long-term, Canada',
+    originalTitle: 'Canada;b) Long-term', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -263,6 +278,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_86822830',
     title: 'Central Government Debt: Total Outstanding Guarantees, Canada',
+    originalTitle: 'Canada;Total Outstanding Guarantees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -280,6 +296,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_105899360',
     title: 'Central Government Debt: Public sector pension assets, Canada',
+    originalTitle: 'Canada;Public sector pension assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -297,6 +314,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100002_1446283355',
     title: 'Central Government Debt: Derivatives, Canada',
+    originalTitle: 'Canada;Derivatives', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Debt',
     release: 'Central Government Debt',
@@ -314,6 +332,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100003_111900681',
     title: 'Gross new issues, Total Treasury Bills, Canada',
+    originalTitle: 'Canada;Gross new issues;Total Treasury Bills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Debt Securities: Gross new Issues',
     release: 'Government of Canada Debt Securities: Gross new Issues',
@@ -331,6 +350,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100003_111900691',
     title: 'Retirements, Total Treasury Bills, Canada',
+    originalTitle: 'Canada;Retirements;Total Treasury Bills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Debt Securities: Gross new Issues',
     release: 'Government of Canada Debt Securities: Gross new Issues',
@@ -348,6 +368,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36028',
     title: 'Claims, Total, non-residents, Total, booked, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Total, booked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -365,6 +386,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36038',
     title: 'Claims, Total, non-residents, India, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -382,6 +404,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36052',
     title: 'Claims, Total, non-residents, Chile, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Chile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -399,6 +422,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36054',
     title: 'Claims, Total, non-residents, Peru, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -416,6 +440,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36075',
     title: 'Claims, Total, non-residents, Italy, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -433,6 +458,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36198',
     title: 'Claims, Total, non-residents, Total Europe, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Total Europe', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -450,6 +476,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36199',
     title: 'Claims, Total, non-residents, Total Central Europe and Central Asia, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Total Central Europe and Central Asia', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -467,6 +494,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36200',
     title: 'Claims, Total, non-residents, Total East Asia and the Pacific, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Total East Asia and the Pacific', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -484,6 +512,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36201',
     title: 'Claims, Total, non-residents, Total Latin America and Caribbean, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Total Latin America and Caribbean', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -501,6 +530,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36202',
     title: 'Claims, Total, non-residents, Total North Africa and Middle East, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Total North Africa and Middle East', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -518,6 +548,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36203',
     title: 'Claims, Total, non-residents, Total Sub-Saharan Africa, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Total Sub-Saharan Africa', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -535,6 +566,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36204',
     title: 'Claims, Total, non-residents, Total off-shore banking centers, Canada',
+    originalTitle: 'Canada;Claims;Total, non-residents;Total off-shore banking centers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -552,6 +584,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36205',
     title: 'Deposits, Total, non-residents, Total, booked, Canada',
+    originalTitle: 'Canada;Deposits;Total, non-residents;Total, booked', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -569,6 +602,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36375',
     title: 'Deposits, Total, non-residents, Total Europe, Canada',
+    originalTitle: 'Canada;Deposits;Total, non-residents;Total Europe', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -586,6 +620,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36376',
     title: 'Deposits, Total, non-residents, Total Central Europe and Central Asia, Canada',
+    originalTitle: 'Canada;Deposits;Total, non-residents;Total Central Europe and Central Asia', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -603,6 +638,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36377',
     title: 'Deposits, Total, non-residents, Total East Asia and the Pacific, Canada',
+    originalTitle: 'Canada;Deposits;Total, non-residents;Total East Asia and the Pacific', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -620,6 +656,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36378',
     title: 'Deposits, Total, non-residents, Total Latin America and Caribbean, Canada',
+    originalTitle: 'Canada;Deposits;Total, non-residents;Total Latin America and Caribbean', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -637,6 +674,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36379',
     title: 'Deposits, Total, non-residents, Total North Africa and Middle East, Canada',
+    originalTitle: 'Canada;Deposits;Total, non-residents;Total North Africa and Middle East', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -654,6 +692,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36380',
     title: 'Deposits, Total, non-residents, Total Sub-Saharan Africa, Canada',
+    originalTitle: 'Canada;Deposits;Total, non-residents;Total Sub-Saharan Africa', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -671,6 +710,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100004_36381',
     title: 'Deposits, Total, non-residents, Total off-shore banking centers, Canada',
+    originalTitle: 'Canada;Deposits;Total, non-residents;Total off-shore banking centers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -688,6 +728,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_107022153',
     title: 'Consolidated Canadian general government, Defence, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Defence', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -705,6 +746,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_107022155',
     title: 'Consolidated Canadian general government, Economic affairs, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Economic affairs', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -722,6 +764,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_107022158',
     title: 'Consolidated Canadian general government, Health, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Health', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -739,6 +782,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_107022160',
     title: 'Consolidated Canadian general government, Education, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Education', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -756,6 +800,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_116700055',
     title: 'Consolidated Canadian general government, Police services, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Police services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -773,6 +818,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_116700057',
     title: 'Consolidated Canadian general government, Law courts, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Law courts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -790,6 +836,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_116700058',
     title: 'Consolidated Canadian general government, Prisons, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Prisons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -807,6 +854,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_116700060',
     title: 'Consolidated Canadian general government, Waste management, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Waste management', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -824,6 +872,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141269',
     title: 'Consolidated Canadian general government, General services, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;General services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -841,6 +890,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141270',
     title: 'Consolidated Canadian general government, Basic Research, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Basic Research', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -858,6 +908,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141273',
     title: 'Consolidated Canadian general government, Military defence, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Military defence', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -875,6 +926,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141274',
     title: 'Consolidated Canadian general government, Civil defence, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Civil defence', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -892,6 +944,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141279',
     title: 'Consolidated Canadian general government, Fuel and energy, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Fuel and energy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -909,6 +962,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141281',
     title: 'Consolidated Canadian general government, Transport, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Transport', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -926,6 +980,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141284',
     title: 'Consolidated Canadian general government, Water supply, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Water supply', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -943,6 +998,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141285',
     title: 'Consolidated Canadian general government, Street lighting, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Street lighting', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -960,6 +1016,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141293',
     title: 'Consolidated Canadian general government, Old age, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Old age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -977,6 +1034,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141295',
     title: 'Consolidated Canadian general government, Unemployment, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Unemployment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -994,6 +1052,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141296',
     title: 'Consolidated Canadian general government, Housing, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -1011,6 +1070,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100005_1020141297',
     title: 'Consolidated Canadian general government, Social exclusion, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Social exclusion', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
     release: 'Canadian Classification of Functions of Government (CCOFOG) by Consolidated Government Component',
@@ -1028,6 +1088,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667724',
     title: 'Funds Advanced: Total, funds advanced, residential mortgages, insured, Dollars, Canada',
+    originalTitle: 'Canada;Total, funds advanced, residential mortgages, insured;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1045,6 +1106,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667730',
     title: 'Funds Advanced: Total, funds advanced, residential mortgages, uninsured, Dollars, Canada',
+    originalTitle: 'Canada;Total, funds advanced, residential mortgages, uninsured;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1062,6 +1124,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667736',
     title: 'Funds Advanced: Total, outstanding balances, residential mortgages, insured, Dollars, Canada',
+    originalTitle: 'Canada;Total, outstanding balances, residential mortgages, insured;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1079,6 +1142,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667742',
     title: 'Funds Advanced: Total, outstanding balances, residential mortgages, uninsured, Dollars, Canada',
+    originalTitle: 'Canada;Total, outstanding balances, residential mortgages, uninsured;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1096,6 +1160,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667748',
     title: 'Funds Advanced: Total, funds advanced, variable rate mortgages, Dollars, Canada',
+    originalTitle: 'Canada;Total, funds advanced, variable rate mortgages;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1113,6 +1178,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667751',
     title: 'Funds advanced, open variable rate mortgages, Dollars, Canada',
+    originalTitle: 'Canada;Funds advanced, open variable rate mortgages;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1130,6 +1196,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667752',
     title: 'Funds Advanced: Total, funds advanced for non-mortgage loans, consumer credit, Dollars, Canada',
+    originalTitle: 'Canada;Total, funds advanced for non-mortgage loans, consumer credit;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1147,6 +1214,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667758',
     title: 'Funds Advanced: Total, outstanding balances for non-mortgage loans, consumer credit, Dollars, Canada',
+    originalTitle: 'Canada;Total, outstanding balances for non-mortgage loans, consumer credit;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1164,6 +1232,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667765',
     title: 'Funds Advanced: Total, funds advanced, business loans, Dollars, Canada',
+    originalTitle: 'Canada;Total, funds advanced, business loans;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1181,6 +1250,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667767',
     title: 'Funds advanced, business loans, lease receivables, Dollars, Canada',
+    originalTitle: 'Canada;Funds advanced, business loans, lease receivables;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1198,6 +1268,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667770',
     title: 'Funds Advanced: Total, outstanding balances, business loans, Dollars, Canada',
+    originalTitle: 'Canada;Total, outstanding balances, business loans;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1215,6 +1286,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667775',
     title: 'Funds Advanced: Total, funds advanced, residential mortgages, insured, Interest rate, Canada',
+    originalTitle: 'Canada;Total, funds advanced, residential mortgages, insured;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1232,6 +1304,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667781',
     title: 'Funds Advanced: Total, funds advanced, residential mortgages, uninsured, Interest rate, Canada',
+    originalTitle: 'Canada;Total, funds advanced, residential mortgages, uninsured;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1249,6 +1322,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667787',
     title: 'Funds Advanced: Total, outstanding balances, residential mortgages, insured, Interest rate, Canada',
+    originalTitle: 'Canada;Total, outstanding balances, residential mortgages, insured;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1266,6 +1340,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667793',
     title: 'Funds Advanced: Total, outstanding balances, residential mortgages, uninsured, Interest rate, Canada',
+    originalTitle: 'Canada;Total, outstanding balances, residential mortgages, uninsured;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1283,6 +1358,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667799',
     title: 'Funds Advanced: Total, funds advanced, variable rate mortgages, Interest rate, Canada',
+    originalTitle: 'Canada;Total, funds advanced, variable rate mortgages;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1300,6 +1376,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667803',
     title: 'Funds Advanced: Total, funds advanced for non-mortgage loans, consumer credit, Interest rate, Canada',
+    originalTitle: 'Canada;Total, funds advanced for non-mortgage loans, consumer credit;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1317,6 +1394,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667809',
     title: 'Funds Advanced: Total, outstanding balances for non-mortgage loans, consumer credit, Interest rate, Canada',
+    originalTitle: 'Canada;Total, outstanding balances for non-mortgage loans, consumer credit;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1334,6 +1412,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667816',
     title: 'Funds Advanced: Total, funds advanced, business loans, Interest rate, Canada',
+    originalTitle: 'Canada;Total, funds advanced, business loans;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1351,6 +1430,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100006_122667821',
     title: 'Funds Advanced: Total, outstanding balances, business loans, Interest rate, Canada',
+    originalTitle: 'Canada;Total, outstanding balances, business loans;Interest rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Funds Advanced',
     release: 'Funds Advanced',
@@ -1368,6 +1448,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100010_95919702',
     title: 'Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets: Total sales, Total alcoholic beverages, Value for total sales, Canada',
+    originalTitle: 'Canada;Total sales;Total alcoholic beverages;Value for total sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets',
@@ -1385,6 +1466,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100010_95919714',
     title: 'Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets: Total sales, Wines, Value for total sales, Canada',
+    originalTitle: 'Canada;Total sales;Wines;Value for total sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets',
@@ -1402,6 +1484,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100010_95919720',
     title: 'Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets: Total sales, Beer, Value for total sales, Canada',
+    originalTitle: 'Canada;Total sales;Beer;Value for total sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets',
@@ -1419,6 +1502,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100010_95919735',
     title: 'Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets: Total per capita sales, Total alcoholic beverages, Value for total per capita sales, Canada',
+    originalTitle: 'Canada;Total per capita sales;Total alcoholic beverages;Value for total per capita sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages Types by Liquor Authorities and Other Retail Outlets',
@@ -1436,6 +1520,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748466',
     title: 'Value of sales, Total beverages, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Total beverages;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1453,6 +1538,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748469',
     title: 'Value of sales, Total spirits, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Total spirits;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1470,6 +1556,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748475',
     title: 'Value of sales, Brandy, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Brandy;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1487,6 +1574,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748478',
     title: 'Value of sales, Gin, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Gin;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1504,6 +1592,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748484',
     title: 'Value of sales, Rum, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Rum;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1521,6 +1610,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748487',
     title: 'Value of sales, Whisky, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Whisky;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1538,6 +1628,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748490',
     title: 'Value of sales, Vodka, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Vodka;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1555,6 +1646,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748496',
     title: 'Value of sales, Total wines, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Total wines;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1572,6 +1664,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748517',
     title: 'Value of sales, Total beers, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Total beers;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1589,6 +1682,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748532',
     title: 'Value of sales, Total ciders, coolers, and other refreshment beverages, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Total ciders, coolers, and other refreshment beverages;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1606,6 +1700,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100011_95748535',
     title: 'Value of sales, Cider, Total products, Canada',
+    originalTitle: 'Canada;Value of sales;Cider;Total products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
     release: 'Value of Sales of Alcoholic Beverages of Liquor Authorities and Other Retail Outlets',
@@ -1623,6 +1718,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715548',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Gross sales, Canada',
+    originalTitle: 'Canada;Gross sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1640,6 +1736,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715549',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Deduct: discounts, Canada',
+    originalTitle: 'Canada;Deduct: discounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1657,6 +1754,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715550',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Net sales, Canada',
+    originalTitle: 'Canada;Net sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1674,6 +1772,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715551',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Deduct: cost of goods sold, Canada',
+    originalTitle: 'Canada;Deduct: cost of goods sold', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1691,6 +1790,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715552',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Gross profit, Canada',
+    originalTitle: 'Canada;Gross profit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1708,6 +1808,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715553',
     title: 'Deduct: administrative and general expenses, Canada',
+    originalTitle: 'Canada;Deduct: administrative and general expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1725,6 +1826,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715554',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Add: Other income, Canada',
+    originalTitle: 'Canada;Add: Other income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1742,6 +1844,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715555',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Licences and permits, Canada',
+    originalTitle: 'Canada;Licences and permits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1759,6 +1862,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715556',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Fines and confiscations, Canada',
+    originalTitle: 'Canada;Fines and confiscations', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1776,6 +1880,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715557',
     title: 'Net income of liquor authorities, Canada',
+    originalTitle: 'Canada;Net income of liquor authorities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1793,6 +1898,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715558',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Total taxes and other revenue, Canada',
+    originalTitle: 'Canada;Total taxes and other revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1810,6 +1916,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715559',
     title: 'Federal excise tax and customs duties, Canada',
+    originalTitle: 'Canada;Federal excise tax and customs duties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1827,6 +1934,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715560',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Harmonized sales tax, Canada',
+    originalTitle: 'Canada;Harmonized sales tax', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1844,6 +1952,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715561',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Goods and services tax, Canada',
+    originalTitle: 'Canada;Goods and services tax', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1861,6 +1970,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715562',
     title: 'Provincial/Territorial sales tax, Canada',
+    originalTitle: 'Canada;Provincial/Territorial sales tax', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1878,6 +1988,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95715563',
     title: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages: Other provincial/territorial revenue, Canada',
+    originalTitle: 'Canada;Other provincial/territorial revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1895,6 +2006,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100012_95748452',
     title: 'Net income of liquor authorities and total taxes and other revenue, Canada',
+    originalTitle: 'Canada;Net income of liquor authorities and total taxes and other revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
     release: 'Net Income of Liquor Authorities and Government Revenue From Sale of Alcoholic Beverages',
@@ -1912,6 +2024,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100013_95715772',
     title: 'Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets: Value of sales, Total outlets, Canada',
+    originalTitle: 'Canada;Value of sales;Total outlets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
@@ -1929,6 +2042,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100013_95715773',
     title: 'Value of sales, Liquor and agency stores, Canada',
+    originalTitle: 'Canada;Value of sales;Liquor and agency stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
@@ -1946,6 +2060,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100013_95715774',
     title: 'Value of sales, Other retail outlets, Canada',
+    originalTitle: 'Canada;Value of sales;Other retail outlets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
@@ -1963,6 +2078,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100013_95715778',
     title: 'Number of establishments, Total outlets, Canada',
+    originalTitle: 'Canada;Number of establishments;Total outlets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
@@ -1980,6 +2096,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100013_95715779',
     title: 'Number of establishments, Liquor and agency stores, Canada',
+    originalTitle: 'Canada;Number of establishments;Liquor and agency stores', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
@@ -1997,6 +2114,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100013_95715780',
     title: 'Number of establishments, Other retail outlets, Canada',
+    originalTitle: 'Canada;Number of establishments;Other retail outlets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
     release: 'Sales of Alcoholic Beverages by Liquor Authorities and Other Retail Outlets',
@@ -2014,6 +2132,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52530997',
     title: 'Consolidated government, Taxes, Canada (quarterly)',
+    originalTitle: 'Canada;Consolidated government;Taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2031,6 +2150,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531035',
     title: 'Consolidated government, Total expenditure, Canada (quarterly)',
+    originalTitle: 'Canada;Consolidated government;Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2048,6 +2168,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531053',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Revenue, Canada (quarterly)',
+    originalTitle: 'Canada;Federal government;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2065,6 +2186,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531054',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Taxes, Canada (quarterly)',
+    originalTitle: 'Canada;Federal government;Taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2082,6 +2204,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531064',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Expense, Canada (quarterly)',
+    originalTitle: 'Canada;Federal government;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2099,6 +2222,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531068',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Interest, Canada (quarterly)',
+    originalTitle: 'Canada;Federal government;Interest', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2116,6 +2240,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531069',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Subsidies, Canada (quarterly)',
+    originalTitle: 'Canada;Federal government;Subsidies', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2133,6 +2258,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531092',
     title: 'Federal government, Total expenditure, Canada (quarterly)',
+    originalTitle: 'Canada;Federal government;Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2150,6 +2276,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531093',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Net worth, Canada (quarterly)',
+    originalTitle: 'Canada;Federal government;Net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2167,6 +2294,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531149',
     title: 'Provincial and territorial government, Total expenditure, Canada (quarterly)',
+    originalTitle: 'Canada;Provincial and territorial government;Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2184,6 +2312,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531167',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Revenue, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2201,6 +2330,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531168',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Taxes, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2218,6 +2348,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531174',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Other taxes, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Other taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2235,6 +2366,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531178',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Expense, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2252,6 +2384,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531182',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Interest, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Interest', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2269,6 +2402,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531183',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Subsidies, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Subsidies', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2286,6 +2420,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531206',
     title: 'Local government, Total expenditure, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2303,6 +2438,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531207',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Net worth, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2320,6 +2456,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531216',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Liabilities, Canada (quarterly)',
+    originalTitle: 'Canada;Local government;Liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2337,6 +2474,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100015_52531263',
     title: 'Canada Pension Plan (CPP) and Quebec Pension Plan (QPP), Total expenditure, Canada (quarterly)',
+    originalTitle: 'Canada;Canada Pension Plan (CPP) and Quebec Pension Plan (QPP);Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -2354,6 +2492,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574604',
     title: 'Federal  government, Stocks, Revenue, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2371,6 +2510,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574605',
     title: 'Federal  government, Stocks, Taxes, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2388,6 +2528,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574613',
     title: 'Federal  government, Stocks, Excises, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Excises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2405,6 +2546,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574614',
     title: 'Federal  government, Stocks, Liquor taxes, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Liquor taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2422,6 +2564,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574615',
     title: 'Federal  government, Stocks, Tobacco taxes, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Tobacco taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2439,6 +2582,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574627',
     title: 'Federal  government, Stocks, Other taxes, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Other taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2456,6 +2600,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574634',
     title: 'Federal  government, Stocks, Other revenue, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Other revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2473,6 +2618,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574637',
     title: 'Federal  government, Stocks, Dividends, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Dividends', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2490,6 +2636,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574638',
     title: 'Federal  government, Stocks, Rent, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Rent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2507,6 +2654,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574648',
     title: 'Federal  government, Stocks, Expense, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2524,6 +2672,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574653',
     title: 'Federal  government, Stocks, Subsidies, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Subsidies', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2541,6 +2690,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574674',
     title: 'Federal  government, Stocks, Other expense, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Other expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2558,6 +2708,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574678',
     title: 'Federal  government, Stocks, Tax expense, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Tax expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2575,6 +2726,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574688',
     title: 'Federal  government, Stocks, Net worth, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2592,6 +2744,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574696',
     title: 'Federal  government, Stocks, Bonds, assets, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Bonds, assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2609,6 +2762,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574697',
     title: 'Federal  government, Stocks, Loans, assets, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Loans, assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2626,6 +2780,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574709',
     title: 'Federal  government, Stocks, Liabilities, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2643,6 +2798,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574714',
     title: 'Federal  government, Stocks, Saving bonds, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Saving bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2660,6 +2816,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_91574726',
     title: 'Federal  government, Stocks, Other payable, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Other payable', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2677,6 +2834,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100016_1078994234',
     title: 'Federal  government, Stocks, Cannabis taxes, Canada',
+    originalTitle: 'Canada;Federal  government;Stocks;Cannabis taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for the Federal Government',
     release: 'Canadian Government Finance Statistics for the Federal Government',
@@ -2694,6 +2852,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646694',
     title: 'Canada pension plan (CPP), Stocks, Revenue, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2711,6 +2870,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646696',
     title: 'Canada pension plan (CPP), Stocks, Other revenue, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Other revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2728,6 +2888,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646699',
     title: 'Canada pension plan (CPP), Stocks, Dividends, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Dividends', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2745,6 +2906,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646700',
     title: 'Canada pension plan (CPP), Stocks, Rent, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Rent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2762,6 +2924,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646705',
     title: 'Canada pension plan (CPP), Stocks, Expense, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2779,6 +2942,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646713',
     title: 'Canada pension plan (CPP), Stocks, Net worth, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2796,6 +2960,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646721',
     title: 'Canada pension plan (CPP), Stocks, Bonds, assets, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Bonds, assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2813,6 +2978,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646722',
     title: 'Canada pension plan (CPP), Stocks, Loans, assets, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Loans, assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2830,6 +2996,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646734',
     title: 'Canada pension plan (CPP), Stocks, Liabilities, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2847,6 +3014,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646739',
     title: 'Canada pension plan (CPP), Stocks, Saving bonds, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Saving bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2864,6 +3032,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100022_91646751',
     title: 'Canada pension plan (CPP), Stocks, Other payable, Canada',
+    originalTitle: 'Canada;Canada pension plan (CPP);Stocks;Other payable', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
     release: 'Canadian Government Finance Statistics for Canada and Quebec Pension Plans',
@@ -2881,6 +3050,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665854',
     title: 'Government business enterprises, all, Stocks, All industries, Revenue, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -2898,6 +3068,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665856',
     title: 'Government business enterprises, all, Stocks, All industries, Other revenue, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Other revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -2915,6 +3086,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665860',
     title: 'Government business enterprises, all, Stocks, All industries, Rent, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Rent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -2932,6 +3104,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665874',
     title: 'Government business enterprises, all, Stocks, All industries, Expense, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -2949,6 +3122,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665880',
     title: 'Government business enterprises, all, Stocks, All industries, Other expense, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Other expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -2966,6 +3140,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665886',
     title: 'Government business enterprises, all, Stocks, All industries, Tax expense, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Tax expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -2983,6 +3158,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665894',
     title: 'Government business enterprises, all, Stocks, All industries, Net worth, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3000,6 +3176,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665902',
     title: 'Government business enterprises, all, Stocks, All industries, Bonds, assets, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Bonds, assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3017,6 +3194,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665903',
     title: 'Government business enterprises, all, Stocks, All industries, Loans, assets, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Loans, assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3034,6 +3212,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665915',
     title: 'Government business enterprises, all, Stocks, All industries, Liabilities, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3051,6 +3230,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665920',
     title: 'Government business enterprises, all, Stocks, All industries, Saving bonds, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Saving bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3068,6 +3248,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91665932',
     title: 'Government business enterprises, all, Stocks, All industries, Other payable, Canada',
+    originalTitle: 'Canada;Government business enterprises, all;Stocks;All industries;Other payable', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3085,6 +3266,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91667262',
     title: 'Government business enterprises, federal, Stocks, All industries, Revenue, Canada',
+    originalTitle: 'Canada;Government business enterprises, federal;Stocks;All industries;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3102,6 +3284,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91667268',
     title: 'Government business enterprises, federal, Stocks, All industries, Rent, Canada',
+    originalTitle: 'Canada;Government business enterprises, federal;Stocks;All industries;Rent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3119,6 +3302,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91667282',
     title: 'Government business enterprises, federal, Stocks, All industries, Expense, Canada',
+    originalTitle: 'Canada;Government business enterprises, federal;Stocks;All industries;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3136,6 +3320,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91670078',
     title: 'Government business enterprises, local, Stocks, All industries, Revenue, Canada',
+    originalTitle: 'Canada;Government business enterprises, local;Stocks;All industries;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3153,6 +3338,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91670084',
     title: 'Government business enterprises, local, Stocks, All industries, Rent, Canada',
+    originalTitle: 'Canada;Government business enterprises, local;Stocks;All industries;Rent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3170,6 +3356,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100023_91670098',
     title: 'Government business enterprises, local, Stocks, All industries, Expense, Canada',
+    originalTitle: 'Canada;Government business enterprises, local;Stocks;All industries;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics for Government Business Enterprises',
     release: 'Canadian Government Finance Statistics for Government Business Enterprises',
@@ -3187,6 +3374,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100024_91872512',
     title: 'Canadian Classification of Functions of Government: Federal government, Defence, Canada',
+    originalTitle: 'Canada;Federal government;Defence', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government',
     release: 'Canadian Classification of Functions of Government',
@@ -3204,6 +3392,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100024_91872517',
     title: 'Canadian Classification of Functions of Government: Federal government, Health, Canada',
+    originalTitle: 'Canada;Federal government;Health', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government',
     release: 'Canadian Classification of Functions of Government',
@@ -3221,6 +3410,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100024_91872519',
     title: 'Canadian Classification of Functions of Government: Federal government, Education, Canada',
+    originalTitle: 'Canada;Federal government;Education', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government',
     release: 'Canadian Classification of Functions of Government',
@@ -3238,6 +3428,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100024_116700040',
     title: 'Canadian Classification of Functions of Government: Federal government, Prisons, Canada',
+    originalTitle: 'Canada;Federal government;Prisons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government',
     release: 'Canadian Classification of Functions of Government',
@@ -3255,6 +3446,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100024_1020141761',
     title: 'Canadian Classification of Functions of Government: Federal government, Transport, Canada',
+    originalTitle: 'Canada;Federal government;Transport', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government',
     release: 'Canadian Classification of Functions of Government',
@@ -3272,6 +3464,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100024_1020141773',
     title: 'Canadian Classification of Functions of Government: Federal government, Old age, Canada',
+    originalTitle: 'Canada;Federal government;Old age', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government',
     release: 'Canadian Classification of Functions of Government',
@@ -3289,6 +3482,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100024_1020141776',
     title: 'Canadian Classification of Functions of Government: Federal government, Housing, Canada',
+    originalTitle: 'Canada;Federal government;Housing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Classification of Functions of Government',
     release: 'Canadian Classification of Functions of Government',
@@ -3306,6 +3500,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100106_36393',
     title: 'Consumer Price Index (CPI) inversely weighted by volatility and is adjusted to exclude the effect of changes in indirect taxes (CPIW) (year-over-year percent change), Canada',
+    originalTitle: 'Canada;Consumer Price Index (CPI) inversely weighted by volatility and is adjusted to exclude the effect of changes in indirect taxes (CPIW) (year-over-year percent change)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Consumer Price Index (CPI) Statistics',
     release: 'Consumer Price Index (CPI) Statistics',
@@ -3323,6 +3518,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36651',
     title: 'Bank of Canada: Total assets, Canada',
+    originalTitle: 'Canada;Total assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3340,6 +3536,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36652',
     title: 'Bank of Canada: Total, Government of Canada, direct and guaranteed securities, Canada',
+    originalTitle: 'Canada;Total, Government of Canada, direct and guaranteed securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3357,6 +3554,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36654',
     title: 'Bank of Canada: Total, Government of Canada, bonds, Canada',
+    originalTitle: 'Canada;Total, Government of Canada, bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3374,6 +3572,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36659',
     title: 'Bank of Canada: All other assets, Canada',
+    originalTitle: 'Canada;All other assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3391,6 +3590,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36660',
     title: 'Bank of Canada: Other investments, Canada',
+    originalTitle: 'Canada;Other investments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3408,6 +3608,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36661',
     title: 'Bank of Canada: Foreign currency deposits, Canada',
+    originalTitle: 'Canada;Foreign currency deposits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3425,6 +3626,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36671',
     title: 'Bank of Canada: Total liabilities, Canada',
+    originalTitle: 'Canada;Total liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3442,6 +3644,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36672',
     title: 'Bank of Canada: Total, notes in circulation, Canada',
+    originalTitle: 'Canada;Total, notes in circulation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3459,6 +3662,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36682',
     title: 'Bank of Canada: Foreign currency liabilities, Canada',
+    originalTitle: 'Canada;Foreign currency liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3476,6 +3680,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_36684',
     title: 'Bank of Canada: All other liabilities, Canada',
+    originalTitle: 'Canada;All other liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3493,6 +3698,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_41886563',
     title: 'Bank of Canada: Equity, Canada',
+    originalTitle: 'Canada;Equity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3510,6 +3716,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_1038100657',
     title: 'Bank of Canada: Canada mortgage bonds, Canada',
+    originalTitle: 'Canada;Canada mortgage bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3527,6 +3734,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_1146067266',
     title: 'Bank of Canada: Bankers\' acceptances, Canada',
+    originalTitle: 'Canada;Bankers\' acceptances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3544,6 +3752,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_1146067267',
     title: 'Bank of Canada: Commercial paper, Canada',
+    originalTitle: 'Canada;Commercial paper', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3561,6 +3770,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_1160914547',
     title: 'Bank of Canada: Real return bonds, Canada',
+    originalTitle: 'Canada;Real return bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3578,6 +3788,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_1160914548',
     title: 'Bank of Canada: Provincial bonds, Canada',
+    originalTitle: 'Canada;Provincial bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3595,6 +3806,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100108_1160914549',
     title: 'Bank of Canada: Corporate bonds, Canada',
+    originalTitle: 'Canada;Corporate bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Bank of Canada',
     release: 'Bank of Canada',
@@ -3612,6 +3824,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36686',
     title: 'Chartered Banks: Net foreign assets, Canada',
+    originalTitle: 'Canada;Net foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3629,6 +3842,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36697',
     title: 'Chartered Banks: Total, call and short-term loans, Canada',
+    originalTitle: 'Canada;Total, call and short-term loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3646,6 +3860,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36710',
     title: 'Chartered Banks: Total, loans in Canadian dollars (excluding call, Canada Savings Bonds and conventional mortgages), Canada',
+    originalTitle: 'Canada;Total, loans in Canadian dollars (excluding call, Canada Savings Bonds and conventional mortgages)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3663,6 +3878,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36716',
     title: 'Chartered Banks: Business loans, Canada',
+    originalTitle: 'Canada;Business loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3680,6 +3896,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36717',
     title: 'Chartered Banks: Personal loans, Canada',
+    originalTitle: 'Canada;Personal loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3697,6 +3914,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36723',
     title: 'Chartered Banks: Total loans, Canada',
+    originalTitle: 'Canada;Total loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3714,6 +3932,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36857',
     title: 'Chartered Banks: Mortgages, total, Canada',
+    originalTitle: 'Canada;Mortgages, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3731,6 +3950,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36866',
     title: 'Chartered Banks: Mortgages insured, Canada',
+    originalTitle: 'Canada;Mortgages insured', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3748,6 +3968,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36868',
     title: 'Chartered Banks: Credit card loans, Canada',
+    originalTitle: 'Canada;Credit card loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3765,6 +3986,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100109_36872',
     title: 'Chartered Banks: Total, foreign currency deposits of Canadian residents, Canada',
+    originalTitle: 'Canada;Total, foreign currency deposits of Canadian residents', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3782,6 +4004,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37157',
     title: 'Chartered Banks: Total, foreign currency assets, Canada',
+    originalTitle: 'Canada;Total, foreign currency assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3799,6 +4022,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37158',
     title: 'Foreign currency assets, call loans, Canada',
+    originalTitle: 'Canada;Foreign currency assets, call loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3816,6 +4040,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37159',
     title: 'Foreign currency assets, other loans, Canada',
+    originalTitle: 'Canada;Foreign currency assets, other loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3833,6 +4058,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37160',
     title: 'Foreign currency assets, securities, Canada',
+    originalTitle: 'Canada;Foreign currency assets, securities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3850,6 +4076,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37161',
     title: 'Foreign currency assets, deposits with banks, Canada',
+    originalTitle: 'Canada;Foreign currency assets, deposits with banks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3867,6 +4094,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37162',
     title: 'Chartered Banks: Other foreign currency assets, Canada',
+    originalTitle: 'Canada;Other foreign currency assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3884,6 +4112,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37163',
     title: 'Chartered Banks: Total, foreign currency liabilities, Canada',
+    originalTitle: 'Canada;Total, foreign currency liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3901,6 +4130,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37164',
     title: 'Foreign currency liabilities, deposits of banks, Canada',
+    originalTitle: 'Canada;Foreign currency liabilities, deposits of banks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3918,6 +4148,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37165',
     title: 'Foreign currency liabilities, other deposits, Canada',
+    originalTitle: 'Canada;Foreign currency liabilities, other deposits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3935,6 +4166,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37166',
     title: 'Chartered Banks: Other foreign currency liabilities, Canada',
+    originalTitle: 'Canada;Other foreign currency liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3952,6 +4184,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37168',
     title: 'Chartered Banks: Total liabilities, deposits, Canada',
+    originalTitle: 'Canada;Total liabilities, deposits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3969,6 +4202,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_37171',
     title: 'Liabilities, deposits, fixed term, Canada',
+    originalTitle: 'Canada;Liabilities, deposits, fixed term', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -3986,6 +4220,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100111_53006676',
     title: 'Liabilities, deposits, demand and notice, Canada',
+    originalTitle: 'Canada;Liabilities, deposits, demand and notice', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -4003,6 +4238,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100112_37173',
     title: 'Currency Outside Banks and Chartered Bank Deposits: Currency outside banks, Canada',
+    originalTitle: 'Canada;Currency outside banks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Currency Outside Banks and Chartered Bank Deposits',
     release: 'Currency Outside Banks and Chartered Bank Deposits',
@@ -4020,6 +4256,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100112_37215',
     title: 'Currency Outside Banks and Chartered Bank Deposits: Inter-bank deposits, Canada',
+    originalTitle: 'Canada;Inter-bank deposits', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Currency Outside Banks and Chartered Bank Deposits',
     release: 'Currency Outside Banks and Chartered Bank Deposits',
@@ -4037,6 +4274,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100112_37245',
     title: 'Currency Outside Banks and Chartered Bank Deposits: Money market investment funds, Canada',
+    originalTitle: 'Canada;Money market investment funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Currency Outside Banks and Chartered Bank Deposits',
     release: 'Currency Outside Banks and Chartered Bank Deposits',
@@ -4054,6 +4292,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100112_37258',
     title: 'Currency Outside Banks and Chartered Bank Deposits: M1+ (gross), Canada',
+    originalTitle: 'Canada;M1+ (gross)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Currency Outside Banks and Chartered Bank Deposits',
     release: 'Currency Outside Banks and Chartered Bank Deposits',
@@ -4071,6 +4310,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100112_37259',
     title: 'Currency Outside Banks and Chartered Bank Deposits: M1++ (gross), Canada',
+    originalTitle: 'Canada;M1++ (gross)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Currency Outside Banks and Chartered Bank Deposits',
     release: 'Currency Outside Banks and Chartered Bank Deposits',
@@ -4088,6 +4328,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100112_41552788',
     title: 'Currency Outside Banks and Chartered Bank Deposits: M2+ (gross), Canada',
+    originalTitle: 'Canada;M2+ (gross)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Currency Outside Banks and Chartered Bank Deposits',
     release: 'Currency Outside Banks and Chartered Bank Deposits',
@@ -4105,6 +4346,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100112_122611003',
     title: 'Currency Outside Banks and Chartered Bank Deposits: Non-banks, Canada',
+    originalTitle: 'Canada;Non-banks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Currency Outside Banks and Chartered Bank Deposits',
     release: 'Currency Outside Banks and Chartered Bank Deposits',
@@ -4122,6 +4364,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37311',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total loans and drawings under standby facilities, Canada',
+    originalTitle: 'Canada;Total loans and drawings under standby facilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4139,6 +4382,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37312',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total loans and securities outstanding, Canada',
+    originalTitle: 'Canada;Total loans and securities outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4156,6 +4400,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37324',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total Government of Canada loans and securities held by chartered banks, Canada',
+    originalTitle: 'Canada;Total Government of Canada loans and securities held by chartered banks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4173,6 +4418,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37336',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total Government of Canada loans and securities held by the general public, Canada',
+    originalTitle: 'Canada;Total Government of Canada loans and securities held by the general public', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4190,6 +4436,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37337',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total Government of Canada direct securities and loans outstanding, Canada',
+    originalTitle: 'Canada;Total Government of Canada direct securities and loans outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4207,6 +4454,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37340',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total securities outstanding, Canada',
+    originalTitle: 'Canada;Total securities outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4224,6 +4472,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37342',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total unmatured direct and guaranteed securities (excluding non-marketable), Canada',
+    originalTitle: 'Canada;Total unmatured direct and guaranteed securities (excluding non-marketable)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4241,6 +4490,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37344',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total Canada notes outstanding, Canada',
+    originalTitle: 'Canada;Total Canada notes outstanding', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4258,6 +4508,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37346',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total holdings, average term to maturity, number of months, Canada',
+    originalTitle: 'Canada;Total holdings, average term to maturity, number of months', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4275,6 +4526,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37363',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total accounts held by the government of Canada, Canada',
+    originalTitle: 'Canada;Total accounts held by the government of Canada', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4292,6 +4544,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37368',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total held outside government accounts, Canada',
+    originalTitle: 'Canada;Total held outside government accounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4309,6 +4562,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_37375',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total general public, residents, including Canada Savings Bonds but excluding United States payments, Canada',
+    originalTitle: 'Canada;Total general public, residents, including Canada Savings Bonds but excluding United States payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4326,6 +4580,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_42141668',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total loans and securities outstanding, inflation adjusted, Canada',
+    originalTitle: 'Canada;Total loans and securities outstanding, inflation adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4343,6 +4598,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_42141669',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total loans and securities outstanding, inflation adjustment, Canada',
+    originalTitle: 'Canada;Total loans and securities outstanding, inflation adjustment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4360,6 +4616,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_42141670',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total Government of Canada loans and securities held by the general public, inflation adjusted, Canada',
+    originalTitle: 'Canada;Total Government of Canada loans and securities held by the general public, inflation adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4377,6 +4634,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_42141671',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total Government of Canada loans and securities held by the general public, inflation adjustment, Canada',
+    originalTitle: 'Canada;Total Government of Canada loans and securities held by the general public, inflation adjustment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4394,6 +4652,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_42141672',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total Government of Canada securities, (including United States pay Canada bills) inflation adjusted, Canada',
+    originalTitle: 'Canada;Total Government of Canada securities, (including United States pay Canada bills) inflation adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4411,6 +4670,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_42141673',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total securities outstanding, inflation adjusted, Canada',
+    originalTitle: 'Canada;Total securities outstanding, inflation adjusted', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4428,6 +4688,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100113_42141675',
     title: 'Government of Canada Direct and Guaranteed Securities and Loans: Total unmatured direct and guaranteed securities (excluding non-marketable) inflation adjustment, Canada',
+    originalTitle: 'Canada;Total unmatured direct and guaranteed securities (excluding non-marketable) inflation adjustment', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Government of Canada Direct and Guaranteed Securities and Loans',
     release: 'Government of Canada Direct and Guaranteed Securities and Loans',
@@ -4445,6 +4706,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100116_37148',
     title: 'Chartered Bank Assets and Liabilities and Monetary Aggregates: Currency outside banks, Canada',
+    originalTitle: 'Canada;Currency outside banks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Assets and Liabilities and Monetary Aggregates',
     release: 'Chartered Bank Assets and Liabilities and Monetary Aggregates',
@@ -4462,6 +4724,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100116_37149',
     title: 'Chartered Bank Assets and Liabilities and Monetary Aggregates: Non-money market mutual funds, Canada',
+    originalTitle: 'Canada;Non-money market mutual funds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Assets and Liabilities and Monetary Aggregates',
     release: 'Chartered Bank Assets and Liabilities and Monetary Aggregates',
@@ -4479,6 +4742,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100116_37151',
     title: 'Chartered Bank Assets and Liabilities and Monetary Aggregates: M1+ (gross), Canada',
+    originalTitle: 'Canada;M1+ (gross)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Assets and Liabilities and Monetary Aggregates',
     release: 'Chartered Bank Assets and Liabilities and Monetary Aggregates',
@@ -4496,6 +4760,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100116_37152',
     title: 'Chartered Bank Assets and Liabilities and Monetary Aggregates: M1++ (gross), Canada',
+    originalTitle: 'Canada;M1++ (gross)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Assets and Liabilities and Monetary Aggregates',
     release: 'Chartered Bank Assets and Liabilities and Monetary Aggregates',
@@ -4513,6 +4778,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100116_41552798',
     title: 'Chartered Bank Assets and Liabilities and Monetary Aggregates: M2+ (gross), Canada',
+    originalTitle: 'Canada;M2+ (gross)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Assets and Liabilities and Monetary Aggregates',
     release: 'Chartered Bank Assets and Liabilities and Monetary Aggregates',
@@ -4530,6 +4796,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100116_122611008',
     title: 'Chartered Bank Assets and Liabilities and Monetary Aggregates: Non-banks, Canada',
+    originalTitle: 'Canada;Non-banks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Assets and Liabilities and Monetary Aggregates',
     release: 'Chartered Bank Assets and Liabilities and Monetary Aggregates',
@@ -4547,6 +4814,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122529',
     title: 'Financial Market Statistics: Treasury bills: 1 month, Canada',
+    originalTitle: 'Canada;Treasury bills: 1 month', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4564,6 +4832,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122530',
     title: 'Financial Market Statistics: Bank rate, Canada',
+    originalTitle: 'Canada;Bank rate', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4581,6 +4850,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122531',
     title: 'Financial Market Statistics: Treasury bills: 3 month, Canada',
+    originalTitle: 'Canada;Treasury bills: 3 month', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4598,6 +4868,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122532',
     title: 'Financial Market Statistics: Treasury bills: 6 month, Canada',
+    originalTitle: 'Canada;Treasury bills: 6 month', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4615,6 +4886,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122533',
     title: 'Financial Market Statistics: Treasury bills: 1 year, Canada',
+    originalTitle: 'Canada;Treasury bills: 1 year', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4632,6 +4904,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122537',
     title: 'Treasury bill auction - amount maturing, Canada',
+    originalTitle: 'Canada;Treasury bill auction - amount maturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4649,6 +4922,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122550',
     title: 'Bank rate, last Tuesday or last Thursday, Canada',
+    originalTitle: 'Canada;Bank rate, last Tuesday or last Thursday', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4666,6 +4940,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122553',
     title: 'Financial Market Statistics: Real return bonds, long-term, Canada',
+    originalTitle: 'Canada;Real return bonds, long-term', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4683,6 +4958,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100122_122554',
     title: 'Financial Market Statistics: Treasury bills: 2 month, Canada',
+    originalTitle: 'Canada;Treasury bills: 2 month', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Market Statistics',
     release: 'Financial Market Statistics',
@@ -4700,6 +4976,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100127_122396',
     title: 'Canada\'s Official International Reserves: Total, Canada\'s official international reserves, Canada',
+    originalTitle: 'Canada;Total, Canada\'s official international reserves', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada\'s Official International Reserves',
     release: 'Canada\'s Official International Reserves',
@@ -4717,6 +4994,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100127_122397',
     title: 'Convertible foreign currencies, United States dollars, Canada',
+    originalTitle: 'Canada;Convertible foreign currencies, United States dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada\'s Official International Reserves',
     release: 'Canada\'s Official International Reserves',
@@ -4734,6 +5012,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100127_122398',
     title: 'Convertible foreign currencies, other than United States, Canada',
+    originalTitle: 'Canada;Convertible foreign currencies, other than United States', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada\'s Official International Reserves',
     release: 'Canada\'s Official International Reserves',
@@ -4751,6 +5030,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100127_122399',
     title: 'Canada\'s Official International Reserves: Gold, Canada',
+    originalTitle: 'Canada;Gold', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada\'s Official International Reserves',
     release: 'Canada\'s Official International Reserves',
@@ -4768,6 +5048,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100127_122400',
     title: 'Canada\'s Official International Reserves: Special drawing rights, Canada',
+    originalTitle: 'Canada;Special drawing rights', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada\'s Official International Reserves',
     release: 'Canada\'s Official International Reserves',
@@ -4785,6 +5066,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100127_122401',
     title: 'Reserve position in the International Monetary Fund (IMF), Canada',
+    originalTitle: 'Canada;Reserve position in the International Monetary Fund (IMF)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada\'s Official International Reserves',
     release: 'Canada\'s Official International Reserves',
@@ -4802,6 +5084,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100127_1490434194',
     title: 'Canada\'s Official International Reserves: Other reserve assets, Canada',
+    originalTitle: 'Canada;Other reserve assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada\'s Official International Reserves',
     release: 'Canada\'s Official International Reserves',
@@ -4819,6 +5102,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822776',
     title: 'Central Government Operations: Budgetary Balance: B. Revenues, Canada',
+    originalTitle: 'Canada;B. Revenues', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4836,6 +5120,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822777',
     title: 'Central Government Operations: Budgetary Balance: C. Expenses, Canada',
+    originalTitle: 'Canada;C. Expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4853,6 +5138,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822778',
     title: 'Central Government Operations: Budgetary Balance: Program expenses, Canada',
+    originalTitle: 'Canada;Program expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4870,6 +5156,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822779',
     title: 'Central Government Operations: Budgetary Balance: Public debt charges, Canada',
+    originalTitle: 'Canada;Public debt charges', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4887,6 +5174,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822781',
     title: 'Central Government Operations: Budgetary Balance: Pensions and other accounts, Canada',
+    originalTitle: 'Canada;Pensions and other accounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4904,6 +5192,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822782',
     title: 'Central Government Operations: Budgetary Balance: Non-financial assets, Canada',
+    originalTitle: 'Canada;Non-financial assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4921,6 +5210,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822783',
     title: 'Loans, investments and advances, Canada',
+    originalTitle: 'Canada;Loans, investments and advances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4938,6 +5228,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822785',
     title: 'Foreign exchange accounts and derivatives, Canada',
+    originalTitle: 'Canada;Foreign exchange accounts and derivatives', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4955,6 +5246,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822788',
     title: 'Market debt payable in Canadian currency, Canada',
+    originalTitle: 'Canada;Market debt payable in Canadian currency', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4972,6 +5264,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822789',
     title: 'Marketable bonds payable in Canadian currency, Canada',
+    originalTitle: 'Canada;Marketable bonds payable in Canadian currency', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -4989,6 +5282,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822790',
     title: 'Central Government Operations: Budgetary Balance: Treasury bills, Canada',
+    originalTitle: 'Canada;Treasury bills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -5006,6 +5300,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822791',
     title: 'Central Government Operations: Budgetary Balance: Retail debt, Canada',
+    originalTitle: 'Canada;Retail debt', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -5023,6 +5318,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822792',
     title: 'Central Government Operations: Budgetary Balance: Other market debt payable in Canadian currency, Canada',
+    originalTitle: 'Canada;Other market debt payable in Canadian currency', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -5040,6 +5336,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822793',
     title: 'Market debt payable in foreign currencies, Canada',
+    originalTitle: 'Canada;Market debt payable in foreign currencies', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -5057,6 +5354,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822794',
     title: 'Marketable bonds payable in foreign currencies, Canada',
+    originalTitle: 'Canada;Marketable bonds payable in foreign currencies', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -5074,6 +5372,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822795',
     title: 'Central Government Operations: Budgetary Balance: Euro medium-term notes, Canada',
+    originalTitle: 'Canada;Euro medium-term notes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -5091,6 +5390,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822796',
     title: 'Central Government Operations: Budgetary Balance: Canada bills, Canada',
+    originalTitle: 'Canada;Canada bills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -5108,6 +5408,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100133_86822800',
     title: 'G. Net change in cash balances, (E + F), Canada',
+    originalTitle: 'Canada;G. Net change in cash balances, (E + F)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Central Government Operations: Budgetary Balance',
     release: 'Central Government Operations: Budgetary Balance',
@@ -5125,6 +5426,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100134_36421',
     title: 'Chartered Banks: Total, mortgage loans outstanding, Total, increases and decreases, Total, mortgages, Canada',
+    originalTitle: 'Canada;Total, mortgage loans outstanding;Total, increases and decreases;Total, mortgages', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -5142,6 +5444,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929545',
     title: 'Chartered Bank Aggregates: Total, loan-to-value ratio (LTV ratio), home equity lines of credit (HELOCs), outside of combined loan plans, authorized amounts, Canada',
+    originalTitle: 'Canada;Total, loan-to-value ratio (LTV ratio), home equity lines of credit (HELOCs), outside of combined loan plans, authorized amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5159,6 +5462,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929548',
     title: 'Loan-to-value ratio (LTV ratio), over 65 percent, home equity lines of credit (HELOCs), outside of combined loan plans, authorized amounts, Canada',
+    originalTitle: 'Canada;Loan-to-value ratio (LTV ratio), over 65 percent, home equity lines of credit (HELOCs), outside of combined loan plans, authorized amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5176,6 +5480,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929549',
     title: 'Chartered Bank Aggregates: Total, loan-to-value ratio (LTV ratio, home equity lines of credit (HELOCs), outside of combined loan plans, drawn amounts, Canada',
+    originalTitle: 'Canada;Total, loan-to-value ratio (LTV ratio, home equity lines of credit (HELOCs), outside of combined loan plans, drawn amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5193,6 +5498,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929551',
     title: 'Loan-to-value ratio (LTV ratio), greater than 50 percent to less than or equal to 65 percent, home equity lines of credit (HELOCs), outside of combined loan plans, drawn amounts, Canada',
+    originalTitle: 'Canada;Loan-to-value ratio (LTV ratio), greater than 50 percent to less than or equal to 65 percent, home equity lines of credit (HELOCs), outside of combined loan plans, drawn amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5210,6 +5516,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929552',
     title: 'Loan-to-value ratio (LTV ratio), over 65 percent, home equity lines of credit (HELOCs), outside of combined loan plans, drawn amounts, Canada',
+    originalTitle: 'Canada;Loan-to-value ratio (LTV ratio), over 65 percent, home equity lines of credit (HELOCs), outside of combined loan plans, drawn amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5227,6 +5534,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929553',
     title: 'Chartered Bank Aggregates: Total, loan-to-value ratio (LTV ratio), home equity lines of credit (HELOCs), combined mortgage-HELOC loan plans, authorized amounts, Canada',
+    originalTitle: 'Canada;Total, loan-to-value ratio (LTV ratio), home equity lines of credit (HELOCs), combined mortgage-HELOC loan plans, authorized amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5244,6 +5552,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929556',
     title: 'Loan-to-value ratio (LTV ratio), over 80 percent, home equity lines of credit (HELOCs), combined mortgage-HELOC loan plans, authorized amounts, Canada',
+    originalTitle: 'Canada;Loan-to-value ratio (LTV ratio), over 80 percent, home equity lines of credit (HELOCs), combined mortgage-HELOC loan plans, authorized amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5261,6 +5570,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929557',
     title: 'Chartered Bank Aggregates: Total, loan-to-value ratio (LTV ratio), home equity lines of credit (HELOCs), combined mortgage-HELOC loan plans, drawn amounts, Canada',
+    originalTitle: 'Canada;Total, loan-to-value ratio (LTV ratio), home equity lines of credit (HELOCs), combined mortgage-HELOC loan plans, drawn amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5278,6 +5588,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929560',
     title: 'Loan-to-value ratio (LTV ratio), over 65 percent, home equity lines of credit (HELOCs), combined mortgage-HELOC loan plans, drawn amounts, Canada',
+    originalTitle: 'Canada;Loan-to-value ratio (LTV ratio), over 65 percent, home equity lines of credit (HELOCs), combined mortgage-HELOC loan plans, drawn amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5295,6 +5606,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929561',
     title: 'Chartered Bank Aggregates: Total, utilization rate (outstanding / authorized), home equity lines of credit (HELOCs), HELOCs and HELOC components of combined mortgage-HELOC loan plans, authorized amounts, Canada',
+    originalTitle: 'Canada;Total, utilization rate (outstanding / authorized), home equity lines of credit (HELOCs), HELOCs and HELOC components of combined mortgage-HELOC loan plans, authorized amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5312,6 +5624,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929567',
     title: 'Chartered Bank Aggregates: Total, utilization rate (outstanding / authorized), home equity lines of credit (HELOCs), HELOCs and HELOC components of combined mortgage-HELOC loan plans, drawn amounts, Canada',
+    originalTitle: 'Canada;Total, utilization rate (outstanding / authorized), home equity lines of credit (HELOCs), HELOCs and HELOC components of combined mortgage-HELOC loan plans, drawn amounts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5329,6 +5642,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929573',
     title: 'Chartered Bank Aggregates: Total, real estate secured lending, home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;Total, real estate secured lending, home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5346,6 +5660,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929574',
     title: 'HELOC (stand alone), home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;HELOC (stand alone), home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5363,6 +5678,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929575',
     title: 'Mortgage (stand alone), home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;Mortgage (stand alone), home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5380,6 +5696,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929576',
     title: 'Combined mortgage and HELOC plans, home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;Combined mortgage and HELOC plans, home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5397,6 +5714,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929577',
     title: 'Combined mortgage and HELOC plans, of which non-amortizing, home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;Combined mortgage and HELOC plans, of which non-amortizing, home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5414,6 +5732,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929578',
     title: 'Combined mortgage and HELOC plans, of which amortizing, home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;Combined mortgage and HELOC plans, of which amortizing, home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5431,6 +5750,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929579',
     title: 'Chartered Bank Aggregates: Other lending secured by real-estate, home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;Other lending secured by real-estate, home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5448,6 +5768,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929580',
     title: 'HELOC and non-amortizing part of combined plans, home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;HELOC and non-amortizing part of combined plans, home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5465,6 +5786,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100135_1325929581',
     title: 'Mortgage and amortizing part of combined plans, home equity lines of credit (HELOCs), residential secured lending, Canada',
+    originalTitle: 'Canada;Mortgage and amortizing part of combined plans, home equity lines of credit (HELOCs), residential secured lending', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Bank Aggregates',
     release: 'Chartered Bank Aggregates',
@@ -5482,6 +5804,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100146_1283301688',
     title: 'Ratio of regulatory capital to risk-weighted assets, Canada',
+    originalTitle: 'Canada;Ratio of regulatory capital to risk-weighted assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Soundness Indicators',
     release: 'Financial Soundness Indicators',
@@ -5499,6 +5822,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100146_1283301689',
     title: 'Ratio of non-performing loans net of provisions to capital, Canada',
+    originalTitle: 'Canada;Ratio of non-performing loans net of provisions to capital', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Soundness Indicators',
     release: 'Financial Soundness Indicators',
@@ -5516,6 +5840,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100146_1283301690',
     title: 'Ratio of non-performing loans to total gross loans, Canada',
+    originalTitle: 'Canada;Ratio of non-performing loans to total gross loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Soundness Indicators',
     release: 'Financial Soundness Indicators',
@@ -5533,6 +5858,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100146_1283301691',
     title: 'Earnings and profitability, return on assets, Canada',
+    originalTitle: 'Canada;Earnings and profitability, return on assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Soundness Indicators',
     release: 'Financial Soundness Indicators',
@@ -5550,6 +5876,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100146_1283301692',
     title: 'Ratio of liquid assets to short-term liabilities, Canada',
+    originalTitle: 'Canada;Ratio of liquid assets to short-term liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Soundness Indicators',
     release: 'Financial Soundness Indicators',
@@ -5567,6 +5894,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100146_1283301693',
     title: 'Ratio of regulatory capital to assets, Canada',
+    originalTitle: 'Canada;Ratio of regulatory capital to assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Financial Soundness Indicators',
     release: 'Financial Soundness Indicators',
@@ -5584,6 +5912,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982326',
     title: 'Consolidated Canadian general government, Stocks, Revenue, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5601,6 +5930,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982327',
     title: 'Consolidated Canadian general government, Stocks, Taxes, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5618,6 +5948,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982337',
     title: 'Consolidated Canadian general government, Stocks, Business taxes, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Business taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5635,6 +5966,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982342',
     title: 'Consolidated Canadian general government, Stocks, Excises, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Excises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5652,6 +5984,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982343',
     title: 'Consolidated Canadian general government, Stocks, Liquor taxes, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Liquor taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5669,6 +6002,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982344',
     title: 'Consolidated Canadian general government, Stocks, Tobacco taxes, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Tobacco taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5686,6 +6020,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982355',
     title: 'Consolidated Canadian general government, Stocks, Other taxes, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Other taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5703,6 +6038,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982364',
     title: 'Consolidated Canadian general government, Stocks, Other revenue, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Other revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5720,6 +6056,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982368',
     title: 'Consolidated Canadian general government, Stocks, Rent, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Rent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5737,6 +6074,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982382',
     title: 'Consolidated Canadian general government, Stocks, Expense, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5754,6 +6092,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982387',
     title: 'Consolidated Canadian general government, Stocks, Subsidies, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Subsidies', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5771,6 +6110,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982402',
     title: 'Consolidated Canadian general government, Stocks, Other expense, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Other expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5788,6 +6128,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982406',
     title: 'Consolidated Canadian general government, Stocks, Tax expenses, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Tax expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5805,6 +6146,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982416',
     title: 'Consolidated Canadian general government, Stocks, Net worth, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5822,6 +6164,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982424',
     title: 'Consolidated Canadian general government, Stocks, Bonds, assets, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Bonds, assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5839,6 +6182,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982425',
     title: 'Consolidated Canadian general government, Stocks, Loans, assets, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Loans, assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5856,6 +6200,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982437',
     title: 'Consolidated Canadian general government, Stocks, Liabilities, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5873,6 +6218,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982442',
     title: 'Consolidated Canadian general government, Stocks, Saving bonds, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Saving bonds', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5890,6 +6236,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_106982454',
     title: 'Consolidated Canadian general government, Stocks, Other payable, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Other payable', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5907,6 +6254,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100147_1078994452',
     title: 'Consolidated Canadian general government, Stocks, Cannabis taxes, Canada',
+    originalTitle: 'Canada;Consolidated Canadian general government;Stocks;Cannabis taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Government Finance Statistics (CGFS)',
     release: 'Canadian Government Finance Statistics (CGFS)',
@@ -5924,6 +6272,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37746',
     title: 'Chartered Banks: Canadian dollar, Total, loans, Canada',
+    originalTitle: 'Canada;Canadian dollar;Total, loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -5941,6 +6290,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37752',
     title: 'Canadian dollar, Total, loans to purchase consumer goods and services, Canada',
+    originalTitle: 'Canada;Canadian dollar;Total, loans to purchase consumer goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -5958,6 +6308,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37769',
     title: 'Canadian dollar, Total, loans to non-financial corporations and unincorporated businesses, Canada',
+    originalTitle: 'Canada;Canadian dollar;Total, loans to non-financial corporations and unincorporated businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -5975,6 +6326,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37772',
     title: 'Canadian dollar, Total, loans to private businesses, Canada',
+    originalTitle: 'Canada;Canadian dollar;Total, loans to private businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -5992,6 +6344,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37774',
     title: 'Canadian dollar, Total, loans to manufacturers, Canada',
+    originalTitle: 'Canada;Canadian dollar;Total, loans to manufacturers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6009,6 +6362,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37804',
     title: 'Foreign currency, Total, loans, Canada',
+    originalTitle: 'Canada;Foreign currency;Total, loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6026,6 +6380,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37805',
     title: 'Chartered Banks: Foreign currency, Other loans, Canada',
+    originalTitle: 'Canada;Foreign currency;Other loans', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6043,6 +6398,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37813',
     title: 'Foreign currency, Total, loans to private businesses, Canada',
+    originalTitle: 'Canada;Foreign currency;Total, loans to private businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6060,6 +6416,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37822',
     title: 'Foreign currency, Total, loans to retail trade, Canada',
+    originalTitle: 'Canada;Foreign currency;Total, loans to retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6077,6 +6434,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_37827',
     title: 'Foreign currency, Total, loans to manufacturers, Canada',
+    originalTitle: 'Canada;Foreign currency;Total, loans to manufacturers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6094,6 +6452,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_120573152',
     title: 'Canadian dollar, Total, loans to financial institutions, Canada',
+    originalTitle: 'Canada;Canadian dollar;Total, loans to financial institutions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6111,6 +6470,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_120573153',
     title: 'Canadian dollar, Total, loans to other Canadians, Canada',
+    originalTitle: 'Canada;Canadian dollar;Total, loans to other Canadians', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6128,6 +6488,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_120573154',
     title: 'Foreign currency, Total, loans to non-financial corporations and unincorporated businesses, Canada',
+    originalTitle: 'Canada;Foreign currency;Total, loans to non-financial corporations and unincorporated businesses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6145,6 +6506,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_120573155',
     title: 'Foreign currency, Total, loans to Canadian individuals for non-business purposes, Canada',
+    originalTitle: 'Canada;Foreign currency;Total, loans to Canadian individuals for non-business purposes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6162,6 +6524,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100148_120573156',
     title: 'Foreign currency, Total, loans to other Canadians, Canada',
+    originalTitle: 'Canada;Foreign currency;Total, loans to other Canadians', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Chartered Banks',
     release: 'Chartered Banks',
@@ -6179,6 +6542,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436647',
     title: 'Value of sales, Dried cannabis, Canada',
+    originalTitle: 'Canada;Value of sales;Dried cannabis', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6196,6 +6560,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436648',
     title: 'Value of sales, Inhaled cannabis extracts, Canada',
+    originalTitle: 'Canada;Value of sales;Inhaled cannabis extracts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6213,6 +6578,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436649',
     title: 'Value of sales, Ingested cannabis extracts, Canada',
+    originalTitle: 'Canada;Value of sales;Ingested cannabis extracts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6230,6 +6596,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436650',
     title: 'Value of sales, Solid cannabis edibles, Canada',
+    originalTitle: 'Canada;Value of sales;Solid cannabis edibles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6247,6 +6614,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436651',
     title: 'Value of sales, Cannabis beverages, Canada',
+    originalTitle: 'Canada;Value of sales;Cannabis beverages', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6264,6 +6632,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436652',
     title: 'Value of sales, Topicals, seeds, and other cannabis products, Canada',
+    originalTitle: 'Canada;Value of sales;Topicals, seeds, and other cannabis products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6281,6 +6650,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436653',
     title: 'Value of sales per capita, Total cannabis products, Canada',
+    originalTitle: 'Canada;Value of sales per capita;Total cannabis products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6298,6 +6668,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436654',
     title: 'Value of sales per capita, Dried cannabis, Canada',
+    originalTitle: 'Canada;Value of sales per capita;Dried cannabis', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6315,6 +6686,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436655',
     title: 'Value of sales per capita, Inhaled cannabis extracts, Canada',
+    originalTitle: 'Canada;Value of sales per capita;Inhaled cannabis extracts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6332,6 +6704,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436656',
     title: 'Value of sales per capita, Ingested cannabis extracts, Canada',
+    originalTitle: 'Canada;Value of sales per capita;Ingested cannabis extracts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6349,6 +6722,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436657',
     title: 'Value of sales per capita, Solid cannabis edibles, Canada',
+    originalTitle: 'Canada;Value of sales per capita;Solid cannabis edibles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6366,6 +6740,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436658',
     title: 'Value of sales per capita, Cannabis beverages, Canada',
+    originalTitle: 'Canada;Value of sales per capita;Cannabis beverages', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6383,6 +6758,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436659',
     title: 'Value of sales per capita, Topicals, seeds, and other cannabis products, Canada',
+    originalTitle: 'Canada;Value of sales per capita;Topicals, seeds, and other cannabis products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6400,6 +6776,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100164_1490436660',
     title: 'Value of sales, Total cannabis products, Canada',
+    originalTitle: 'Canada;Value of sales;Total cannabis products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
     release: 'Sales of Cannabis by Liquor and Cannabis Authorities and Other Retail Outlets',
@@ -6417,6 +6794,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436843',
     title: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis: Cannabis authority sales, Canada',
+    originalTitle: 'Canada;Cannabis authority sales', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6434,6 +6812,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436844',
     title: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis: Deduct: cost of goods sold, Canada',
+    originalTitle: 'Canada;Deduct: cost of goods sold', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6451,6 +6830,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436845',
     title: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis: Gross profit, Canada',
+    originalTitle: 'Canada;Gross profit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6468,6 +6848,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436847',
     title: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis: Add: Other income, Canada',
+    originalTitle: 'Canada;Add: Other income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6485,6 +6866,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436848',
     title: 'Net income of cannabis authorities, Canada',
+    originalTitle: 'Canada;Net income of cannabis authorities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6502,6 +6884,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436849',
     title: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis: Total taxes and other revenue, Canada',
+    originalTitle: 'Canada;Total taxes and other revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6519,6 +6902,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436851',
     title: 'Provincial and territorial excise tax, Canada',
+    originalTitle: 'Canada;Provincial and territorial excise tax', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6536,6 +6920,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436852',
     title: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis: Harmonized sales tax, Canada',
+    originalTitle: 'Canada;Harmonized sales tax', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6553,6 +6938,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436853',
     title: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis: Goods and services tax, Canada',
+    originalTitle: 'Canada;Goods and services tax', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6570,6 +6956,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436855',
     title: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis: Other government revenue, Canada',
+    originalTitle: 'Canada;Other government revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6587,6 +6974,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100165_1490436856',
     title: 'Net income of cannabis authorities and total taxes and other revenue, Canada',
+    originalTitle: 'Canada;Net income of cannabis authorities and total taxes and other revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
     release: 'Net Income of Cannabis Authorities and Government Revenue From the Sale of Cannabis',
@@ -6604,6 +6992,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353741',
     title: 'Consolidated government, Taxes, Canada (annual)',
+    originalTitle: 'Canada;Consolidated government;Taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6621,6 +7010,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353779',
     title: 'Consolidated government, Total expenditure, Canada (annual)',
+    originalTitle: 'Canada;Consolidated government;Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6638,6 +7028,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353801',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Revenue, Canada (annual)',
+    originalTitle: 'Canada;Federal government;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6655,6 +7046,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353802',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Taxes, Canada (annual)',
+    originalTitle: 'Canada;Federal government;Taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6672,6 +7064,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353812',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Expense, Canada (annual)',
+    originalTitle: 'Canada;Federal government;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6689,6 +7082,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353816',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Interest, Canada (annual)',
+    originalTitle: 'Canada;Federal government;Interest', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6706,6 +7100,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353817',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Subsidies, Canada (annual)',
+    originalTitle: 'Canada;Federal government;Subsidies', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6723,6 +7118,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353840',
     title: 'Federal government, Total expenditure, Canada (annual)',
+    originalTitle: 'Canada;Federal government;Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6740,6 +7136,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353841',
     title: 'Statement of Government Operations and Balance Sheet: Federal government, Net worth, Canada (annual)',
+    originalTitle: 'Canada;Federal government;Net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6757,6 +7154,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353901',
     title: 'Provincial and territorial government, Total expenditure, Canada (annual)',
+    originalTitle: 'Canada;Provincial and territorial government;Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6774,6 +7172,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353923',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Revenue, Canada (annual)',
+    originalTitle: 'Canada;Local government;Revenue', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6791,6 +7190,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353924',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Taxes, Canada (annual)',
+    originalTitle: 'Canada;Local government;Taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6808,6 +7208,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353930',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Other taxes, Canada (annual)',
+    originalTitle: 'Canada;Local government;Other taxes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6825,6 +7226,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353934',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Expense, Canada (annual)',
+    originalTitle: 'Canada;Local government;Expense', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6842,6 +7244,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353938',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Interest, Canada (annual)',
+    originalTitle: 'Canada;Local government;Interest', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6859,6 +7262,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353939',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Subsidies, Canada (annual)',
+    originalTitle: 'Canada;Local government;Subsidies', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6876,6 +7280,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353962',
     title: 'Local government, Total expenditure, Canada (annual)',
+    originalTitle: 'Canada;Local government;Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6893,6 +7298,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353963',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Net worth, Canada (annual)',
+    originalTitle: 'Canada;Local government;Net worth', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6910,6 +7316,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645353972',
     title: 'Statement of Government Operations and Balance Sheet: Local government, Liabilities, Canada (annual)',
+    originalTitle: 'Canada;Local government;Liabilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6927,6 +7334,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_10100172_1645354023',
     title: 'Canada Pension Plan (CPP) and Quebec Pension Plan (QPP), Total expenditure, Canada (annual)',
+    originalTitle: 'Canada;Canada Pension Plan (CPP) and Quebec Pension Plan (QPP);Total expenditure', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Statement of Government Operations and Balance Sheet',
     release: 'Statement of Government Operations and Balance Sheet',
@@ -6944,6 +7352,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335452',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -6961,6 +7370,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335453',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -6978,6 +7388,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335455',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Active members, both sexes, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Active members, both sexes;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -6995,6 +7406,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335456',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Active members, both sexes, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Active members, both sexes;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7012,6 +7424,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335458',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7029,6 +7442,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335459',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7046,6 +7460,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335461',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7063,6 +7478,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335462',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Active members, females, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Active members, females;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7080,6 +7496,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335465',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7097,6 +7514,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335466',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - special retirement conditions, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - special retirement conditions;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7114,6 +7532,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335467',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, No special retirement, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;No special retirement;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7131,6 +7550,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335482',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Age only, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Age only;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7148,6 +7568,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335483',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Age only, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Age only;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7165,6 +7586,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100062_123335497',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Years of service only, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Years of service only;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7182,6 +7604,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123336922',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - age requirement, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - age requirement;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7199,6 +7622,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123336923',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - age requirement, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - age requirement;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7216,6 +7640,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123336928',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - age requirement, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - age requirement;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7233,6 +7658,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123336929',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - age requirement, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - age requirement;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7250,6 +7676,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123336997',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - years of service requirement, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - years of service requirement;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7267,6 +7694,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123336998',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - years of service requirement, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - years of service requirement;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7284,6 +7712,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123337003',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - years of service requirement, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - years of service requirement;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7301,6 +7730,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123337004',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - years of service requirement, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - years of service requirement;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7318,6 +7748,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123337072',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - age plus service requirements, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - age plus service requirements;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7335,6 +7766,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123337073',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - age plus service requirements, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - age plus service requirements;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7352,6 +7784,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123337078',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - age plus service requirements, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - age plus service requirements;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7369,6 +7802,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100063_123337079',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - age plus service requirements, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - age plus service requirements;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7386,6 +7820,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338497',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - death benefits, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - death benefits;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7403,6 +7838,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338498',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - death benefits, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - death benefits;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7420,6 +7856,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338503',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - death benefits, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - death benefits;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7437,6 +7874,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338504',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - death benefits, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - death benefits;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7454,6 +7892,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338506',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - death benefits, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - death benefits;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7471,6 +7910,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338510',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - death benefits, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - death benefits;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7488,6 +7928,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338511',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total - death benefits, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total - death benefits;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7505,6 +7946,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338617',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total contributions less pension payments made, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total contributions less pension payments made;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7522,6 +7964,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338618',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total contributions less pension payments made, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total contributions less pension payments made;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7539,6 +7982,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338623',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total contributions less pension payments made, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total contributions less pension payments made;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7556,6 +8000,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338624',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total contributions less pension payments made, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total contributions less pension payments made;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7573,6 +8018,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338626',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total contributions less pension payments made, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total contributions less pension payments made;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7590,6 +8036,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338630',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total contributions less pension payments made, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total contributions less pension payments made;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7607,6 +8054,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100064_123338631',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total contributions less pension payments made, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total contributions less pension payments made;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -7624,6 +8072,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696792',
     title: 'Debt Service Indicators of Households: Household income, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Household income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7642,6 +8091,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696793',
     title: 'Debt Service Indicators of Households: Compensation of employees, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Compensation of employees', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7660,6 +8110,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696794',
     title: 'Debt Service Indicators of Households: Net mixed income, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Net mixed income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7678,6 +8129,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696795',
     title: 'Debt Service Indicators of Households: Property income received, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Property income received', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7696,6 +8148,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696796',
     title: 'Debt Service Indicators of Households: Current transfers received, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Current transfers received', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7714,6 +8167,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696797',
     title: 'Debt Service Indicators of Households: Household outlays, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Household outlays', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7732,6 +8186,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696798',
     title: 'Debt Service Indicators of Households: Property income paid, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Property income paid', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7750,6 +8205,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696799',
     title: 'Debt Service Indicators of Households: Current transfers paid, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Current transfers paid', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7768,6 +8224,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696801',
     title: 'Debt Service Indicators of Households: Disposable income, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Disposable income ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7786,6 +8243,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696802',
     title: 'Debt Service Indicators of Households: Plus: Interest paid, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Plus: Interest paid', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7804,6 +8262,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696804',
     title: 'Debt Service Indicators of Households: Total debt payments, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Total debt payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7822,6 +8281,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696805',
     title: 'Debt Service Indicators of Households: Mortgage debt payments, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Mortgage debt payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7840,6 +8300,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696806',
     title: 'Debt Service Indicators of Households: Non-mortgage debt payments, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Non-mortgage debt payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7858,6 +8319,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696807',
     title: 'Debt Service Indicators of Households: Total obligated payments of principal, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Total obligated payments of principal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7876,6 +8338,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696810',
     title: 'Debt Service Indicators of Households: Total interest paid, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Total interest paid', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7894,6 +8357,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696811',
     title: 'Debt Service Indicators of Households: Mortgage interest paid, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Mortgage interest paid', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7912,6 +8376,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001696812',
     title: 'Debt Service Indicators of Households: Non-mortgage interest paid, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Non-mortgage interest paid', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7930,6 +8395,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100065_1001757403',
     title: 'Debt Service Indicators of Households: Of which: consumer debt, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Seasonally adjusted at annual rates;Of which: consumer debt ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Debt Service Indicators of Households',
     release: 'Debt Service Indicators of Households',
@@ -7948,6 +8414,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433653',
     title: 'Couples with children, Youngest child aged 12 years or less, Percentage of families with child care expenses, Canada',
+    originalTitle: 'Canada;Couples with children;Youngest child aged 12 years or less;Percentage of families with child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -7965,6 +8432,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433654',
     title: 'Couples with children, Youngest child aged 5 years or less, Percentage of families with child care expenses, Canada',
+    originalTitle: 'Canada;Couples with children;Youngest child aged 5 years or less;Percentage of families with child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -7982,6 +8450,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433655',
     title: 'One-parent families, Youngest child aged 12 years or less, Percentage of families with child care expenses, Canada',
+    originalTitle: 'Canada;One-parent families;Youngest child aged 12 years or less;Percentage of families with child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -7999,6 +8468,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433656',
     title: 'One-parent families, Youngest child aged 5 years or less, Percentage of families with child care expenses, Canada',
+    originalTitle: 'Canada;One-parent families;Youngest child aged 5 years or less;Percentage of families with child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8016,6 +8486,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433661',
     title: 'Economic families with children, Youngest child aged 12 years or less, Average after-tax income, Canada',
+    originalTitle: 'Canada;Economic families with children;Youngest child aged 12 years or less;Average after-tax income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8033,6 +8504,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433662',
     title: 'Economic families with children, Youngest child aged 5 years or less, Average after-tax income, Canada',
+    originalTitle: 'Canada;Economic families with children;Youngest child aged 5 years or less;Average after-tax income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8050,6 +8522,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433663',
     title: 'Couples with children, Youngest child aged 12 years or less, Average after-tax income, Canada',
+    originalTitle: 'Canada;Couples with children;Youngest child aged 12 years or less;Average after-tax income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8067,6 +8540,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433664',
     title: 'Couples with children, Youngest child aged 5 years or less, Average after-tax income, Canada',
+    originalTitle: 'Canada;Couples with children;Youngest child aged 5 years or less;Average after-tax income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8084,6 +8558,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433665',
     title: 'One-parent families, Youngest child aged 12 years or less, Average after-tax income, Canada',
+    originalTitle: 'Canada;One-parent families;Youngest child aged 12 years or less;Average after-tax income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8101,6 +8576,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433666',
     title: 'One-parent families, Youngest child aged 5 years or less, Average after-tax income, Canada',
+    originalTitle: 'Canada;One-parent families;Youngest child aged 5 years or less;Average after-tax income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8118,6 +8594,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433671',
     title: 'Economic families with children, Youngest child aged 12 years or less, Average child care expenses, Canada',
+    originalTitle: 'Canada;Economic families with children;Youngest child aged 12 years or less;Average child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8135,6 +8612,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433672',
     title: 'Economic families with children, Youngest child aged 5 years or less, Average child care expenses, Canada',
+    originalTitle: 'Canada;Economic families with children;Youngest child aged 5 years or less;Average child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8152,6 +8630,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433673',
     title: 'Couples with children, Youngest child aged 12 years or less, Average child care expenses, Canada',
+    originalTitle: 'Canada;Couples with children;Youngest child aged 12 years or less;Average child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8169,6 +8648,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433674',
     title: 'Couples with children, Youngest child aged 5 years or less, Average child care expenses, Canada',
+    originalTitle: 'Canada;Couples with children;Youngest child aged 5 years or less;Average child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8186,6 +8666,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433675',
     title: 'One-parent families, Youngest child aged 12 years or less, Average child care expenses, Canada',
+    originalTitle: 'Canada;One-parent families;Youngest child aged 12 years or less;Average child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8203,6 +8684,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433676',
     title: 'One-parent families, Youngest child aged 5 years or less, Average child care expenses, Canada',
+    originalTitle: 'Canada;One-parent families;Youngest child aged 5 years or less;Average child care expenses', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8220,6 +8702,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433693',
     title: 'Couples with children, Youngest child aged 12 years or less, Average child care expenses (excluding zeros), Canada',
+    originalTitle: 'Canada;Couples with children;Youngest child aged 12 years or less;Average child care expenses (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8237,6 +8720,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433694',
     title: 'Couples with children, Youngest child aged 5 years or less, Average child care expenses (excluding zeros), Canada',
+    originalTitle: 'Canada;Couples with children;Youngest child aged 5 years or less;Average child care expenses (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8254,6 +8738,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433695',
     title: 'One-parent families, Youngest child aged 12 years or less, Average child care expenses (excluding zeros), Canada',
+    originalTitle: 'Canada;One-parent families;Youngest child aged 12 years or less;Average child care expenses (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8271,6 +8756,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100080_1231433696',
     title: 'One-parent families, Youngest child aged 5 years or less, Average child care expenses (excluding zeros), Canada',
+    originalTitle: 'Canada;One-parent families;Youngest child aged 5 years or less;Average child care expenses (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Proportion of Annual Family Income Spent on Child Care',
     release: 'Proportion of Annual Family Income Spent on Child Care',
@@ -8288,6 +8774,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070500',
     title: 'Market value of assets, Total gross assets, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Market value of assets;Total gross assets;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8305,6 +8792,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070501',
     title: 'Market value of assets, Total gross assets, Public sector, Canada',
+    originalTitle: 'Canada;Market value of assets;Total gross assets;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8322,6 +8810,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070502',
     title: 'Market value of assets, Total gross assets, Private sector, Canada',
+    originalTitle: 'Canada;Market value of assets;Total gross assets;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8339,6 +8828,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070566',
     title: 'Market value of assets, Total liabilities, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Market value of assets;Total liabilities;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8356,6 +8846,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070567',
     title: 'Market value of assets, Total liabilities, Public sector, Canada',
+    originalTitle: 'Canada;Market value of assets;Total liabilities;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8373,6 +8864,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070568',
     title: 'Market value of assets, Total liabilities, Private sector, Canada',
+    originalTitle: 'Canada;Market value of assets;Total liabilities;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8390,6 +8882,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070581',
     title: 'Market value of assets, Total net assets, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Market value of assets;Total net assets;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8407,6 +8900,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070582',
     title: 'Market value of assets, Total net assets, Public sector, Canada',
+    originalTitle: 'Canada;Market value of assets;Total net assets;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8424,6 +8918,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070583',
     title: 'Market value of assets, Total net assets, Private sector, Canada',
+    originalTitle: 'Canada;Market value of assets;Total net assets;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8441,6 +8936,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070584',
     title: 'Book value of assets, Total gross assets, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Book value of assets;Total gross assets;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8458,6 +8954,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070585',
     title: 'Book value of assets, Total gross assets, Public sector, Canada',
+    originalTitle: 'Canada;Book value of assets;Total gross assets;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8475,6 +8972,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070586',
     title: 'Book value of assets, Total gross assets, Private sector, Canada',
+    originalTitle: 'Canada;Book value of assets;Total gross assets;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8492,6 +8990,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070597',
     title: 'Book value of assets, Bonds, Public sector, Canada',
+    originalTitle: 'Canada;Book value of assets;Bonds;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8509,6 +9008,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070598',
     title: 'Book value of assets, Bonds, Private sector, Canada',
+    originalTitle: 'Canada;Book value of assets;Bonds;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8526,6 +9026,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070650',
     title: 'Book value of assets, Total liabilities, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Book value of assets;Total liabilities;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8543,6 +9044,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070651',
     title: 'Book value of assets, Total liabilities, Public sector, Canada',
+    originalTitle: 'Canada;Book value of assets;Total liabilities;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8560,6 +9062,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070652',
     title: 'Book value of assets, Total liabilities, Private sector, Canada',
+    originalTitle: 'Canada;Book value of assets;Total liabilities;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8577,6 +9080,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070665',
     title: 'Book value of assets, Total net assets, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Book value of assets;Total net assets;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8594,6 +9098,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070666',
     title: 'Book value of assets, Total net assets, Public sector, Canada',
+    originalTitle: 'Canada;Book value of assets;Total net assets;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8611,6 +9116,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100084_1281070667',
     title: 'Book value of assets, Total net assets, Private sector, Canada',
+    originalTitle: 'Canada;Book value of assets;Total net assets;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8628,6 +9134,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506970',
     title: 'Market value of assets, Total assets, Canadian and foreign assets, total, Canada',
+    originalTitle: 'Canada;Market value of assets;Total assets;Canadian and foreign assets, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8645,6 +9152,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506971',
     title: 'Market value of assets, Total assets, Canadian assets, Canada',
+    originalTitle: 'Canada;Market value of assets;Total assets;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8662,6 +9170,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506972',
     title: 'Market value of assets, Total assets, Foreign assets, Canada',
+    originalTitle: 'Canada;Market value of assets;Total assets;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8679,6 +9188,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506974',
     title: 'Market value of assets, Equities, Canadian assets, Canada',
+    originalTitle: 'Canada;Market value of assets;Equities;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8696,6 +9206,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506975',
     title: 'Market value of assets, Equities, Foreign assets, Canada',
+    originalTitle: 'Canada;Market value of assets;Equities;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8713,6 +9224,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506977',
     title: 'Market value of assets, Bonds, Canadian assets, Canada',
+    originalTitle: 'Canada;Market value of assets;Bonds;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8730,6 +9242,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506978',
     title: 'Market value of assets, Bonds, Foreign assets, Canada',
+    originalTitle: 'Canada;Market value of assets;Bonds;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8747,6 +9260,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506986',
     title: 'Market value of assets, Short-term, Canadian assets, Canada',
+    originalTitle: 'Canada;Market value of assets;Short-term;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8764,6 +9278,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506987',
     title: 'Market value of assets, Short-term, Foreign assets, Canada',
+    originalTitle: 'Canada;Market value of assets;Short-term;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8781,6 +9296,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506989',
     title: 'Book value of assets, Total assets, Canadian and foreign assets, total, Canada',
+    originalTitle: 'Canada;Book value of assets;Total assets;Canadian and foreign assets, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8798,6 +9314,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506990',
     title: 'Book value of assets, Total assets, Canadian assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Total assets;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8815,6 +9332,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506991',
     title: 'Book value of assets, Total assets, Foreign assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Total assets;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8832,6 +9350,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506993',
     title: 'Book value of assets, Equities, Canadian assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Equities;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8849,6 +9368,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506994',
     title: 'Book value of assets, Equities, Foreign assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Equities;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8866,6 +9386,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506996',
     title: 'Book value of assets, Bonds, Canadian assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Bonds;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8883,6 +9404,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283506997',
     title: 'Book value of assets, Bonds, Foreign assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Bonds;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8900,6 +9422,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283507002',
     title: 'Book value of assets, Real estate, Canadian assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Real estate;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8917,6 +9440,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283507003',
     title: 'Book value of assets, Real estate, Foreign assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Real estate;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8934,6 +9458,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283507005',
     title: 'Book value of assets, Short-term, Canadian assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Short-term;Canadian assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8951,6 +9476,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100085_1283507006',
     title: 'Book value of assets, Short-term, Foreign assets, Canada',
+    originalTitle: 'Canada;Book value of assets;Short-term;Foreign assets', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8968,6 +9494,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507008',
     title: 'Trusteed Pension Funds: Total revenue, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Total revenue;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -8985,6 +9512,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507009',
     title: 'Trusteed Pension Funds: Total revenue, Public sector, Canada',
+    originalTitle: 'Canada;Total revenue;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9002,6 +9530,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507010',
     title: 'Trusteed Pension Funds: Total revenue, Private sector, Canada',
+    originalTitle: 'Canada;Total revenue;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9019,6 +9548,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507011',
     title: 'Trusteed Pension Funds: Total revenue from contributions, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Total revenue from contributions;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9036,6 +9566,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507012',
     title: 'Trusteed Pension Funds: Total revenue from contributions, Public sector, Canada',
+    originalTitle: 'Canada;Total revenue from contributions;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9053,6 +9584,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507013',
     title: 'Trusteed Pension Funds: Total revenue from contributions, Private sector, Canada',
+    originalTitle: 'Canada;Total revenue from contributions;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9070,6 +9602,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507020',
     title: 'Trusteed Pension Funds: Total revenue from non-contributions, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Total revenue from non-contributions;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9087,6 +9620,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507021',
     title: 'Trusteed Pension Funds: Total revenue from non-contributions, Public sector, Canada',
+    originalTitle: 'Canada;Total revenue from non-contributions;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9104,6 +9638,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507022',
     title: 'Trusteed Pension Funds: Total revenue from non-contributions, Private sector, Canada',
+    originalTitle: 'Canada;Total revenue from non-contributions;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9121,6 +9656,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507027',
     title: 'Investment income, Public sector, Canada',
+    originalTitle: 'Canada;Investment income;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9138,6 +9674,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507028',
     title: 'Investment income, Private sector, Canada',
+    originalTitle: 'Canada;Investment income;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9155,6 +9692,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507036',
     title: 'Dividends - equities, Public sector, Canada',
+    originalTitle: 'Canada;Dividends - equities;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9172,6 +9710,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507059',
     title: 'Trusteed Pension Funds: Total expenditures, Public and private sector, total, Canada',
+    originalTitle: 'Canada;Total expenditures;Public and private sector, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9189,6 +9728,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507060',
     title: 'Trusteed Pension Funds: Total expenditures, Public sector, Canada',
+    originalTitle: 'Canada;Total expenditures;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9206,6 +9746,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507061',
     title: 'Trusteed Pension Funds: Total expenditures, Private sector, Canada',
+    originalTitle: 'Canada;Total expenditures;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9223,6 +9764,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507066',
     title: 'Cash withdrawals, Public sector, Canada',
+    originalTitle: 'Canada;Cash withdrawals;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9240,6 +9782,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507067',
     title: 'Cash withdrawals, Private sector, Canada',
+    originalTitle: 'Canada;Cash withdrawals;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9257,6 +9800,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507072',
     title: 'Administration costs, Public sector, Canada',
+    originalTitle: 'Canada;Administration costs;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9274,6 +9818,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507078',
     title: 'Trusteed Pension Funds: Net income, Public sector, Canada',
+    originalTitle: 'Canada;Net income;Public sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9291,6 +9836,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100086_1283507079',
     title: 'Trusteed Pension Funds: Net income, Private sector, Canada',
+    originalTitle: 'Canada;Net income;Private sector', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trusteed Pension Funds',
     release: 'Trusteed Pension Funds',
@@ -9308,6 +9854,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244694',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9325,6 +9872,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244698',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, $10, 000 to $19, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;$10,000 to $19,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9342,6 +9890,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244699',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, $20, 000 to $29, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;$20,000 to $29,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9359,6 +9908,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244700',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, $30, 000 to $39, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;$30,000 to $39,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9376,6 +9926,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244701',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, $40, 000 to $49, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;$40,000 to $49,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9393,6 +9944,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244702',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, $50, 000 to $59, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;$50,000 to $59,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9410,6 +9962,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244703',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, $60, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;$60,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9427,6 +9980,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244704',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, $80, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;$80,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9444,6 +9998,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244705',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, $100, 000 and over, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;$100,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9461,6 +10016,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244706',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, Average income, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9478,6 +10034,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244707',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, Median income, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9495,6 +10052,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244778',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9512,6 +10070,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244782',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, $10, 000 to $19, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;$10,000 to $19,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9529,6 +10088,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244783',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, $20, 000 to $29, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;$20,000 to $29,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9546,6 +10106,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244784',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, $30, 000 to $39, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;$30,000 to $39,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9563,6 +10124,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244785',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, $40, 000 to $49, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;$40,000 to $49,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9580,6 +10142,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244786',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, $50, 000 to $59, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;$50,000 to $59,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9597,6 +10160,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244789',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, $100, 000 and over, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;$100,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9614,6 +10178,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244790',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, Average income, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9631,6 +10196,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100087_1398244791',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, Median income, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -9648,6 +10214,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246589',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total - Gender;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9665,6 +10232,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246590',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9682,6 +10250,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246591',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, Average income (excluding zeros), Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total - Gender;Total income;Average income (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9699,6 +10268,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246592',
     title: 'Persons with disabilities, Total, 15 years and over, Total income, Median income (excluding zeros), Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Total - Gender;Total income;Median income (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9716,6 +10286,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246668',
     title: 'Persons with disabilities, Total, 15 years and over, Men+, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Men+;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9733,6 +10304,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246669',
     title: 'Persons with disabilities, Total, 15 years and over, Men+, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Men+;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9750,6 +10322,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246670',
     title: 'Persons with disabilities, Total, 15 years and over, Men+, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Men+;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9767,6 +10340,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246748',
     title: 'Persons with disabilities, Total, 15 years and over, Women+, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Women+;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9784,6 +10358,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246749',
     title: 'Persons with disabilities, Total, 15 years and over, Women+, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Women+;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9801,6 +10376,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398246750',
     title: 'Persons with disabilities, Total, 15 years and over, Women+, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total, 15 years and over;Women+;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9818,6 +10394,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398248509',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total - Gender;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9835,6 +10412,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398248510',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9852,6 +10430,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398248511',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, Average income (excluding zeros), Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total - Gender;Total income;Average income (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9869,6 +10448,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398248512',
     title: 'Persons without disabilities, Total, 15 years and over, Total income, Median income (excluding zeros), Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Total - Gender;Total income;Median income (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9886,6 +10466,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398248588',
     title: 'Persons without disabilities, Total, 15 years and over, Men+, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Men+;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9903,6 +10484,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398248589',
     title: 'Persons without disabilities, Total, 15 years and over, Men+, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Men+;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9920,6 +10502,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398248590',
     title: 'Persons without disabilities, Total, 15 years and over, Men+, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Men+;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9937,6 +10520,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100088_1398248670',
     title: 'Persons without disabilities, Total, 15 years and over, Women+, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total, 15 years and over;Women+;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by Disability Status',
     release: 'Income of Individuals by Disability Status',
@@ -9954,6 +10538,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972327',
     title: 'Persons with disabilities, All persons with employment income, Number of persons, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -9971,6 +10556,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972331',
     title: 'Persons with disabilities, All persons with employment income, $5, 000 to $9, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$5,000 to $9,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -9988,6 +10574,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972332',
     title: 'Persons with disabilities, All persons with employment income, $10, 000 to $19, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$10,000 to $19,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10005,6 +10592,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972333',
     title: 'Persons with disabilities, All persons with employment income, $20, 000 to $29, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$20,000 to $29,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10022,6 +10610,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972334',
     title: 'Persons with disabilities, All persons with employment income, $30, 000 to $39, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$30,000 to $39,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10039,6 +10628,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972335',
     title: 'Persons with disabilities, All persons with employment income, $40, 000 to $49, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$40,000 to $49,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10056,6 +10646,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972336',
     title: 'Persons with disabilities, All persons with employment income, $50, 000 to $59, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$50,000 to $59,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10073,6 +10664,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972337',
     title: 'Persons with disabilities, All persons with employment income, $60, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$60,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10090,6 +10682,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972338',
     title: 'Persons with disabilities, All persons with employment income, $80, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$80,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10107,6 +10700,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972339',
     title: 'Persons with disabilities, All persons with employment income, $100, 000 and over, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Total - Gender;All persons with employment income;$100,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10124,6 +10718,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972444',
     title: 'Persons without disabilities, All persons with employment income, Number of persons, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10141,6 +10736,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972448',
     title: 'Persons without disabilities, All persons with employment income, $5, 000 to $9, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$5,000 to $9,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10158,6 +10754,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972449',
     title: 'Persons without disabilities, All persons with employment income, $10, 000 to $19, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$10,000 to $19,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10175,6 +10772,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972450',
     title: 'Persons without disabilities, All persons with employment income, $20, 000 to $29, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$20,000 to $29,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10192,6 +10790,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972451',
     title: 'Persons without disabilities, All persons with employment income, $30, 000 to $39, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$30,000 to $39,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10209,6 +10808,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972452',
     title: 'Persons without disabilities, All persons with employment income, $40, 000 to $49, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$40,000 to $49,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10226,6 +10826,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972453',
     title: 'Persons without disabilities, All persons with employment income, $50, 000 to $59, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$50,000 to $59,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10243,6 +10844,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972454',
     title: 'Persons without disabilities, All persons with employment income, $60, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$60,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10260,6 +10862,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972455',
     title: 'Persons without disabilities, All persons with employment income, $80, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$80,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10277,6 +10880,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100089_1411972456',
     title: 'Persons without disabilities, All persons with employment income, $100, 000 and over, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Total - Gender;All persons with employment income;$100,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Disability Status',
     release: 'Distribution of Employment Income of Individuals by Disability Status',
@@ -10294,6 +10898,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450236',
     title: 'Persons with disabilities, Persons aged 15 years and over, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Persons aged 15 years and over;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10311,6 +10916,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450260',
     title: 'Persons with disabilities, Persons aged 15 to 64 years, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Persons aged 15 to 64 years;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10328,6 +10934,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450284',
     title: 'Persons with disabilities, Persons aged 65 years and over, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Persons aged 65 years and over;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10345,6 +10952,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450308',
     title: 'Persons with disabilities, Men+ aged 15 years and over, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Men+ aged 15 years and over;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10362,6 +10970,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450332',
     title: 'Persons with disabilities, Women+ aged 15 years and over, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Women+ aged 15 years and over;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10379,6 +10988,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450356',
     title: 'Persons without disabilities, Persons aged 15 years and over, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Persons aged 15 years and over;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10396,6 +11006,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450380',
     title: 'Persons without disabilities, Persons aged 15 to 64 years, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Persons aged 15 to 64 years;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10413,6 +11024,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450404',
     title: 'Persons without disabilities, Persons aged 65 years and over, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Persons aged 65 years and over;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10430,6 +11042,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450428',
     title: 'Persons without disabilities, Men+ aged 15 years and over, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Men+ aged 15 years and over;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10447,6 +11060,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1412450452',
     title: 'Persons without disabilities, Women+ aged 15 years and over, All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons without disabilities;Women+ aged 15 years and over;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10464,6 +11078,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1793292462',
     title: 'Persons with disabilities, Persons aged 15 to 64 years, All persons, Market basket measure, 2023 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Persons aged 15 to 64 years;All persons;Market basket measure, 2023 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10481,6 +11096,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1793292480',
     title: 'Persons with disabilities, Men+ aged 15 years and over, All persons, Market basket measure, 2023 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Men+ aged 15 years and over;All persons;Market basket measure, 2023 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10498,6 +11114,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100090_1793292489',
     title: 'Persons with disabilities, Women+ aged 15 years and over, All persons, Market basket measure, 2023 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;Persons with disabilities;Women+ aged 15 years and over;All persons;Market basket measure, 2023 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Disability Status',
     release: 'Poverty and Low-income Statistics by Disability Status',
@@ -10515,6 +11132,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660400',
     title: 'Average and Median Market: All persons, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;All persons;Total - Gender;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10532,6 +11150,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660401',
     title: 'Average and Median Market: All persons, Total income, Percentage with income, Canada',
+    originalTitle: 'Canada;All persons;Total - Gender;Total income;Percentage with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10549,6 +11168,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660402',
     title: 'Average and Median Market: All persons, Total income, Average income, Canada',
+    originalTitle: 'Canada;All persons;Total - Gender;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10566,6 +11186,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660403',
     title: 'Average and Median Market: All persons, Total income, Average income (excluding zeros), Canada',
+    originalTitle: 'Canada;All persons;Total - Gender;Total income;Average income (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10583,6 +11204,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660404',
     title: 'Average and Median Market: All persons, Total income, Median income, Canada',
+    originalTitle: 'Canada;All persons;Total - Gender;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10600,6 +11222,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660405',
     title: 'Average and Median Market: All persons, Total income, Median income (excluding zeros), Canada',
+    originalTitle: 'Canada;All persons;Total - Gender;Total income;Median income (excluding zeros)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10617,6 +11240,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660418',
     title: 'Average and Median Market: All persons, Men+, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;All persons;Men+;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10634,6 +11258,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660420',
     title: 'Average and Median Market: All persons, Men+, Total income, Average income, Canada',
+    originalTitle: 'Canada;All persons;Men+;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10651,6 +11276,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660422',
     title: 'Average and Median Market: All persons, Men+, Total income, Median income, Canada',
+    originalTitle: 'Canada;All persons;Men+;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10668,6 +11294,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660438',
     title: 'Average and Median Market: All persons, Women+, Total income, Average income, Canada',
+    originalTitle: 'Canada;All persons;Women+;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10685,6 +11312,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660440',
     title: 'Average and Median Market: All persons, Women+, Total income, Median income, Canada',
+    originalTitle: 'Canada;All persons;Women+;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10702,6 +11330,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660566',
     title: 'Chinese, Total income, Median income, Canada',
+    originalTitle: 'Canada;Chinese;Total - Gender;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10719,6 +11348,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660618',
     title: 'Black, Total income, Average income, Canada',
+    originalTitle: 'Canada;Black;Total - Gender;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10736,6 +11366,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660620',
     title: 'Black, Total income, Median income, Canada',
+    originalTitle: 'Canada;Black;Total - Gender;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10753,6 +11384,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660726',
     title: 'Arab, Total income, Average income, Canada',
+    originalTitle: 'Canada;Arab;Total - Gender;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10770,6 +11402,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529660728',
     title: 'Arab, Total income, Median income, Canada',
+    originalTitle: 'Canada;Arab;Total - Gender;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10787,6 +11420,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529661104',
     title: 'Métis, Total income, Average income, Canada',
+    originalTitle: 'Canada;Métis;Total - Gender;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10804,6 +11438,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1529661106',
     title: 'Métis, Total income, Median income, Canada',
+    originalTitle: 'Canada;Métis;Total - Gender;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10821,6 +11456,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1847512078',
     title: 'Inuit, Total income, Average income, Canada',
+    originalTitle: 'Canada;Inuit;Total - Gender;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10838,6 +11474,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100091_1847512080',
     title: 'Inuit, Total income, Median income, Canada',
+    originalTitle: 'Canada;Inuit;Total - Gender;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average and Median Market',
     release: 'Average and Median Market',
@@ -10855,6 +11492,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1529651796',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons, Low income measure after tax, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -10872,6 +11510,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1529651797',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons, Low income measure after tax, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -10889,6 +11528,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1529651798',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -10906,6 +11546,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1529651822',
     title: 'Black, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Black;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -10923,6 +11564,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1529651834',
     title: 'Arab, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;Arab;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -10940,6 +11582,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1529651880',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons aged 15 years and over, Low income measure after tax, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons aged 15 years and over;Low income measure after tax;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -10957,6 +11600,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1529651881',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons aged 15 years and over, Low income measure after tax, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons aged 15 years and over;Low income measure after tax;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -10974,6 +11618,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1529651882',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons aged 15 years and over, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons aged 15 years and over;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -10991,6 +11636,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1793292546',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons, Market basket measure, 2023 base, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -11008,6 +11654,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1793292547',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons, Market basket measure, 2023 base, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -11025,6 +11672,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1793292548',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons, Market basket measure, 2023 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -11042,6 +11690,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1793292588',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons aged 15 years and over, Market basket measure, 2023 base, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons aged 15 years and over;Market basket measure, 2023 base;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -11059,6 +11708,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1793292589',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons aged 15 years and over, Market basket measure, 2023 base, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons aged 15 years and over;Market basket measure, 2023 base;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -11076,6 +11726,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100093_1793292590',
     title: 'Poverty and Low-income Statistics by Selected Demographic Characteristics: All persons aged 15 years and over, Market basket measure, 2023 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons aged 15 years and over;Market basket measure, 2023 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Poverty and Low-income Statistics by Selected Demographic Characteristics',
     release: 'Poverty and Low-income Statistics by Selected Demographic Characteristics',
@@ -11093,6 +11744,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201893',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, total members, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, total members;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11110,6 +11762,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201894',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, total members, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, total members;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11127,6 +11780,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201903',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 1 member, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 1 member;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11144,6 +11798,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201904',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 1 member, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 1 member;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11161,6 +11816,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201911',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 2 to 9 members, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 2 to 9 members;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11178,6 +11834,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201912',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 2 to 9 members, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 2 to 9 members;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11195,6 +11852,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201919',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 10 to 49 members, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 10 to 49 members;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11212,6 +11870,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201920',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 10 to 49 members, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 10 to 49 members;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11229,6 +11888,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201927',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 50 to 99 members, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 50 to 99 members;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11246,6 +11906,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201928',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 50 to 99 members, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 50 to 99 members;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11263,6 +11924,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201935',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 100 to 499 members, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 100 to 499 members;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11280,6 +11942,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100095_31201943',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, 500 to 999 members, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, 500 to 999 members;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11297,6 +11960,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202515',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total industries, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total industries;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11314,6 +11978,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202516',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total industries, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total industries;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11331,6 +11996,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202519',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total industries, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total industries;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11348,6 +12014,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202520',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total industries, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total industries;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11365,6 +12032,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202521',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total industries, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total industries;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11382,6 +12050,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202731',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All trade industries, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All trade industries;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11399,6 +12068,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202732',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All trade industries, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All trade industries;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11416,6 +12086,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202735',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All trade industries, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All trade industries;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11433,6 +12104,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202736',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All trade industries, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All trade industries;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11450,6 +12122,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_31202737',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All trade industries, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All trade industries;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11467,6 +12140,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_42907731',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All trade industries, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All trade industries;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11484,6 +12158,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_42907732',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All trade industries, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All trade industries;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11501,6 +12176,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_42907747',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total industries, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total industries;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11518,6 +12194,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100096_42907748',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total industries, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total industries;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11535,6 +12212,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204435',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of public and private sectors, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of public and private sectors;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11552,6 +12230,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204436',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of public and private sectors, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of public and private sectors;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11569,6 +12248,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204439',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of public and private sectors, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of public and private sectors;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11586,6 +12266,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204440',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of public and private sectors, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of public and private sectors;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11603,6 +12284,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204443',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total public sector, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total public sector;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11620,6 +12302,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204444',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total public sector, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total public sector;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11637,6 +12320,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204447',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total public sector, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total public sector;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11654,6 +12338,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204448',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total public sector, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total public sector;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11671,6 +12356,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204507',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total private sector, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total private sector;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11688,6 +12374,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204508',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total private sector, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total private sector;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11705,6 +12392,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204511',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total private sector, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total private sector;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11722,6 +12410,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100097_31204512',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total private sector, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total private sector;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11739,6 +12428,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205075',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11756,6 +12446,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205076',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11773,6 +12464,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205077',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Active members, both sexes, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Active members, both sexes;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11790,6 +12482,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205078',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Active members, both sexes, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Active members, both sexes;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11807,6 +12500,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205079',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Active Members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Active Members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11824,6 +12518,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205080',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Active Members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Active Members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11841,6 +12536,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205081',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11858,6 +12554,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205082',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Active members, females, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Active members, females;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11875,6 +12572,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205083',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, One employer, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;One employer;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11892,6 +12590,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205084',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, One employer, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;One employer;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11909,6 +12608,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_31205091',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Multi-employer plan, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Multi-employer plan;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11926,6 +12626,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_42908361',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11943,6 +12644,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100098_42908362',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total number of employers, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total number of employers;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11960,6 +12662,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205355',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of funding instrument, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of funding instrument;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11977,6 +12680,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205356',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of funding instrument, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of funding instrument;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -11994,6 +12698,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205359',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of funding instrument, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of funding instrument;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12011,6 +12716,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205360',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of funding instrument, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of funding instrument;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12028,6 +12734,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205361',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of funding instrument, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of funding instrument;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12045,6 +12752,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205363',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of insurance company contract, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of insurance company contract;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12062,6 +12770,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205364',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of insurance company contract, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of insurance company contract;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12079,6 +12788,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205367',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of insurance company contract, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of insurance company contract;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12096,6 +12806,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205368',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of insurance company contract, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of insurance company contract;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12113,6 +12824,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_31205369',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of insurance company contract, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of insurance company contract;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12130,6 +12842,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_42908429',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of insurance company contract, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of insurance company contract;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12147,6 +12860,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_42908430',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of insurance company contract, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of insurance company contract;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12164,6 +12878,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_42908441',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of funding instrument, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of funding instrument;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12181,6 +12896,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100099_42908442',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of funding instrument, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of funding instrument;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12198,6 +12914,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303715',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Total deciles, Canada',
+    originalTitle: 'Canada;2023 base;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12215,6 +12932,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303716',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Lowest decile, Canada',
+    originalTitle: 'Canada;2023 base;Lowest decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12232,6 +12950,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303717',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Second decile, Canada',
+    originalTitle: 'Canada;2023 base;Second decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12249,6 +12968,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303718',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Third decile, Canada',
+    originalTitle: 'Canada;2023 base;Third decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12266,6 +12986,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303719',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Fourth decile, Canada',
+    originalTitle: 'Canada;2023 base;Fourth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12283,6 +13004,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303720',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Fifth decile, Canada',
+    originalTitle: 'Canada;2023 base;Fifth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12300,6 +13022,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303721',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Sixth decile, Canada',
+    originalTitle: 'Canada;2023 base;Sixth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12317,6 +13040,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303723',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Eighth decile, Canada',
+    originalTitle: 'Canada;2023 base;Eighth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12334,6 +13058,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100102_1793303724',
     title: 'Average Basket Coefficient by After-tax Income Decile: 2023 base, Ninth decile, Canada',
+    originalTitle: 'Canada;2023 base;Ninth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Average Basket Coefficient by After-tax Income Decile',
     release: 'Average Basket Coefficient by After-tax Income Decile',
@@ -12351,6 +13076,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303869',
     title: '2023 base, Basket cost, Average amount, Total deciles, Canada',
+    originalTitle: 'Canada;2023 base;Basket cost;Average amount;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12368,6 +13094,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303902',
     title: '2023 base, Deficit, Aggregate amount, Total deciles, Canada',
+    originalTitle: 'Canada;2023 base;Deficit;Aggregate amount;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12385,6 +13112,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303913',
     title: '2023 base, Deficit, Average amount, Total deciles, Canada',
+    originalTitle: 'Canada;2023 base;Deficit;Average amount;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12402,6 +13130,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303924',
     title: '2023 base, Surplus, Aggregate amount, Total deciles, Canada',
+    originalTitle: 'Canada;2023 base;Surplus;Aggregate amount;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12419,6 +13148,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303935',
     title: '2023 base, Surplus, Average amount, Total deciles, Canada',
+    originalTitle: 'Canada;2023 base;Surplus;Average amount;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12436,6 +13166,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303946',
     title: '2023 base, Total adjustments, Aggregate amount, Total deciles, Canada',
+    originalTitle: 'Canada;2023 base;Total adjustments;Aggregate amount;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12453,6 +13184,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303957',
     title: '2023 base, Total adjustments, Average amount, Total deciles, Canada',
+    originalTitle: 'Canada;2023 base;Total adjustments;Average amount;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12470,6 +13202,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303962',
     title: '2023 base, Total adjustments, Average amount, Fifth decile, Canada',
+    originalTitle: 'Canada;2023 base;Total adjustments;Average amount;Fifth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12487,6 +13220,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100103_1793303966',
     title: '2023 base, Total adjustments, Average amount, Ninth decile, Canada',
+    originalTitle: 'Canada;2023 base;Total adjustments;Average amount;Ninth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
     release: 'Aggregate and Average Components of After-tax Income According to the Market Basket Measure Threshold',
@@ -12504,6 +13238,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206475',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of plans, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of plans;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12521,6 +13256,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206476',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of plans, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of plans;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12538,6 +13274,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206479',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of plans, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of plans;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12555,6 +13292,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206480',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of plans, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of plans;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12572,6 +13310,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206483',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total defined benefit plans, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total defined benefit plans;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12589,6 +13328,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206484',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total defined benefit plans, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total defined benefit plans;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12606,6 +13346,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206487',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total defined benefit plans, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total defined benefit plans;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12623,6 +13364,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206488',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total defined benefit plans, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total defined benefit plans;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12640,6 +13382,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206515',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total defined contribution plans, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total defined contribution plans;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12657,6 +13400,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206516',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total defined contribution plans, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total defined contribution plans;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12674,6 +13418,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206519',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total defined contribution plans, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total defined contribution plans;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12691,6 +13436,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100106_31206520',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total defined contribution plans, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total defined contribution plans;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12708,6 +13454,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206915',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of earnings base, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of earnings base;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12725,6 +13472,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206916',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of earnings base, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of earnings base;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12742,6 +13490,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206919',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of earnings base, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of earnings base;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12759,6 +13508,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206920',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of earnings base, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of earnings base;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12776,6 +13526,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206923',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total final average earnings, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total final average earnings;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12793,6 +13544,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206924',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total final average earnings, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total final average earnings;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12810,6 +13562,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206927',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total final average earnings, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total final average earnings;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12827,6 +13580,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206928',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total final average earnings, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total final average earnings;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12844,6 +13598,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206963',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total average best earnings, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total average best earnings;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12861,6 +13616,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206964',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total average best earnings, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total average best earnings;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12878,6 +13634,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206967',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total average best earnings, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total average best earnings;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12895,6 +13652,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100111_31206968',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total average best earnings, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total average best earnings;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12912,6 +13670,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207435',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12929,6 +13688,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207436',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12946,6 +13706,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207439',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12963,6 +13724,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207440',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12980,6 +13742,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207451',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate based on percentage of earnings, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate based on percentage of earnings;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -12997,6 +13760,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207452',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate based on percentage of earnings, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate based on percentage of earnings;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13014,6 +13778,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207455',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate based on percentage of earnings, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate based on percentage of earnings;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13031,6 +13796,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207507',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate in dollars per year, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate in dollars per year;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13048,6 +13814,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207508',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate in dollars per year, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate in dollars per year;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13065,6 +13832,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207511',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate in dollars per year, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate in dollars per year;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13082,6 +13850,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207547',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate in cents per hour, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate in cents per hour;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13099,6 +13868,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207548',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate in cents per hour, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate in cents per hour;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13116,6 +13886,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100114_31207551',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contribution rate in cents per hour, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contribution rate in cents per hour;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13133,6 +13904,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208259',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of employee contribution rate, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of employee contribution rate;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13150,6 +13922,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208260',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of employee contribution rate, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of employee contribution rate;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13167,6 +13940,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208263',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of employee contribution rate, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of employee contribution rate;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13184,6 +13958,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208264',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of employee contribution rate, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of employee contribution rate;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13201,6 +13976,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208265',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of employee contribution rate, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of employee contribution rate;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13218,6 +13994,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208275',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employee contribution rate integrated, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employee contribution rate integrated;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13235,6 +14012,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208276',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employee contribution rate integrated, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employee contribution rate integrated;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13252,6 +14030,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208279',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employee contribution rate integrated, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employee contribution rate integrated;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13269,6 +14048,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208280',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employee contribution rate integrated, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employee contribution rate integrated;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13286,6 +14066,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_31208281',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employee contribution rate integrated, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employee contribution rate integrated;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13303,6 +14084,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_42909169',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employee contribution rate integrated, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employee contribution rate integrated;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13320,6 +14102,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_42909170',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employee contribution rate integrated, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employee contribution rate integrated;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13337,6 +14120,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_42909171',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of employee contribution rate, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of employee contribution rate;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13354,6 +14138,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100115_42909172',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of employee contribution rate, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of employee contribution rate;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13371,6 +14156,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208459',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total all employer contribution rate, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total all employer contribution rate;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13388,6 +14174,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208460',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total all employer contribution rate, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total all employer contribution rate;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13405,6 +14192,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208463',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total all employer contribution rate, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total all employer contribution rate;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13422,6 +14210,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208464',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total all employer contribution rate, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total all employer contribution rate;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13439,6 +14228,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208483',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate based on percentage of earnings, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate based on percentage of earnings;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13456,6 +14246,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208484',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate based on percentage of earnings, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate based on percentage of earnings;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13473,6 +14264,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208487',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate based on percentage of earnings, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate based on percentage of earnings;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13490,6 +14282,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208539',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate in dollars per year, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate in dollars per year;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13507,6 +14300,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208540',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate in dollars per year, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate in dollars per year;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13524,6 +14318,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208543',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate in dollars per year, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate in dollars per year;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13541,6 +14336,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208579',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate in cents per hour, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate in cents per hour;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13558,6 +14354,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208580',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate in cents per hour, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate in cents per hour;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13575,6 +14372,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100116_31208583',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contribution rate in cents per hour, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contribution rate in cents per hour;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13592,6 +14390,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209699',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of employer contribution rate, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of employer contribution rate;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13609,6 +14408,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209700',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of employer contribution rate, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of employer contribution rate;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13626,6 +14426,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209703',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of employer contribution rate, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of employer contribution rate;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13643,6 +14444,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209704',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of employer contribution rate, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of employer contribution rate;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13660,6 +14462,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209705',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of employer contribution rate, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of employer contribution rate;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13677,6 +14480,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209715',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employer contribution rate integrated, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employer contribution rate integrated;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13694,6 +14498,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209716',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employer contribution rate integrated, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employer contribution rate integrated;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13711,6 +14516,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209719',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employer contribution rate integrated, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employer contribution rate integrated;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13728,6 +14534,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209720',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employer contribution rate integrated, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employer contribution rate integrated;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13745,6 +14552,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_31209721',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employer contribution rate integrated, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employer contribution rate integrated;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13762,6 +14570,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_42909541',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employer contribution rate integrated, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employer contribution rate integrated;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13779,6 +14588,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_42909542',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of employer contribution rate integrated, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of employer contribution rate integrated;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13796,6 +14606,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_42909543',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of employer contribution rate, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of employer contribution rate;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13813,6 +14624,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100117_42909544',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All type of employer contribution rate, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All type of employer contribution rate;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13830,6 +14642,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100118_31209979',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total current service benefit rate, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total current service benefit rate;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13847,6 +14660,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100118_31209980',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total current service benefit rate, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total current service benefit rate;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13864,6 +14678,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100118_31209983',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total current service benefit rate, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total current service benefit rate;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13881,6 +14696,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100118_31209984',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total current service benefit rate, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total current service benefit rate;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13898,6 +14714,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100118_31209995',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total benefit rate based on percentage of earnings, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total benefit rate based on percentage of earnings;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13915,6 +14732,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100118_31209996',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total benefit rate based on percentage of earnings, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total benefit rate based on percentage of earnings;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13932,6 +14750,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100118_31209999',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total benefit rate based on percentage of earnings, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total benefit rate based on percentage of earnings;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13949,6 +14768,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100118_31210000',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total benefit rate based on percentage of earnings, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total benefit rate based on percentage of earnings;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13966,6 +14786,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210931',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of benefit rate, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of benefit rate;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -13983,6 +14804,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210932',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of benefit rate, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of benefit rate;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14000,6 +14822,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210935',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of benefit rate, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of benefit rate;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14017,6 +14840,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210936',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of benefit rate, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of benefit rate;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14034,6 +14858,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210937',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of benefit rate, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of benefit rate;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14051,6 +14876,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210947',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of integrated benefit rate, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of integrated benefit rate;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14068,6 +14894,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210948',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of integrated benefit rate, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of integrated benefit rate;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14085,6 +14912,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210951',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of integrated benefit rate, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of integrated benefit rate;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14102,6 +14930,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210952',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of integrated benefit rate, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of integrated benefit rate;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14119,6 +14948,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_31210953',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of integrated benefit rate, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of integrated benefit rate;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14136,6 +14966,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_42909851',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of integrated benefit rate, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of integrated benefit rate;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14153,6 +14984,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_42909852',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total of integrated benefit rate, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total of integrated benefit rate;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14170,6 +15002,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_42909853',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of benefit rate, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of benefit rate;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14187,6 +15020,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100119_42909854',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, All types of benefit rate, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;All types of benefit rate;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14204,6 +15038,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211171',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14221,6 +15056,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211172',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14238,6 +15074,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211173',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Active members, both sexes, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Active members, both sexes;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14255,6 +15092,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211174',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Active members, both sexes, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Active members, both sexes;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14272,6 +15110,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211175',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14289,6 +15128,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211176',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14306,6 +15146,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211177',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14323,6 +15164,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211178',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Active members, females, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Active members, females;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14340,6 +15182,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211187',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Normal retirement age, 60 years, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Normal retirement age, 60 years;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14357,6 +15200,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211188',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Normal retirement age, 60 years, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Normal retirement age, 60 years;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14374,6 +15218,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_31211203',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Normal retirement age, 65 years, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Normal retirement age, 65 years;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14391,6 +15236,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_42909917',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14408,6 +15254,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100120_42909918',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Total normal retirement age, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total normal retirement age;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14425,6 +15272,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211563',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of method of adjustments, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of method of adjustments;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14442,6 +15290,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211564',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of method of adjustments, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of method of adjustments;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14459,6 +15308,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211567',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of method of adjustments, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of method of adjustments;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14476,6 +15326,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211568',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of method of adjustments, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of method of adjustments;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14493,6 +15344,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211569',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of method of adjustments, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of method of adjustments;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14510,6 +15362,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211579',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total with automatic adjustment, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total with automatic adjustment;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14527,6 +15380,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211580',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total with automatic adjustment, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total with automatic adjustment;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14544,6 +15398,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211583',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total with automatic adjustment, Active members, males, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total with automatic adjustment;Active members, males;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14561,6 +15416,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211584',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total with automatic adjustment, Active members, males, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total with automatic adjustment;Active members, males;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14578,6 +15434,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_31211585',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total with automatic adjustment, Active members, females, Number, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total with automatic adjustment;Active members, females;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14595,6 +15452,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_42910015',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total with automatic adjustment, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total with automatic adjustment;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14612,6 +15470,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_42910016',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total with automatic adjustment, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total with automatic adjustment;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14629,6 +15488,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_42910017',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of method of adjustments, Market value of assets, Dollars, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of method of adjustments;Market value of assets;Dollars', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14646,6 +15506,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100121_42910018',
     title: 'Registered Pension Plans (RPPs): Total of defined benefit registered pension plans, Total of method of adjustments, Market value of assets, Percent, Canada',
+    originalTitle: 'Canada;Total of defined benefit registered pension plans;Total of method of adjustments;Market value of assets;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -14663,6 +15524,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211883',
     title: 'Employer and Employee Contributions to Registered Pension Plans (RPPs): Total of registered pension plans, Total employee and employer contributions, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee and employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14680,6 +15542,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211884',
     title: 'Employer and Employee Contributions to Registered Pension Plans (RPPs): Total of registered pension plans, Total employee contributions, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employee contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14697,6 +15560,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211885',
     title: 'Employer and Employee Contributions to Registered Pension Plans (RPPs): Total of registered pension plans, Required employee contributions, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Required employee contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14714,6 +15578,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211886',
     title: 'Employer and Employee Contributions to Registered Pension Plans (RPPs): Total of registered pension plans, Voluntary employee contributions, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Voluntary employee contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14731,6 +15596,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211887',
     title: 'Employer and Employee Contributions to Registered Pension Plans (RPPs): Total of registered pension plans, Total employer contributions, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Total employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14748,6 +15614,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211892',
     title: 'Public sector registered pension plans, Total employee and employer contributions, Canada',
+    originalTitle: 'Canada;Public sector registered pension plans;Total employee and employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14765,6 +15632,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211893',
     title: 'Public sector registered pension plans, Total employee contributions, Canada',
+    originalTitle: 'Canada;Public sector registered pension plans;Total employee contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14782,6 +15650,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211896',
     title: 'Public sector registered pension plans, Total employer contributions, Canada',
+    originalTitle: 'Canada;Public sector registered pension plans;Total employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14799,6 +15668,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211901',
     title: 'Private sector registered pension plans, Total employee and employer contributions, Canada',
+    originalTitle: 'Canada;Private sector registered pension plans;Total employee and employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14816,6 +15686,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211902',
     title: 'Private sector registered pension plans, Total employee contributions, Canada',
+    originalTitle: 'Canada;Private sector registered pension plans;Total employee contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14833,6 +15704,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211905',
     title: 'Private sector registered pension plans, Total employer contributions, Canada',
+    originalTitle: 'Canada;Private sector registered pension plans;Total employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14850,6 +15722,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211910',
     title: 'Defined benefit registered pension plans, Total employee and employer contributions, Canada',
+    originalTitle: 'Canada;Defined benefit registered pension plans;Total employee and employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14867,6 +15740,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211911',
     title: 'Defined benefit registered pension plans, Total employee contributions, Canada',
+    originalTitle: 'Canada;Defined benefit registered pension plans;Total employee contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14884,6 +15758,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211914',
     title: 'Defined benefit registered pension plans, Total employer contributions, Canada',
+    originalTitle: 'Canada;Defined benefit registered pension plans;Total employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14901,6 +15776,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211928',
     title: 'Contributory registered pension plans, Total employee and employer contributions, Canada',
+    originalTitle: 'Canada;Contributory registered pension plans;Total employee and employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14918,6 +15794,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211929',
     title: 'Contributory registered pension plans, Total employee contributions, Canada',
+    originalTitle: 'Canada;Contributory registered pension plans;Total employee contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14935,6 +15812,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211932',
     title: 'Contributory registered pension plans, Total employer contributions, Canada',
+    originalTitle: 'Canada;Contributory registered pension plans;Total employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14952,6 +15830,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211937',
     title: 'Non-contributory registered pension plans, Total employee and employer contributions, Canada',
+    originalTitle: 'Canada;Non-contributory registered pension plans;Total employee and employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14969,6 +15848,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211938',
     title: 'Non-contributory registered pension plans, Total employee contributions, Canada',
+    originalTitle: 'Canada;Non-contributory registered pension plans;Total employee contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -14986,6 +15866,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100122_31211941',
     title: 'Non-contributory registered pension plans, Total employer contributions, Canada',
+    originalTitle: 'Canada;Non-contributory registered pension plans;Total employer contributions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employer and Employee Contributions to Registered Pension Plans (RPPs)',
     release: 'Employer and Employee Contributions to Registered Pension Plans (RPPs)',
@@ -15003,6 +15884,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913011',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets under $25 million, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets under $25 million;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15020,6 +15902,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913012',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets under $25 million, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets under $25 million;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15037,6 +15920,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913021',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $25 to $49 million, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $25 to $49 million;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15054,6 +15938,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913022',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $25 to $49 million, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $25 to $49 million;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15071,6 +15956,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913031',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $50 to $99 million, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $50 to $99 million;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15088,6 +15974,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913032',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $50 to $99 million, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $50 to $99 million;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15105,6 +15992,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913041',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $100 to $149 million, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $100 to $149 million;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15122,6 +16010,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913081',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $1 to $4.9 billion, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $1 to $4.9 billion;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15139,6 +16028,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913082',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $1 to $4.9 billion, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $1 to $4.9 billion;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15156,6 +16046,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913091',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $5 to $9.9 billion, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $5 to $9.9 billion;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15173,6 +16064,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913092',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $5 to $9.9 billion, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $5 to $9.9 billion;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15190,6 +16082,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913101',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, assets $10 billion and over, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, assets $10 billion and over;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15207,6 +16100,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913111',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, total assets, Plans, Number, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, total assets;Plans;Number', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15224,6 +16118,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100124_42913112',
     title: 'Registered Pension Plans (RPPs): Total of registered pension plans, Size of plan, total assets, Plans, Percent, Canada',
+    originalTitle: 'Canada;Total of registered pension plans;Size of plan, total assets;Plans;Percent', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Registered Pension Plans (RPPs)',
     release: 'Registered Pension Plans (RPPs)',
@@ -15241,6 +16136,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100134_96439636',
     title: 'Gini Coefficients of Adjusted Market: Adjusted market income, Canada',
+    originalTitle: 'Canada;Adjusted market income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gini Coefficients of Adjusted Market',
     release: 'Gini Coefficients of Adjusted Market',
@@ -15258,6 +16154,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100134_96439637',
     title: 'Gini Coefficients of Adjusted Market: Adjusted total income, Canada',
+    originalTitle: 'Canada;Adjusted total income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gini Coefficients of Adjusted Market',
     release: 'Gini Coefficients of Adjusted Market',
@@ -15275,6 +16172,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100134_96439638',
     title: 'Gini Coefficients of Adjusted Market: Adjusted after-tax income, Canada',
+    originalTitle: 'Canada;Adjusted after-tax income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Gini Coefficients of Adjusted Market',
     release: 'Gini Coefficients of Adjusted Market',
@@ -15292,6 +16190,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_96515825',
     title: 'Low Income Statistics by age: All persons, Low income measure after tax, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15309,6 +16208,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_96515826',
     title: 'Low Income Statistics by age: All persons, Low income measure after tax, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15326,6 +16226,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_96515827',
     title: 'Low Income Statistics by age: All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15343,6 +16244,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_96515828',
     title: 'Low Income Statistics by age: All persons, Low income cut-offs after tax, 1992 base, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs after tax, 1992 base;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15360,6 +16262,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_96515829',
     title: 'Low Income Statistics by age: All persons, Low income cut-offs after tax, 1992 base, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs after tax, 1992 base;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15377,6 +16280,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_96515830',
     title: 'Low Income Statistics by age: All persons, Low income cut-offs after tax, 1992 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs after tax, 1992 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15394,6 +16298,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_96515831',
     title: 'Low Income Statistics by age: All persons, Low income cut-offs before tax, 1992 base, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs before tax, 1992 base;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15411,6 +16316,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_96515833',
     title: 'Low Income Statistics by age: All persons, Low income cut-offs before tax, 1992 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs before tax, 1992 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15428,6 +16334,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_1792630889',
     title: 'Low Income Statistics by age: All persons, Market basket measure, 2023 base, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15445,6 +16352,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_1792630890',
     title: 'Low Income Statistics by age: All persons, Market basket measure, 2023 base, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15462,6 +16370,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100135_1792630891',
     title: 'Low Income Statistics by age: All persons, Market basket measure, 2023 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by age',
     release: 'Low Income Statistics by age',
@@ -15479,6 +16388,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_96524393',
     title: 'Low Income Statistics by Economic Family Type: All persons, Low income measure after tax, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15496,6 +16406,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_96524394',
     title: 'Low Income Statistics by Economic Family Type: All persons, Low income measure after tax, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15513,6 +16424,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_96524395',
     title: 'Low Income Statistics by Economic Family Type: All persons, Low income measure after tax, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Low income measure after tax;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15530,6 +16442,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_96524396',
     title: 'Low Income Statistics by Economic Family Type: All persons, Low income cut-offs after tax, 1992 base, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs after tax, 1992 base;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15547,6 +16460,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_96524397',
     title: 'Low Income Statistics by Economic Family Type: All persons, Low income cut-offs after tax, 1992 base, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs after tax, 1992 base;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15564,6 +16478,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_96524398',
     title: 'Low Income Statistics by Economic Family Type: All persons, Low income cut-offs after tax, 1992 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs after tax, 1992 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15581,6 +16496,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_96524399',
     title: 'Low Income Statistics by Economic Family Type: All persons, Low income cut-offs before tax, 1992 base, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs before tax, 1992 base;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15598,6 +16514,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_96524401',
     title: 'Low Income Statistics by Economic Family Type: All persons, Low income cut-offs before tax, 1992 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Low income cut-offs before tax, 1992 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15615,6 +16532,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_1793291191',
     title: 'Low Income Statistics by Economic Family Type: All persons, Market basket measure, 2023 base, Number of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Number of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15632,6 +16550,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_1793291192',
     title: 'Low Income Statistics by Economic Family Type: All persons, Market basket measure, 2023 base, Percentage of persons in low income, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Percentage of persons in low income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15649,6 +16568,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100136_1793291193',
     title: 'Low Income Statistics by Economic Family Type: All persons, Market basket measure, 2023 base, Average gap ratio, Canada',
+    originalTitle: 'Canada;All persons;Market basket measure, 2023 base;Average gap ratio', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Statistics by Economic Family Type',
     release: 'Low Income Statistics by Economic Family Type',
@@ -15666,6 +16586,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411793',
     title: 'Number of persons, Senior families, Canada',
+    originalTitle: 'Canada;Number of persons;Senior families', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15683,6 +16604,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411794',
     title: 'Number of persons, Senior couples, Canada',
+    originalTitle: 'Canada;Number of persons;Senior couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15700,6 +16622,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411797',
     title: 'Market Income: Number of persons, Couples, Canada',
+    originalTitle: 'Canada;Number of persons;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15717,6 +16640,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411813',
     title: 'Number of families, Senior families, Canada',
+    originalTitle: 'Canada;Number of families;Senior families', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15734,6 +16658,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411814',
     title: 'Number of families, Senior couples, Canada',
+    originalTitle: 'Canada;Number of families;Senior couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15751,6 +16676,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411817',
     title: 'Market Income: Number of families, Couples, Canada',
+    originalTitle: 'Canada;Number of families;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15768,6 +16694,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411837',
     title: 'Average market income, Couples, Canada',
+    originalTitle: 'Canada;Average market income;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15785,6 +16712,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411857',
     title: 'Market Income: Median market income, Couples, Canada',
+    originalTitle: 'Canada;Median market income;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15802,6 +16730,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411917',
     title: 'Market Income: Average total income, Couples, Canada',
+    originalTitle: 'Canada;Average total income;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15819,6 +16748,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411934',
     title: 'Median total income, Senior couples, Canada',
+    originalTitle: 'Canada;Median total income;Senior couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15836,6 +16766,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411937',
     title: 'Market Income: Median total income, Couples, Canada',
+    originalTitle: 'Canada;Median total income;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15853,6 +16784,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411953',
     title: 'Average income tax, Senior families, Canada',
+    originalTitle: 'Canada;Average income tax;Senior families', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15870,6 +16802,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411954',
     title: 'Average income tax, Senior couples, Canada',
+    originalTitle: 'Canada;Average income tax;Senior couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15887,6 +16820,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411957',
     title: 'Market Income: Average income tax, Couples, Canada',
+    originalTitle: 'Canada;Average income tax;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15904,6 +16838,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411972',
     title: 'Median income tax, Economic families, Canada',
+    originalTitle: 'Canada;Median income tax;Economic families', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15921,6 +16856,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411973',
     title: 'Median income tax, Senior families, Canada',
+    originalTitle: 'Canada;Median income tax;Senior families', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15938,6 +16874,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411974',
     title: 'Median income tax, Senior couples, Canada',
+    originalTitle: 'Canada;Median income tax;Senior couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15955,6 +16892,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411977',
     title: 'Market Income: Median income tax, Couples, Canada',
+    originalTitle: 'Canada;Median income tax;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15972,6 +16910,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96411997',
     title: 'Average after-tax income, Couples, Canada',
+    originalTitle: 'Canada;Average after-tax income;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -15989,6 +16928,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100190_96412017',
     title: 'Median after-tax income, Couples, Canada',
+    originalTitle: 'Canada;Median after-tax income;Couples', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Market Income',
     release: 'Market Income',
@@ -16006,6 +16946,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96416908',
     title: 'Economic families, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16023,6 +16964,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96416909',
     title: 'Economic families, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16040,6 +16982,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96416968',
     title: 'Senior families, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Senior families;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16057,6 +17000,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96416969',
     title: 'Senior families, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Senior families;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16074,6 +17018,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417028',
     title: 'Senior couples, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Senior couples;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16091,6 +17036,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417029',
     title: 'Senior couples, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Senior couples;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16108,6 +17054,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417031',
     title: 'Senior couples, Total income, Median income excluding zeros, Canada',
+    originalTitle: 'Canada;Senior couples;Total income;Median income excluding zeros', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16125,6 +17072,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417088',
     title: 'Income Statistics by Economic Family Type and Income Source: Other senior families, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Other senior families;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16142,6 +17090,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417089',
     title: 'Income Statistics by Economic Family Type and Income Source: Other senior families, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Other senior families;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16159,6 +17108,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417148',
     title: 'Non-senior families, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Non-senior families;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16176,6 +17126,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417149',
     title: 'Non-senior families, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Non-senior families;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16193,6 +17144,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417208',
     title: 'Couples, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Couples;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16210,6 +17162,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417209',
     title: 'Couples, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Couples;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16227,6 +17180,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417210',
     title: 'Couples, Total income, Average income excluding zeros, Canada',
+    originalTitle: 'Canada;Couples;Total income;Average income excluding zeros', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16244,6 +17198,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417211',
     title: 'Couples, Total income, Median income excluding zeros, Canada',
+    originalTitle: 'Canada;Couples;Total income;Median income excluding zeros', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16261,6 +17216,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417268',
     title: 'Couples with children, Total income, Number with income, Canada',
+    originalTitle: 'Canada;Couples with children;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16278,6 +17234,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417269',
     title: 'Couples with children, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Couples with children;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16295,6 +17252,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417388',
     title: 'One-parent families, Total income, Number with income, Canada',
+    originalTitle: 'Canada;One-parent families;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16312,6 +17270,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417389',
     title: 'One-parent families, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;One-parent families;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16329,6 +17288,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100191_96417449',
     title: 'Income Statistics by Economic Family Type and Income Source: Other non-senior families, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;Other non-senior families;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income Statistics by Economic Family Type and Income Source',
     release: 'Income Statistics by Economic Family Type and Income Source',
@@ -16346,6 +17306,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434532',
     title: 'Economic families and persons not in an economic family, Total income, Share of income, Total deciles, Canada',
+    originalTitle: 'Canada;Economic families and persons not in an economic family;Total income;Share of income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16363,6 +17324,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434543',
     title: 'Economic families and persons not in an economic family, Total income, Average income, Total deciles, Canada',
+    originalTitle: 'Canada;Economic families and persons not in an economic family;Total income;Average income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16380,6 +17342,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434631',
     title: 'Economic families, Total income, Share of income, Total deciles, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Share of income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16397,6 +17360,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434636',
     title: 'Economic families, Total income, Share of income, Fifth decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Share of income;Fifth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16414,6 +17378,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434637',
     title: 'Economic families, Total income, Share of income, Sixth decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Share of income;Sixth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16431,6 +17396,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434640',
     title: 'Economic families, Total income, Share of income, Ninth decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Share of income;Ninth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16448,6 +17414,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434642',
     title: 'Economic families, Total income, Average income, Total deciles, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16465,6 +17432,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434643',
     title: 'Economic families, Total income, Average income, Lowest decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Lowest decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16482,6 +17450,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434644',
     title: 'Economic families, Total income, Average income, Second decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Second decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16499,6 +17468,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434645',
     title: 'Economic families, Total income, Average income, Third decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Third decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16516,6 +17486,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434646',
     title: 'Economic families, Total income, Average income, Fourth decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Fourth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16533,6 +17504,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434647',
     title: 'Economic families, Total income, Average income, Fifth decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Fifth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16550,6 +17522,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434648',
     title: 'Economic families, Total income, Average income, Sixth decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Sixth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16567,6 +17540,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434650',
     title: 'Economic families, Total income, Average income, Eighth decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Eighth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16584,6 +17558,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434651',
     title: 'Economic families, Total income, Average income, Ninth decile, Canada',
+    originalTitle: 'Canada;Economic families;Total income;Average income;Ninth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16601,6 +17576,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434730',
     title: 'Persons not in an economic family, Total income, Share of income, Total deciles, Canada',
+    originalTitle: 'Canada;Persons not in an economic family;Total income;Share of income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16618,6 +17594,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100192_96434741',
     title: 'Persons not in an economic family, Total income, Average income, Total deciles, Canada',
+    originalTitle: 'Canada;Persons not in an economic family;Total income;Average income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16635,6 +17612,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438360',
     title: 'Adjusted market income, Share of income, Total deciles, Canada',
+    originalTitle: 'Canada;Adjusted market income;Share of income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16652,6 +17630,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438371',
     title: 'Adjusted market income, Average income, Total deciles, Canada',
+    originalTitle: 'Canada;Adjusted market income;Average income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16669,6 +17648,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438393',
     title: 'Adjusted total income, Share of income, Total deciles, Canada',
+    originalTitle: 'Canada;Adjusted total income;Share of income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16686,6 +17666,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438398',
     title: 'Adjusted total income, Share of income, Fifth decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Share of income;Fifth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16703,6 +17684,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438399',
     title: 'Adjusted total income, Share of income, Sixth decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Share of income;Sixth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16720,6 +17702,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438402',
     title: 'Adjusted total income, Share of income, Ninth decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Share of income;Ninth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16737,6 +17720,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438404',
     title: 'Adjusted total income, Average income, Total deciles, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16754,6 +17738,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438405',
     title: 'Adjusted total income, Average income, Lowest decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Lowest decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16771,6 +17756,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438406',
     title: 'Adjusted total income, Average income, Second decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Second decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16788,6 +17774,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438407',
     title: 'Adjusted total income, Average income, Third decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Third decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16805,6 +17792,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438408',
     title: 'Adjusted total income, Average income, Fourth decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Fourth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16822,6 +17810,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438409',
     title: 'Adjusted total income, Average income, Fifth decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Fifth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16839,6 +17828,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438410',
     title: 'Adjusted total income, Average income, Sixth decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Sixth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16856,6 +17846,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438412',
     title: 'Adjusted total income, Average income, Eighth decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Eighth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16873,6 +17864,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438413',
     title: 'Adjusted total income, Average income, Ninth decile, Canada',
+    originalTitle: 'Canada;Adjusted total income;Average income;Ninth decile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16890,6 +17882,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438426',
     title: 'Adjusted after-tax income, Share of income, Total deciles, Canada',
+    originalTitle: 'Canada;Adjusted after-tax income;Share of income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16907,6 +17900,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100193_96438437',
     title: 'Adjusted after-tax income, Average income, Total deciles, Canada',
+    originalTitle: 'Canada;Adjusted after-tax income;Average income;Total deciles', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Upper Income Limit',
     release: 'Upper Income Limit',
@@ -16924,6 +17918,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439695',
     title: '2024 constant dollars, Total income, 1 person, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;1 person', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -16941,6 +17936,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439696',
     title: '2024 constant dollars, Total income, 2 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;2 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -16958,6 +17954,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439697',
     title: '2024 constant dollars, Total income, 3 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;3 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -16975,6 +17972,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439698',
     title: '2024 constant dollars, Total income, 4 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;4 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -16992,6 +17990,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439699',
     title: '2024 constant dollars, Total income, 5 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;5 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -17009,6 +18008,7 @@ export const GENERATED_SERIES_PART0: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439700',
     title: '2024 constant dollars, Total income, 6 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;6 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',

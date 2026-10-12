@@ -14,6 +14,11 @@
 // Usage: node 06-codegen.mjs
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { wdsHead, sleep, readJsonl } from './lib.mjs';
+import {
+  NOISE_PARTS,
+  fredCore,
+  needsSurveyPrefix,
+} from './titles.mjs';
 
 // memberUomCode -> display units. Grounded: 6 codes against the curated
 // registry's known units; the rest inferred from vector titles + latest-value
@@ -49,7 +54,6 @@ const SURVEY_NAMES = {
   '5224': 'Freight Rail Services Price Index',
 };
 
-const NOISE_PARTS = new Set(['Estimate', 'Total - Gender', 'Both sexes', 'Total, both sexes']);
 const FREQ_NAME = { 6: 'Monthly', 9: 'Quarterly', 12: 'Annual' };
 // StatCan 2-digit subject -> CRED category slug. Judgment calls (no exact
 // category exists): 10 government finance -> national-accounts (fiscal
@@ -131,23 +135,8 @@ function titleParts(r) {
   };
 }
 
-// Clean title used when there is no collision. Returns parts so the dedupe
-// step can append mechanical qualifiers without re-parsing.
-function tidyCore(core) {
-  // Drop comma-segments that repeat the previous one verbatim
-  // (e.g. "Total employed, Total employed, all industries").
-  const segs = core.split(',').map((s) => s.trim()).filter(Boolean);
-  const out = [];
-  for (const s of segs) {
-    if (out.length && out[out.length - 1].toLowerCase() === s.toLowerCase()) continue;
-    out.push(s);
-  }
-  return out.join(', ');
-}
-
 function cleanTitleParts(r) {
-  let { core, sa } = titleParts(r);
-  core = tidyCore(core);
+  let { measureHead, core, sa } = fredCore(r.members);
   if (!core) {
     // Every member was noise (e.g. "Canada; Estimate; Seasonally adjusted"):
     // fall back to the cube's subject stem rather than emitting "Survey: , Canada".
@@ -155,8 +144,8 @@ function cleanTitleParts(r) {
   }
   let prefix = '';
   const isCpi = /consumer price/i.test(r.cubeTitle);
-  if (isCpi && !/^consumer price index/i.test(core)) prefix = 'Consumer Price Index: ';
-  else if (!isCpi && (core.length < 30 || /^(Other|Total|All)\b/.test(core))) {
+  if (isCpi && !/^consumer price index/i.test(core) && !/^cpi\b/i.test(core)) prefix = 'CPI: ';
+  else if (!isCpi && needsSurveyPrefix(measureHead, core)) {
     prefix = `${surveyName(r)}: `;
   }
   // Don't double the prefix when the core already leads with it.
@@ -294,6 +283,7 @@ for (const { r, title } of kept.sort((a, b) => a.r.productId - b.r.productId || 
       '  {',
       `    id: ${q(id)},`,
       `    title: ${q(title)},`,
+      `    originalTitle: ${q(r.titleEn)}, // raw StatCan label: provenance + search alias`,
       `    source: 'statcan',`,
       `    sourceLabel: ${q(`Statistics Canada, ${survey}`)},`,
       `    release: ${q(survey)},`,

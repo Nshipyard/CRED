@@ -8,6 +8,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439701',
     title: '2024 constant dollars, Total income, 7 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;7 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -25,6 +26,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439702',
     title: '2024 constant dollars, Total income, 8 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;8 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -42,6 +44,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439703',
     title: '2024 constant dollars, Total income, 9 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;9 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -59,6 +62,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_96439704',
     title: '2024 constant dollars, Total income, 10 persons, Canada',
+    originalTitle: 'Canada;2024 constant dollars;Total income;10 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -76,6 +80,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698674',
     title: 'Current dollars, Total income, 1 person, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;1 person', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -93,6 +98,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698675',
     title: 'Current dollars, Total income, 2 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;2 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -110,6 +116,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698676',
     title: 'Current dollars, Total income, 3 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;3 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -127,6 +134,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698677',
     title: 'Current dollars, Total income, 4 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;4 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -144,6 +152,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698678',
     title: 'Current dollars, Total income, 5 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;5 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -161,6 +170,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698679',
     title: 'Current dollars, Total income, 6 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;6 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -178,6 +188,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698680',
     title: 'Current dollars, Total income, 7 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;7 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -195,6 +206,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698681',
     title: 'Current dollars, Total income, 8 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;8 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -212,6 +224,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698682',
     title: 'Current dollars, Total income, 9 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;9 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -229,6 +242,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100232_107698683',
     title: 'Current dollars, Total income, 10 persons, Canada',
+    originalTitle: 'Canada;Current dollars;Total income;10 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Measure (LIM) Thresholds by Income Source and Household Size',
     release: 'Low Income Measure (LIM) Thresholds by Income Source and Household Size',
@@ -246,6 +260,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652807',
     title: 'Distribution of Market: Total income, Economic families, Number of families, Canada',
+    originalTitle: 'Canada;Total income;Economic families;Number of families', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -263,6 +278,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652809',
     title: 'Distribution of Market: Total income, Economic families, Percentage with income, Canada',
+    originalTitle: 'Canada;Total income;Economic families;Percentage with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -280,6 +296,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652811',
     title: 'Distribution of Market: Total income, Economic families, $10, 000 to $19, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$10,000 to $19,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -297,6 +314,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652812',
     title: 'Distribution of Market: Total income, Economic families, $20, 000 to $29, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$20,000 to $29,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -314,6 +332,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652813',
     title: 'Distribution of Market: Total income, Economic families, $30, 000 to $39, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$30,000 to $39,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -331,6 +350,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652814',
     title: 'Distribution of Market: Total income, Economic families, $40, 000 to $49, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$40,000 to $49,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -348,6 +368,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652815',
     title: 'Distribution of Market: Total income, Economic families, $50, 000 to $59, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$50,000 to $59,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -365,6 +386,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652816',
     title: 'Distribution of Market: Total income, Economic families, $60, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$60,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -382,6 +404,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652817',
     title: 'Distribution of Market: Total income, Economic families, $60, 000 to $69, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$60,000 to $69,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -399,6 +422,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652818',
     title: 'Distribution of Market: Total income, Economic families, $70, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$70,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -416,6 +440,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652819',
     title: 'Distribution of Market: Total income, Economic families, $80, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$80,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -433,6 +458,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652820',
     title: 'Distribution of Market: Total income, Economic families, $80, 000 to $89, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$80,000 to $89,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -450,6 +476,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652821',
     title: 'Distribution of Market: Total income, Economic families, $90, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$90,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -467,6 +494,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652822',
     title: 'Distribution of Market: Total income, Economic families, $100, 000 and over, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$100,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -484,6 +512,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652823',
     title: 'Distribution of Market: Total income, Economic families, $100, 000 to 149, 999, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$100,000 to 149,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -501,6 +530,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652824',
     title: 'Distribution of Market: Total income, Economic families, $150, 000 and over, Canada',
+    originalTitle: 'Canada;Total income;Economic families;$150,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -518,6 +548,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652825',
     title: 'Distribution of Market: Total income, Economic families, Average income, Canada',
+    originalTitle: 'Canada;Total income;Economic families;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -535,6 +566,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652826',
     title: 'Distribution of Market: Total income, Economic families, Median income, Canada',
+    originalTitle: 'Canada;Total income;Economic families;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -552,6 +584,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100237_107652846',
     title: 'Distribution of Market: Total income, Persons not in an economic family, Median income, Canada',
+    originalTitle: 'Canada;Total income;Persons not in an economic family;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -569,6 +602,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656523',
     title: 'Distribution of Market: Market income, Average income, Canada',
+    originalTitle: 'Canada;Market income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -586,6 +620,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656524',
     title: 'Distribution of Market: Market income, Median income, Canada',
+    originalTitle: 'Canada;Market income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -603,6 +638,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656525',
     title: 'Distribution of Market: Total income, Number of persons, Canada',
+    originalTitle: 'Canada;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -620,6 +656,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656526',
     title: 'Distribution of Market: Total income, Percentage without income, Canada',
+    originalTitle: 'Canada;Total income;Percentage without income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -637,6 +674,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656527',
     title: 'Distribution of Market: Total income, Percentage with income, Canada',
+    originalTitle: 'Canada;Total income;Percentage with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -654,6 +692,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656528',
     title: 'Distribution of Market: Total income, Percentage under $10, 000 (including zeros and losses), Canada',
+    originalTitle: 'Canada;Total income;Percentage under $10,000 (including zeros and losses)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -671,6 +710,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656529',
     title: 'Distribution of Market: Total income, $10, 000 to $19, 999, Canada',
+    originalTitle: 'Canada;Total income;$10,000 to $19,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -688,6 +728,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656530',
     title: 'Distribution of Market: Total income, $20, 000 to $29, 999, Canada',
+    originalTitle: 'Canada;Total income;$20,000 to $29,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -705,6 +746,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656531',
     title: 'Distribution of Market: Total income, $30, 000 to $39, 999, Canada',
+    originalTitle: 'Canada;Total income;$30,000 to $39,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -722,6 +764,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656532',
     title: 'Distribution of Market: Total income, $40, 000 to $49, 999, Canada',
+    originalTitle: 'Canada;Total income;$40,000 to $49,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -739,6 +782,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656533',
     title: 'Distribution of Market: Total income, $50, 000 to $59, 999, Canada',
+    originalTitle: 'Canada;Total income;$50,000 to $59,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -756,6 +800,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656534',
     title: 'Distribution of Market: Total income, $60, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Total income;$60,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -773,6 +818,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656535',
     title: 'Distribution of Market: Total income, $60, 000 to $69, 999, Canada',
+    originalTitle: 'Canada;Total income;$60,000 to $69,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -790,6 +836,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656536',
     title: 'Distribution of Market: Total income, $70, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Total income;$70,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -807,6 +854,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656537',
     title: 'Distribution of Market: Total income, $80, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Total income;$80,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -824,6 +872,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656538',
     title: 'Distribution of Market: Total income, $80, 000 to $89, 999, Canada',
+    originalTitle: 'Canada;Total income;$80,000 to $89,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -841,6 +890,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656539',
     title: 'Distribution of Market: Total income, $90, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Total income;$90,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -858,6 +908,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656540',
     title: 'Distribution of Market: Total income, $100, 000 and over, Canada',
+    originalTitle: 'Canada;Total income;$100,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -875,6 +926,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656541',
     title: 'Distribution of Market: Total income, Average income, Canada',
+    originalTitle: 'Canada;Total income;Average income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -892,6 +944,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100238_107656542',
     title: 'Distribution of Market: Total income, Median income, Canada',
+    originalTitle: 'Canada;Total income;Median income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Market',
     release: 'Distribution of Market',
@@ -908,7 +961,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107660856',
-    title: '15 years and over, Total income, Aggregate income, Canada',
+    title: 'ages 15 and over, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;15 years and over;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -925,7 +979,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661079',
-    title: '15 to 24 years, Total income, Number of persons, Canada',
+    title: 'ages 15 to 24, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;15 to 24 years;Total - Gender;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -942,7 +997,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661080',
-    title: '15 to 24 years, Total income, Number with income, Canada',
+    title: 'ages 15 to 24, Total income, Number with income, Canada',
+    originalTitle: 'Canada;15 to 24 years;Total - Gender;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -959,7 +1015,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661081',
-    title: '15 to 24 years, Total income, Aggregate income, Canada',
+    title: 'ages 15 to 24, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;15 to 24 years;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -976,7 +1033,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661304',
-    title: '25 to 54 years, Total income, Number of persons, Canada',
+    title: 'ages 25 to 54, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;25 to 54 years;Total - Gender;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -993,7 +1051,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661305',
-    title: '25 to 54 years, Total income, Number with income, Canada',
+    title: 'ages 25 to 54, Total income, Number with income, Canada',
+    originalTitle: 'Canada;25 to 54 years;Total - Gender;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1010,7 +1069,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661306',
-    title: '25 to 54 years, Total income, Aggregate income, Canada',
+    title: 'ages 25 to 54, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;25 to 54 years;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1027,7 +1087,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661529',
-    title: '25 to 34 years, Total income, Number of persons, Canada',
+    title: 'ages 25 to 34, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;25 to 34 years;Total - Gender;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1044,7 +1105,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661530',
-    title: '25 to 34 years, Total income, Number with income, Canada',
+    title: 'ages 25 to 34, Total income, Number with income, Canada',
+    originalTitle: 'Canada;25 to 34 years;Total - Gender;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1061,7 +1123,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661531',
-    title: '25 to 34 years, Total income, Aggregate income, Canada',
+    title: 'ages 25 to 34, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;25 to 34 years;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1078,7 +1141,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661754',
-    title: '35 to 44 years, Total income, Number of persons, Canada',
+    title: 'ages 35 to 44, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;35 to 44 years;Total - Gender;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1095,7 +1159,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661755',
-    title: '35 to 44 years, Total income, Number with income, Canada',
+    title: 'ages 35 to 44, Total income, Number with income, Canada',
+    originalTitle: 'Canada;35 to 44 years;Total - Gender;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1112,7 +1177,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661756',
-    title: '35 to 44 years, Total income, Aggregate income, Canada',
+    title: 'ages 35 to 44, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;35 to 44 years;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1129,7 +1195,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661979',
-    title: '45 to 54 years, Total income, Number of persons, Canada',
+    title: 'ages 45 to 54, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;45 to 54 years;Total - Gender;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1146,7 +1213,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661980',
-    title: '45 to 54 years, Total income, Number with income, Canada',
+    title: 'ages 45 to 54, Total income, Number with income, Canada',
+    originalTitle: 'Canada;45 to 54 years;Total - Gender;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1163,7 +1231,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107661981',
-    title: '45 to 54 years, Total income, Aggregate income, Canada',
+    title: 'ages 45 to 54, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;45 to 54 years;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1180,7 +1249,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107662204',
-    title: '55 to 64 years, Total income, Number of persons, Canada',
+    title: 'ages 55 to 64, Total income, Number of persons, Canada',
+    originalTitle: 'Canada;55 to 64 years;Total - Gender;Total income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1197,7 +1267,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107662205',
-    title: '55 to 64 years, Total income, Number with income, Canada',
+    title: 'ages 55 to 64, Total income, Number with income, Canada',
+    originalTitle: 'Canada;55 to 64 years;Total - Gender;Total income;Number with income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1214,7 +1285,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107662206',
-    title: '55 to 64 years, Total income, Aggregate income, Canada',
+    title: 'ages 55 to 64, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;55 to 64 years;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1231,7 +1303,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_11100239_107662431',
-    title: '65 years and over, Total income, Aggregate income, Canada',
+    title: 'ages 65 and over, Total income, Aggregate income, Canada',
+    originalTitle: 'Canada;65 years and over;Total - Gender;Total income;Aggregate income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Income of Individuals by age Group',
     release: 'Income of Individuals by age Group',
@@ -1249,6 +1322,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657641',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, Number of persons, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1266,6 +1340,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657642',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, Average employment income, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;Average employment income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1283,6 +1358,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657643',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, Median employment income, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;Median employment income', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1300,6 +1376,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657644',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, Percentage under $5, 000 (including losses), Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;Percentage under $5,000 (including losses)', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1317,6 +1394,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657645',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $5, 000 to $9, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$5,000 to $9,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1334,6 +1412,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657646',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $10, 000 to $19, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$10,000 to $19,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1351,6 +1430,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657647',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $20, 000 to $29, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$20,000 to $29,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1368,6 +1448,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657648',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $30, 000 to $39, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$30,000 to $39,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1385,6 +1466,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657649',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $40, 000 to $49, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$40,000 to $49,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1402,6 +1484,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657650',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $50, 000 to $59, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$50,000 to $59,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1419,6 +1502,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657651',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $60, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$60,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1436,6 +1520,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657652',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $60, 000 to $69, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$60,000 to $69,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1453,6 +1538,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657653',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $70, 000 to $79, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$70,000 to $79,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1470,6 +1556,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657654',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $80, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$80,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1487,6 +1574,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657655',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $80, 000 to $89, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$80,000 to $89,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1504,6 +1592,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657656',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $90, 000 to $99, 999, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$90,000 to $99,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1521,6 +1610,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657657',
     title: 'Distribution of Employment Income of Individuals by Gender and Work Activity: All persons with employment income, $100, 000 and over, Canada',
+    originalTitle: 'Canada;Total - Gender;All persons with employment income;$100,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1538,6 +1628,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657692',
     title: 'Men+, All persons with employment income, Number of persons, Canada',
+    originalTitle: 'Canada;Men+;All persons with employment income;Number of persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1555,6 +1646,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657696',
     title: 'Men+, All persons with employment income, $5, 000 to $9, 999, Canada',
+    originalTitle: 'Canada;Men+;All persons with employment income;$5,000 to $9,999', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1572,6 +1664,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100240_107657708',
     title: 'Men+, All persons with employment income, $100, 000 and over, Canada',
+    originalTitle: 'Canada;Men+;All persons with employment income;$100,000 and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Distribution of Employment Income of Individuals by Gender and Work Activity',
     release: 'Distribution of Employment Income of Individuals by Gender and Work Activity',
@@ -1589,6 +1682,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652657',
     title: 'Low income cut-offs after tax, 1992 base, Rural areas, 1 person, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Rural areas;1 person', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1606,6 +1700,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652658',
     title: 'Low income cut-offs after tax, 1992 base, Rural areas, 2 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Rural areas;2 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1623,6 +1718,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652659',
     title: 'Low income cut-offs after tax, 1992 base, Rural areas, 3 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Rural areas;3 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1640,6 +1736,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652660',
     title: 'Low income cut-offs after tax, 1992 base, Rural areas, 4 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Rural areas;4 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1657,6 +1754,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652661',
     title: 'Low income cut-offs after tax, 1992 base, Rural areas, 5 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Rural areas;5 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1674,6 +1772,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652662',
     title: 'Low income cut-offs after tax, 1992 base, Rural areas, 6 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Rural areas;6 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1691,6 +1790,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652663',
     title: 'Low income cut-offs after tax, 1992 base, Rural areas, 7 persons or more, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Rural areas;7 persons or more', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1708,6 +1808,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652664',
     title: 'Low income cut-offs after tax, 1992 base, Population under 30, 000, 1 person, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Population under 30,000;1 person', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1725,6 +1826,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652665',
     title: 'Low income cut-offs after tax, 1992 base, Population under 30, 000, 2 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Population under 30,000;2 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1742,6 +1844,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652666',
     title: 'Low income cut-offs after tax, 1992 base, Population under 30, 000, 3 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Population under 30,000;3 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1759,6 +1862,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652667',
     title: 'Low income cut-offs after tax, 1992 base, Population under 30, 000, 4 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Population under 30,000;4 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1776,6 +1880,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652668',
     title: 'Low income cut-offs after tax, 1992 base, Population under 30, 000, 5 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Population under 30,000;5 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1793,6 +1898,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652669',
     title: 'Low income cut-offs after tax, 1992 base, Population under 30, 000, 6 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs after tax, 1992 base;Population under 30,000;6 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1810,6 +1916,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652692',
     title: 'Low income cut-offs before tax, 1992 base, Rural areas, 1 person, Canada',
+    originalTitle: 'Canada;Low income cut-offs before tax, 1992 base;Rural areas;1 person', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1827,6 +1934,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652693',
     title: 'Low income cut-offs before tax, 1992 base, Rural areas, 2 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs before tax, 1992 base;Rural areas;2 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1844,6 +1952,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652694',
     title: 'Low income cut-offs before tax, 1992 base, Rural areas, 3 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs before tax, 1992 base;Rural areas;3 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1861,6 +1970,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652695',
     title: 'Low income cut-offs before tax, 1992 base, Rural areas, 4 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs before tax, 1992 base;Rural areas;4 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1878,6 +1988,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652696',
     title: 'Low income cut-offs before tax, 1992 base, Rural areas, 5 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs before tax, 1992 base;Rural areas;5 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1895,6 +2006,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652697',
     title: 'Low income cut-offs before tax, 1992 base, Rural areas, 6 persons, Canada',
+    originalTitle: 'Canada;Low income cut-offs before tax, 1992 base;Rural areas;6 persons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1912,6 +2024,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_11100241_107652698',
     title: 'Low income cut-offs before tax, 1992 base, Rural areas, 7 persons or more, Canada',
+    originalTitle: 'Canada;Low income cut-offs before tax, 1992 base;Rural areas;7 persons or more', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
     release: 'Low Income Cut-offs (LICOs) Before and After tax by Community Size and Family Size',
@@ -1929,6 +2042,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586749',
     title: 'Customs basis, Southbound, Canadian dollar, Adjustments to Canadian exports, Canada',
+    originalTitle: 'Canada;Customs basis;Southbound;Canadian dollar;Adjustments to Canadian exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -1946,6 +2060,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586750',
     title: 'Customs basis, Southbound, Canadian dollar, Canadian exports after adjustments, Canada',
+    originalTitle: 'Canada;Customs basis;Southbound;Canadian dollar;Canadian exports after adjustments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -1963,6 +2078,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586753',
     title: 'Customs basis, Southbound, US dollar, American imports of goods from Canada, Canada',
+    originalTitle: 'Canada;Customs basis;Southbound;US dollar;American imports of goods from Canada', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -1980,6 +2096,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586755',
     title: 'Customs basis, Southbound, US dollar, Adjustments to Canadian exports, Canada',
+    originalTitle: 'Canada;Customs basis;Southbound;US dollar;Adjustments to Canadian exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -1997,6 +2114,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586756',
     title: 'Customs basis, Southbound, US dollar, Canadian exports after adjustments, Canada',
+    originalTitle: 'Canada;Customs basis;Southbound;US dollar;Canadian exports after adjustments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -2014,6 +2132,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586761',
     title: 'Customs basis, Northbound, Canadian dollar, Adjustments to American exports, Canada',
+    originalTitle: 'Canada;Customs basis;Northbound;Canadian dollar;Adjustments to American exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -2031,6 +2150,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586762',
     title: 'Customs basis, Northbound, Canadian dollar, American exports after adjustments, Canada',
+    originalTitle: 'Canada;Customs basis;Northbound;Canadian dollar;American exports after adjustments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -2048,6 +2168,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586765',
     title: 'Customs basis, Northbound, US dollar, American exports of goods to Canada, Canada',
+    originalTitle: 'Canada;Customs basis;Northbound;US dollar;American exports of goods to Canada', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -2065,6 +2186,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586767',
     title: 'Customs basis, Northbound, US dollar, Adjustments to American exports, Canada',
+    originalTitle: 'Canada;Customs basis;Northbound;US dollar;Adjustments to American exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -2082,6 +2204,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100005_122586768',
     title: 'Customs basis, Northbound, US dollar, American exports after adjustments, Canada',
+    originalTitle: 'Canada;Customs basis;Northbound;US dollar;American exports after adjustments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canada and United States Bilateral Trade in Goods',
     release: 'Canada and United States Bilateral Trade in Goods',
@@ -2099,6 +2222,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008781',
     title: 'Import, Customs, All countries, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2117,6 +2241,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008788',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Italy, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2135,6 +2260,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008790',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Spain, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Spain', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2153,6 +2279,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008793',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Japan, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Japan', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2171,6 +2298,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008799',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, India, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2189,6 +2317,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008804',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Peru, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2207,6 +2336,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008806',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Iraq, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Iraq', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2225,6 +2355,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008839',
     title: 'Import, Balance of payments, All countries, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2243,6 +2374,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008897',
     title: 'Export, Customs, All countries, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2261,6 +2393,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008904',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Italy, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2279,6 +2412,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008906',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Spain, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Spain', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2297,6 +2431,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008915',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, India, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2315,6 +2450,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008920',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Peru, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2333,6 +2469,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008922',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Iraq, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Iraq', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2351,6 +2488,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008955',
     title: 'Export, Balance of payments, All countries, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2369,6 +2507,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100011_87008984',
     title: 'Trade Balance, Balance of payments, All countries, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Trade Balance;Balance of payments;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -2387,6 +2526,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786902',
     title: 'Value of exports, All enterprise employment sizes, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2404,6 +2544,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786903',
     title: 'Value of exports, All enterprise employment sizes, 1 partner country, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2421,6 +2562,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786904',
     title: 'Value of exports, All enterprise employment sizes, 2 partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;2 partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2438,6 +2580,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786905',
     title: 'Value of exports, All enterprise employment sizes, 3 to 5 partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;3 to 5 partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2455,6 +2598,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786906',
     title: 'Value of exports, All enterprise employment sizes, 6 to 9 partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;6 to 9 partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2472,6 +2616,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786907',
     title: 'Value of exports, All enterprise employment sizes, 10 to 14 partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;10 to 14 partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2489,6 +2634,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786908',
     title: 'Value of exports, All enterprise employment sizes, 15 to 19 partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;15 to 19 partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2506,6 +2652,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786909',
     title: 'Value of exports, All enterprise employment sizes, 20 or more partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;20 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2523,6 +2670,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786918',
     title: 'Value of exports, 0 or unreported employees, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;0 or unreported employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2540,6 +2688,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786926',
     title: 'Value of exports, 1 to 9 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2557,6 +2706,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786934',
     title: 'Value of exports, 10 to 49 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;10 to 49 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2574,6 +2724,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786942',
     title: 'Value of exports, 50 to 99 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;50 to 99 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2591,6 +2742,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786950',
     title: 'Value of exports, 100 to 249 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;100 to 249 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2608,6 +2760,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786958',
     title: 'Value of exports, 250 to 499 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;250 to 499 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2625,6 +2778,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786974',
     title: 'Number of exporting enterprises, All enterprise employment sizes, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2642,6 +2796,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786975',
     title: 'Number of exporting enterprises, All enterprise employment sizes, 1 partner country, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2659,6 +2814,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786976',
     title: 'Number of exporting enterprises, All enterprise employment sizes, 2 partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;2 partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2676,6 +2832,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108786998',
     title: 'Number of exporting enterprises, 1 to 9 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;1 to 9 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2693,6 +2850,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108787006',
     title: 'Number of exporting enterprises, 10 to 49 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;10 to 49 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2710,6 +2868,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100091_108787014',
     title: 'Number of exporting enterprises, 50 to 99 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;50 to 99 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2727,6 +2886,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795702',
     title: 'Value of exports, All industries, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All industries;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2744,6 +2904,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795703',
     title: 'Value of exports, All industries, 1 partner country, Canada',
+    originalTitle: 'Canada;Value of exports;All industries;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2761,6 +2922,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795704',
     title: 'Value of exports, All industries, 2 partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All industries;2 partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2778,6 +2940,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795726',
     title: 'Value of exports, Oil and gas extraction, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Oil and gas extraction;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2795,6 +2958,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795750',
     title: 'Value of exports, Utilities, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Utilities;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2812,6 +2976,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795758',
     title: 'Value of exports, Construction, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Construction;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2829,6 +2994,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795766',
     title: 'Value of exports, Manufacturing, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Manufacturing;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2846,6 +3012,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795774',
     title: 'Value of exports, Food manufacturing, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Food manufacturing;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2863,6 +3030,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795790',
     title: 'Value of exports, Textile mills, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Textile mills;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2880,6 +3048,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795798',
     title: 'Value of exports, Textile product mills, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Textile product mills;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2897,6 +3066,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795806',
     title: 'Value of exports, Apparel manufacturing, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Apparel manufacturing;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2914,6 +3084,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795830',
     title: 'Value of exports, Paper manufacturing, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Paper manufacturing;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2931,6 +3102,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795854',
     title: 'Value of exports, Chemical manufacturing, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Chemical manufacturing;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2948,6 +3120,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795894',
     title: 'Value of exports, Machinery manufacturing, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Machinery manufacturing;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2965,6 +3138,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795942',
     title: 'Value of exports, Wholesale trade, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Wholesale trade;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2982,6 +3156,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795950',
     title: 'Value of exports, Retail trade, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Retail trade;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -2999,6 +3174,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108795974',
     title: 'Value of exports, Finance and insurance, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Finance and insurance;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3016,6 +3192,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108796014',
     title: 'Value of exports, Educational services, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Educational services;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3033,6 +3210,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108796054',
     title: 'Value of exports, Public administration, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;Public administration;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3050,6 +3228,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100092_108796062',
     title: 'Number of exporting enterprises, All industries, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All industries;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3067,6 +3246,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798511',
     title: 'Value of exports, All enterprise employment sizes, All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3084,6 +3264,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798512',
     title: 'Value of exports, All enterprise employment sizes, Top 10 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Top 10 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3101,6 +3282,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798513',
     title: 'Value of exports, All enterprise employment sizes, Top 20 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Top 20 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3118,6 +3300,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798514',
     title: 'Value of exports, All enterprise employment sizes, Top 50 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Top 50 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3135,6 +3318,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798515',
     title: 'Value of exports, All enterprise employment sizes, Top 100 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Top 100 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3152,6 +3336,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798516',
     title: 'Value of exports, All enterprise employment sizes, Top 500 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Top 500 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3169,6 +3354,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798517',
     title: 'Value of exports, All enterprise employment sizes, Top 1000 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Top 1000 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3186,6 +3372,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798518',
     title: 'Value of exports, Small and medium-sized enterprises (0 to 499 employees), All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;Small and medium-sized enterprises (0 to 499 employees);All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3203,6 +3390,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798525',
     title: 'Value of exports, 0 or unreported employees, All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;0 or unreported employees;All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3220,6 +3408,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798532',
     title: 'Value of exports, 1 to 9 employees, All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3237,6 +3426,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798533',
     title: 'Value of exports, 1 to 9 employees, Top 10 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;Top 10 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3254,6 +3444,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798534',
     title: 'Value of exports, 1 to 9 employees, Top 20 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;Top 20 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3271,6 +3462,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798535',
     title: 'Value of exports, 1 to 9 employees, Top 50 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;Top 50 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3288,6 +3480,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798536',
     title: 'Value of exports, 1 to 9 employees, Top 100 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;Top 100 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3305,6 +3498,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798537',
     title: 'Value of exports, 1 to 9 employees, Top 500 exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;Top 500 exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3322,6 +3516,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798539',
     title: 'Value of exports, 10 to 49 employees, All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;10 to 49 employees;All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3339,6 +3534,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798546',
     title: 'Value of exports, 50 to 99 employees, All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;50 to 99 employees;All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3356,6 +3552,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798553',
     title: 'Value of exports, 100 to 249 employees, All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;100 to 249 employees;All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3373,6 +3570,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798560',
     title: 'Value of exports, 250 to 499 employees, All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;250 to 499 employees;All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3390,6 +3588,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100093_108798567',
     title: 'Value of exports, Large enterprises (500 or more employees), All exporting enterprises, Canada',
+    originalTitle: 'Canada;Value of exports;Large enterprises (500 or more employees);All exporting enterprises', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3407,6 +3606,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796423',
     title: 'Value of exports, All enterprise employment sizes, All industries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3424,6 +3624,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796429',
     title: 'Value of exports, All enterprise employment sizes, Utilities, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3441,6 +3642,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796430',
     title: 'Value of exports, All enterprise employment sizes, Construction, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3458,6 +3660,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796431',
     title: 'Value of exports, All enterprise employment sizes, Manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3475,6 +3678,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796432',
     title: 'Value of exports, All enterprise employment sizes, Food manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Food manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3492,6 +3696,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796434',
     title: 'Value of exports, All enterprise employment sizes, Textile mills, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Textile mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3509,6 +3714,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796435',
     title: 'Value of exports, All enterprise employment sizes, Textile product mills, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Textile product mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3526,6 +3732,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796436',
     title: 'Value of exports, All enterprise employment sizes, Apparel manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Apparel manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3543,6 +3750,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796439',
     title: 'Value of exports, All enterprise employment sizes, Paper manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Paper manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3560,6 +3768,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796453',
     title: 'Value of exports, All enterprise employment sizes, Wholesale trade, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Wholesale trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3577,6 +3786,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796454',
     title: 'Value of exports, All enterprise employment sizes, Retail trade, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3594,6 +3804,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796457',
     title: 'Value of exports, All enterprise employment sizes, Finance and insurance, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Finance and insurance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3611,6 +3822,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796462',
     title: 'Value of exports, All enterprise employment sizes, Educational services, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Educational services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3628,6 +3840,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796467',
     title: 'Value of exports, All enterprise employment sizes, Public administration, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Public administration', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3645,6 +3858,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796558',
     title: 'Value of exports, 1 to 9 employees, All industries, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3662,6 +3876,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796603',
     title: 'Value of exports, 10 to 49 employees, All industries, Canada',
+    originalTitle: 'Canada;Value of exports;10 to 49 employees;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3679,6 +3894,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796648',
     title: 'Value of exports, 50 to 99 employees, All industries, Canada',
+    originalTitle: 'Canada;Value of exports;50 to 99 employees;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3696,6 +3912,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796693',
     title: 'Value of exports, 100 to 249 employees, All industries, Canada',
+    originalTitle: 'Canada;Value of exports;100 to 249 employees;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3713,6 +3930,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796738',
     title: 'Value of exports, 250 to 499 employees, All industries, Canada',
+    originalTitle: 'Canada;Value of exports;250 to 499 employees;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3730,6 +3948,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100094_108796828',
     title: 'Number of exporting enterprises, All enterprise employment sizes, All industries, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3747,6 +3966,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108788934',
     title: 'Value of exports, All enterprise employment sizes, All countries, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3764,6 +3984,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108788993',
     title: 'Value of exports, All enterprise employment sizes, Benin, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Benin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3781,6 +4002,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108788998',
     title: 'Value of exports, All enterprise employment sizes, Congo, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Congo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3798,6 +4020,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789017',
     title: 'Value of exports, All enterprise employment sizes, Mali, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Mali', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3815,6 +4038,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789031',
     title: 'Value of exports, All enterprise employment sizes, Chad, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Chad', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3832,6 +4056,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789033',
     title: 'Value of exports, All enterprise employment sizes, Togo, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Togo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3849,6 +4074,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789048',
     title: 'Value of exports, All enterprise employment sizes, Chile, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Chile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3866,6 +4092,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789053',
     title: 'Value of exports, All enterprise employment sizes, Aruba, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Aruba', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3883,6 +4110,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789061',
     title: 'Value of exports, All enterprise employment sizes, Cuba, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Cuba', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3900,6 +4128,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789078',
     title: 'Value of exports, All enterprise employment sizes, Peru, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3917,6 +4146,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789090',
     title: 'Value of exports, All enterprise employment sizes, Asia, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Asia', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3934,6 +4164,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789092',
     title: 'Value of exports, All enterprise employment sizes, China, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3951,6 +4182,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789104',
     title: 'Value of exports, All enterprise employment sizes, Laos, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Laos', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3968,6 +4200,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789128',
     title: 'Value of exports, All enterprise employment sizes, Iraq, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Iraq', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -3985,6 +4218,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789129',
     title: 'Value of exports, All enterprise employment sizes, Iran, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Iran', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4002,6 +4236,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789134',
     title: 'Value of exports, All enterprise employment sizes, Oman, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Oman', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4019,6 +4254,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789149',
     title: 'Value of exports, All enterprise employment sizes, Fiji, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Fiji', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4036,6 +4272,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108789151',
     title: 'Value of exports, All enterprise employment sizes, Guam, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Guam', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4053,6 +4290,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100095_108791121',
     title: 'Number of exporting enterprises, All enterprise employment sizes, All countries, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4070,6 +4308,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797233',
     title: 'Value of exports, All enterprise employment sizes, All regions, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4087,6 +4326,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797234',
     title: 'Value of exports, All enterprise employment sizes, Export to United States only, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Export to United States only', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4104,6 +4344,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797235',
     title: 'Value of exports, All enterprise employment sizes, Export to non-United States only, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Export to non-United States only', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4121,6 +4362,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797236',
     title: 'Value of exports, All enterprise employment sizes, Export to both United States and non-United States, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Export to both United States and non-United States', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4138,6 +4380,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797241',
     title: 'Value of exports, 0 or unreported employees, All regions, Canada',
+    originalTitle: 'Canada;Value of exports;0 or unreported employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4155,6 +4398,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797245',
     title: 'Value of exports, 1 to 9 employees, All regions, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4172,6 +4416,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797249',
     title: 'Value of exports, 10 to 49 employees, All regions, Canada',
+    originalTitle: 'Canada;Value of exports;10 to 49 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4189,6 +4434,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797253',
     title: 'Value of exports, 50 to 99 employees, All regions, Canada',
+    originalTitle: 'Canada;Value of exports;50 to 99 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4206,6 +4452,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797257',
     title: 'Value of exports, 100 to 249 employees, All regions, Canada',
+    originalTitle: 'Canada;Value of exports;100 to 249 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4223,6 +4470,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797261',
     title: 'Value of exports, 250 to 499 employees, All regions, Canada',
+    originalTitle: 'Canada;Value of exports;250 to 499 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4240,6 +4488,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797265',
     title: 'Value of exports, Large enterprises (500 or more employees), All regions, Canada',
+    originalTitle: 'Canada;Value of exports;Large enterprises (500 or more employees);All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4257,6 +4506,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797269',
     title: 'Number of exporting enterprises, All enterprise employment sizes, All regions, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4274,6 +4524,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797270',
     title: 'Number of exporting enterprises, All enterprise employment sizes, Export to United States only, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;Export to United States only', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4291,6 +4542,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797271',
     title: 'Number of exporting enterprises, All enterprise employment sizes, Export to non-United States only, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;Export to non-United States only', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4308,6 +4560,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797277',
     title: 'Number of exporting enterprises, 0 or unreported employees, All regions, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;0 or unreported employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4325,6 +4578,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797281',
     title: 'Number of exporting enterprises, 1 to 9 employees, All regions, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;1 to 9 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4342,6 +4596,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797285',
     title: 'Number of exporting enterprises, 10 to 49 employees, All regions, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;10 to 49 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4359,6 +4614,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797289',
     title: 'Number of exporting enterprises, 50 to 99 employees, All regions, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;50 to 99 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4376,6 +4632,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797293',
     title: 'Number of exporting enterprises, 100 to 249 employees, All regions, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;100 to 249 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4393,6 +4650,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100096_108797297',
     title: 'Number of exporting enterprises, 250 to 499 employees, All regions, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;250 to 499 employees;All regions', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4410,6 +4668,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797305',
     title: 'Value of exports, All enterprise employment sizes, All export sizes, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4427,6 +4686,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797306',
     title: 'Value of exports, All enterprise employment sizes, Less than $1 million, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;Less than $1 million', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4444,6 +4704,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797307',
     title: 'Value of exports, All enterprise employment sizes, $1 million to $24.9 million, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;$1 million to $24.9 million', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4461,6 +4722,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797308',
     title: 'Value of exports, All enterprise employment sizes, $25 million to $99.9 million, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;$25 million to $99.9 million', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4478,6 +4740,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797309',
     title: 'Value of exports, All enterprise employment sizes, $100 million to $499.9 million, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;$100 million to $499.9 million', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4495,6 +4758,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797310',
     title: 'Value of exports, All enterprise employment sizes, $500 million to $999.9 million, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;$500 million to $999.9 million', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4512,6 +4776,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797311',
     title: 'Value of exports, All enterprise employment sizes, $1 billion or greater, Canada',
+    originalTitle: 'Canada;Value of exports;All enterprise employment sizes;$1 billion or greater', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4529,6 +4794,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797319',
     title: 'Value of exports, 0 or unreported employees, All export sizes, Canada',
+    originalTitle: 'Canada;Value of exports;0 or unreported employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4546,6 +4812,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797326',
     title: 'Value of exports, 1 to 9 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Value of exports;1 to 9 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4563,6 +4830,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797333',
     title: 'Value of exports, 10 to 49 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Value of exports;10 to 49 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4580,6 +4848,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797340',
     title: 'Value of exports, 50 to 99 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Value of exports;50 to 99 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4597,6 +4866,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797347',
     title: 'Value of exports, 100 to 249 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Value of exports;100 to 249 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4614,6 +4884,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797354',
     title: 'Value of exports, 250 to 499 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Value of exports;250 to 499 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4631,6 +4902,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797368',
     title: 'Number of exporting enterprises, All enterprise employment sizes, All export sizes, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4648,6 +4920,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797369',
     title: 'Number of exporting enterprises, All enterprise employment sizes, Less than $1 million, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All enterprise employment sizes;Less than $1 million', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4665,6 +4938,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797389',
     title: 'Number of exporting enterprises, 1 to 9 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;1 to 9 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4682,6 +4956,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797396',
     title: 'Number of exporting enterprises, 10 to 49 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;10 to 49 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4699,6 +4974,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797403',
     title: 'Number of exporting enterprises, 50 to 99 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;50 to 99 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4716,6 +4992,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797410',
     title: 'Number of exporting enterprises, 100 to 249 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;100 to 249 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4733,6 +5010,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100097_108797417',
     title: 'Number of exporting enterprises, 250 to 499 employees, All export sizes, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;250 to 499 employees;All export sizes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4750,6 +5028,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797431',
     title: 'Value of exports, All industries, Canada',
+    originalTitle: 'Canada;Value of exports;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4767,6 +5046,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797434',
     title: 'Value of exports, Oil and gas extraction, Canada',
+    originalTitle: 'Canada;Value of exports;Oil and gas extraction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4784,6 +5064,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797437',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Utilities, Canada',
+    originalTitle: 'Canada;Value of exports;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4801,6 +5082,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797438',
     title: 'Value of exports, Construction, Canada',
+    originalTitle: 'Canada;Value of exports;Construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4818,6 +5100,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797439',
     title: 'Value of exports, Manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4835,6 +5118,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797440',
     title: 'Value of exports, Food manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;Food manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4852,6 +5136,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797442',
     title: 'Value of exports, Textile mills, Canada',
+    originalTitle: 'Canada;Value of exports;Textile mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4869,6 +5154,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797443',
     title: 'Value of exports, Textile product mills, Canada',
+    originalTitle: 'Canada;Value of exports;Textile product mills', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4886,6 +5172,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797444',
     title: 'Value of exports, Apparel manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;Apparel manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4903,6 +5190,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797446',
     title: 'Value of exports, Wood product manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;Wood product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4920,6 +5208,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797447',
     title: 'Value of exports, Paper manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;Paper manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4937,6 +5226,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797450',
     title: 'Value of exports, Chemical manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;Chemical manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4954,6 +5244,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797455',
     title: 'Value of exports, Machinery manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;Machinery manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4971,6 +5262,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797460',
     title: 'Value of exports, Miscellaneous manufacturing, Canada',
+    originalTitle: 'Canada;Value of exports;Miscellaneous manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -4988,6 +5280,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797461',
     title: 'Value of exports, Wholesale trade, Canada',
+    originalTitle: 'Canada;Value of exports;Wholesale trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5005,6 +5298,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797462',
     title: 'Value of exports, Retail trade, Canada',
+    originalTitle: 'Canada;Value of exports;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5022,6 +5316,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797465',
     title: 'Value of exports, Finance and insurance, Canada',
+    originalTitle: 'Canada;Value of exports;Finance and insurance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5039,6 +5334,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797470',
     title: 'Value of exports, Educational services, Canada',
+    originalTitle: 'Canada;Value of exports;Educational services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5056,6 +5352,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797475',
     title: 'Value of exports, Public administration, Canada',
+    originalTitle: 'Canada;Value of exports;Public administration', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5073,6 +5370,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100098_108797476',
     title: 'Number of exporting establishments, All industries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;All industries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5090,6 +5388,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113368481',
     title: 'Merchandise Imports and Exports: Total exports, Total United States, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Total United States;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5107,6 +5406,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113368503',
     title: 'Merchandise Imports and Exports: Total exports, Alaska, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Alaska;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5124,6 +5424,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113368745',
     title: 'Merchandise Imports and Exports: Total exports, Hawaii, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Hawaii;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5141,6 +5442,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113368767',
     title: 'Merchandise Imports and Exports: Total exports, Iowa, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Iowa;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5158,6 +5460,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113368789',
     title: 'Merchandise Imports and Exports: Total exports, Idaho, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Idaho;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5175,6 +5478,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113368855',
     title: 'Merchandise Imports and Exports: Total exports, Kansas, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Kansas;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5192,6 +5496,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113368965',
     title: 'Merchandise Imports and Exports: Total exports, Maine, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Maine;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5209,6 +5514,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113369229',
     title: 'Merchandise Imports and Exports: Total exports, Nevada, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Nevada;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5226,6 +5532,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113369273',
     title: 'Merchandise Imports and Exports: Total exports, Ohio, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Ohio;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5243,6 +5550,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113369317',
     title: 'Merchandise Imports and Exports: Total exports, Oregon, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Oregon;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5260,6 +5568,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113369449',
     title: 'Merchandise Imports and Exports: Total exports, Texas, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Texas;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5277,6 +5586,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113369471',
     title: 'Merchandise Imports and Exports: Total exports, Utah, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total exports;Utah;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5294,6 +5604,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113371979',
     title: 'Merchandise Imports and Exports: Total imports, Total United States, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total imports;Total United States;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5311,6 +5622,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113372001',
     title: 'Merchandise Imports and Exports: Total imports, Alaska, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total imports;Alaska;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5328,6 +5640,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113372265',
     title: 'Merchandise Imports and Exports: Total imports, Iowa, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total imports;Iowa;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5345,6 +5658,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113372287',
     title: 'Merchandise Imports and Exports: Total imports, Idaho, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total imports;Idaho;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5362,6 +5676,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113372463',
     title: 'Merchandise Imports and Exports: Total imports, Maine, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total imports;Maine;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5379,6 +5694,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113372771',
     title: 'Merchandise Imports and Exports: Total imports, Ohio, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total imports;Ohio;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5396,6 +5712,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113372947',
     title: 'Merchandise Imports and Exports: Total imports, Texas, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total imports;Texas;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5413,6 +5730,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100099_113372969',
     title: 'Merchandise Imports and Exports: Total imports, Utah, Total Harmonized System (HS) sections, Canada',
+    originalTitle: 'Canada;Total imports;Utah;Total Harmonized System (HS) sections', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -5430,6 +5748,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_97890494',
     title: 'Value Added in Exports: Total of all countries, Total jobs embodied in exports, Total industries, Summary level, Canada',
+    originalTitle: 'Canada;Total of all countries;Total jobs embodied in exports;Total industries;Summary level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5447,6 +5766,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_97896330',
     title: 'Value Added in Exports: All other countries, Total jobs embodied in exports, Total industries, Summary level, Canada',
+    originalTitle: 'Canada;All other countries;Total jobs embodied in exports;Total industries;Summary level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5464,6 +5784,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_97899328',
     title: 'Value Added in Exports: Total of all countries, Total jobs embodied in exports, Total industries, Detailed level, Canada',
+    originalTitle: 'Canada;Total of all countries;Total jobs embodied in exports;Total industries;Detailed level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5481,6 +5802,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_97903604',
     title: 'Value Added in Exports: All other countries, Total jobs embodied in exports, Total industries, Detailed level, Canada',
+    originalTitle: 'Canada;All other countries;Total jobs embodied in exports;Total industries;Detailed level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5498,6 +5820,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_113755771',
     title: 'Value Added in Exports: Total of all countries, Total jobs embodied in exports, within-province, Total industries, Summary level, Canada',
+    originalTitle: 'Canada;Total of all countries;Total jobs embodied in exports, within-province;Total industries;Summary level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5515,6 +5838,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_113755774',
     title: 'Value Added in Exports: Total of all countries, Total jobs embodied in exports, within-province, Total industries, Detailed level, Canada',
+    originalTitle: 'Canada;Total of all countries;Total jobs embodied in exports, within-province;Total industries;Detailed level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5532,6 +5856,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_113756269',
     title: 'Value Added in Exports: Total of all countries, Total jobs embodied in Canadian exports, within-province, Total industries, Summary level, Canada',
+    originalTitle: 'Canada;Total of all countries;Total jobs embodied in Canadian exports, within-province;Total industries;Summary level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5549,6 +5874,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_113756272',
     title: 'Value Added in Exports: Total of all countries, Total jobs embodied in Canadian exports, within-province, Total industries, Detailed level, Canada',
+    originalTitle: 'Canada;Total of all countries;Total jobs embodied in Canadian exports, within-province;Total industries;Detailed level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5566,6 +5892,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_113763194',
     title: 'Value Added in Exports: All other countries, Total jobs embodied in exports, within-province, Total industries, Summary level, Canada',
+    originalTitle: 'Canada;All other countries;Total jobs embodied in exports, within-province;Total industries;Summary level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5583,6 +5910,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_113763197',
     title: 'Value Added in Exports: All other countries, Total jobs embodied in exports, within-province, Total industries, Detailed level, Canada',
+    originalTitle: 'Canada;All other countries;Total jobs embodied in exports, within-province;Total industries;Detailed level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5600,6 +5928,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_113763692',
     title: 'Value Added in Exports: All other countries, Total jobs embodied in Canadian exports, within-province, Total industries, Summary level, Canada',
+    originalTitle: 'Canada;All other countries;Total jobs embodied in Canadian exports, within-province;Total industries;Summary level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5617,6 +5946,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100100_113763695',
     title: 'Value Added in Exports: All other countries, Total jobs embodied in Canadian exports, within-province, Total industries, Detailed level, Canada',
+    originalTitle: 'Canada;All other countries;Total jobs embodied in Canadian exports, within-province;Total industries;Detailed level', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Value Added in Exports',
     release: 'Value Added in Exports',
@@ -5634,6 +5964,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761126',
     title: 'Value of exports, All establishment employment sizes, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All establishment employment sizes;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5651,6 +5982,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761127',
     title: 'Value of exports, All establishment employment sizes, 1 partner country, Canada',
+    originalTitle: 'Canada;Value of exports;All establishment employment sizes;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5668,6 +6000,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761128',
     title: 'Value of exports, All establishment employment sizes, 2 or more partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All establishment employment sizes;2 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5685,6 +6018,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761129',
     title: 'Value of exports, 0 to 499 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;0 to 499 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5702,6 +6036,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761130',
     title: 'Value of exports, 0 to 499 employees, 1 partner country, Canada',
+    originalTitle: 'Canada;Value of exports;0 to 499 employees;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5719,6 +6054,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761131',
     title: 'Value of exports, 0 to 499 employees, 2 or more partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;0 to 499 employees;2 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5736,6 +6072,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761132',
     title: 'Value of exports, 500 or more employees, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;500 or more employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5753,6 +6090,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761133',
     title: 'Value of exports, 500 or more employees, 1 partner country, Canada',
+    originalTitle: 'Canada;Value of exports;500 or more employees;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5770,6 +6108,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761134',
     title: 'Value of exports, 500 or more employees, 2 or more partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;500 or more employees;2 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5787,6 +6126,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761135',
     title: 'Number of exporting establishments, All establishment employment sizes, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;All establishment employment sizes;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5804,6 +6144,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761136',
     title: 'Number of exporting establishments, All establishment employment sizes, 1 partner country, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;All establishment employment sizes;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5821,6 +6162,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761137',
     title: 'Number of exporting establishments, All establishment employment sizes, 2 or more partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;All establishment employment sizes;2 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5838,6 +6180,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761138',
     title: 'Number of exporting establishments, 0 to 499 employees, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;0 to 499 employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5855,6 +6198,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761139',
     title: 'Number of exporting establishments, 0 to 499 employees, 1 partner country, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;0 to 499 employees;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5872,6 +6216,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761140',
     title: 'Number of exporting establishments, 0 to 499 employees, 2 or more partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;0 to 499 employees;2 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5889,6 +6234,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761141',
     title: 'Number of exporting establishments, 500 or more employees, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;500 or more employees;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5906,6 +6252,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761142',
     title: 'Number of exporting establishments, 500 or more employees, 1 partner country, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;500 or more employees;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5923,6 +6270,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100103_110761143',
     title: 'Number of exporting establishments, 500 or more employees, 2 or more partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;500 or more employees;2 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5940,6 +6288,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755316',
     title: 'Value of exports, All countries, Canada',
+    originalTitle: 'Canada;Value of exports;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5957,6 +6306,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755375',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Benin, Canada',
+    originalTitle: 'Canada;Value of exports;Benin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5974,6 +6324,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755380',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Congo, Canada',
+    originalTitle: 'Canada;Value of exports;Congo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -5991,6 +6342,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755399',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Mali, Canada',
+    originalTitle: 'Canada;Value of exports;Mali', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6008,6 +6360,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755413',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Chad, Canada',
+    originalTitle: 'Canada;Value of exports;Chad', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6025,6 +6378,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755415',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Togo, Canada',
+    originalTitle: 'Canada;Value of exports;Togo', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6042,6 +6396,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755430',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Chile, Canada',
+    originalTitle: 'Canada;Value of exports;Chile', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6059,6 +6414,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755435',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Aruba, Canada',
+    originalTitle: 'Canada;Value of exports;Aruba', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6076,6 +6432,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755443',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Cuba, Canada',
+    originalTitle: 'Canada;Value of exports;Cuba', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6093,6 +6450,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755460',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Peru, Canada',
+    originalTitle: 'Canada;Value of exports;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6110,6 +6468,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755472',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Asia, Canada',
+    originalTitle: 'Canada;Value of exports;Asia', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6127,6 +6486,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755474',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, China, Canada',
+    originalTitle: 'Canada;Value of exports;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6144,6 +6504,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755486',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Laos, Canada',
+    originalTitle: 'Canada;Value of exports;Laos', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6161,6 +6522,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755509',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Iraq, Canada',
+    originalTitle: 'Canada;Value of exports;Iraq', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6178,6 +6540,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755510',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Iran, Canada',
+    originalTitle: 'Canada;Value of exports;Iran', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6195,6 +6558,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755515',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Oman, Canada',
+    originalTitle: 'Canada;Value of exports;Oman', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6212,6 +6576,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755530',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Fiji, Canada',
+    originalTitle: 'Canada;Value of exports;Fiji', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6229,6 +6594,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755532',
     title: 'Trade in Goods by Exporter Characteristics: Value of exports, Guam, Canada',
+    originalTitle: 'Canada;Value of exports;Guam', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6246,6 +6612,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100104_110755558',
     title: 'Number of exporting establishments, All countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6263,6 +6630,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838525',
     title: 'Import, Customs, All countries, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6281,6 +6649,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838532',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Italy, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6299,6 +6668,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838534',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Spain, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Spain', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6317,6 +6687,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838535',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, China, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6335,6 +6706,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838537',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Japan, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Japan', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6353,6 +6725,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838543',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, India, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6371,6 +6744,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838548',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Peru, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6389,6 +6763,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838550',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Import, Customs, Iraq, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Iraq', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6407,6 +6782,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838583',
     title: 'Import, Balance of payments, All countries, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6425,6 +6801,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838641',
     title: 'Export, Customs, All countries, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6443,6 +6820,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838648',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Italy, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6461,6 +6839,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838650',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Spain, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Spain', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6479,6 +6858,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838651',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, China, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6497,6 +6877,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838653',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Japan, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Japan', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6515,6 +6896,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838659',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, India, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6533,6 +6915,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838664',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Peru, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6551,6 +6934,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838666',
     title: 'International Merchandise Trade for all Countries and by Principal Trading Partners: Export, Customs, Iraq, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Iraq', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6569,6 +6953,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838699',
     title: 'Export, Balance of payments, All countries, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6587,6 +6972,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100127_1001838815',
     title: 'Trade Balance, Balance of payments, All countries, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Trade Balance;Balance of payments;Seasonally adjusted;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade for all Countries and by Principal Trading Partners',
     release: 'International Merchandise Trade for all Countries and by Principal Trading Partners',
@@ -6605,6 +6991,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100129_1001637968',
     title: 'Canadian Domestic Export Concentration: All countries, Product, Index, Canada',
+    originalTitle: 'Canada;All countries;Product;Index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Domestic Export Concentration',
     release: 'Canadian Domestic Export Concentration',
@@ -6622,6 +7009,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100129_1001637970',
     title: 'Canadian Domestic Export Concentration: All countries, Destination market, Index, Canada',
+    originalTitle: 'Canada;All countries;Destination market;Index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Domestic Export Concentration',
     release: 'Canadian Domestic Export Concentration',
@@ -6639,6 +7027,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100129_1001637972',
     title: 'Canadian Domestic Export Concentration: All countries, Province of production, Index, Canada',
+    originalTitle: 'Canada;All countries;Province of production;Index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Domestic Export Concentration',
     release: 'Canadian Domestic Export Concentration',
@@ -6656,6 +7045,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100129_1001637976',
     title: 'Countries other than the United States, Destination market, Index, Canada',
+    originalTitle: 'Canada;Countries other than the United States;Destination market;Index', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian Domestic Export Concentration',
     release: 'Canadian Domestic Export Concentration',
@@ -6673,6 +7063,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100137_1070722905',
     title: 'Value of exports, All partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6690,6 +7081,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100137_1070722906',
     title: 'Value of exports, 1 partner country, Canada',
+    originalTitle: 'Canada;Value of exports;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6707,6 +7099,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100137_1070722907',
     title: 'Value of exports, 2 or more partner countries, Canada',
+    originalTitle: 'Canada;Value of exports;2 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6724,6 +7117,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100137_1070722908',
     title: 'Number of exporting establishments, All partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;All partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6741,6 +7135,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100137_1070722909',
     title: 'Number of exporting establishments, 1 partner country, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;1 partner country', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6758,6 +7153,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100137_1070722910',
     title: 'Number of exporting establishments, 2 or more partner countries, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;2 or more partner countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6775,6 +7171,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363899',
     title: 'Value of exports, Transportation and warehousing, Canada',
+    originalTitle: 'Canada;Value of exports;Transportation and warehousing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6792,6 +7189,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363902',
     title: 'Value of exports, Real estate and rental and leasing, Canada',
+    originalTitle: 'Canada;Value of exports;Real estate and rental and leasing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6809,6 +7207,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363907',
     title: 'Value of exports, Health care and social assistance, Canada',
+    originalTitle: 'Canada;Value of exports;Health care and social assistance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6826,6 +7225,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363908',
     title: 'Value of exports, Arts, entertainment and recreation, Canada',
+    originalTitle: 'Canada;Value of exports;Arts, entertainment and recreation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6843,6 +7243,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363909',
     title: 'Value of exports, Accommodation and food services, Canada',
+    originalTitle: 'Canada;Value of exports;Accommodation and food services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6860,6 +7261,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363915',
     title: 'Number of exporting establishments, Utilities, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Utilities', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6877,6 +7279,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363916',
     title: 'Number of exporting establishments, Construction, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Construction', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6894,6 +7297,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363917',
     title: 'Number of exporting establishments, Manufacturing, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6911,6 +7315,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363918',
     title: 'Number of exporting establishments, Wholesale trade, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Wholesale trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6928,6 +7333,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100138_1066363919',
     title: 'Number of exporting establishments, Retail trade, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Retail trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -6945,6 +7351,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667379',
     title: 'Exports (receipts), All countries, All transactions, Potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Exports (receipts);All countries;All transactions;Potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -6962,6 +7369,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667380',
     title: 'Exports (receipts), All countries, All transactions, Information and communication technology (ICT) services, Canada',
+    originalTitle: 'Canada;Exports (receipts);All countries;All transactions;Information and communication technology (ICT) services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -6979,6 +7387,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667382',
     title: 'Exports (receipts), All countries, All transactions, Not potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Exports (receipts);All countries;All transactions;Not potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -6996,6 +7405,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667415',
     title: 'Exports (receipts), All other countries, All transactions, Potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Exports (receipts);All other countries;All transactions;Potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7013,6 +7423,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667416',
     title: 'Exports (receipts), All other countries, All transactions, Information and communication technology (ICT) services, Canada',
+    originalTitle: 'Canada;Exports (receipts);All other countries;All transactions;Information and communication technology (ICT) services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7030,6 +7441,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667427',
     title: 'Imports (payments), All countries, All transactions, Potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Imports (payments);All countries;All transactions;Potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7047,6 +7459,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667428',
     title: 'Imports (payments), All countries, All transactions, Information and communication technology (ICT) services, Canada',
+    originalTitle: 'Canada;Imports (payments);All countries;All transactions;Information and communication technology (ICT) services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7064,6 +7477,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667430',
     title: 'Imports (payments), All countries, All transactions, Not potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Imports (payments);All countries;All transactions;Not potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7081,6 +7495,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667463',
     title: 'Imports (payments), All other countries, All transactions, Potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Imports (payments);All other countries;All transactions;Potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7098,6 +7513,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667464',
     title: 'Imports (payments), All other countries, All transactions, Information and communication technology (ICT) services, Canada',
+    originalTitle: 'Canada;Imports (payments);All other countries;All transactions;Information and communication technology (ICT) services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7115,6 +7531,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667466',
     title: 'Imports (payments), All other countries, All transactions, Not potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Imports (payments);All other countries;All transactions;Not potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7132,6 +7549,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667475',
     title: 'Balances, All countries, All transactions, Potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Balances;All countries;All transactions;Potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7149,6 +7567,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667476',
     title: 'Balances, All countries, All transactions, Information and communication technology (ICT) services, Canada',
+    originalTitle: 'Canada;Balances;All countries;All transactions;Information and communication technology (ICT) services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7166,6 +7585,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667477',
     title: 'Balances, All countries, All transactions, Other potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Balances;All countries;All transactions;Other potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7183,6 +7603,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667478',
     title: 'Balances, All countries, All transactions, Not potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Balances;All countries;All transactions;Not potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7200,6 +7621,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667511',
     title: 'Balances, All other countries, All transactions, Potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Balances;All other countries;All transactions;Potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7217,6 +7639,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667512',
     title: 'Balances, All other countries, All transactions, Information and communication technology (ICT) services, Canada',
+    originalTitle: 'Canada;Balances;All other countries;All transactions;Information and communication technology (ICT) services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7234,6 +7657,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667513',
     title: 'Balances, All other countries, All transactions, Other potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Balances;All other countries;All transactions;Other potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7251,6 +7675,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100141_1078667514',
     title: 'Balances, All other countries, All transactions, Not potentially information and communication technology (ICT)-enabled services, Canada',
+    originalTitle: 'Canada;Balances;All other countries;All transactions;Not potentially information and communication technology (ICT)-enabled services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Services',
     release: 'International Transactions in Services',
@@ -7268,6 +7693,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110710186',
     title: 'Imports, Total of all countries, Total of all Broad Economic Categories Rev. 5 (BEC5) codes, Canada',
+    originalTitle: 'Canada;Imports;Total of all countries;Total of all Broad Economic Categories Rev. 5 (BEC5) codes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7285,6 +7711,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110710315',
     title: 'Imports, Total of all countries, Total intermediate consumption, Canada',
+    originalTitle: 'Canada;Imports;Total of all countries;Total intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7302,6 +7729,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110710316',
     title: 'Imports, Total of all countries, Total generic intermediate consumption, Canada',
+    originalTitle: 'Canada;Imports;Total of all countries;Total generic intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7319,6 +7747,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110710317',
     title: 'Imports, Total of all countries, Total  specific intermediate consumption, Canada',
+    originalTitle: 'Canada;Imports;Total of all countries;Total  specific intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7336,6 +7765,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110710318',
     title: 'Imports, Total of all countries, Total gross fixed capital formation, Canada',
+    originalTitle: 'Canada;Imports;Total of all countries;Total gross fixed capital formation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7353,6 +7783,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110710319',
     title: 'Imports, Total of all countries, Total final consumption, Canada',
+    originalTitle: 'Canada;Imports;Total of all countries;Total final consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7370,6 +7801,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110718360',
     title: 'Exports, Total of all countries, Total of all Broad Economic Categories Rev. 5 (BEC5) codes, Canada',
+    originalTitle: 'Canada;Exports;Total of all countries;Total of all Broad Economic Categories Rev. 5 (BEC5) codes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7387,6 +7819,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110718489',
     title: 'Exports, Total of all countries, Total intermediate consumption, Canada',
+    originalTitle: 'Canada;Exports;Total of all countries;Total intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7404,6 +7837,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110718490',
     title: 'Exports, Total of all countries, Total generic intermediate consumption, Canada',
+    originalTitle: 'Canada;Exports;Total of all countries;Total generic intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7421,6 +7855,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110718491',
     title: 'Exports, Total of all countries, Total  specific intermediate consumption, Canada',
+    originalTitle: 'Canada;Exports;Total of all countries;Total  specific intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7438,6 +7873,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110718492',
     title: 'Exports, Total of all countries, Total gross fixed capital formation, Canada',
+    originalTitle: 'Canada;Exports;Total of all countries;Total gross fixed capital formation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7455,6 +7891,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110718493',
     title: 'Exports, Total of all countries, Total final consumption, Canada',
+    originalTitle: 'Canada;Exports;Total of all countries;Total final consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7472,6 +7909,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110723047',
     title: 'Exports, Peru, Total  specific intermediate consumption, Canada',
+    originalTitle: 'Canada;Exports;Peru;Total  specific intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7489,6 +7927,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110723049',
     title: 'Exports, Peru, Total final consumption, Canada',
+    originalTitle: 'Canada;Exports;Peru;Total final consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7506,6 +7945,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110724658',
     title: 'Exports, Cuba, Total of all Broad Economic Categories Rev. 5 (BEC5) codes, Canada',
+    originalTitle: 'Canada;Exports;Cuba;Total of all Broad Economic Categories Rev. 5 (BEC5) codes', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7523,6 +7963,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110724787',
     title: 'Exports, Cuba, Total intermediate consumption, Canada',
+    originalTitle: 'Canada;Exports;Cuba;Total intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7540,6 +7981,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110724788',
     title: 'Exports, Cuba, Total generic intermediate consumption, Canada',
+    originalTitle: 'Canada;Exports;Cuba;Total generic intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7557,6 +7999,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110724789',
     title: 'Exports, Cuba, Total  specific intermediate consumption, Canada',
+    originalTitle: 'Canada;Exports;Cuba;Total  specific intermediate consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7574,6 +8017,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110724790',
     title: 'Exports, Cuba, Total gross fixed capital formation, Canada',
+    originalTitle: 'Canada;Exports;Cuba;Total gross fixed capital formation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7591,6 +8035,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100143_1110724791',
     title: 'Exports, Cuba, Total final consumption, Canada',
+    originalTitle: 'Canada;Exports;Cuba;Total final consumption', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
     release: 'International Merchandise Trade by Broad Economic Categories and top Sixty Trading Partners',
@@ -7608,6 +8053,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277797',
     title: 'Exports (receipts), All countries, Commercial services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Exports (receipts);All countries;Commercial services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7626,6 +8072,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277799',
     title: 'Exports (receipts), All countries, Travel services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Exports (receipts);All countries;Travel services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7644,6 +8091,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277801',
     title: 'Exports (receipts), All countries, Transportation services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Exports (receipts);All countries;Transportation services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7662,6 +8110,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277803',
     title: 'Exports (receipts), All countries, Government services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Exports (receipts);All countries;Government services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7680,6 +8129,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277807',
     title: 'Imports (payments), All countries, Commercial services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Imports (payments);All countries;Commercial services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7698,6 +8148,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277809',
     title: 'Imports (payments), All countries, Travel services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Imports (payments);All countries;Travel services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7716,6 +8167,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277811',
     title: 'Imports (payments), All countries, Transportation services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Imports (payments);All countries;Transportation services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7734,6 +8186,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277813',
     title: 'Imports (payments), All countries, Government services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Imports (payments);All countries;Government services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7752,6 +8205,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277817',
     title: 'Balances, All countries, Commercial services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;All countries;Commercial services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7770,6 +8224,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277819',
     title: 'Balances, All countries, Travel services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;All countries;Travel services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7788,6 +8243,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277821',
     title: 'Balances, All countries, Transportation services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;All countries;Transportation services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7806,6 +8262,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100144_1105277823',
     title: 'Balances, All countries, Government services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;All countries;Government services;Seasonally adjusted ', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Trade in Services',
     release: 'International Trade in Services',
@@ -7824,6 +8281,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640868',
     title: 'Exports, All countries, Commercial services, total, Canada',
+    originalTitle: 'Canada;Exports;All countries;Commercial services, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7841,6 +8299,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640870',
     title: 'Exports, All countries, Telecommunications services, Canada',
+    originalTitle: 'Canada;Exports;All countries;Telecommunications services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7858,6 +8317,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640871',
     title: 'Exports, All countries, Construction services, Canada',
+    originalTitle: 'Canada;Exports;All countries;Construction services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7875,6 +8335,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640872',
     title: 'Exports, All countries, Insurance services, Canada',
+    originalTitle: 'Canada;Exports;All countries;Insurance services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7892,6 +8353,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640873',
     title: 'Exports, All countries, Financial services, Canada',
+    originalTitle: 'Canada;Exports;All countries;Financial services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7909,6 +8371,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640876',
     title: 'Exports, All countries, Trade-related services, Canada',
+    originalTitle: 'Canada;Exports;All countries;Trade-related services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7926,6 +8389,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640877',
     title: 'Exports, All countries, Operating leasing services, Canada',
+    originalTitle: 'Canada;Exports;All countries;Operating leasing services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7943,6 +8407,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640878',
     title: 'Exports, All countries, Management services, Canada',
+    originalTitle: 'Canada;Exports;All countries;Management services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7960,6 +8425,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640880',
     title: 'Exports, All countries, Research and development, Canada',
+    originalTitle: 'Canada;Exports;All countries;Research and development', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7977,6 +8443,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210640882',
     title: 'Exports, All countries, Other business services, Canada',
+    originalTitle: 'Canada;Exports;All countries;Other business services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -7994,6 +8461,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642143',
     title: 'Imports, All countries, Commercial services, total, Canada',
+    originalTitle: 'Canada;Imports;All countries;Commercial services, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8011,6 +8479,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642145',
     title: 'Imports, All countries, Telecommunications services, Canada',
+    originalTitle: 'Canada;Imports;All countries;Telecommunications services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8028,6 +8497,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642146',
     title: 'Imports, All countries, Construction services, Canada',
+    originalTitle: 'Canada;Imports;All countries;Construction services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8045,6 +8515,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642147',
     title: 'Imports, All countries, Insurance services, Canada',
+    originalTitle: 'Canada;Imports;All countries;Insurance services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8062,6 +8533,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642148',
     title: 'Imports, All countries, Financial services, Canada',
+    originalTitle: 'Canada;Imports;All countries;Financial services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8079,6 +8551,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642151',
     title: 'Imports, All countries, Trade-related services, Canada',
+    originalTitle: 'Canada;Imports;All countries;Trade-related services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8096,6 +8569,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642152',
     title: 'Imports, All countries, Operating leasing services, Canada',
+    originalTitle: 'Canada;Imports;All countries;Operating leasing services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8113,6 +8587,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642153',
     title: 'Imports, All countries, Management services, Canada',
+    originalTitle: 'Canada;Imports;All countries;Management services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8130,6 +8605,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642155',
     title: 'Imports, All countries, Research and development, Canada',
+    originalTitle: 'Canada;Imports;All countries;Research and development', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8147,6 +8623,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100145_1210642157',
     title: 'Imports, All countries, Other business services, Canada',
+    originalTitle: 'Canada;Imports;All countries;Other business services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Transactions in Commercial Services',
     release: 'International Transactions in Commercial Services',
@@ -8164,6 +8641,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834187',
     title: 'Receipts, Total of all countries, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Receipts;Seasonally adjusted;Total of all countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8182,6 +8660,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834190',
     title: 'Balance of International Payments: Receipts, China, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Receipts;Seasonally adjusted;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8200,6 +8679,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834195',
     title: 'Balance of International Payments: Receipts, Italy, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Receipts;Seasonally adjusted;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8218,6 +8698,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834197',
     title: 'Balance of International Payments: Receipts, Spain, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Receipts;Seasonally adjusted;Spain', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8236,6 +8717,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834200',
     title: 'Balance of International Payments: Receipts, India, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Receipts;Seasonally adjusted;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8254,6 +8736,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834202',
     title: 'Balance of International Payments: Receipts, Japan, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Receipts;Seasonally adjusted;Japan', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8272,6 +8755,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834215',
     title: 'Payments, Total of all countries, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Payments;Seasonally adjusted;Total of all countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8290,6 +8774,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834218',
     title: 'Balance of International Payments: Payments, China, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Payments;Seasonally adjusted;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8308,6 +8793,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834223',
     title: 'Balance of International Payments: Payments, Italy, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Payments;Seasonally adjusted;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8326,6 +8812,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834225',
     title: 'Balance of International Payments: Payments, Spain, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Payments;Seasonally adjusted;Spain', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8344,6 +8831,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834228',
     title: 'Balance of International Payments: Payments, India, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Payments;Seasonally adjusted;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8362,6 +8850,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834230',
     title: 'Balance of International Payments: Payments, Japan, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Payments;Seasonally adjusted;Japan', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8380,6 +8869,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834243',
     title: 'Balances, Total of all countries, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;Seasonally adjusted;Total of all countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8398,6 +8888,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834245',
     title: 'Balance of International Payments: Balances, Brazil, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;Seasonally adjusted;Brazil', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8416,6 +8907,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834246',
     title: 'Balance of International Payments: Balances, China, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;Seasonally adjusted;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8434,6 +8926,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834249',
     title: 'Balance of International Payments: Balances, France, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;Seasonally adjusted;France', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8452,6 +8945,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834251',
     title: 'Balance of International Payments: Balances, Italy, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;Seasonally adjusted;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8470,6 +8964,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834253',
     title: 'Balance of International Payments: Balances, Spain, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;Seasonally adjusted;Spain', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8488,6 +8983,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834256',
     title: 'Balance of International Payments: Balances, India, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;Seasonally adjusted;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8506,6 +9002,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100157_1353834258',
     title: 'Balance of International Payments: Balances, Japan, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Balances;Seasonally adjusted;Japan', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Balance of International Payments',
     release: 'Balance of International Payments',
@@ -8524,6 +9021,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545282416',
     title: 'Number of exporting enterprises, All countries, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Number of exporting enterprises;All countries;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8541,6 +9039,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283243',
     title: 'Value of exports, All countries, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;All countries;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8558,6 +9057,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283451',
     title: 'Value of exports, Benin, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Benin;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8575,6 +9075,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283466',
     title: 'Value of exports, Congo, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Congo;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8592,6 +9093,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283525',
     title: 'Value of exports, Mali, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Mali;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8609,6 +9111,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283568',
     title: 'Value of exports, Chad, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Chad;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8626,6 +9129,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283573',
     title: 'Value of exports, Togo, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Togo;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8643,6 +9147,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283626',
     title: 'Value of exports, Chile, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Chile;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8660,6 +9165,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283638',
     title: 'Value of exports, Aruba, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Aruba;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8677,6 +9183,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283667',
     title: 'Value of exports, Cuba, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Cuba;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8694,6 +9201,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283727',
     title: 'Value of exports, Peru, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Peru;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8711,6 +9219,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283773',
     title: 'Value of exports, Asia, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Asia;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8728,6 +9237,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283781',
     title: 'Value of exports, China, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;China;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8745,6 +9255,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283822',
     title: 'Value of exports, Laos, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Laos;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8762,6 +9273,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283908',
     title: 'Value of exports, Iraq, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Iraq;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8779,6 +9291,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283911',
     title: 'Value of exports, Iran, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Iran;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8796,6 +9309,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283929',
     title: 'Value of exports, Oman, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Oman;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8813,6 +9327,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283976',
     title: 'Value of exports, Fiji, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Fiji;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8830,6 +9345,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100158_1545283981',
     title: 'Value of exports, Guam, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Guam;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8847,6 +9363,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284167',
     title: 'Number of exporting establishments, Utilities, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Utilities;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8864,6 +9381,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284202',
     title: 'Number of exporting establishments, Construction, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Construction;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8881,6 +9399,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284239',
     title: 'Number of exporting establishments, Manufacturing, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Manufacturing;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8898,6 +9417,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284310',
     title: 'Number of exporting establishments, Retail trade, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;Retail trade;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8915,6 +9435,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284771',
     title: 'Number of exporting establishments, All industries, Related party, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;All industries;Related party', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8932,6 +9453,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284774',
     title: 'Number of exporting establishments, All industries, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Number of exporting establishments;All industries;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8949,6 +9471,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284903',
     title: 'Value of exports, Utilities, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Utilities;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8966,6 +9489,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284940',
     title: 'Value of exports, Construction, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Construction;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -8983,6 +9507,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545284985',
     title: 'Value of exports, Manufacturing, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Manufacturing;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9000,6 +9525,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285026',
     title: 'Value of exports, Wholesale trade, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Wholesale trade;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9017,6 +9543,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285064',
     title: 'Value of exports, Retail trade, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Retail trade;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9034,6 +9561,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285103',
     title: 'Value of exports, Transportation and warehousing, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Transportation and warehousing;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9051,6 +9579,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285168',
     title: 'Value of exports, Finance and insurance, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Finance and insurance;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9068,6 +9597,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285344',
     title: 'Value of exports, Educational services, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Educational services;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9085,6 +9615,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285432',
     title: 'Value of exports, Accommodation and food services, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Accommodation and food services;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9102,6 +9633,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285499',
     title: 'Value of exports, Public administration, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;Public administration;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9119,6 +9651,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285541',
     title: 'Value of exports, All industries, Related party, Canada',
+    originalTitle: 'Canada;Value of exports;All industries;Related party', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9136,6 +9669,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285542',
     title: 'Value of exports, All industries, Unrelated party, Canada',
+    originalTitle: 'Canada;Value of exports;All industries;Unrelated party', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9153,6 +9687,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285543',
     title: 'Value of exports, All industries, Unknown status, Canada',
+    originalTitle: 'Canada;Value of exports;All industries;Unknown status', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9170,6 +9705,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100159_1545285544',
     title: 'Value of exports, All industries, Total, related and unrelated parties, Canada',
+    originalTitle: 'Canada;Value of exports;All industries;Total, related and unrelated parties', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Trade in Goods by Exporter Characteristics',
     release: 'Trade in Goods by Exporter Characteristics',
@@ -9187,6 +9723,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896405',
     title: 'Chained (2017) dollars, Exports, Total goods and services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Chained (2017) dollars;Seasonally adjusted at annual rates;Exports;Total goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9205,6 +9742,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896406',
     title: 'Chained (2017) dollars, Exports, Total goods, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Chained (2017) dollars;Seasonally adjusted at annual rates;Exports;Total goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9223,6 +9761,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896457',
     title: 'Chained (2017) dollars, Exports, Total services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Chained (2017) dollars;Seasonally adjusted at annual rates;Exports;Total services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9241,6 +9780,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896463',
     title: 'Chained (2017) dollars, Imports, Total goods and services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Chained (2017) dollars;Seasonally adjusted at annual rates;Imports;Total goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9259,6 +9799,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896464',
     title: 'Chained (2017) dollars, Imports, Total goods, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Chained (2017) dollars;Seasonally adjusted at annual rates;Imports;Total goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9277,6 +9818,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896515',
     title: 'Chained (2017) dollars, Imports, Total services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Chained (2017) dollars;Seasonally adjusted at annual rates;Imports;Total services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9295,6 +9837,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896521',
     title: 'Current prices, Exports, Total goods and services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Current prices;Seasonally adjusted at annual rates;Exports;Total goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9313,6 +9856,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896522',
     title: 'Current prices, Exports, Total goods, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Current prices;Seasonally adjusted at annual rates;Exports;Total goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9331,6 +9875,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896529',
     title: 'Exports and Imports of Goods and Services: Current prices, Exports, Coal, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Current prices;Seasonally adjusted at annual rates;Exports;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9349,6 +9894,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896573',
     title: 'Current prices, Exports, Total services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Current prices;Seasonally adjusted at annual rates;Exports;Total services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9367,6 +9913,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896579',
     title: 'Current prices, Imports, Total goods and services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Current prices;Seasonally adjusted at annual rates;Imports;Total goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9385,6 +9932,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896580',
     title: 'Current prices, Imports, Total goods, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Current prices;Seasonally adjusted at annual rates;Imports;Total goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9403,6 +9951,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896587',
     title: 'Exports and Imports of Goods and Services: Current prices, Imports, Coal, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Current prices;Seasonally adjusted at annual rates;Imports;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9421,6 +9970,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896631',
     title: 'Current prices, Imports, Total services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Current prices;Seasonally adjusted at annual rates;Imports;Total services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9439,6 +9989,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896753',
     title: 'Contributions to percent change, Exports, Total goods and services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Contributions to percent change;Seasonally adjusted at annual rates;Exports;Total goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9457,6 +10008,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896754',
     title: 'Contributions to percent change, Exports, Total goods, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Contributions to percent change;Seasonally adjusted at annual rates;Exports;Total goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9475,6 +10027,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896805',
     title: 'Contributions to percent change, Exports, Total services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Contributions to percent change;Seasonally adjusted at annual rates;Exports;Total services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9493,6 +10046,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896811',
     title: 'Contributions to percent change, Imports, Total goods and services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Contributions to percent change;Seasonally adjusted at annual rates;Imports;Total goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9511,6 +10065,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896812',
     title: 'Contributions to percent change, Imports, Total goods, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Contributions to percent change;Seasonally adjusted at annual rates;Imports;Total goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9529,6 +10084,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100161_1566896863',
     title: 'Contributions to percent change, Imports, Total services, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Contributions to percent change;Seasonally adjusted at annual rates;Imports;Total services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Exports and Imports of Goods and Services',
     release: 'Exports and Imports of Goods and Services',
@@ -9547,6 +10103,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897730',
     title: 'Exports, Total goods and services, Canada',
+    originalTitle: 'Canada;Exports;Total goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9564,6 +10121,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897731',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Total goods, Canada',
+    originalTitle: 'Canada;Exports;Total goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9581,6 +10139,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897735',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Energy products, Canada',
+    originalTitle: 'Canada;Exports;Energy products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9598,6 +10157,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897738',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Coal, Canada',
+    originalTitle: 'Canada;Exports;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9615,6 +10175,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897740',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Electricity, Canada',
+    originalTitle: 'Canada;Exports;Electricity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9632,6 +10193,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897756',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Pulp and paper, Canada',
+    originalTitle: 'Canada;Exports;Pulp and paper', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9649,6 +10211,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897772',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Consumer goods, Canada',
+    originalTitle: 'Canada;Exports;Consumer goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9666,6 +10229,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897782',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Total services, Canada',
+    originalTitle: 'Canada;Exports;Total services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9683,6 +10247,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897783',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Travel services, Canada',
+    originalTitle: 'Canada;Exports;Travel services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9700,6 +10265,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897785',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Exports, Commercial services, Canada',
+    originalTitle: 'Canada;Exports;Commercial services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9717,6 +10283,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897788',
     title: 'Imports, Total goods and services, Canada',
+    originalTitle: 'Canada;Imports;Total goods and services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9734,6 +10301,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897789',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Total goods, Canada',
+    originalTitle: 'Canada;Imports;Total goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9751,6 +10319,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897793',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Energy products, Canada',
+    originalTitle: 'Canada;Imports;Energy products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9768,6 +10337,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897796',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Coal, Canada',
+    originalTitle: 'Canada;Imports;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9785,6 +10355,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897798',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Electricity, Canada',
+    originalTitle: 'Canada;Imports;Electricity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9802,6 +10373,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897814',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Pulp and paper, Canada',
+    originalTitle: 'Canada;Imports;Pulp and paper', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9819,6 +10391,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897830',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Consumer goods, Canada',
+    originalTitle: 'Canada;Imports;Consumer goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9836,6 +10409,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897840',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Total services, Canada',
+    originalTitle: 'Canada;Imports;Total services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9853,6 +10427,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897841',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Travel services, Canada',
+    originalTitle: 'Canada;Imports;Travel services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9870,6 +10445,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100162_1566897843',
     title: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services: Imports, Commercial services, Canada',
+    originalTitle: 'Canada;Imports;Commercial services', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
     release: 'Contributions to Annual Percent Change in Real Exports and Imports of Goods and Services',
@@ -9887,6 +10463,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566910429',
     title: 'Import, Customs, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -9905,6 +10482,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566910433',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Wheat, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Wheat', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -9923,6 +10501,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566910448',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Coal, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -9941,6 +10520,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566910464',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Potash, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Potash', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -9959,6 +10539,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566910539',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Tires, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Tires', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -9977,6 +10558,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566910543',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Aircraft, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Aircraft', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -9995,6 +10577,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566910574',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Appliances, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Appliances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10013,6 +10596,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566910732',
     title: 'Import, Balance of payments, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10031,6 +10615,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911035',
     title: 'Export, Customs, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10049,6 +10634,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911039',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Wheat, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Wheat', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10067,6 +10653,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911045',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Animal feed, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Animal feed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10085,6 +10672,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911054',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Coal, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10103,6 +10691,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911058',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Electricity, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Electricity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10121,6 +10710,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911070',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Potash, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Potash', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10139,6 +10729,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911145',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Tires, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Tires', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10157,6 +10748,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911149',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Aircraft, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Aircraft', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10175,6 +10767,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911180',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Appliances, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Appliances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10193,6 +10786,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100163_1566911338',
     title: 'Export, Balance of payments, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10211,6 +10805,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566911641',
     title: 'Import, Customs, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10229,6 +10824,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566911645',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Wheat, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Wheat', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10247,6 +10843,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566911660',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Coal, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10265,6 +10862,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566911676',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Potash, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Potash', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10283,6 +10881,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566911751',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Tires, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Tires', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10301,6 +10900,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566911755',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Aircraft, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Aircraft', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10319,6 +10919,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566911786',
     title: 'International Merchandise Trade by Commodity: Import, Customs, Appliances, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Appliances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10337,6 +10938,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566911944',
     title: 'Import, Balance of payments, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10355,6 +10957,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912247',
     title: 'Export, Customs, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10373,6 +10976,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912251',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Wheat, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Wheat', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10391,6 +10995,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912257',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Animal feed, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Animal feed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10409,6 +11014,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912267',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Coal, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10427,6 +11033,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912270',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Electricity, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Electricity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10445,6 +11052,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912282',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Potash, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Potash', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10463,6 +11071,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912357',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Tires, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Tires', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10481,6 +11090,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912361',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Aircraft, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Aircraft', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10499,6 +11109,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912392',
     title: 'International Merchandise Trade by Commodity: Export, Customs, Appliances, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Appliances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10517,6 +11128,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100164_1566912550',
     title: 'Export, Balance of payments, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10535,6 +11147,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100165_1865184894',
     title: 'Export, Customs, Total of all merchandise, April 02, 2026, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Total of all merchandise;April 02, 2026', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Historical (real-time) Releases of Merchandise Imports and Exports',
     release: 'Historical (real-time) Releases of Merchandise Imports and Exports',
@@ -10553,6 +11166,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100165_1865881460',
     title: 'Import, Customs, Total of all merchandise, May 05, 2026, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Total of all merchandise;May 05, 2026', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Historical (real-time) Releases of Merchandise Imports and Exports',
     release: 'Historical (real-time) Releases of Merchandise Imports and Exports',
@@ -10571,6 +11185,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100165_1865882066',
     title: 'Export, Customs, Total of all merchandise, May 05, 2026, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Total of all merchandise;May 05, 2026', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Historical (real-time) Releases of Merchandise Imports and Exports',
     release: 'Historical (real-time) Releases of Merchandise Imports and Exports',
@@ -10589,6 +11204,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100165_1906486473',
     title: 'Import, Customs, Total of all merchandise, June 09, 2026, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Total of all merchandise;June 09, 2026', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Historical (real-time) Releases of Merchandise Imports and Exports',
     release: 'Historical (real-time) Releases of Merchandise Imports and Exports',
@@ -10607,6 +11223,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100165_1906487079',
     title: 'Export, Customs, Total of all merchandise, June 09, 2026, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Total of all merchandise;June 09, 2026', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Historical (real-time) Releases of Merchandise Imports and Exports',
     release: 'Historical (real-time) Releases of Merchandise Imports and Exports',
@@ -10625,6 +11242,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100165_1918347429',
     title: 'Import, Customs, Total of all merchandise, July 07, 2026, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Total of all merchandise;July 07, 2026', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Historical (real-time) Releases of Merchandise Imports and Exports',
     release: 'Historical (real-time) Releases of Merchandise Imports and Exports',
@@ -10643,6 +11261,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100165_1918348035',
     title: 'Export, Customs, Total of all merchandise, July 07, 2026, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Total of all merchandise;July 07, 2026', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Historical (real-time) Releases of Merchandise Imports and Exports',
     release: 'Historical (real-time) Releases of Merchandise Imports and Exports',
@@ -10661,6 +11280,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912703',
     title: 'Import, Total of all merchandise, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10678,6 +11298,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912704',
     title: 'Import, Farm, fishing and intermediate food products, Canada',
+    originalTitle: 'Canada;Import;Farm, fishing and intermediate food products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10695,6 +11316,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912705',
     title: 'International Merchandise Trade by Commodity: Import, Energy products, Canada',
+    originalTitle: 'Canada;Import;Energy products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10712,6 +11334,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912706',
     title: 'Import, Metal ores and non-metallic minerals, Canada',
+    originalTitle: 'Canada;Import;Metal ores and non-metallic minerals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10729,6 +11352,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912707',
     title: 'Import, Metal and non-metallic mineral products, Canada',
+    originalTitle: 'Canada;Import;Metal and non-metallic mineral products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10746,6 +11370,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912710',
     title: 'Import, Industrial machinery, equipment and parts, Canada',
+    originalTitle: 'Canada;Import;Industrial machinery, equipment and parts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10763,6 +11388,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912712',
     title: 'Import, Motor vehicles and parts, Canada',
+    originalTitle: 'Canada;Import;Motor vehicles and parts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10780,6 +11406,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912714',
     title: 'International Merchandise Trade by Commodity: Import, Consumer goods, Canada',
+    originalTitle: 'Canada;Import;Consumer goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10797,6 +11424,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912715',
     title: 'Import, Special transactions trade, Canada',
+    originalTitle: 'Canada;Import;Special transactions trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10814,6 +11442,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912716',
     title: 'Import, Other balance of payments adjustments, Canada',
+    originalTitle: 'Canada;Import;Other balance of payments adjustments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10831,6 +11460,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912717',
     title: 'Export, Total of all merchandise, Canada',
+    originalTitle: 'Canada;Export;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10848,6 +11478,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912718',
     title: 'Export, Farm, fishing and intermediate food products, Canada',
+    originalTitle: 'Canada;Export;Farm, fishing and intermediate food products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10865,6 +11496,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912719',
     title: 'International Merchandise Trade by Commodity: Export, Energy products, Canada',
+    originalTitle: 'Canada;Export;Energy products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10882,6 +11514,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912720',
     title: 'Export, Metal ores and non-metallic minerals, Canada',
+    originalTitle: 'Canada;Export;Metal ores and non-metallic minerals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10899,6 +11532,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912721',
     title: 'Export, Metal and non-metallic mineral products, Canada',
+    originalTitle: 'Canada;Export;Metal and non-metallic mineral products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10916,6 +11550,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912724',
     title: 'Export, Industrial machinery, equipment and parts, Canada',
+    originalTitle: 'Canada;Export;Industrial machinery, equipment and parts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10933,6 +11568,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912726',
     title: 'Export, Motor vehicles and parts, Canada',
+    originalTitle: 'Canada;Export;Motor vehicles and parts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10950,6 +11586,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912728',
     title: 'International Merchandise Trade by Commodity: Export, Consumer goods, Canada',
+    originalTitle: 'Canada;Export;Consumer goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10967,6 +11604,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912729',
     title: 'Export, Special transactions trade, Canada',
+    originalTitle: 'Canada;Export;Special transactions trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -10984,6 +11622,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100166_1566912730',
     title: 'Export, Other balance of payments adjustments, Canada',
+    originalTitle: 'Canada;Export;Other balance of payments adjustments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11001,6 +11640,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912731',
     title: 'Import, Total of all merchandise, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11018,6 +11658,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912732',
     title: 'Import, Farm, fishing and intermediate food products, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Farm, fishing and intermediate food products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11035,6 +11676,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912733',
     title: 'International Merchandise Trade by Commodity: Import, Energy products, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Energy products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11052,6 +11694,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912734',
     title: 'Import, Metal ores and non-metallic minerals, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Metal ores and non-metallic minerals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11069,6 +11712,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912735',
     title: 'Import, Metal and non-metallic mineral products, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Metal and non-metallic mineral products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11086,6 +11730,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912738',
     title: 'Import, Industrial machinery, equipment and parts, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Industrial machinery, equipment and parts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11103,6 +11748,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912740',
     title: 'Import, Motor vehicles and parts, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Motor vehicles and parts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11120,6 +11766,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912742',
     title: 'International Merchandise Trade by Commodity: Import, Consumer goods, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Consumer goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11137,6 +11784,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912743',
     title: 'Import, Special transactions trade, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Special transactions trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11154,6 +11802,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912744',
     title: 'Import, Other balance of payments adjustments, Canada (quarterly)',
+    originalTitle: 'Canada;Import;Other balance of payments adjustments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11171,6 +11820,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912745',
     title: 'Export, Total of all merchandise, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11188,6 +11838,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912746',
     title: 'Export, Farm, fishing and intermediate food products, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Farm, fishing and intermediate food products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11205,6 +11856,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912747',
     title: 'International Merchandise Trade by Commodity: Export, Energy products, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Energy products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11222,6 +11874,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912748',
     title: 'Export, Metal ores and non-metallic minerals, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Metal ores and non-metallic minerals', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11239,6 +11892,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912749',
     title: 'Export, Metal and non-metallic mineral products, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Metal and non-metallic mineral products', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11256,6 +11910,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912752',
     title: 'Export, Industrial machinery, equipment and parts, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Industrial machinery, equipment and parts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11273,6 +11928,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912754',
     title: 'Export, Motor vehicles and parts, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Motor vehicles and parts', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11290,6 +11946,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912756',
     title: 'International Merchandise Trade by Commodity: Export, Consumer goods, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Consumer goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11307,6 +11964,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912757',
     title: 'Export, Special transactions trade, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Special transactions trade', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11324,6 +11982,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100167_1566912758',
     title: 'Export, Other balance of payments adjustments, Canada (quarterly)',
+    originalTitle: 'Canada;Export;Other balance of payments adjustments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Commodity',
     release: 'International Merchandise Trade by Commodity',
@@ -11341,6 +12000,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566913209',
     title: 'Import, Customs, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11359,6 +12019,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566913359',
     title: 'Import, Customs, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11377,6 +12038,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566913509',
     title: 'Import, Customs, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11395,6 +12057,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566914118',
     title: 'Import, Balance of payments, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11413,6 +12076,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566914271',
     title: 'Import, Balance of payments, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11431,6 +12095,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566914424',
     title: 'Import, Balance of payments, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11449,6 +12114,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566915027',
     title: 'Export, Customs, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11467,6 +12133,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566915046',
     title: 'Export, Customs, Price index, Paasche current weighted, Coal, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Paasche current weighted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11485,6 +12152,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566915177',
     title: 'Export, Customs, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11503,6 +12171,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566915196',
     title: 'Export, Customs, Price index, Laspeyres fixed weighted, Coal, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11521,6 +12190,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566915327',
     title: 'Export, Customs, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11539,6 +12209,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566915936',
     title: 'Export, Balance of payments, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11557,6 +12228,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566916089',
     title: 'Export, Balance of payments, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11575,6 +12247,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100168_1566916242',
     title: 'Export, Balance of payments, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11593,6 +12266,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566916845',
     title: 'Import, Customs, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11611,6 +12285,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566916995',
     title: 'Import, Customs, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11629,6 +12304,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566917145',
     title: 'Import, Customs, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11647,6 +12323,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566917754',
     title: 'Import, Balance of payments, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11665,6 +12342,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566917907',
     title: 'Import, Balance of payments, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11683,6 +12361,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566918060',
     title: 'Import, Balance of payments, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11701,6 +12380,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566918663',
     title: 'Export, Customs, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11719,6 +12399,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566918682',
     title: 'Export, Customs, Price index, Paasche current weighted, Coal, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Paasche current weighted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11737,6 +12418,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566918813',
     title: 'Export, Customs, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11755,6 +12437,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566918832',
     title: 'Export, Customs, Price index, Laspeyres fixed weighted, Coal, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11773,6 +12456,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566918963',
     title: 'Export, Customs, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11791,6 +12475,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566919572',
     title: 'Export, Balance of payments, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11809,6 +12494,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566919725',
     title: 'Export, Balance of payments, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11827,6 +12513,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100169_1566919878',
     title: 'Export, Balance of payments, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (quarterly)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11845,6 +12532,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566920481',
     title: 'Import, Customs, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11863,6 +12551,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566920631',
     title: 'Import, Customs, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11881,6 +12570,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566920781',
     title: 'Import, Customs, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Import;Customs;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11899,6 +12589,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566921390',
     title: 'Import, Balance of payments, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11917,6 +12608,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566921543',
     title: 'Import, Balance of payments, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11935,6 +12627,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566921696',
     title: 'Import, Balance of payments, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Import;Balance of payments;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11953,6 +12646,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566922299',
     title: 'Export, Customs, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11971,6 +12665,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566922318',
     title: 'Export, Customs, Price index, Paasche current weighted, Coal, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Paasche current weighted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -11989,6 +12684,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566922449',
     title: 'Export, Customs, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -12007,6 +12703,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566922468',
     title: 'Export, Customs, Price index, Laspeyres fixed weighted, Coal, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Price index;Laspeyres fixed weighted;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -12025,6 +12722,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566922599',
     title: 'Export, Customs, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Export;Customs;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -12043,6 +12741,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566923208',
     title: 'Export, Balance of payments, Price index, Paasche current weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Price index;Paasche current weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -12061,6 +12760,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566923361',
     title: 'Export, Balance of payments, Price index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Price index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -12079,6 +12779,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100170_1566923514',
     title: 'Export, Balance of payments, Volume index, Laspeyres fixed weighted, Total of all merchandise, Canada (seasonally adjusted) (annual)',
+    originalTitle: 'Canada;Export;Balance of payments;Seasonally adjusted;Volume index;Laspeyres fixed weighted;Total of all merchandise', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade',
     release: 'International Merchandise Trade',
@@ -12097,6 +12798,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977047',
     title: 'Canadian International Merchandise Trade by Country and by Product Section: All sections, Export, Canada',
+    originalTitle: 'Canada;Canada;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12114,6 +12816,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977048',
     title: 'Canadian International Merchandise Trade by Country and by Product Section: All sections, Import, Canada',
+    originalTitle: 'Canada;Canada;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12131,6 +12834,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977049',
     title: 'Farm, fishing and intermediate food products, Export, Canada',
+    originalTitle: 'Canada;Canada;Farm, fishing and intermediate food products;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12148,6 +12852,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977050',
     title: 'Farm, fishing and intermediate food products, Import, Canada',
+    originalTitle: 'Canada;Canada;Farm, fishing and intermediate food products;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12165,6 +12870,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977051',
     title: 'Canadian International Merchandise Trade by Country and by Product Section: Energy products, Export, Canada',
+    originalTitle: 'Canada;Canada;Energy products;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12182,6 +12888,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977052',
     title: 'Canadian International Merchandise Trade by Country and by Product Section: Energy products, Import, Canada',
+    originalTitle: 'Canada;Canada;Energy products;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12199,6 +12906,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977053',
     title: 'Metal ores and non-metallic minerals, Export, Canada',
+    originalTitle: 'Canada;Canada;Metal ores and non-metallic minerals;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12216,6 +12924,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977054',
     title: 'Metal ores and non-metallic minerals, Import, Canada',
+    originalTitle: 'Canada;Canada;Metal ores and non-metallic minerals;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12233,6 +12942,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977055',
     title: 'Metal and non-metallic mineral products, Export, Canada',
+    originalTitle: 'Canada;Canada;Metal and non-metallic mineral products;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12250,6 +12960,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977056',
     title: 'Metal and non-metallic mineral products, Import, Canada',
+    originalTitle: 'Canada;Canada;Metal and non-metallic mineral products;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12267,6 +12978,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977061',
     title: 'Industrial machinery, equipment and parts, Export, Canada',
+    originalTitle: 'Canada;Canada;Industrial machinery, equipment and parts;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12284,6 +12996,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977062',
     title: 'Industrial machinery, equipment and parts, Import, Canada',
+    originalTitle: 'Canada;Canada;Industrial machinery, equipment and parts;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12301,6 +13014,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977063',
     title: 'Electronic and electrical equipment and parts, Export, Canada',
+    originalTitle: 'Canada;Canada;Electronic and electrical equipment and parts;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12318,6 +13032,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977064',
     title: 'Electronic and electrical equipment and parts, Import, Canada',
+    originalTitle: 'Canada;Canada;Electronic and electrical equipment and parts;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12335,6 +13050,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977065',
     title: 'Motor vehicles and parts, Export, Canada',
+    originalTitle: 'Canada;Canada;Motor vehicles and parts;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12352,6 +13068,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977066',
     title: 'Motor vehicles and parts, Import, Canada',
+    originalTitle: 'Canada;Canada;Motor vehicles and parts;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12369,6 +13086,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977069',
     title: 'Canadian International Merchandise Trade by Country and by Product Section: Consumer goods, Export, Canada',
+    originalTitle: 'Canada;Canada;Consumer goods;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12386,6 +13104,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977070',
     title: 'Canadian International Merchandise Trade by Country and by Product Section: Consumer goods, Import, Canada',
+    originalTitle: 'Canada;Canada;Consumer goods;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12403,6 +13122,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977071',
     title: 'Special transactions trade, Export, Canada',
+    originalTitle: 'Canada;Canada;Special transactions trade;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12420,6 +13140,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100171_1566977072',
     title: 'Special transactions trade, Import, Canada',
+    originalTitle: 'Canada;Canada;Special transactions trade;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Country and by Product Section',
     release: 'Canadian International Merchandise Trade by Country and by Product Section',
@@ -12437,6 +13158,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566982889',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: China, All sections, Export, Canada',
+    originalTitle: 'Canada;China;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12454,6 +13176,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566982890',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: China, All sections, Import, Canada',
+    originalTitle: 'Canada;China;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12471,6 +13194,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566983115',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Mexico, All sections, Export, Canada',
+    originalTitle: 'Canada;Mexico;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12488,6 +13212,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566983116',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Mexico, All sections, Import, Canada',
+    originalTitle: 'Canada;Mexico;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12505,6 +13230,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566983567',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Japan, All sections, Export, Canada',
+    originalTitle: 'Canada;Japan;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12522,6 +13248,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566983568',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Japan, All sections, Import, Canada',
+    originalTitle: 'Canada;Japan;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12539,6 +13266,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566984245',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Italy, All sections, Export, Canada',
+    originalTitle: 'Canada;Italy;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12556,6 +13284,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566984246',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Italy, All sections, Import, Canada',
+    originalTitle: 'Canada;Italy;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12573,6 +13302,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566984471',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: France, All sections, Export, Canada',
+    originalTitle: 'Canada;France;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12590,6 +13320,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566984472',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: France, All sections, Import, Canada',
+    originalTitle: 'Canada;France;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12607,6 +13338,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566985149',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Spain, All sections, Export, Canada',
+    originalTitle: 'Canada;Spain;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12624,6 +13356,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566985150',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Spain, All sections, Import, Canada',
+    originalTitle: 'Canada;Spain;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12641,6 +13374,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566985601',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Brazil, All sections, Export, Canada',
+    originalTitle: 'Canada;Brazil;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12658,6 +13392,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566985602',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Brazil, All sections, Import, Canada',
+    originalTitle: 'Canada;Brazil;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12675,6 +13410,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566986279',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: India, All sections, Export, Canada',
+    originalTitle: 'Canada;India;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12692,6 +13428,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566986280',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: India, All sections, Import, Canada',
+    originalTitle: 'Canada;India;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12709,6 +13446,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566987409',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Peru, All sections, Export, Canada',
+    originalTitle: 'Canada;Peru;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12726,6 +13464,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566987410',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Peru, All sections, Import, Canada',
+    originalTitle: 'Canada;Peru;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12743,6 +13482,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566987861',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Iraq, All sections, Export, Canada',
+    originalTitle: 'Canada;Iraq;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12760,6 +13500,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100172_1566987862',
     title: 'Canadian International Merchandise Trade by Principal Trading Partner: Iraq, All sections, Import, Canada',
+    originalTitle: 'Canada;Iraq;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Principal Trading Partner',
     release: 'Canadian International Merchandise Trade by Principal Trading Partner',
@@ -12777,6 +13518,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100173_1566990083',
     title: 'Canadian International Merchandise Trade by Province and Country: All sections, Export, Canada',
+    originalTitle: 'Canada;Canada;All sections;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Province and Country',
     release: 'Canadian International Merchandise Trade by Province and Country',
@@ -12794,6 +13536,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100173_1566990084',
     title: 'Canadian International Merchandise Trade by Province and Country: All sections, Import, Canada',
+    originalTitle: 'Canada;Canada;All sections;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Province and Country',
     release: 'Canadian International Merchandise Trade by Province and Country',
@@ -12811,6 +13554,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100173_1566990087',
     title: 'Canadian International Merchandise Trade by Province and Country: Energy products, Export, Canada',
+    originalTitle: 'Canada;Canada;Energy products;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Province and Country',
     release: 'Canadian International Merchandise Trade by Province and Country',
@@ -12828,6 +13572,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100173_1566990088',
     title: 'Canadian International Merchandise Trade by Province and Country: Energy products, Import, Canada',
+    originalTitle: 'Canada;Canada;Energy products;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Province and Country',
     release: 'Canadian International Merchandise Trade by Province and Country',
@@ -12845,6 +13590,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100173_1566990105',
     title: 'Canadian International Merchandise Trade by Province and Country: Consumer goods, Export, Canada',
+    originalTitle: 'Canada;Canada;Consumer goods;Export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Province and Country',
     release: 'Canadian International Merchandise Trade by Province and Country',
@@ -12862,6 +13608,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100173_1566990106',
     title: 'Canadian International Merchandise Trade by Province and Country: Consumer goods, Import, Canada',
+    originalTitle: 'Canada;Canada;Consumer goods;Import', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Province and Country',
     release: 'Canadian International Merchandise Trade by Province and Country',
@@ -12879,6 +13626,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566929548',
     title: 'Import, Total of all countries, Wheat, Canada',
+    originalTitle: 'Canada;Import;Total of all countries;Wheat', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -12896,6 +13644,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566929563',
     title: 'Import, Total of all countries, Coal, Canada',
+    originalTitle: 'Canada;Import;Total of all countries;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -12913,6 +13662,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566929579',
     title: 'Import, Total of all countries, Potash, Canada',
+    originalTitle: 'Canada;Import;Total of all countries;Potash', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -12930,6 +13680,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566929654',
     title: 'Import, Total of all countries, Tires, Canada',
+    originalTitle: 'Canada;Import;Total of all countries;Tires', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -12947,6 +13698,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566929658',
     title: 'Import, Total of all countries, Aircraft, Canada',
+    originalTitle: 'Canada;Import;Total of all countries;Aircraft', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -12964,6 +13716,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566929689',
     title: 'Import, Total of all countries, Appliances, Canada',
+    originalTitle: 'Canada;Import;Total of all countries;Appliances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -12981,6 +13734,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934498',
     title: 'Export, Total of all countries, Wheat, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Wheat', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -12998,6 +13752,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934504',
     title: 'Export, Total of all countries, Animal feed, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Animal feed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -13015,6 +13770,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934511',
     title: 'Export, Total of all countries, Natural gas, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Natural gas', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -13032,6 +13788,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934513',
     title: 'Export, Total of all countries, Coal, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Coal', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -13049,6 +13806,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934517',
     title: 'Export, Total of all countries, Electricity, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Electricity', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -13066,6 +13824,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934529',
     title: 'Export, Total of all countries, Potash, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Potash', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -13083,6 +13842,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934604',
     title: 'Export, Total of all countries, Tires, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Tires', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -13100,6 +13860,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934608',
     title: 'Export, Total of all countries, Aircraft, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Aircraft', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -13117,6 +13878,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100174_1566934639',
     title: 'Export, Total of all countries, Appliances, Canada',
+    originalTitle: 'Canada;Export;Total of all countries;Appliances', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Merchandise Imports and Exports',
     release: 'Merchandise Imports and Exports',
@@ -13134,6 +13896,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082903',
     title: 'Import, Total of all merchandise, All countries, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13151,6 +13914,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082905',
     title: 'Import, Total of all merchandise, China, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;China', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13168,6 +13932,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082906',
     title: 'Import, Total of all merchandise, Mexico, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Mexico', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13185,6 +13950,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082908',
     title: 'Import, Total of all merchandise, Japan, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Japan', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13202,6 +13968,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082909',
     title: 'Import, Total of all merchandise, Germany, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Germany', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13219,6 +13986,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082911',
     title: 'Import, Total of all merchandise, Italy, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Italy', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13236,6 +14004,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082912',
     title: 'Import, Total of all merchandise, France, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;France', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13253,6 +14022,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082914',
     title: 'Import, Total of all merchandise, Belgium, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Belgium', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13270,6 +14040,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082915',
     title: 'Import, Total of all merchandise, Spain, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Spain', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13287,6 +14058,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082917',
     title: 'Import, Total of all merchandise, Brazil, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Brazil', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13304,6 +14076,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082918',
     title: 'Import, Total of all merchandise, Algeria, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Algeria', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13321,6 +14094,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082919',
     title: 'Import, Total of all merchandise, Norway, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Norway', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13338,6 +14112,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082920',
     title: 'Import, Total of all merchandise, India, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;India', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13355,6 +14130,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082923',
     title: 'Import, Total of all merchandise, Türkiye, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Türkiye', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13372,6 +14148,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082924',
     title: 'Import, Total of all merchandise, Taiwan, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Taiwan', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13389,6 +14166,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082925',
     title: 'Import, Total of all merchandise, Peru, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Peru', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13406,6 +14184,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567082927',
     title: 'Import, Total of all merchandise, Iraq, Canada',
+    originalTitle: 'Canada;Import;Total of all merchandise;Iraq', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13423,6 +14202,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567083280',
     title: 'Domestic export, Total of all merchandise, All countries, Canada',
+    originalTitle: 'Canada;Domestic export;Total of all merchandise;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13440,6 +14220,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567083657',
     title: 'Re-export, Total of all merchandise, All countries, Canada',
+    originalTitle: 'Canada;Re-export;Total of all merchandise;All countries', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13457,6 +14238,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100175_1567083681',
     title: 'Re-export, Total of all merchandise, Iraq, Canada',
+    originalTitle: 'Canada;Re-export;Total of all merchandise;Iraq', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, International Merchandise Trade by Province',
     release: 'International Merchandise Trade by Province',
@@ -13474,6 +14256,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780063',
     title: 'Exports, All other crop farming, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other crop farming', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13491,6 +14274,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780104',
     title: 'Exports, All other animal production, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other animal production', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13508,6 +14292,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780106',
     title: 'Exports, All other miscellaneous animal production, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other miscellaneous animal production', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13525,6 +14310,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780161',
     title: 'Exports, All other metal ore mining, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other metal ore mining', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13542,6 +14328,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780271',
     title: 'Exports, All other food manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other food manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13559,6 +14346,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780386',
     title: 'Exports, All other converted paper product manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other converted paper product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13576,6 +14364,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780416',
     title: 'Exports, All other basic inorganic chemical manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other basic inorganic chemical manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13593,6 +14382,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780448',
     title: 'Exports, All other chemical product manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other chemical product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13610,6 +14400,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780450',
     title: 'Exports, All other miscellaneous chemical product manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other miscellaneous chemical product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13627,6 +14418,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780578',
     title: 'Exports, All other fabricated metal product manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other fabricated metal product manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13644,6 +14436,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780594',
     title: 'Exports, All other industrial machinery manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other industrial machinery manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13661,6 +14454,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780615',
     title: 'Exports, All other general-purpose machinery manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other general-purpose machinery manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13678,6 +14472,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780663',
     title: 'Exports, All other electrical equipment and component manufacturing, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other electrical equipment and component manufacturing', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13695,6 +14490,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780885',
     title: 'Exports, All other machinery, equipment and supplies merchant wholesalers, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other machinery, equipment and supplies merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13712,6 +14508,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100176_1592780913',
     title: 'Exports, All other merchant wholesalers, Canada',
+    originalTitle: 'Canada;Exports;Canada;All other merchant wholesalers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Industry for all Countries',
     release: 'Canadian International Merchandise Trade by Industry for all Countries',
@@ -13729,6 +14526,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1605011678',
     title: 'Peru, All sections, Import, Air, Canada',
+    originalTitle: 'Canada;Peru;All sections;Import;Air', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13746,6 +14544,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1605011683',
     title: 'Peru, All sections, Export, Air, Canada',
+    originalTitle: 'Canada;Peru;All sections;Export;Air', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13763,6 +14562,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1605013938',
     title: 'Iraq, All sections, Import, Air, Canada',
+    originalTitle: 'Canada;Iraq;All sections;Import;Air', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13780,6 +14580,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1605013943',
     title: 'Iraq, All sections, Export, Air, Canada',
+    originalTitle: 'Canada;Iraq;All sections;Export;Air', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13797,6 +14598,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992701',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Import, Road, Canada',
+    originalTitle: 'Canada;All countries;All sections;Import;Road', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13814,6 +14616,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992702',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Import, Rail, Canada',
+    originalTitle: 'Canada;All countries;All sections;Import;Rail', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13831,6 +14634,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992703',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Import, Water, Canada',
+    originalTitle: 'Canada;All countries;All sections;Import;Water', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13848,6 +14652,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992704',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Import, Air, Canada',
+    originalTitle: 'Canada;All countries;All sections;Import;Air', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13865,6 +14670,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992705',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Import, Other, Canada',
+    originalTitle: 'Canada;All countries;All sections;Import;Other', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13882,6 +14688,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992706',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Export, Road, Canada',
+    originalTitle: 'Canada;All countries;All sections;Export;Road', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13899,6 +14706,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992707',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Export, Rail, Canada',
+    originalTitle: 'Canada;All countries;All sections;Export;Rail', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13916,6 +14724,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992708',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Export, Water, Canada',
+    originalTitle: 'Canada;All countries;All sections;Export;Water', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13933,6 +14742,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992709',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Export, Air, Canada',
+    originalTitle: 'Canada;All countries;All sections;Export;Air', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13950,6 +14760,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992710',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, All sections, Export, Other, Canada',
+    originalTitle: 'Canada;All countries;All sections;Export;Other', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13967,6 +14778,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992851',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, Coal, Import, Road, Canada',
+    originalTitle: 'Canada;All countries;Coal;Import;Road', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -13984,6 +14796,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992852',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, Coal, Import, Rail, Canada',
+    originalTitle: 'Canada;All countries;Coal;Import;Rail', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -14001,6 +14814,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992854',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, Coal, Import, Air, Canada',
+    originalTitle: 'Canada;All countries;Coal;Import;Air', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -14018,6 +14832,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992856',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, Coal, Export, Road, Canada',
+    originalTitle: 'Canada;All countries;Coal;Export;Road', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -14035,6 +14850,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992857',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, Coal, Export, Rail, Canada',
+    originalTitle: 'Canada;All countries;Coal;Export;Rail', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -14052,6 +14868,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100177_1706992859',
     title: 'Canadian International Merchandise Trade by Mode of Transport: All countries, Coal, Export, Air, Canada',
+    originalTitle: 'Canada;All countries;Coal;Export;Air', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade by Mode of Transport',
     release: 'Canadian International Merchandise Trade by Mode of Transport',
@@ -14069,6 +14886,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645187724',
     title: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export: All sections, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;All sections;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14086,6 +14904,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645189406',
     title: 'Live animals, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Live animals;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14103,6 +14922,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645190247',
     title: 'Wheat, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Wheat;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14120,6 +14940,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645195293',
     title: 'Animal feed, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Animal feed;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14137,6 +14958,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645196975',
     title: 'Energy products, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Energy products;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14154,6 +14976,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645198657',
     title: 'Natural gas, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Natural gas;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14171,6 +14994,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645200339',
     title: 'Coal, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Coal;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14188,6 +15012,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645202021',
     title: 'Electricity, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Electricity;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14205,6 +15030,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645208749',
     title: 'Potash, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Potash;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14222,6 +15048,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645225569',
     title: 'Basic chemicals, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Basic chemicals;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14239,6 +15066,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645227251',
     title: 'Plastic resins, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Plastic resins;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14256,6 +15084,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645232297',
     title: 'Pulp and paper, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Pulp and paper;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14273,6 +15102,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645256686',
     title: 'Tires, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Tires;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14290,6 +15120,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645259209',
     title: 'Aircraft, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Aircraft;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14307,6 +15138,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645263414',
     title: 'Consumer goods, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Consumer goods;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14324,6 +15156,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645265096',
     title: 'Meat products, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Meat products;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14341,6 +15174,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645265937',
     title: 'Dairy products, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Dairy products;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14358,6 +15192,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645267619',
     title: 'Coffee and tea, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Coffee and tea;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14375,6 +15210,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645270142',
     title: 'Alcoholic beverages, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Alcoholic beverages;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14392,6 +15228,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100178_1645279393',
     title: 'Appliances, Import, All countries, country of origin, All countries, country of export, Canada',
+    originalTitle: 'Canada;Appliances;Import;All countries, country of origin;All countries, country of export', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
     release: 'Canadian International Merchandise Trade for Imports by Country of Origin and Country of Export',
@@ -14409,6 +15246,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884293',
     title: 'Rural Canada Trade Profiles: All industries, All areas, Number of exporting establishments of goods, Canada',
+    originalTitle: 'Canada;All industries;All areas;Number of exporting establishments of goods', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14426,6 +15264,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884294',
     title: 'Rural Canada Trade Profiles: All industries, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;All industries;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14443,6 +15282,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884296',
     title: 'Rural Canada Trade Profiles: All industries, Rural and small town area, Value of goods exports, Canada',
+    originalTitle: 'Canada;All industries;Rural and small town area;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14460,6 +15300,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884298',
     title: 'Rural Canada Trade Profiles: All industries, Functional urban area, Value of goods exports, Canada',
+    originalTitle: 'Canada;All industries;Functional urban area;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14477,6 +15318,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884312',
     title: 'Utilities, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Utilities;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14494,6 +15336,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884318',
     title: 'Construction, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Construction;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14511,6 +15354,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884324',
     title: 'Manufacturing, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Manufacturing;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14528,6 +15372,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884330',
     title: 'Food manufacturing, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Food manufacturing;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14545,6 +15390,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884342',
     title: 'Textile mills, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Textile mills;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14562,6 +15408,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884348',
     title: 'Textile product mills, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Textile product mills;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14579,6 +15426,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884354',
     title: 'Clothing manufacturing, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Clothing manufacturing;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14596,6 +15444,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884366',
     title: 'Wood product manufacturing, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Wood product manufacturing;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14613,6 +15462,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884372',
     title: 'Paper manufacturing, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Paper manufacturing;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14630,6 +15480,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884390',
     title: 'Chemical manufacturing, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Chemical manufacturing;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14647,6 +15498,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884420',
     title: 'Machinery manufacturing, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Machinery manufacturing;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14664,6 +15516,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884456',
     title: 'Wholesale trade, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Wholesale trade;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14681,6 +15534,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884462',
     title: 'Retail trade, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Retail trade;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14698,6 +15552,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884480',
     title: 'Finance and insurance, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Finance and insurance;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14715,6 +15570,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884510',
     title: 'Educational services, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Educational services;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14732,6 +15588,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100180_1774884540',
     title: 'Public administration, All areas, Value of goods exports, Canada',
+    originalTitle: 'Canada;Public administration;All areas;Value of goods exports', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Rural Canada Trade Profiles',
     release: 'Rural Canada Trade Profiles',
@@ -14749,6 +15606,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863536833',
     title: 'Canadian International Merchandise Trade for Total Exports: All sections, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;All sections;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14766,6 +15624,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863537703',
     title: 'Canadian International Merchandise Trade for Total Exports: All sections, Domestic exports, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;All sections;Domestic exports;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14783,6 +15642,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863538573',
     title: 'Canadian International Merchandise Trade for Total Exports: All sections, Re-exports, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;All sections;Re-exports;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14800,6 +15660,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863542053',
     title: 'Live animals, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Live animals;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14817,6 +15678,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863544663',
     title: 'Wheat, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Wheat;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14834,6 +15696,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863546403',
     title: 'Wheat, Re-exports, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Wheat;Re-exports;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14851,6 +15714,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863560323',
     title: 'Animal feed, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Animal feed;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14868,6 +15732,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863570763',
     title: 'Natural gas, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Natural gas;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14885,6 +15750,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863575983',
     title: 'Coal, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Coal;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14902,6 +15768,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863576853',
     title: 'Coal, Domestic exports, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Coal;Domestic exports;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14919,6 +15786,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863577723',
     title: 'Coal, Re-exports, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Coal;Re-exports;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14936,6 +15804,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863581203',
     title: 'Electricity, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Electricity;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14953,6 +15822,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863602083',
     title: 'Potash, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Potash;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14970,6 +15840,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863603823',
     title: 'Potash, Re-exports, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Potash;Re-exports;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -14987,6 +15858,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863750853',
     title: 'Tires, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Tires;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -15004,6 +15876,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863752593',
     title: 'Tires, Re-exports, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Tires;Re-exports;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -15021,6 +15894,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863758683',
     title: 'Aircraft, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Aircraft;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -15038,6 +15912,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863760423',
     title: 'Aircraft, Re-exports, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Aircraft;Re-exports;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -15055,6 +15930,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863776953',
     title: 'Meat products, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Meat products;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -15072,6 +15948,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_12100182_1863821323',
     title: 'Appliances, Export, All countries, country of destination, All countries, country of origin, Canada',
+    originalTitle: 'Canada;Appliances;Export;All countries, country of destination;All countries, country of origin', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Canadian International Merchandise Trade for Total Exports',
     release: 'Canadian International Merchandise Trade for Total Exports',
@@ -15089,6 +15966,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385261',
     title: 'Disqualifications and disentitlements, total, Canada',
+    originalTitle: 'Canada;Disqualifications and disentitlements, total', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15106,6 +15984,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385275',
     title: 'Employment Insurance Statistics: Other reasons, Canada',
+    originalTitle: 'Canada;Other reasons', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15123,6 +16002,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385289',
     title: 'Not unemployed or no interruption of earnings, Canada',
+    originalTitle: 'Canada;Not unemployed or no interruption of earnings', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15140,6 +16020,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385303',
     title: 'Employment Insurance Statistics: Not capable or not available, Canada',
+    originalTitle: 'Canada;Not capable or not available', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15157,6 +16038,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385317',
     title: 'Employment Insurance Statistics: Labour dispute, Canada',
+    originalTitle: 'Canada;Labour dispute', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15174,6 +16056,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385331',
     title: 'Employment Insurance Statistics: Refusal of suitable work, Canada',
+    originalTitle: 'Canada;Refusal of suitable work', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15191,6 +16074,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385345',
     title: 'Employment Insurance Statistics: Misconduct, Canada',
+    originalTitle: 'Canada;Misconduct', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15208,6 +16092,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385359',
     title: 'Employment Insurance Statistics: Voluntary quit, Canada',
+    originalTitle: 'Canada;Voluntary quit', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15225,6 +16110,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385373',
     title: 'Employment Insurance Statistics: Incomplete documentation, Canada',
+    originalTitle: 'Canada;Incomplete documentation', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15242,6 +16128,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100004_385387',
     title: 'Employment Insurance Statistics: Failure to search for work, Canada',
+    originalTitle: 'Canada;Failure to search for work', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15259,6 +16146,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100005_383886',
     title: 'Initial and renewal claims, Received, Canada',
+    originalTitle: 'Canada;Initial and renewal claims;Received', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15276,6 +16164,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100005_383900',
     title: 'Employment Insurance Statistics: Initial claims, Received, Canada',
+    originalTitle: 'Canada;Initial claims;Received', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15293,6 +16182,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100005_383914',
     title: 'Employment Insurance Statistics: Renewal claims, Received, Canada',
+    originalTitle: 'Canada;Renewal claims;Received', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15310,6 +16200,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100005_383928',
     title: 'Initial and renewal claims, Allowed, Canada',
+    originalTitle: 'Canada;Initial and renewal claims;Allowed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15327,6 +16218,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100005_383942',
     title: 'Employment Insurance Statistics: Initial claims, Allowed, Canada',
+    originalTitle: 'Canada;Initial claims;Allowed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15344,6 +16236,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100005_383956',
     title: 'Employment Insurance Statistics: Renewal claims, Allowed, Canada',
+    originalTitle: 'Canada;Renewal claims;Allowed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15361,6 +16254,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100005_1992295',
     title: 'Initial and renewal claims, seasonally adjusted, Received, Canada',
+    originalTitle: 'Canada;Initial and renewal claims, seasonally adjusted;Received', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15378,6 +16272,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100006_844',
     title: 'Persons covered by employment insurance, Canada',
+    originalTitle: 'Canada;Persons covered by employment insurance', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15395,6 +16290,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235570',
     title: 'Benefit payments, All types of income benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit payments;All types of income benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15411,7 +16307,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100007_87235571',
-    title: 'Benefit payments, All types of income benefits, Employee, Canada',
+    title: 'Employee benefit payments, All types of income benefits, Canada',
+    originalTitle: 'Canada;Benefit payments;All types of income benefits;Employee', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15428,7 +16325,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100007_87235572',
-    title: 'Benefit payments, All types of income benefits, Self-employed, Canada',
+    title: 'Self-employed benefit payments, All types of income benefits, Canada',
+    originalTitle: 'Canada;Benefit payments;All types of income benefits;Self-employed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15446,6 +16344,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235573',
     title: 'Benefit payments, Regular benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit payments;Regular benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15463,6 +16362,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235585',
     title: 'Benefit payments, Fishing benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit payments;Fishing benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15480,6 +16380,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235587',
     title: 'Benefit payments, Special benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit payments;Special benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15497,6 +16398,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235595',
     title: 'Benefit weeks, All types of income benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit weeks;All types of income benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15513,7 +16415,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100007_87235596',
-    title: 'Benefit weeks, All types of income benefits, Employee, Canada',
+    title: 'Employee benefit weeks, All types of income benefits, Canada',
+    originalTitle: 'Canada;Benefit weeks;All types of income benefits;Employee', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15530,7 +16433,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100007_87235597',
-    title: 'Benefit weeks, All types of income benefits, Self-employed, Canada',
+    title: 'Self-employed benefit weeks, All types of income benefits, Canada',
+    originalTitle: 'Canada;Benefit weeks;All types of income benefits;Self-employed', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15548,6 +16452,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235598',
     title: 'Benefit weeks, Regular benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit weeks;Regular benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15565,6 +16470,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235608',
     title: 'Benefit weeks, Work-sharing benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit weeks;Work-sharing benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15582,6 +16488,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235610',
     title: 'Benefit weeks, Fishing benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit weeks;Fishing benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15599,6 +16506,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100007_87235612',
     title: 'Benefit weeks, Special benefits, All classes of workers, Canada',
+    originalTitle: 'Canada;Benefit weeks;Special benefits;All classes of workers', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15616,6 +16524,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100008_86999928',
     title: 'Employment Insurance Statistics: Benefit payments, Canada',
+    originalTitle: 'Canada;Benefit payments', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15633,6 +16542,7 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   {
     id: 'SC_14100008_86999929',
     title: 'Employment Insurance Statistics: Benefit weeks, Canada',
+    originalTitle: 'Canada;Benefit weeks', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15649,7 +16559,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64541110',
-    title: 'Employment Insurance Statistics: All types of income benefits, 15 to 24 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, ages 15 to 24, Canada',
+    originalTitle: 'Canada;All types of income benefits;Both sexes;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15666,7 +16577,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64541318',
-    title: 'Employment Insurance Statistics: All types of income benefits, 25 to 54 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, ages 25 to 54, Canada',
+    originalTitle: 'Canada;All types of income benefits;Both sexes;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15683,7 +16595,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64541734',
-    title: 'Employment Insurance Statistics: All types of income benefits, 15 to 29 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, ages 15 to 29, Canada',
+    originalTitle: 'Canada;All types of income benefits;Both sexes;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15700,7 +16613,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64541942',
-    title: 'Employment Insurance Statistics: All types of income benefits, 55 to 64 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, ages 55 to 64, Canada',
+    originalTitle: 'Canada;All types of income benefits;Both sexes;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15717,7 +16631,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64542150',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 15 years and over, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 15 and over, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15734,7 +16649,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64542342',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 15 to 24 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 15 to 24, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15751,7 +16667,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64542534',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 25 to 54 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 25 to 54, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15768,7 +16685,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64542726',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 55 years and over, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 55 and over, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15785,7 +16703,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64542918',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 15 to 29 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 15 to 29, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15802,7 +16721,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64543110',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 55 to 64 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 55 to 64, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15819,7 +16739,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64543302',
-    title: 'Employment Insurance Statistics: All types of income benefits, Females, 15 years and over, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Females, ages 15 and over, Canada',
+    originalTitle: 'Canada;All types of income benefits;Females;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15836,7 +16757,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64543510',
-    title: 'Employment Insurance Statistics: All types of income benefits, Females, 15 to 24 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Females, ages 15 to 24, Canada',
+    originalTitle: 'Canada;All types of income benefits;Females;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15853,7 +16775,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64543718',
-    title: 'Employment Insurance Statistics: All types of income benefits, Females, 25 to 54 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Females, ages 25 to 54, Canada',
+    originalTitle: 'Canada;All types of income benefits;Females;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15870,7 +16793,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64543926',
-    title: 'Employment Insurance Statistics: All types of income benefits, Females, 55 years and over, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Females, ages 55 and over, Canada',
+    originalTitle: 'Canada;All types of income benefits;Females;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15887,7 +16811,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64544134',
-    title: 'Employment Insurance Statistics: All types of income benefits, Females, 15 to 29 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Females, ages 15 to 29, Canada',
+    originalTitle: 'Canada;All types of income benefits;Females;15 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15904,7 +16829,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_64544342',
-    title: 'Employment Insurance Statistics: All types of income benefits, Females, 55 to 64 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Females, ages 55 to 64, Canada',
+    originalTitle: 'Canada;All types of income benefits;Females;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15921,7 +16847,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_1140980876',
-    title: 'Employment Insurance Statistics: All types of income benefits, 30 to 54 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, ages 30 to 54, Canada',
+    originalTitle: 'Canada;All types of income benefits;Both sexes;30 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15938,7 +16865,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_1140980877',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 30 to 54 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 30 to 54, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;30 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15955,7 +16883,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100009_1140980878',
-    title: 'Employment Insurance Statistics: All types of income benefits, Females, 30 to 54 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Females, ages 30 to 54, Canada',
+    originalTitle: 'Canada;All types of income benefits;Females;30 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15972,7 +16901,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64544938',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 15 to 19 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 15 to 19, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -15989,7 +16919,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64545130',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 20 to 24 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 20 to 24, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16006,7 +16937,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64545514',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 25 to 29 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 25 to 29, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16023,7 +16955,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64545706',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 30 to 34 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 30 to 34, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;30 to 34 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16040,7 +16973,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64545898',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 35 to 39 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 35 to 39, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;35 to 39 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16057,7 +16991,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64546090',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 40 to 44 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 40 to 44, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;40 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16074,7 +17009,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64546282',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 45 to 49 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 45 to 49, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;45 to 49 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16091,7 +17027,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64546474',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 50 to 54 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 50 to 54, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;50 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16108,7 +17045,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64546858',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 55 to 59 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 55 to 59, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;55 to 59 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16125,7 +17063,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64547050',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 60 to 64 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 60 to 64, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;60 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16142,7 +17081,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64547242',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 65 to 69 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 65 to 69, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;65 to 69 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16159,7 +17099,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64547818',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 15 to 64 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 15 to 64, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;15 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16176,7 +17117,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64548010',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 20 to 29 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 20 to 29, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;20 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16193,7 +17135,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64548202',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 25 to 44 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 25 to 44, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16210,7 +17153,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100010_64548586',
-    title: 'Employment Insurance Statistics: All types of income benefits, Males, 45 to 64 years, Canada',
+    title: 'Employment Insurance Statistics: All types of income benefits, Males, ages 45 to 64, Canada',
+    originalTitle: 'Canada;All types of income benefits;Males;45 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16227,7 +17171,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549350',
-    title: 'Regular benefits, 15 years and over, Canada',
+    title: 'Regular benefits, ages 15 and over, Canada',
+    originalTitle: 'Canada;Regular benefits;Both sexes;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16244,7 +17189,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549351',
-    title: 'Regular benefits, Males, 15 years and over, Canada',
+    title: 'Regular benefits, Males, ages 15 and over, Canada',
+    originalTitle: 'Canada;Regular benefits;Males;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16261,7 +17207,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549352',
-    title: 'Regular benefits, Females, 15 years and over, Canada',
+    title: 'Regular benefits, Females, ages 15 and over, Canada',
+    originalTitle: 'Canada;Regular benefits;Females;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16278,7 +17225,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549354',
-    title: 'Regular benefits, 15 to 24 years, Canada',
+    title: 'Regular benefits, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Regular benefits;Both sexes;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16295,7 +17243,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549355',
-    title: 'Regular benefits, Males, 15 to 24 years, Canada',
+    title: 'Regular benefits, Males, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Regular benefits;Males;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16312,7 +17261,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549356',
-    title: 'Regular benefits, Females, 15 to 24 years, Canada',
+    title: 'Regular benefits, Females, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Regular benefits;Females;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16329,7 +17279,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549357',
-    title: 'Regular benefits, 25 to 54 years, Canada',
+    title: 'Regular benefits, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Regular benefits;Both sexes;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16346,7 +17297,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549358',
-    title: 'Regular benefits, Males, 25 to 54 years, Canada',
+    title: 'Regular benefits, Males, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Regular benefits;Males;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16363,7 +17315,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549359',
-    title: 'Regular benefits, Females, 25 to 54 years, Canada',
+    title: 'Regular benefits, Females, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Regular benefits;Females;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16380,7 +17333,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549360',
-    title: 'Regular benefits, 55 years and over, Canada',
+    title: 'Regular benefits, ages 55 and over, Canada',
+    originalTitle: 'Canada;Regular benefits;Both sexes;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16397,7 +17351,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549361',
-    title: 'Regular benefits, Males, 55 years and over, Canada',
+    title: 'Regular benefits, Males, ages 55 and over, Canada',
+    originalTitle: 'Canada;Regular benefits;Males;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16414,7 +17369,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100011_64549362',
-    title: 'Regular benefits, Females, 55 years and over, Canada',
+    title: 'Regular benefits, Females, ages 55 and over, Canada',
+    originalTitle: 'Canada;Regular benefits;Females;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Employment Insurance Statistics',
     release: 'Employment Insurance Statistics',
@@ -16431,7 +17387,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091031',
-    title: 'Labour Force Survey: Population, 15 to 24 years, Canada',
+    title: 'Population, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Population;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16448,7 +17405,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091037',
-    title: 'Labour Force Survey: Population, 15 to 64 years, Canada',
+    title: 'Population, ages 15 to 64, Canada',
+    originalTitle: 'Canada;Population;Total - Gender;15 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16465,7 +17423,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091038',
-    title: 'Labour Force Survey: Population, 15 to 19 years, Canada',
+    title: 'Population, ages 15 to 19, Canada',
+    originalTitle: 'Canada;Population;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16482,7 +17441,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091039',
-    title: 'Labour Force Survey: Population, 20 to 24 years, Canada',
+    title: 'Population, ages 20 to 24, Canada',
+    originalTitle: 'Canada;Population;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16499,7 +17459,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091073',
-    title: 'Labour Force Survey: Employment, 15 to 24 years, Canada',
+    title: 'Employment, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16516,7 +17477,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091075',
-    title: 'Labour Force Survey: Employment, 25 to 44 years, Canada',
+    title: 'Employment, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16533,7 +17495,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091077',
-    title: 'Labour Force Survey: Employment, 25 to 54 years, Canada',
+    title: 'Employment, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16550,7 +17513,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091079',
-    title: 'Labour Force Survey: Employment, 15 to 64 years, Canada',
+    title: 'Employment, ages 15 to 64, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;15 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16567,7 +17531,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091080',
-    title: 'Labour Force Survey: Employment, 15 to 19 years, Canada',
+    title: 'Employment, ages 15 to 19, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;15 to 19 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16584,7 +17549,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091081',
-    title: 'Labour Force Survey: Employment, 20 to 24 years, Canada',
+    title: 'Employment, ages 20 to 24, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;20 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16601,7 +17567,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091082',
-    title: 'Labour Force Survey: Employment, 25 to 29 years, Canada',
+    title: 'Employment, ages 25 to 29, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;25 to 29 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16618,7 +17585,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091083',
-    title: 'Labour Force Survey: Employment, 30 to 34 years, Canada',
+    title: 'Employment, ages 30 to 34, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;30 to 34 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16635,7 +17603,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091084',
-    title: 'Labour Force Survey: Employment, 35 to 39 years, Canada',
+    title: 'Employment, ages 35 to 39, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;35 to 39 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16652,7 +17621,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091085',
-    title: 'Labour Force Survey: Employment, 40 to 44 years, Canada',
+    title: 'Employment, ages 40 to 44, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;40 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16669,7 +17639,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091086',
-    title: 'Labour Force Survey: Employment, 45 to 49 years, Canada',
+    title: 'Employment, ages 45 to 49, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;45 to 49 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16686,7 +17657,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091087',
-    title: 'Labour Force Survey: Employment, 50 to 54 years, Canada',
+    title: 'Employment, ages 50 to 54, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;50 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16703,7 +17675,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091088',
-    title: 'Labour Force Survey: Employment, 55 to 59 years, Canada',
+    title: 'Employment, ages 55 to 59, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;55 to 59 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16720,7 +17693,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091089',
-    title: 'Labour Force Survey: Employment, 60 to 64 years, Canada',
+    title: 'Employment, ages 60 to 64, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;60 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16737,7 +17711,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_2091091',
-    title: 'Labour Force Survey: Employment, 65 to 69 years, Canada',
+    title: 'Employment, ages 65 to 69, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;65 to 69 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16754,7 +17729,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100017_19650588',
-    title: 'Labour Force Survey: Employment, 45 to 64 years, Canada',
+    title: 'Employment, ages 45 to 64, Canada',
+    originalTitle: 'Canada;Employment;Total - Gender;45 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16771,7 +17747,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2627947',
-    title: 'Employment, Total, all education levels, 15 years and over, Canada',
+    title: 'Employment, Total, all education levels, ages 15 and over, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16788,7 +17765,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628019',
-    title: 'Population, Total, all education levels, 15 to 24 years, Canada',
+    title: 'Population, Total, all education levels, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16805,7 +17783,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628028',
-    title: 'Labour force, Total, all education levels, 15 to 24 years, Canada',
+    title: 'Labour force, Total, all education levels, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Labour force;Total, all education levels;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16822,7 +17801,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628037',
-    title: 'Employment, Total, all education levels, 15 to 24 years, Canada',
+    title: 'Employment, Total, all education levels, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16839,7 +17819,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628064',
-    title: 'Unemployment, Total, all education levels, 15 to 24 years, Canada',
+    title: 'Unemployment, Total, all education levels, ages 15 to 24, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all education levels;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16856,7 +17837,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628127',
-    title: 'Employment, Total, all education levels, 25 years and over, Canada',
+    title: 'Employment, Total, all education levels, ages 25 and over, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;25 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16873,7 +17855,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628199',
-    title: 'Population, Total, all education levels, 25 to 44 years, Canada',
+    title: 'Population, Total, all education levels, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16890,7 +17873,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628208',
-    title: 'Labour force, Total, all education levels, 25 to 44 years, Canada',
+    title: 'Labour force, Total, all education levels, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Labour force;Total, all education levels;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16907,7 +17891,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628217',
-    title: 'Employment, Total, all education levels, 25 to 44 years, Canada',
+    title: 'Employment, Total, all education levels, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16924,7 +17909,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628244',
-    title: 'Unemployment, Total, all education levels, 25 to 44 years, Canada',
+    title: 'Unemployment, Total, all education levels, ages 25 to 44, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all education levels;Total - Gender;25 to 44 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16941,7 +17927,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628307',
-    title: 'Employment, Total, all education levels, 45 years and over, Canada',
+    title: 'Employment, Total, all education levels, ages 45 and over, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;45 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16958,7 +17945,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628379',
-    title: 'Population, Total, all education levels, 25 to 54 years, Canada',
+    title: 'Population, Total, all education levels, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16975,7 +17963,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628388',
-    title: 'Labour force, Total, all education levels, 25 to 54 years, Canada',
+    title: 'Labour force, Total, all education levels, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Labour force;Total, all education levels;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -16992,7 +17981,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628397',
-    title: 'Employment, Total, all education levels, 25 to 54 years, Canada',
+    title: 'Employment, Total, all education levels, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17009,7 +17999,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628424',
-    title: 'Unemployment, Total, all education levels, 25 to 54 years, Canada',
+    title: 'Unemployment, Total, all education levels, ages 25 to 54, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all education levels;Total - Gender;25 to 54 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17026,7 +18017,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628487',
-    title: 'Employment, Total, all education levels, 55 years and over, Canada',
+    title: 'Employment, Total, all education levels, ages 55 and over, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;55 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17043,7 +18035,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628559',
-    title: 'Population, Total, all education levels, 55 to 64 years, Canada',
+    title: 'Population, Total, all education levels, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17060,7 +18053,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628568',
-    title: 'Labour force, Total, all education levels, 55 to 64 years, Canada',
+    title: 'Labour force, Total, all education levels, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Labour force;Total, all education levels;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17077,7 +18071,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628577',
-    title: 'Employment, Total, all education levels, 55 to 64 years, Canada',
+    title: 'Employment, Total, all education levels, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17094,7 +18089,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100019_2628604',
-    title: 'Unemployment, Total, all education levels, 55 to 64 years, Canada',
+    title: 'Unemployment, Total, all education levels, ages 55 to 64, Canada',
+    originalTitle: 'Canada;Unemployment;Total, all education levels;Total - Gender;55 to 64 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17111,7 +18107,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582409',
-    title: 'Employment, Total, all education levels, 15 years and over, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 15 and over, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;15 years and over', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17128,7 +18125,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582481',
-    title: 'Population, Total, all education levels, 15 to 24 years, Canada (annual)',
+    title: 'Population, Total, all education levels, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Population;Total, all education levels;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17145,7 +18143,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582490',
-    title: 'Labour force, Total, all education levels, 15 to 24 years, Canada (annual)',
+    title: 'Labour force, Total, all education levels, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Labour force;Total, all education levels;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
@@ -17162,7 +18161,8 @@ export const GENERATED_SERIES_PART1: SeriesMeta[] = [
   },
   {
     id: 'SC_14100020_2582499',
-    title: 'Employment, Total, all education levels, 15 to 24 years, Canada (annual)',
+    title: 'Employment, Total, all education levels, ages 15 to 24, Canada (annual)',
+    originalTitle: 'Canada;Employment;Total, all education levels;Total - Gender;15 to 24 years', // raw StatCan label: provenance + search alias
     source: 'statcan',
     sourceLabel: 'Statistics Canada, Labour Force Survey',
     release: 'Labour Force Survey',
