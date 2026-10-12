@@ -10,22 +10,29 @@ import { dirname, join } from 'node:path';
 
 const dir = dirname(fileURLToPath(import.meta.url));
 const src = readFileSync(join(dir, '..', 'src', 'lib', 'registry.ts'), 'utf8');
+const genSrc = readFileSync(join(dir, '..', 'src', 'lib', 'registry.generated.ts'), 'utf8');
 
-// Parse the SERIES array out of registry.ts without a TS toolchain.
-function parseSeries(text) {
-  const body = text.slice(text.indexOf('export const SERIES'));
+// Parse a SERIES-style array out of a registry TS file without a TS toolchain.
+// Handles \' escapes (generated titles may contain apostrophes).
+function parseSeries(text, arrayName) {
+  const unq = (s) => s.replace(/\\'/g, "'").replace(/\\\\/g, '\\');
+  const str = (c, key) => {
+    const m = c.match(new RegExp(key + ":\\s*'((?:[^'\\\\]|\\\\.)*)'"));
+    return m ? unq(m[1]) : undefined;
+  };
+  const body = text.slice(text.indexOf(`export const ${arrayName}`));
   const chunks = body.split(/\n  \},/);
   const out = [];
   for (const c of chunks) {
-    const id = (c.match(/id:\s*'([^']+)'/) || [])[1];
+    const id = str(c, 'id');
     if (!id) continue;
-    const source = (c.match(/source:\s*'([^']+)'/) || [])[1];
-    const title = (c.match(/title:\s*'([^']+)'/) || [])[1];
+    const source = str(c, 'source');
+    const title = str(c, 'title');
     const vm = c.match(/vectorIds:\s*\[([^\]]*)\]/);
     const vectorIds = vm ? vm[1].split(',').map(s => parseInt(s.trim(), 10)).filter(Number.isFinite) : [];
-    const valetGroup = (c.match(/valetGroup:\s*'([^']+)'/) || [])[1];
-    const valetSeriesKey = (c.match(/valetSeriesKey:\s*'([^']+)'/) || [])[1];
-    const frequency = (c.match(/frequency:\s*'([^']+)'/) || [])[1];
+    const valetGroup = str(c, 'valetGroup');
+    const valetSeriesKey = str(c, 'valetSeriesKey');
+    const frequency = str(c, 'frequency');
     out.push({ id, source, title, vectorIds, valetGroup, valetSeriesKey, frequency });
   }
   return out;
@@ -79,7 +86,7 @@ async function checkBoc(series) {
   return { ok: true, date: last.d, value: last[series.valetSeriesKey].v };
 }
 
-const series = parseSeries(src);
+const series = [...parseSeries(src, 'SERIES'), ...parseSeries(genSrc, 'GENERATED_SERIES')];
 let pass = 0, fail = 0;
 for (const s of series) {
   try {

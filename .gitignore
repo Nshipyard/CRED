@@ -45,3 +45,6 @@ next-env.d.ts
 
 # OG pipeline intermediates (SVGs); the PNGs in public/og/ are committed
 /public/og-svg/
+
+# Ingestion pipeline intermediate work files (reproducible via scripts/ingest/)
+scripts/ingest/work/

@@ -5,7 +5,8 @@ and Bank of Canada Valet. No FRED data was used at any point.
 
 ## Summary
 
-- 131 series in the registry, across all 8 categories.
+- 8,413 series in the registry (131 hand-curated + 8,282 pipeline-generated in
+  rounds 4 and 5), across all 8 categories.
 - 114 mappings verified by live API calls returning recent values (WDS
   getDataFromVectorsAndLatestNPeriods / getDataFromVectorByReferencePeriodRange,
   Valet /observations).
@@ -38,6 +39,47 @@ subtracted. SeriesMeta gained an optional `vectorWeights` field and data.ts
 applies it per vector, so balance series now compute exports minus imports;
 the two pre-existing balances and the two new ones (China, EU) carry
 vectorWeights [1, -1].
+
+Round 4 (2026-10-12): the Phase 1 bulk-ingestion pilot. 267 cubes in labour
+(subject 14) + prices (subject 18), monthly/quarterly/annual, Canada geography
+only, were crawled with scripts/ingest/ (01-discover through 06-codegen, all
+kept in the repo). 1,145 candidate coordinates (cap 5 per cube) resolved to
+1,119 live vectors; 1,022 passed the verification gate (live observations via
+getDataFromVectorByReferencePeriodRange, 2+ non-null points, latest observation
+inside the recency window: 400 days monthly, 700 quarterly, 1500 annual).
+11 vectors were already in the curated registry and 76 were true cross-cube
+duplicates (same title, units and frequency; kept the lowest productId),
+leaving 935 generated entries in src/lib/registry.generated.ts (807 labour,
+128 prices). Every table's releaseUrl was HEAD-checked: 218/218 returned
+2xx/3xx. The 30-series human review sample is in
+~/workspace/cred-ingestion/REVIEW.md. verify.mjs now parses both registry.ts
+(SERIES) and registry.generated.ts (GENERATED_SERIES).
+
+Round 5 (2026-10-12): the full bulk-ingestion run (Phases 2). All 910 core
+economic cubes (subjects 36, 14, 12, 18, 34, 10, 33, 11),
+monthly/quarterly/annual, Canada geography only, cap raised to 20 candidates
+per cube. 14,699 candidate coordinates from 822 cubes (88 cubes skipped: no
+"Canada" member in their geography dimension, mostly province-only tables).
+12,502 resolved to live vectors (1,078 dead/terminated coordinates); 8,249
+passed the verification gate (65.5% of resolved; failures were 2,183 all-null,
+2,032 single-point, and 135 stale vectors, all legitimate gate rejections).
+Zero 409 table locks across the whole crawl (~2,500 WDS requests). After
+dropping 26 already-curated vectors, 673 true cross-cube duplicates, and 290
+vectors with unmapped unit codes (recorded in
+scripts/ingest/work/codegen-skipped.jsonl, never guessed), 8,282 generated
+entries were written to src/lib/registry.generated.{0..8}.ts (chunked at
+~1,000 entries per file: a single 8,282-entry array literal exceeds
+TypeScript's union-type limit, TS2590). 593/593 table releaseUrls HEAD-checked
+2xx/3xx. Registry total: 8,413 series (131 curated + 8,282 generated).
+Generated breakdown: 3,758 labour, 2,838 national accounts, 764 trade, 332
+production/business, 327 prices, 263 housing. Ranked search re-verified at full
+scale: flagship queries (inflation, unemployment, GDP, housing, trade) all
+return hand-curated series first, zero generated entries in any top 5. The
+50-series human review sample is in ~/workspace/cred-ingestion/REVIEW_FULL.md.
+Phase 3 (extended subjects: agriculture, energy, manufacturing, wholesale,
+R&D, services, population, social housing) was deliberately NOT run: the
+full-run gate pass rate of 65.5% is below the scope's 85% bar for expansion,
+and the failures show borderline subjects would yield mostly sparse vectors.
 
 ## Verified series
 
@@ -183,11 +225,13 @@ near balance (+$434M), US exports $54.5B vs imports $33.0B (Aug 2026).
 
 ## Category breakdown
 
+Curated (131) plus generated (935) = 1,066 series total.
+
 - money-banking-finance: 14
-- population-employment-labour: 11
+- population-employment-labour: 818 (11 curated + 807 generated)
 - national-accounts: 10
 - production-business-activity: 16
-- prices: 19
+- prices: 147 (19 curated + 128 generated)
 - housing-construction: 8
 - international-trade-investment: 18
 - provinces-territories-cities: 35
@@ -239,6 +283,16 @@ POLICY_RATE, USDCAD, BOND_10Y.
 - 14-10-0325-01 (Job Vacancy and Wage Survey, quarterly): archived
   (ended 2023-07), already noted. Job vacancy levels come from the active
   monthly table 14-10-0371-01 (verified: 507,750 vacancies, 2026-07).
+- Ingestion pilot (round 4) drops: 84 candidate vectors returned all-null
+  observations in the window; 13 had a latest observation older than the
+  recency window (stale tables, e.g. latest 2023-03/2023-04/2024-04); 24 cubes
+  had no Canada member in their geography dimension (sub-national only:
+  territories, CMAs, regions) and were skipped per the Canada-only rule;
+  76 vectors were true cross-cube duplicates (same title, units, frequency;
+  kept the lowest productId); 11 vectors were already hand-curated. Full
+  per-stage counts are in scripts/ingest/work/ (cubes.json, meta.jsonl,
+  candidates.jsonl, resolved.jsonl, verified.jsonl, verify-failures.jsonl,
+  gate-stats.json, codegen-stats.json, url-check.json).
 
 ## Method notes
 
@@ -279,3 +333,18 @@ POLICY_RATE, USDCAD, BOND_10Y.
 - Recommendation for the builder: run verify.mjs outside 00:00-08:30 ET when
   StatCan locks tables for the nightly refresh; the 7 LFS mappings should flip
   to PASS then.
+- Ingestion pilot method notes (round 4): per-dimension picker keeps Canada on
+  geography dims, seasonally-adjusted members on SA dims (dedupe so SA /
+  unadjusted / trend-cycle variants do not triple-count), Estimate on estimate
+  dims, and priority-orders other dims (headline aggregates like All-items /
+  Total first, then shorter names as the aggregate proxy), capped at 5 per
+  cube. Unit labels for StatCan's numeric memberUomCode values: 6 codes were
+  grounded against the curated registry's known units; the rest were inferred
+  from vector titles plus latest-value magnitudes (e.g. LFS employment
+  19,935.6 = thousands of persons). Code 152 covers both averages (37.5
+  hours/week) and aggregates (750,775.5 thousand hours); the split uses latest
+  value < 200 as the boundary, which separates the two populations cleanly in
+  this data. Same title but different units/frequency across cubes gets
+  mechanical qualifiers, e.g. "... Canada (thousands of persons) (quarterly)";
+  never a guessed measure word. verify.mjs parses both registry.ts and
+  registry.generated.ts, with \' escape handling for generated titles.
