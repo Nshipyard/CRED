@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cred.nshipyard.com/sitemap.xml
