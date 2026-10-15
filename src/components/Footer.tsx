@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import FooterNewsletter from './FooterNewsletter';
 
 export default function Footer() {
   return (
     <footer className="border-t hairline bg-white">
       <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-600">
+        <FooterNewsletter />
         <div className="flex flex-wrap gap-x-8 gap-y-2">
           <Link href="/categories" className="hover:text-[#d80621]">
             Categories
