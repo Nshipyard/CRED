@@ -4,6 +4,7 @@ import { REGISTRY } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
 import ChartSVG from '@/components/ChartSVG';
 import ChartFigure from '@/components/ChartFigure';
+import CredMark from '@/components/CredMark';
 
 export const dynamic = 'force-dynamic';
 
@@ -91,25 +92,11 @@ export default function Home() {
           <span className="eyebrow text-[#0a0f1e]">
             Canadian Research Economic Data
           </span>
-          <div className="mt-4 flex items-center justify-center gap-4">
-            <span
-              className="flex h-16 w-16 items-center justify-center rounded-xl bg-[#0a0f1e]"
-              aria-hidden
-            >
-              <svg width="40" height="40" viewBox="0 0 22 22">
-                <polyline
-                  points="3,15 8,15 11,9 14,12 19,6"
-                  fill="none"
-                  stroke="#d80621"
-                  strokeWidth="2.4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </span>
+          <div className="mt-4 flex items-center justify-center gap-4 bg-white">
             <h1 className="font-display text-6xl tracking-tight text-[#0a0f1e] md:text-7xl">
               CRED
             </h1>
+            <CredMark size={64} />
           </div>
           <p className="mt-4 text-lg text-gray-700">
             Your trusted source for Canadian economic data.

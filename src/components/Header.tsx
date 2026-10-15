@@ -3,33 +3,15 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import CredMark from './CredMark';
 
 function CredLockup() {
   return (
-    <Link href="/" className="flex items-center gap-2.5">
-      <span
-        className="flex h-9 w-9 items-center justify-center rounded-md bg-[#0a0f1e]"
-        aria-hidden
-      >
-        <svg width="22" height="22" viewBox="0 0 22 22">
-          <polyline
-            points="3,15 8,15 11,9 14,12 19,6"
-            fill="none"
-            stroke="#d80621"
-            strokeWidth="2.4"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+    <Link href="/" className="flex items-center gap-3 bg-white">
+      <span className="font-display text-[30px] tracking-tight text-[#0a0f1e]">
+        CRED
       </span>
-      <span className="flex flex-col leading-none">
-        <span className="eyebrow text-[#0a0f1e]">
-          Canadian Research Economic Data
-        </span>
-        <span className="font-display text-[26px] tracking-tight text-[#0a0f1e]">
-          CRED
-        </span>
-      </span>
+      <CredMark size={38} />
     </Link>
   );
 }
@@ -37,25 +19,11 @@ function CredLockup() {
 // Compact mark for the mobile bar: small logo square + wordmark, no lockup.
 function CompactMark() {
   return (
-    <Link href="/" className="flex items-center gap-2" aria-label="CRED home">
-      <span
-        className="flex h-8 w-8 items-center justify-center rounded-md bg-[#0a0f1e]"
-        aria-hidden
-      >
-        <svg width="18" height="18" viewBox="0 0 22 22">
-          <polyline
-            points="3,15 8,15 11,9 14,12 19,6"
-            fill="none"
-            stroke="#d80621"
-            strokeWidth="2.4"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </span>
+    <Link href="/" className="flex items-center gap-2 bg-white" aria-label="CRED home">
       <span className="font-display text-xl tracking-tight text-[#0a0f1e]">
         CRED
       </span>
+      <CredMark size={30} />
     </Link>
   );
 }
