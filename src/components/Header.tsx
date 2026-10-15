@@ -187,12 +187,6 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <a
-              href="https://canada.nshipyard.com"
-              className="hover:text-[#d80621]"
-            >
-              ← All projects
-            </a>
           </nav>
           {/* Mobile: hamburger */}
           <button
@@ -211,13 +205,6 @@ export default function Header() {
             aria-label="Mobile"
           >
             <div className="mx-auto max-w-6xl px-4 py-2">
-              <a
-                href="https://canada.nshipyard.com"
-                onClick={() => setMenuOpen(false)}
-                className="block border-b hairline py-3 text-base font-medium text-[#0a0f1e]"
-              >
-                ← All projects
-              </a>
               <Link
                 href="/"
                 onClick={() => setMenuOpen(false)}
