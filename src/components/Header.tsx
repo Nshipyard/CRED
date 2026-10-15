@@ -114,8 +114,13 @@ export default function Header() {
         <div className="mx-auto flex max-w-6xl items-center px-4 py-1.5">
           <a
             href="https://canada.nshipyard.com"
-            className="text-[11px] font-bold uppercase tracking-[0.14em] text-[#0a0f1e] hover:text-[#d80621]"
+            className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0a0f1e] hover:text-[#d80621]"
           >
+            <img
+              src="https://canada.nshipyard.com/logo-keyhole.png"
+              alt="Open Nshipyard logo"
+              className="h-3.5 w-3.5"
+            />
             Open Nshipyard
           </a>
         </div>
