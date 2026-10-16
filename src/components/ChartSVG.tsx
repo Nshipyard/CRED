@@ -95,18 +95,54 @@ export default function ChartSVG({
     padL + ((new Date(date + 'T00:00:00Z').getTime() - tMin) / span) * plotW;
   const y = (v: number) => padT + (1 - (v - lo) / (hi - lo)) * plotH;
 
-  // Year ticks: one per year, thinned so labels don't collide.
-  // The final year is always labeled so the axis never looks stale
-  // when thinning drops it (e.g. data runs to 2026 but ticks stop at 2024).
-  const years = [...new Set(dates.map((d) => d.slice(0, 4)))];
-  const thin = Math.max(1, Math.ceil(years.length / 10));
-  const yearTicks = years.filter((_, i) => i % thin === 0);
-  const lastYear = years[years.length - 1];
-  if (yearTicks[yearTicks.length - 1] !== lastYear) {
-    if (Number(lastYear) - Number(yearTicks[yearTicks.length - 1]) < thin) {
-      yearTicks.pop();
+  // X ticks adapt to the visible span so a zoomed chart labels the months.
+  // Short spans (<= ~18 months): one tick per observation, thinned to at
+  // most 12, labeled "Mon YYYY". The final observation is always labeled so
+  // the axis never looks stale when thinning drops it.
+  // Longer spans: one tick per year, thinned so labels don't collide, with
+  // the final year always labeled.
+  const MONTH_ABBR = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  interface XTick { pos: number; label: string; key: string }
+  let xTicks: XTick[];
+  const spanDays = span / 86400000;
+  if (spanDays <= 548 && data.length > 1) {
+    const maxLabels = 12;
+    const step = Math.max(1, Math.ceil(data.length / maxLabels));
+    const idxs: number[] = [];
+    for (let i = 0; i < data.length; i += step) idxs.push(i);
+    if (idxs[idxs.length - 1] !== data.length - 1) idxs.push(data.length - 1);
+    // The final label is end-anchored near the right edge, which pulls it
+    // leftward; drop the second-to-last label when it would collide with it.
+    while (
+      idxs.length > 2 &&
+      x(data[idxs[idxs.length - 1]].date) - x(data[idxs[idxs.length - 2]].date) < 100
+    ) {
+      idxs.splice(idxs.length - 2, 1);
     }
-    yearTicks.push(lastYear);
+    xTicks = idxs.map((i) => {
+      const dt = new Date(data[i].date + 'T00:00:00Z');
+      return {
+        pos: x(data[i].date),
+        label: `${MONTH_ABBR[dt.getUTCMonth()]} ${dt.getUTCFullYear()}`,
+        key: `${id}-m${data[i].date}`,
+      };
+    });
+  } else {
+    const years = [...new Set(dates.map((d) => d.slice(0, 4)))];
+    const thin = Math.max(1, Math.ceil(years.length / 10));
+    const yearTicks = years.filter((_, i) => i % thin === 0);
+    const lastYear = years[years.length - 1];
+    if (yearTicks[yearTicks.length - 1] !== lastYear) {
+      if (Number(lastYear) - Number(yearTicks[yearTicks.length - 1]) < thin) {
+        yearTicks.pop();
+      }
+      yearTicks.push(lastYear);
+    }
+    xTicks = yearTicks.map((yr) => ({
+      pos: x(`${yr}-01-01`) < padL ? padL : x(`${yr}-01-01`),
+      label: yr,
+      key: `${id}-y${yr}`,
+    }));
   }
 
   const visibleRecessions = recessions.filter(
@@ -158,21 +194,20 @@ export default function ChartSVG({
           </text>
         </g>
       ))}
-      {yearTicks.map((yr, yi) => {
-        const pos = x(`${yr}-01-01`) < padL ? padL : x(`${yr}-01-01`);
-        // The final-year label sits near the right edge; anchor it inward
+      {xTicks.map((t, ti) => {
+        // The final label sits near the right edge; anchor it inward
         // so it never clips off the chart.
-        const anchorEnd = yi === yearTicks.length - 1 && pos + 30 > W;
+        const anchorEnd = ti === xTicks.length - 1 && t.pos + 34 > W;
         return (
           <text
-            key={`${id}-y${yr}`}
-            x={anchorEnd ? W - 6 : pos}
+            key={t.key}
+            x={anchorEnd ? W - 6 : t.pos}
             y={H - 12}
             fontSize={11}
             fill="#8a93a6"
             textAnchor={anchorEnd ? 'end' : 'start'}
           >
-            {yr}
+            {t.label}
           </text>
         );
       })}
