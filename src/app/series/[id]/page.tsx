@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getSeries, REGISTRY, CATEGORY_LABELS } from '@/lib/registry';
+import { getSeries, REGISTRY, CATEGORY_LABELS, sourceName } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
 import ChartControls from '@/components/ChartControls';
 import SeriesDiscovery from '@/components/SeriesDiscovery';
@@ -270,7 +270,7 @@ export default async function SeriesPage({
                 rel="noopener noreferrer"
                 className="text-[#d80621] hover:underline"
               >
-                {series.source === 'statcan' ? 'Statistics Canada' : 'Bank of Canada'}
+                {sourceName(series.source)}
                 <ExternalIcon />
               </a>
             </p>
@@ -302,7 +302,7 @@ export default async function SeriesPage({
           </p>
           <p>
             <span className="font-medium text-[#0a0f1e]">Suggested Citation: </span>
-            {series.source === 'statcan' ? 'Statistics Canada' : 'Bank of Canada'},{' '}
+            {sourceName(series.source)},{' '}
             {series.title} {series.id}, retrieved from CRED, Canadian Research
             Economic Data; https://cred.nshipyard.com/series/{series.id},{' '}
             {retrievalDate}.

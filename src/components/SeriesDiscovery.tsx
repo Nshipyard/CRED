@@ -4,6 +4,7 @@ import {
   CATEGORIES,
   CATEGORY_LABELS,
   type SeriesMeta,
+  sourceName,
 } from '@/lib/registry';
 import { getObservations } from '@/lib/data';
 import ChartFigure from './ChartFigure';
@@ -131,7 +132,7 @@ export default async function SeriesDiscovery({ series }: { series: SeriesMeta }
   const tags: string[] = [
     geographyTag(series),
     topicTag(series),
-    series.source === 'statcan' ? 'Statistics Canada' : 'Bank of Canada',
+    sourceName(series.source),
     series.frequency,
   ];
   const sa = saTag(series);

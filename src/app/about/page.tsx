@@ -68,6 +68,13 @@ export default function About() {
                 <td className="px-4 py-3">Rates and markets</td>
               </tr>
               <tr>
+                <td className="px-4 py-3 font-medium">Canada Energy Regulator open data</td>
+                <td className="px-4 py-3">Energy trade: crude, natural gas, LNG, NGL and electricity exports and imports</td>
+                <td className="px-4 py-3">Monthly files, harvested monthly</td>
+                <td className="px-4 py-3">Open Government Licence, Canada: reuse and republish with attribution</td>
+                <td className="px-4 py-3">Energy category trade series</td>
+              </tr>
+              <tr>
                 <td className="px-4 py-3 font-medium">C.D. Howe Institute Business Cycle Council</td>
                 <td className="px-4 py-3">Canadian recession peak/trough dates (1929+)</td>
                 <td className="px-4 py-3">Per cycle</td>

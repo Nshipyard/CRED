@@ -5,11 +5,11 @@ import { REGISTRY, CATEGORY_LABELS, type CategorySlug } from '@/lib/registry';
 export const metadata: Metadata = {
   title: 'Browse categories | CRED',
   description:
-    'Eight top-level categories cover the whole CRED registry, from money and banking to provincial data. 104 verified Canadian economic series from Statistics Canada and the Bank of Canada.',
+    'Nine top-level categories cover the whole CRED registry, from money and banking to energy and provincial data. Canadian economic and energy series from Statistics Canada, the Bank of Canada and the Canada Energy Regulator.',
   openGraph: {
     title: 'Browse categories | CRED',
     description:
-      'Eight top-level categories cover the whole CRED registry, from money and banking to provincial data.',
+      'Nine top-level categories cover the whole CRED registry, from money and banking to energy and provincial data.',
     url: '/categories',
     images: [{ url: '/og/home.png', width: 1200, height: 630, alt: 'CRED categories' }],
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Browse categories | CRED',
     description:
-      'Eight top-level categories cover the whole CRED registry, from money and banking to provincial data.',
+      'Nine top-level categories cover the whole CRED registry, from money and banking to energy and provincial data.',
     images: ['/og/home.png'],
   },
 };
@@ -27,6 +27,7 @@ const SOURCE_TAGS: Record<CategorySlug, string> = {
   'population-employment-labour': 'Statistics Canada',
   'national-accounts': 'Statistics Canada',
   'production-business-activity': 'Statistics Canada',
+  energy: 'Statistics Canada / Canada Energy Regulator',
   prices: 'Statistics Canada',
   'housing-construction': 'Statistics Canada / CMHC',
   'international-trade-investment': 'Statistics Canada',
@@ -39,8 +40,8 @@ export default function Categories() {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-3xl font-bold text-[#0a0f1e]">Browse categories</h1>
       <p className="mt-2 max-w-2xl text-gray-600">
-        Eight top-level categories cover the whole registry, from money and
-        banking to provincial data. Series counts below are live counts from
+        Nine top-level categories cover the whole registry, from money and
+        banking to energy and provincial data. Series counts below are live counts from
         the current registry, not targets.
       </p>
       <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-4">

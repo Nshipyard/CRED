@@ -4,6 +4,21 @@
 
 import { getSeries } from './registry';
 import type { SeriesMeta } from './registry';
+import cerData from './cer-data.json';
+
+const CER_SERIES = cerData as Record<string, Observation[]>;
+
+// CER publishes whole-history CSVs that are too large and irregular to parse
+// per request, so scripts/harvest-cer.mjs extracts the registered series
+// monthly into cer-data.json. Values are CER's as published (one documented
+// mis-scaled row excluded, see the harvest script).
+function fetchCer(series: SeriesMeta): Observation[] {
+  const data = CER_SERIES[series.id];
+  if (!data || data.length === 0) {
+    throw new Error(`No harvested CER data for ${series.id}`);
+  }
+  return data;
+}
 
 export interface Observation {
   date: string; // ISO yyyy-mm-dd
@@ -141,7 +156,9 @@ async function refresh(seriesId: string): Promise<CacheEntry> {
   const data =
     series.source === 'statcan'
       ? await fetchStatCan(series)
-      : await fetchBoC(series.valetSeriesKey ?? '');
+      : series.source === 'cer'
+        ? fetchCer(series)
+        : await fetchBoC(series.valetSeriesKey ?? '');
   return { fetchedAt: Date.now(), data, refreshing: false };
 }
 
