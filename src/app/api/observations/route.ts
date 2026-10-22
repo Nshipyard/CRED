@@ -23,7 +23,7 @@ export async function GET(req: Request) {
   const from = searchParams.get('from') ?? undefined;
   const to = searchParams.get('to') ?? undefined;
   try {
-    const { observations, cached, asOf } = await getObservations(
+    const { observations, cached, asOf, fallback } = await getObservations(
       seriesId,
       from,
       to
@@ -34,6 +34,7 @@ export async function GET(req: Request) {
       source: series.sourceLabel,
       cached,
       asOf,
+      fallback: fallback ?? null,
     });
   } catch (err) {
     return NextResponse.json(

@@ -5,7 +5,7 @@
 //   {"date":"2026-09-01","value":7.0}
 // Append-only in spirit: each daily file is overwritten once, never merged.
 
-import { put, list } from '@vercel/blob';
+import { put, list, get } from '@vercel/blob';
 import { promises as fs } from 'fs';
 import path from 'path';
 
@@ -71,5 +71,50 @@ export async function listSnapshots(series: string): Promise<string[]> {
       .sort();
   } catch {
     return [];
+  }
+}
+
+/**
+ * Newest stored snapshot for a series, parsed back into observations.
+ * Returns null when no snapshot exists or the store is unreachable, so
+ * callers can treat it purely as a fallback (see getObservations).
+ */
+export async function readLatestSnapshot(
+  series: string
+): Promise<VintageSnapshot | null> {
+  try {
+    const dates = await listSnapshots(series);
+    if (dates.length === 0) return null;
+    const latest = dates[dates.length - 1];
+    let text: string;
+    if (useBlob()) {
+      const res = await get(blobPath(series, latest), { access: 'private' });
+      if (!res || res.statusCode !== 200 || !res.stream) return null;
+      text = await new Response(res.stream).text();
+    } else {
+      text = await fs.readFile(
+        path.join(LOCAL_DIR, series, `${latest}.ndjson`),
+        'utf8'
+      );
+    }
+    const lines = text.split('\n').filter((l) => l.trim().length > 0);
+    if (lines.length < 2) return null;
+    const header = JSON.parse(lines[0]) as {
+      snapshot?: string;
+      source?: string;
+    };
+    const observations = lines.slice(1).map((l) => {
+      const o = JSON.parse(l) as { date: string; value: number };
+      return { date: o.date, value: o.value };
+    });
+    if (observations.length === 0) return null;
+    return {
+      snapshot: header.snapshot ?? latest,
+      series,
+      source: header.source ?? '',
+      observations,
+    };
+  } catch {
+    return null;
   }
 }

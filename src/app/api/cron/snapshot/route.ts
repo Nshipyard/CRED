@@ -33,11 +33,24 @@ export async function GET(req: Request) {
     );
   }
   const today = new Date().toISOString().slice(0, 10);
-  const featured = REGISTRY.filter((s) => s.featured);
+  // Featured series, plus every energy series: the energy category must
+  // never blank out wholesale when StatCan is down (learned Oct 21, 2026,
+  // when www150 went offline in the federal PHP-vulnerability takedown).
+  const targets = REGISTRY.filter((s) => s.featured || s.category === 'energy');
   const results: { series: string; stored: boolean; observations: number; error?: string }[] = [];
-  for (const series of featured) {
+  for (const series of targets) {
     try {
-      const { observations } = await getObservations(series.id);
+      const { observations, fallback } = await getObservations(series.id);
+      if (fallback) {
+        // Never archive fallback data as if it were a fresh pull.
+        results.push({
+          series: series.id,
+          stored: false,
+          observations: observations.length,
+          error: `source unavailable; served ${fallback} fallback, snapshot skipped`,
+        });
+        continue;
+      }
       const stored = await writeSnapshot({
         snapshot: today,
         series: series.id,

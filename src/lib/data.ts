@@ -1,12 +1,37 @@
 // Borrow, don't warehouse: observations are fetched live from StatCan WDS
 // and the Bank of Canada Valet API, cached in memory for 24 hours with
-// stale-while-revalidate, and never stored in the repo.
+// stale-while-revalidate, and never stored in the repo. When the live
+// source is down, getObservations falls back to the newest archived
+// vintage snapshot (full history, see vintages.ts), then to the committed
+// energy archive in energy-archive.json (full StatCan histories recovered
+// from archived cube downloads, Oct 2026), then to the last verified
+// observation in latest-fallback.json, so a source outage degrades the
+// site instead of blanking it.
 
 import { getSeries } from './registry';
 import type { SeriesMeta } from './registry';
 import cerData from './cer-data.json';
+import latestFallback from './latest-fallback.json';
+import energyArchive from './energy-archive.json';
+import energyArchiveMeta from './energy-archive-meta.json';
+import { readLatestSnapshot } from './vintages';
 
 const CER_SERIES = cerData as Record<string, Observation[]>;
+
+const ENERGY_ARCHIVE = energyArchive as Record<string, Observation[]>;
+const ENERGY_ARCHIVE_META = energyArchiveMeta as Record<
+  string,
+  { captured: string; through: string }
+>;
+
+// Last verified observation per series, captured Oct 21, 2026 from a live
+// WDS verification pass (values current to the Jul 2026 reference month).
+// Served only when both the live fetch and the vintage archive miss.
+const LATEST_FALLBACK = latestFallback as Record<
+  string,
+  { date: string; value: number }
+>;
+const LATEST_FALLBACK_AS_OF = '2026-10-21T04:33:00.000Z';
 
 // CER publishes whole-history CSVs that are too large and irregular to parse
 // per request, so scripts/harvest-cer.mjs extracts the registered series
@@ -171,17 +196,60 @@ export async function getObservations(
   seriesId: string,
   from?: string,
   to?: string
-): Promise<{ observations: Observation[]; cached: boolean; asOf: string }> {
+): Promise<{
+  observations: Observation[];
+  cached: boolean;
+  asOf: string;
+  fallback?: 'vintage' | 'archive' | 'latest';
+}> {
   const entry = cache.get(seriesId);
 
   if (!entry) {
-    const next = await refresh(seriesId);
-    cache.set(seriesId, next);
-    return {
-      observations: filterRange(next.data, from, to),
-      cached: false,
-      asOf: new Date(next.fetchedAt).toISOString(),
-    };
+    try {
+      const next = await refresh(seriesId);
+      cache.set(seriesId, next);
+      return {
+        observations: filterRange(next.data, from, to),
+        cached: false,
+        asOf: new Date(next.fetchedAt).toISOString(),
+      };
+    } catch (err) {
+      // The live source is down (StatCan's www150 went offline on
+      // Oct 21, 2026 in the federal security takedown): degrade to the
+      // newest archived vintage, then to the last verified observation,
+      // and only surface the error when neither exists. Fallbacks are
+      // deliberately not written into the live cache, so the next
+      // request retries the source and recovery is immediate.
+      const snap = await readLatestSnapshot(seriesId);
+      if (snap && snap.observations.length >= 2) {
+        return {
+          observations: filterRange(snap.observations, from, to),
+          cached: true,
+          asOf: new Date(`${snap.snapshot}T12:00:00.000Z`).toISOString(),
+          fallback: 'vintage',
+        };
+      }
+      const arch = ENERGY_ARCHIVE[seriesId];
+      if (arch && arch.length >= 2) {
+        const captured = ENERGY_ARCHIVE_META[seriesId]?.captured ?? '2026-10-06';
+        return {
+          observations: filterRange(arch, from, to),
+          cached: true,
+          asOf: new Date(`${captured}T12:00:00.000Z`).toISOString(),
+          fallback: 'archive',
+        };
+      }
+      const fb = LATEST_FALLBACK[seriesId];
+      if (fb) {
+        return {
+          observations: filterRange([{ date: fb.date, value: fb.value }], from, to),
+          cached: true,
+          asOf: LATEST_FALLBACK_AS_OF,
+          fallback: 'latest',
+        };
+      }
+      throw err;
+    }
   }
 
   const fresh = Date.now() - entry.fetchedAt < CACHE_TTL_MS;

@@ -1,0 +1,150 @@
+{
+ "ELEC_GEN_TOTAL_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_HYDRO_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_NUCLEAR_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_WIND_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_SOLAR_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_COMBUSTIBLE_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_FOSSIL_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_BIOMASS_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_TOTAL_ON": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_TOTAL_QC": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_TOTAL_AB": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_GEN_TOTAL_BC": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "ELEC_EXPORTS_US_CA": {
+  "captured": "2026-06-16",
+  "through": "2026-03-01"
+ },
+ "ELEC_IMPORTS_US_CA": {
+  "captured": "2026-06-16",
+  "through": "2026-03-01"
+ },
+ "CRUDE_PROD_CA": {
+  "captured": "2026-07-16",
+  "through": "2026-04-01"
+ },
+ "EQUIV_PROD_CA": {
+  "captured": "2026-07-16",
+  "through": "2026-04-01"
+ },
+ "CRUDE_EXPORTS_CA": {
+  "captured": "2026-07-16",
+  "through": "2026-04-01"
+ },
+ "CRUDE_EXPORTS_US_CA": {
+  "captured": "2026-07-16",
+  "through": "2026-04-01"
+ },
+ "CRUDE_IMPORTS_CA": {
+  "captured": "2026-07-16",
+  "through": "2026-04-01"
+ },
+ "CRUDE_PROD_AB": {
+  "captured": "2026-07-16",
+  "through": "2026-04-01"
+ },
+ "CRUDE_PROD_SK": {
+  "captured": "2026-07-16",
+  "through": "2026-04-01"
+ },
+ "CRUDE_PROD_NL": {
+  "captured": "2026-07-16",
+  "through": "2026-04-01"
+ },
+ "GAS_MARKETABLE_PROD_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "GAS_MARKETABLE_PROD_AB": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "GAS_MARKETABLE_PROD_BC": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "GAS_EXPORTS_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "GAS_EXPORTS_US_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "GAS_STORAGE_CA": {
+  "captured": "2026-10-06",
+  "through": "2026-07-01"
+ },
+ "REFPET_PROD_CA": {
+  "captured": "2025-09-15",
+  "through": "2025-06-01"
+ },
+ "REFPET_SUPPLIED_CA": {
+  "captured": "2025-09-15",
+  "through": "2025-06-01"
+ },
+ "GASOLINE_PROD_CA": {
+  "captured": "2025-09-15",
+  "through": "2025-06-01"
+ },
+ "GASOLINE_SUPPLIED_CA": {
+  "captured": "2025-09-15",
+  "through": "2025-06-01"
+ },
+ "COAL_PROD_CA": {
+  "captured": "2026-03-31",
+  "through": "2026-01-01"
+ },
+ "COAL_EXPORTS_CA": {
+  "captured": "2026-03-31",
+  "through": "2026-01-01"
+ },
+ "NGL_PROPANE_CA": {
+  "captured": "2026-03-09",
+  "through": "2025-12-01"
+ },
+ "NGL_BUTANE_CA": {
+  "captured": "2026-03-09",
+  "through": "2025-12-01"
+ },
+ "NGL_ETHANE_CA": {
+  "captured": "2026-03-09",
+  "through": "2025-12-01"
+ }
+}

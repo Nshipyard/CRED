@@ -72,7 +72,7 @@ export async function GET(req: Request) {
     return new NextResponse(
       errorHtml(
         series.title,
-        'Statistics Canada is refreshing this table right now. The chart returns automatically; try reloading in a few minutes.'
+        "Statistics Canada's data service is temporarily unavailable. The chart returns automatically when the service is restored; try reloading in a few minutes."
       ),
       { status: 502, headers: { 'Content-Type': 'text/html; charset=utf-8' } }
     );

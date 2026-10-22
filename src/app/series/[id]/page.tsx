@@ -122,14 +122,24 @@ export default async function SeriesPage({
   let observations: { date: string; value: number }[] = [];
   let asOf = '';
   let fetchError = false;
+  let fallback: 'vintage' | 'archive' | 'latest' | undefined;
   try {
     const r = await getObservations(id);
     observations = r.observations;
     asOf = r.asOf;
+    fallback = r.fallback;
   } catch {
     fetchError = true;
   }
   const latest = observations.length ? observations[observations.length - 1] : null;
+  const asOfDate = asOf
+    ? new Date(asOf).toLocaleDateString('en-CA', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric',
+        timeZone: 'America/Toronto',
+      })
+    : '';
 
   const compareOptions = REGISTRY.map((s) => ({ id: s.id, title: s.title }));
   const retrievalDate = new Date().toLocaleDateString('en-US', {
@@ -180,12 +190,16 @@ export default async function SeriesPage({
                 {formatObsDate(latest.date, series.frequency)}: {latest.value}
               </div>
               <div className="mt-1 text-xs text-gray-500">
-                Updated: {new Date(asOf).toLocaleString('en-CA', { timeZone: 'America/Toronto' })} ET
+                {fallback === 'vintage' || fallback === 'archive'
+                  ? `Saved copy from ${asOfDate}; live source unavailable`
+                  : fallback === 'latest'
+                    ? 'Last verified value; live source unavailable'
+                    : `Updated: ${new Date(asOf).toLocaleString('en-CA', { timeZone: 'America/Toronto' })} ET`}
               </div>
             </>
           ) : (
             <div className="mt-1 text-sm text-gray-500">
-              {fetchError ? 'Fetch failed; retry by reloading.' : 'Loading…'}
+              {fetchError ? 'Temporarily unavailable.' : 'Loading…'}
             </div>
           )}
         </div>
@@ -219,22 +233,46 @@ export default async function SeriesPage({
         {fetchError ? (
           <div className="flex flex-col items-center justify-center gap-3 rounded-xl bg-[#f4f6f9] p-8 text-center">
             <p className="max-w-md text-sm text-gray-600">
-              Statistics Canada is refreshing this table right now. Data returns
-              automatically.
+              Statistics Canada's data service is temporarily unavailable.
+              Several federal websites were taken offline on October 21, 2026
+              as a security precaution, and this page returns automatically
+              when the service is restored.
+            </p>
+            <RetryButton />
+          </div>
+        ) : fallback === 'latest' ? (
+          <div className="flex flex-col items-center justify-center gap-3 rounded-xl bg-[#f4f6f9] p-8 text-center">
+            <p className="max-w-md text-sm text-gray-600">
+              Statistics Canada's data service is temporarily unavailable, so
+              the full chart cannot load right now.
+              {latest
+                ? ` The latest verified figure for this series is ${formatObsDate(latest.date, series.frequency)}: ${latest.value.toLocaleString('en-CA')} ${series.units}.`
+                : ''}{' '}
+              The full history returns automatically when the service is
+              restored.
             </p>
             <RetryButton />
           </div>
         ) : (
-          <ChartControls
-            seriesId={series.id}
-            seriesTitle={series.title}
-            units={series.units}
-            sourceLabel={series.sourceLabel}
-            initial={observations}
-            compareOptions={compareOptions}
-            geoFamily={series.geoFamily}
-            frequency={series.frequency}
-          />
+          <>
+            {(fallback === 'vintage' || fallback === 'archive') && (
+              <p className="mb-3 rounded-xl bg-[#fdf6e0] px-4 py-2 text-sm text-gray-700">
+                Showing the last saved copy of this series ({asOfDate}).
+                Statistics Canada's live service is temporarily unavailable;
+                fresh data returns automatically.
+              </p>
+            )}
+            <ChartControls
+              seriesId={series.id}
+              seriesTitle={series.title}
+              units={series.units}
+              sourceLabel={series.sourceLabel}
+              initial={observations}
+              compareOptions={compareOptions}
+              geoFamily={series.geoFamily}
+              frequency={series.frequency}
+            />
+          </>
         )}
       </div>
 
