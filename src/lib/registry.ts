@@ -3133,10 +3133,16 @@ export const SERIES: SeriesMeta[] = [
 /* ---- Helpers expected by the app (derived from the verified SERIES list) ---- */
 
 import { GENERATED_SERIES } from './registry.generated';
+import { ENERGY_GENERATED_SERIES } from './registry.energy';
 
-// Full registry: 131 hand-curated entries plus pipeline-generated ones.
-// Curated entries keep priority in search ranking (see searchSeries).
-export const REGISTRY: SeriesMeta[] = [...SERIES, ...GENERATED_SERIES];
+// Full registry: hand-curated entries plus pipeline-generated ones (macro
+// subjects and the subject-25 energy run). Curated entries keep priority in
+// search ranking (see searchSeries).
+export const REGISTRY: SeriesMeta[] = [
+  ...SERIES,
+  ...GENERATED_SERIES,
+  ...ENERGY_GENERATED_SERIES,
+];
 
 export const CATEGORY_LABELS: Record<CategorySlug, string> = Object.fromEntries(
   CATEGORIES.map((c) => [c.slug, c.title])
