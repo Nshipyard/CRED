@@ -709,8 +709,8 @@ export default function ChartControls({
         {sourceError ? (
           <div className="flex flex-col items-center justify-center gap-3 py-16 text-center">
             <p className="max-w-md text-sm text-gray-600">
-              Statistics Canada is refreshing this table right now. Data returns
-              automatically.
+              The data service is temporarily unavailable. Data returns
+              automatically when the service is restored.
             </p>
             <button
               onClick={retry}

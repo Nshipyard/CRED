@@ -112,8 +112,8 @@ export default function GeoMap({
     return (
       <div className="flex flex-col items-center justify-center gap-3 rounded-xl bg-[#f4f6f9] p-8 text-center">
         <p className="max-w-md text-sm text-gray-600">
-          Statistics Canada is refreshing this table right now. Data returns
-          automatically.
+          The data service is temporarily unavailable. Data returns
+          automatically when the service is restored.
         </p>
         <button
           onClick={() => window.location.reload()}
